@@ -3,10 +3,10 @@
 ## 10.19.2025
 1. Repository created from a imscc export from [https://canvas.corrections.sbctc.edu](https://canvas.corrections.sbctc.edu/courses/392419000000497)
 1. It is a unreliable clone of same canvas shell on:
-    1.[https://canvas.sbctc.correctionsed.com](https://canvas.sbctc.correctionsed.com/courses/392419000000529/question_banks) - Disabled
-    1.https://canvas.ed at WSR/TRU/MSU - only local access
-    1.[https://sbctc.instructure.com/2544595](https://sbctc.instructure.com/2544595) - publicly available
-    1.[https://edmonds.instructure.com](https://edmonds.instructure.com) - online from Edmonds College
+    1. [https://canvas.sbctc.correctionsed.com](https://canvas.sbctc.correctionsed.com/courses/392419000000529/question_banks) - Disabled
+    1. https://canvas.ed at WSR/TRU/MSU - only local access
+    1. [https://sbctc.instructure.com/2544595](https://sbctc.instructure.com/2544595) - publicly available
+    1. [https://edmonds.instructure.com](https://edmonds.instructure.com) - online from Edmonds College
 1. Test reliability 
 1. Create a question bank editor
 
