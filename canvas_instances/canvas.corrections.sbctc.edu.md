@@ -38,11 +38,15 @@
 
 ## Past Enrollments
 
-| Course |	Nickname	Term	Enrolled as	Published
-| ------ | -------- | --------- |
+| Course  |	Term	| Enrolled as	| Published
+| ------ | -------- | --------- | -------|
 |2020-SPRING-525-515-1b	|	Default Term	| Teacher	| YesThis course has been published.
 
 ## Future Enrollments
 |Favorites |	Course	|Nickname	|Term		|Published |
 |-------|---------|---------|---------|-----------------------|
 |2024 - Quarter 2 |		Default Term|	Student|	NoThis course has not been published. 024-Quarter-3	|	Default Term	|Student	|NoThis course has not been published |
+
+    ★ Solid Star
+    ☆ Outline Star
+    ✨ Sparkles
