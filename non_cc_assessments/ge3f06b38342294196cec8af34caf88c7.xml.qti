@@ -1,0 +1,2680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="ge3f06b38342294196cec8af34caf88c7">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>QUARTER 3 2024</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gb990fc9d82b36f790b167ead299208ae" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2529,5673,3229,4877</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which method is used to retrieve an existing database entry?"&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2529">
+              <material>
+                <mattext texttype="text/plain">GET</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5673">
+              <material>
+                <mattext texttype="text/plain">PUT</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3229">
+              <material>
+                <mattext texttype="text/plain">FETCH</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4877">
+              <material>
+                <mattext texttype="text/plain">PATCH</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2529</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gecae5b422a36cc8c1d239dd037870698" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3127,8264,6320,5346</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which command will install express in Node.js?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3127">
+              <material>
+                <mattext texttype="text/plain">npm install express --save</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8264">
+              <material>
+                <mattext texttype="text/plain">npm install --save</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6320">
+              <material>
+                <mattext texttype="text/plain">install --save</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5346">
+              <material>
+                <mattext texttype="text/plain">express install</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3127</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcef125a906232181ea0fac2caf8816d4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7883,6388,5907,2488</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Node and terminal programs running in the background are called what?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7883">
+              <material>
+                <mattext texttype="text/plain">Daemons</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6388">
+              <material>
+                <mattext texttype="text/plain">Nodes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5907">
+              <material>
+                <mattext texttype="text/plain">Terminals</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2488">
+              <material>
+                <mattext texttype="text/plain">Node Terminals</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7883</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="geb38f709cd7fc15150e646fc0bd22f71" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9985,8337,6825,8168</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following is &amp;lt;span style="color:tomato"&amp;gt;NOT&amp;lt;/span&amp;gt; associated with the front-end?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9985">
+              <material>
+                <mattext texttype="text/plain">MongoDb</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8337">
+              <material>
+                <mattext texttype="text/plain">HTML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6825">
+              <material>
+                <mattext texttype="text/plain">CSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8168">
+              <material>
+                <mattext texttype="text/plain">React</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9985</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd212d1a1ad426fbfa92ccef311401be5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>325,8483,2181,8087</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;`Which of the following URLs will access the route shown?&lt;/pre&gt;
+&lt;pre&gt;let express = require('express');
+let app = express();
+let http = require('http');
+let port = 5000;
+app.get('/', (req, res) =&amp;gt; {
+    res.send('Hi!');
+});
+app.listen(port);&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="325">
+              <material>
+                <mattext texttype="text/plain">http://localhost:5000</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8483">
+              <material>
+                <mattext texttype="text/plain">http://localhost:5005</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2181">
+              <material>
+                <mattext texttype="text/plain">http://localhost:5000/:Hi</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8087">
+              <material>
+                <mattext texttype="text/plain">http://localhost:5000/Hi</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">325</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1f9b1dcd7cbfa2b8d40bc7212f503a84" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2522,3510,534,9067</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following URLs will access the route shown?&lt;br&gt;&lt;br&gt;&lt;/pre&gt;
+&lt;pre&gt;let express = require('express');
+let app = express();
+let http = require('http');
+let port = 5000;
+app.get('/:animal', (req, res) =&amp;gt; {
+    let animal = req.params.animal;
+    res.send(\`The \${animal} ran away!\`);
+});
+app.listen(port);&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2522">
+              <material>
+                <mattext texttype="text/plain">http://localhost:5000/horse</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3510">
+              <material>
+                <mattext texttype="text/plain">http://localhost:horse</mattext>
+              </material>
+            </response_label>
+            <response_label ident="534">
+              <material>
+                <mattext texttype="text/plain">http://localhost:5000/ran/horse</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9067">
+              <material>
+                <mattext texttype="text/plain">http://localhost:5000/horse/ran</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2522</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1c26e93fedcbd28c51898d762113a31d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7740,6641,976,9536</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;What will the following route do?&lt;br&gt;&lt;br&gt;&lt;/pre&gt;
+&lt;pre&gt;app.get('*', (req, res) =&amp;gt; {
+    res.send("Sorry, this is not a valid path!")
+});&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7740">
+              <material>
+                <mattext texttype="text/plain">Send the message if any unrecognized URL/route is entered</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6641">
+              <material>
+                <mattext texttype="text/plain">Send the message if any known URL/route is entered</mattext>
+              </material>
+            </response_label>
+            <response_label ident="976">
+              <material>
+                <mattext texttype="text/plain">Send the message if any unrecognized required parameters are entered</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9536">
+              <material>
+                <mattext texttype="text/plain">Send the message if any unrecognized port number is entered</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7740</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcb5c8075106dc55146298119a096984e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7882,6356,5785,6536</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which node module makes JavaScript backwards-compatible by translating newer syntax into older syntax?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7882">
+              <material>
+                <mattext texttype="text/plain">babel</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6356">
+              <material>
+                <mattext texttype="text/plain">html</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5785">
+              <material>
+                <mattext texttype="text/plain">express</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6536">
+              <material>
+                <mattext texttype="text/plain">mongoose</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7882</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ged9f5081795d15d742e28b8ba554bebd" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5191,4841,6033,6622</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Consider the following:
+
+server.listen(port, ()=&amp;gt;{
+    console.log('server listening on port %s,' port);
+});&lt;/pre&gt;
+&lt;pre&gt; Where will the message display when the server is started?  &lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5191">
+              <material>
+                <mattext texttype="text/plain">In the terminal</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4841">
+              <material>
+                <mattext texttype="text/plain">In the browser console"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6033">
+              <material>
+                <mattext texttype="text/plain">On the webpage</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6622">
+              <material>
+                <mattext texttype="text/plain">None of them</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5191</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g79b60a31483e5915987161a7e625d67c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>385,4601,7222,3400</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following contains a list of dependencies and the command that runs the application?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="385">
+              <material>
+                <mattext texttype="text/plain">package.json</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4601">
+              <material>
+                <mattext texttype="text/plain">app.js/index.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7222">
+              <material>
+                <mattext texttype="text/plain">public</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3400">
+              <material>
+                <mattext texttype="text/plain">views</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">385</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge3a5d3fd4cba927347c100779e6dc680" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2461,8020,5768,7156</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following contains the code used to set up the application?`&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2461">
+              <material>
+                <mattext texttype="text/plain">app.js/index.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8020">
+              <material>
+                <mattext texttype="text/plain">package.json`</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5768">
+              <material>
+                <mattext texttype="text/plain">public</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7156">
+              <material>
+                <mattext texttype="text/plain">views</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2461</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g49dbf0076e1ff408a5b15477393bd565" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1994,6426,6559,5036</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Where do the project dependencies get installed?`&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1994">
+              <material>
+                <mattext texttype="text/plain">node_modules/</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6426">
+              <material>
+                <mattext texttype="text/plain">app.js/index.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6559">
+              <material>
+                <mattext texttype="text/plain">package.json`</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5036">
+              <material>
+                <mattext texttype="text/plain">public/</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1994</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5f04e093b72200a014f06dfe51a86e7a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7335,6779,5381,3276</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;consider the following route on PORT 5000 :
+
+         app.get('/:animal', (req, res) =&amp;gt; {
+                let animal = req.params.animal;
+                res.send(\`The \${animal} ran away!\`);
+         });&lt;/pre&gt;
+&lt;pre&gt;What will display in the browser at the following URL?&lt;/pre&gt;
+&lt;pre&gt; http://localhost:5000/dog&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7335">
+              <material>
+                <mattext texttype="text/plain">The dog ran away!</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext texttype="text/plain">cannot get /</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5381">
+              <material>
+                <mattext texttype="text/plain">The \${animal} ran away!</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3276">
+              <material>
+                <mattext texttype="text/plain">The ran away`</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7335</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3c3a6af564bf6d27764fbda56b20658d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4909,1432,2078,2966</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following is &amp;lt;span style="color:tomato"&amp;gt;NOT&amp;lt;/span&amp;gt; built-in module of NodeJS&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4909">
+              <material>
+                <mattext texttype="text/plain">express</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1432">
+              <material>
+                <mattext texttype="text/plain">http</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2078">
+              <material>
+                <mattext texttype="text/plain">net</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2966">
+              <material>
+                <mattext texttype="text/plain">path</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4909</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdc0892d327566b2cb4f261e1c1631154" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6039,1016,710,6457</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;Which of the following statements are true?&lt;/strong&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6039">
+              <material>
+                <mattext texttype="text/plain">Node.js is both a server and client-side language</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1016">
+              <material>
+                <mattext texttype="text/plain">Node.js is a server-side language</mattext>
+              </material>
+            </response_label>
+            <response_label ident="710">
+              <material>
+                <mattext texttype="text/plain">Node.js is a client-side language</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6457">
+              <material>
+                <mattext texttype="text/plain">None of the above</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6039</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0c5e832061f6bd12ed62e0ae841b479a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>436,4332,7746,3540</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;NodeJS is supported on which of the following platforms?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="436">
+              <material>
+                <mattext texttype="text/plain">All mentioned</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4332">
+              <material>
+                <mattext texttype="text/plain">Windows</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7746">
+              <material>
+                <mattext texttype="text/plain">MacOS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3540">
+              <material>
+                <mattext texttype="text/plain">Unix/Linux</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">436</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g271942fa04c248687b3708b1493d8002" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6420,349,4265,5831</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;NodeJs uses an event-driven, non-blocking IO model&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6420">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="349">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4265">
+              <material>
+                <mattext texttype="text/plain">cannot be determined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5831">
+              <material>
+                <mattext texttype="text/plain">none of these</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6420</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g91e2ebc440156f7540a2781cf2bae2e6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>20,992,9243,3684</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The command to install nodemon in NodeJS is:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="20">
+              <material>
+                <mattext texttype="text/plain">npm install nodemon --save</mattext>
+              </material>
+            </response_label>
+            <response_label ident="992">
+              <material>
+                <mattext texttype="text/plain">npm nodemon</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9243">
+              <material>
+                <mattext texttype="text/plain">node install nodemon --save</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3684">
+              <material>
+                <mattext texttype="text/plain">node nodemon</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">20</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5ca0e0efd9fb2eb47b4e5f7ad0398b4d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7481,1203,103,751</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;We can kill a process in NodeJS using the keyboard shortcut?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7481">
+              <material>
+                <mattext texttype="text/plain">Ctrl + c</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1203">
+              <material>
+                <mattext texttype="text/plain">Ctrl + b</mattext>
+              </material>
+            </response_label>
+            <response_label ident="103">
+              <material>
+                <mattext texttype="text/plain">Ctrl + k</mattext>
+              </material>
+            </response_label>
+            <response_label ident="751">
+              <material>
+                <mattext texttype="text/plain">None of these</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7481</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc3770e05a6154f3e4729161faa2aecd4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6330,9006,1990,6460</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What does the fs module stand for?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6330">
+              <material>
+                <mattext texttype="text/plain">File System</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9006">
+              <material>
+                <mattext texttype="text/plain">File Store</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1990">
+              <material>
+                <mattext texttype="text/plain">File Service</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6460">
+              <material>
+                <mattext texttype="text/plain">None of these</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6330</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb9e3ac422133ca6fff95af0883c86036" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4965,5701,2655,6998</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the full form of npm?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4965">
+              <material>
+                <mattext texttype="text/plain">Node Package Manager</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5701">
+              <material>
+                <mattext texttype="text/plain">Node Project Manager</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2655">
+              <material>
+                <mattext texttype="text/plain">New Project Manager</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6998">
+              <material>
+                <mattext texttype="text/plain">New Package Manager</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4965</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6cb4e5a424b33752a84bc0740b547412" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8237,9670,7102,8739</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is a Callback?Th&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8237">
+              <material>
+                <mattext texttype="text/plain">The callback is an asynchronous equivalent for a function</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9670">
+              <material>
+                <mattext texttype="text/plain">The callback is a technique in which a method calls back the caller method</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7102">
+              <material>
+                <mattext texttype="text/plain">Both</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8739">
+              <material>
+                <mattext texttype="text/plain">None</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8237</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6ed09b3b5bb8d50d171e7286cccc7c3b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8445,7930,9659,2486</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following statement defines Express?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8445">
+              <material>
+                <mattext texttype="text/plain">Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7930">
+              <material>
+                <mattext texttype="text/plain">Express is an application framework that provides a robust set of features to develop desktop-based applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9659">
+              <material>
+                <mattext texttype="text/plain">Both</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2486">
+              <material>
+                <mattext texttype="text/plain">None</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8445</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdac490bfdf68b3f9aad54888da7504fe" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1682,4820,8741,9196</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="line-content"&gt;Which of the following statement is used to execute the code of the sample.js file?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="line-number"&gt;&lt;/td&gt;
+&lt;td class="line-content"&gt;&lt;span class="html-tag"&gt;&amp;lt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1682">
+              <material>
+                <mattext texttype="text/plain">node sample.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4820">
+              <material>
+                <mattext texttype="text/plain">sample.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8741">
+              <material>
+                <mattext texttype="text/plain">nodejs sample.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9196">
+              <material>
+                <mattext texttype="text/plain">None of these</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1682</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g27602f004d984eca07817ecab0ab5dad" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4396,8409,8881,759</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following types of applications can be built using Node.js? &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4396">
+              <material>
+                <mattext texttype="text/plain">All mentioned</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8409">
+              <material>
+                <mattext texttype="text/plain">Web Application</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8881">
+              <material>
+                <mattext texttype="text/plain">Chat Application</mattext>
+              </material>
+            </response_label>
+            <response_label ident="759">
+              <material>
+                <mattext texttype="text/plain">RESTful Service</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4396</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbd113d41bc076851d18e0e84984aa11e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>910,4027,8660,7754</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following areas, Node.js, is not advised to be used?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="910">
+              <material>
+                <mattext texttype="text/plain">CPU intensive applications</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4027">
+              <material>
+                <mattext texttype="text/plain">Single Page Applications</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8660">
+              <material>
+                <mattext texttype="text/plain">JSON APIs based applications</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7754">
+              <material>
+                <mattext texttype="text/plain">Data-Intensive Real-time Applications</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">910</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcc8df77f420c493bdc82419b35b435f5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2212,8124,8959,221</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt; Which of the following route parameter formats are valid?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2212">
+              <material>
+                <mattext texttype="text/plain">users/:userId/books/:bookId</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8124">
+              <material>
+                <mattext texttype="text/plain">/books/!:from-:to</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8959">
+              <material>
+                <mattext texttype="text/plain">/flights/:from-:to</mattext>
+              </material>
+            </response_label>
+            <response_label ident="221">
+              <material>
+                <mattext texttype="text/plain">None of these</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2212</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6e42dd77d4c25a0c27a9c76b00bc1731" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>49956,43674,97138,93514</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is Node.JS?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="49956">
+              <material>
+                <mattext texttype="text/plain">Node.js is a JavaScript based framework/platform built on Google Chrome's JavaScript V8 Engine.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="43674">
+              <material>
+                <mattext texttype="text/plain">Node.js is a web  server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97138">
+              <material>
+                <mattext texttype="text/plain">Node.js is a java based framework</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93514">
+              <material>
+                <mattext texttype="text/plain">None of them</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">49956</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g259e0f9aab8658170cc74471fc298afa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5689,59029,83553,35705</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How Node based web servers are different from traditional web servers?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5689">
+              <material>
+                <mattext texttype="text/plain">Node based server uses a single threaded model and can services much larger number of requests than traditional server like Apache HTTP Server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59029">
+              <material>
+                <mattext texttype="text/plain">Node based server process request much faster than traditional server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83553">
+              <material>
+                <mattext texttype="text/plain">There is no much difference between the two.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="35705">
+              <material>
+                <mattext texttype="text/plain">None of them</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5689</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5e1d15ec0933d9c47f195f750a02017d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30924,56788,69098,56410</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What npm stands for?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30924">
+              <material>
+                <mattext texttype="text/plain">Node Package Manager</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56788">
+              <material>
+                <mattext texttype="text/plain">Node Project Manager</mattext>
+              </material>
+            </response_label>
+            <response_label ident="69098">
+              <material>
+                <mattext texttype="text/plain">New Project Manager</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56410">
+              <material>
+                <mattext texttype="text/plain">New Package Manager</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30924</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3b056c88371bcfa70f6407ce7fa2e1e1" title="Question 201">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>71178,64283,78716,30000</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following command will show version of node?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="71178">
+              <material>
+                <mattext texttype="text/plain">node --version</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64283">
+              <material>
+                <mattext texttype="text/plain">npm --version</mattext>
+              </material>
+            </response_label>
+            <response_label ident="78716">
+              <material>
+                <mattext texttype="text/plain">npm getVersion</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30000">
+              <material>
+                <mattext texttype="text/plain">node getVersion</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">71178</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gaa5a52d82e12c3911b27954b099712cd" title="Question 202">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>91766,17356,92167,92636</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following is true about package.json?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="91766">
+              <material>
+                <mattext texttype="text/plain">All of them</mattext>
+              </material>
+            </response_label>
+            <response_label ident="17356">
+              <material>
+                <mattext texttype="text/plain">package.json is present in the root directory of any Node application/module.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92167">
+              <material>
+                <mattext texttype="text/plain">package.json is used to define the properties of a package.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92636">
+              <material>
+                <mattext texttype="text/plain">package.json can be used to update dependencies of a Node application.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">91766</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g35d963278e0b4a4ce72e9d6bf9fffecf" title="Question 204">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>78682,61451,85183,79563</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following statement is valid to use a Node module fs in a&lt;br&gt;Node based application?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="78682">
+              <material>
+                <mattext texttype="text/plain">const fs = require("fs");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61451">
+              <material>
+                <mattext texttype="text/plain">const fs = import("fs");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85183">
+              <material>
+                <mattext texttype="text/plain">package fs;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79563">
+              <material>
+                <mattext texttype="text/plain">import fs;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">78682</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g152d21268f05334826bd51209d642f34" title="Question 205">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>58085,89027,50701,48827</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following module is required to create a web server?&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="58085">
+              <material>
+                <mattext texttype="text/plain">http module</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89027">
+              <material>
+                <mattext texttype="text/plain">net module</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50701">
+              <material>
+                <mattext texttype="text/plain">url module</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48827">
+              <material>
+                <mattext texttype="text/plain">web module</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">58085</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g81eb56489ee3e07510c594a84511e728" title="Question 206">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>89708,65280,92042,97336</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Port 80 is the listening port of:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="89708">
+              <material>
+                <mattext texttype="text/plain">HTTP</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65280">
+              <material>
+                <mattext texttype="text/plain">HTTPS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92042">
+              <material>
+                <mattext texttype="text/plain">localhost</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97336">
+              <material>
+                <mattext texttype="text/plain">None of them</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">89708</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga74df1a5330c5573e6eeb2f703f066dd" title="Question 207">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95780,93099,22300,19972</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The command to create a directory is:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95780">
+              <material>
+                <mattext texttype="text/plain">mkdir</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93099">
+              <material>
+                <mattext texttype="text/plain">createdir</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22300">
+              <material>
+                <mattext texttype="text/plain">make directory</mattext>
+              </material>
+            </response_label>
+            <response_label ident="19972">
+              <material>
+                <mattext texttype="text/plain">makedir</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">95780</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g77d2a75a0a5742e653ee4b477f19b48d" title="Question 208">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>98562,74818,32002,22558</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The command to delete a file is:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="98562">
+              <material>
+                <mattext texttype="text/plain">rm</mattext>
+              </material>
+            </response_label>
+            <response_label ident="74818">
+              <material>
+                <mattext texttype="text/plain">removeFile</mattext>
+              </material>
+            </response_label>
+            <response_label ident="32002">
+              <material>
+                <mattext texttype="text/plain">deleteFile</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22558">
+              <material>
+                <mattext texttype="text/plain">del</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">98562</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="geec6d9884321644574deff1199f4c4f4" title="Question 208">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>56495,26810,34629,76180</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;"Package.json" file contains:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="56495">
+              <material>
+                <mattext texttype="text/plain">list of dependencies, and commands that run the application</mattext>
+              </material>
+            </response_label>
+            <response_label ident="26810">
+              <material>
+                <mattext texttype="text/plain">list of static assests, such CSS and client-side JavaScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34629">
+              <material>
+                <mattext texttype="text/plain">Templates that are used to render the pages of the application</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76180">
+              <material>
+                <mattext texttype="text/plain">Code that sets up the application</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">56495</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb31fe98fadec5417bf520015414a3fb5" title="Question 210">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>67946,44238,48312,76786</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How do you run a node application?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="67946">
+              <material>
+                <mattext texttype="text/plain">node app.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44238">
+              <material>
+                <mattext texttype="text/plain">run node app</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48312">
+              <material>
+                <mattext texttype="text/plain">run app.js</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76786">
+              <material>
+                <mattext texttype="text/plain">exec node.js</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">67946</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7a4cec8b8bfb49b1e6c2e9718e8fc4f4" title="Question 212">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>73418,42262,33540,77725</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How do you cancel or stop a node app from running?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="73418">
+              <material>
+                <mattext texttype="text/plain">^C (control C)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42262">
+              <material>
+                <mattext texttype="text/plain">^D (controlD)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33540">
+              <material>
+                <mattext texttype="text/plain">AltC</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77725">
+              <material>
+                <mattext texttype="text/plain">None of them</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">73418</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gecac51667e47a9a5e7a297457e4c3b62" title="Question 301">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>71560,79138,14797,6418</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;const person = {
+  name: ['Bob', 'Smith'],
+  age: 32,
+  gender: 'male',
+  interests: ['music', 'skiing'],
+  bio: function() {
+    alert(this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
+  },
+  greeting: function() {
+    alert('Hi! I\'m ' + this.name[0] + '.');
+  }
+};&lt;/pre&gt;
+&lt;p&gt;what is the output of "person.bio"&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="71560">
+              <material>
+                <mattext texttype="text/plain">{     this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.';   }</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79138">
+              <material>
+                <mattext texttype="text/plain">pop up window with the following content: Bob Smith is 32 years old. He likes music and skiing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="14797">
+              <material>
+                <mattext texttype="text/plain">Bob Smith is 32 years old. He likes music and skiing.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6418">
+              <material>
+                <mattext texttype="text/plain">None of them</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">71560</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g266944b3654eef9c80a48b9bf0c3218a" title="q3-301">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2318,9555,9298,9088</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which is considered a client?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2318">
+              <material>
+                <mattext texttype="text/plain">A browser requesting a webpage.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9555">
+              <material>
+                <mattext texttype="text/plain">A server sending a webpage</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9298">
+              <material>
+                <mattext texttype="text/plain">A server sending a database request."</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9088">
+              <material>
+                <mattext texttype="text/plain">A database responding to a server.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2318</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g21f62ff39cd4b0c37036cc4ccda99882" title="q3-304">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5279,3929,9008,1712</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which method is used to create a new database entry?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5279">
+              <material>
+                <mattext texttype="text/plain">POST</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3929">
+              <material>
+                <mattext texttype="text/plain">GET</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9008">
+              <material>
+                <mattext texttype="text/plain">DELETE</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1712">
+              <material>
+                <mattext texttype="text/plain">PUT</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5279</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc6c1555678860429b7689de647a78332" title="q3-308">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5490,3164,7143,5009</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which status code means 'OK'?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5490">
+              <material>
+                <mattext texttype="text/plain">200</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3164">
+              <material>
+                <mattext texttype="text/plain">300</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7143">
+              <material>
+                <mattext texttype="text/plain">400</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5009">
+              <material>
+                <mattext texttype="text/plain">500</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5490</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3446f8a12f9bc7c2a53fd859b5d08cb5" title="s19f-01">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>15216,12327,15719,20857</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following is true about Node.JS?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="15216">
+              <material>
+                <mattext texttype="text/plain">All of them</mattext>
+              </material>
+            </response_label>
+            <response_label ident="12327">
+              <material>
+                <mattext texttype="text/plain">Node.JS is used to delevop I/O intensive web applications like video streaming sites, single page applications and other web application.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15719">
+              <material>
+                <mattext texttype="text/plain">Node.js is a JavaScript based framework/platform built on Google Chrome's JavaScript V8 Engine.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20857">
+              <material>
+                <mattext texttype="text/plain">Node.js is open source and is completely free to use.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">15216</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

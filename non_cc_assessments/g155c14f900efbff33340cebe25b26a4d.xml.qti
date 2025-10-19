@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g155c14f900efbff33340cebe25b26a4d">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>2025-MAY-CIS242-LESSON2</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+  </objectbank>
+</questestinterop>

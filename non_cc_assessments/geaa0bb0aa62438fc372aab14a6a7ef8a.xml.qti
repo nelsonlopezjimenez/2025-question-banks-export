@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="geaa0bb0aa62438fc372aab14a6a7ef8a" title="2022 some DOM questions">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="gec4125027fb4c7ad2a49853a1b0842d6" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3033,2431,47,9796</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb8942160ee702641ebdc9b1d46322c07</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The main advantage of validating data on the client side using JavaScript is that:&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3033">
+                <material>
+                  <mattext texttype="text/plain">you can prevent information from passing to the server until it is correct.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2431">
+                <material>
+                  <mattext texttype="text/plain">you can save the server resources from having to process the data at all.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="47">
+                <material>
+                  <mattext texttype="text/plain">you can compel users to submit only truthful information to your server.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9796">
+                <material>
+                  <mattext texttype="text/plain">you can provide a more dynamic interface to the user for data collection.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3033</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gca66db62690cc3d3baa532c0be1f70bd" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6569,8374,2803,571</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb88d0f775ac9d8383e5585c8ce2c646a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Most form elements use &amp;lt;input&amp;gt; tags with a specific type attribute assigned to them. Which choice lists two form elements that are created with their own X/HTML tags?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6569">
+                <material>
+                  <mattext texttype="text/plain">select, textarea</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8374">
+                <material>
+                  <mattext texttype="text/plain">select, checkbox</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2803">
+                <material>
+                  <mattext texttype="text/plain">radio, checkbox</mattext>
+                </material>
+              </response_label>
+              <response_label ident="571">
+                <material>
+                  <mattext texttype="text/plain">button, textarea</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6569</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g739a2ad427919adcece4a2e1ccd26680" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2453,466,3034,6194</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>geb0929a5a9ca598eb920e99975c6d9cf</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which X/HTML form element produces a single-line text box that displays input as mask characters such as asterisks (***) or dots to mask data entry?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2453">
+                <material>
+                  <mattext texttype="text/plain">password</mattext>
+                </material>
+              </response_label>
+              <response_label ident="466">
+                <material>
+                  <mattext texttype="text/plain">hidden</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3034">
+                <material>
+                  <mattext texttype="text/plain">text</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6194">
+                <material>
+                  <mattext texttype="text/plain">textarea</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2453</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g735be0747727677e7173879930f84ee5" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7479,5992,6818,7804</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf70f8e13cd367d9ecff25f61e5d0c472</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which X/HTML form element produces an option button in a set of mutually exclusive option buttons?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7479">
+                <material>
+                  <mattext texttype="text/plain">radio</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5992">
+                <material>
+                  <mattext texttype="text/plain">checkbox</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6818">
+                <material>
+                  <mattext texttype="text/plain">button</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7804">
+                <material>
+                  <mattext texttype="text/plain">select</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7479</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g74e56b8d48934ca746385eef6f37d3f7" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2707,9442,6181,6583</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g109b5230772ed7e1b8dd20a4cfdb6afa</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which JavaScript object allows the user to choose one or more items from a list box?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2707">
+                <material>
+                  <mattext texttype="text/plain">The select object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9442">
+                <material>
+                  <mattext texttype="text/plain">The checkbox object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6181">
+                <material>
+                  <mattext texttype="text/plain">The radio object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6583">
+                <material>
+                  <mattext texttype="text/plain">The textarea object</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2707</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g8456e7b291eed0670e2df955ee3ea3b8" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7615,9243,2253,8162</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf153839c526bdb15dd34feef1d1728cc</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which JavaScript object allows input of a single line of alphanumeric values and provides programmatic access to these user-entered values?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7615">
+                <material>
+                  <mattext texttype="text/plain">The text object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9243">
+                <material>
+                  <mattext texttype="text/plain">The select object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2253">
+                <material>
+                  <mattext texttype="text/plain">The submit object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8162">
+                <material>
+                  <mattext texttype="text/plain">The textarea object</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7615</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gff105ba398e2f34a4b87700fab3d4259" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>310,7931,6742,3170</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ga786a64147c192885957f5b86b941ccd</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following code:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;form name="form1"&amp;gt;&lt;br&gt;&amp;lt;input type="checkbox" name="choose" /&amp;gt;&lt;br&gt;&amp;lt;/form&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;How would you refer to the checked attribute of the &amp;lt;input&amp;gt; element in this statement?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="310">
+                <material>
+                  <mattext texttype="text/plain">document.form1.choose.checked;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7931">
+                <material>
+                  <mattext texttype="text/plain">form.form1.choose.checked;  C</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6742">
+                <material>
+                  <mattext texttype="text/plain">form[1].choose.checked;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3170">
+                <material>
+                  <mattext texttype="text/plain">document.form[1].choose.checked;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">310</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb56c1f3628519fcf5b4b1f5dd92e7227" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6174,1047,1941,3687</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gacb29d482b27140b2e1f5ae977d48cc3</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What are the two ways in which you can refer to a form element?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6174">
+                <material>
+                  <mattext texttype="text/plain">By name or by array index number</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1047">
+                <material>
+                  <mattext texttype="text/plain">By name or by element name</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1941">
+                <material>
+                  <mattext texttype="text/plain">By element name or by array index number</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3687">
+                <material>
+                  <mattext texttype="text/plain">By element name or by entered value</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6174</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g67c588216c6f432d6e67c7f79b000d44" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5094,3833,7790,1316</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ga50f2295200c33bcae3294d28b5c6196</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is the purpose of the JavaScript form object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5094">
+                <material>
+                  <mattext texttype="text/plain">To access all properties of the form and elements that compose the form</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3833">
+                <material>
+                  <mattext texttype="text/plain">To create the form elements that appear to users on screen</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7790">
+                <material>
+                  <mattext texttype="text/plain">To create the beginning and ending of the form that appears to users on screen</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1316">
+                <material>
+                  <mattext texttype="text/plain">To access a separate X/HTML page that includes a form</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5094</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb85d66c6693cb042d9e448d696ecdcbe" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5652,5348,1630,8540</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g129ed7c78ce8170b9ed34000549364f4</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an event handler used by the form object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5652">
+                <material>
+                  <mattext texttype="text/plain">onreset</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5348">
+                <material>
+                  <mattext texttype="text/plain">select()</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1630">
+                <material>
+                  <mattext texttype="text/plain">submit()</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8540">
+                <material>
+                  <mattext texttype="text/plain">onclick</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5652</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g97222688c2cb321bda2920c0e9e99429" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7285,2120,4895,7948</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g14b2dee463f3d6c05c5ddfdd6c14b193</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;The elements on a form need to be initialized with dates for the next week, starting from today. Only the &amp;lt;input&amp;gt; tags of type text need to be initialized. Consider the following XHTML code:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;head&amp;gt;&lt;br&gt;&amp;lt;script type="text/javascript"&amp;gt;&lt;br&gt;function FillDate() {&lt;br&gt;var d = new Date();&lt;br&gt;// insert loop here &lt;br&gt;}&lt;br&gt;&amp;lt;/script&amp;gt;&lt;br&gt;&amp;lt;/head&amp;gt;&lt;br&gt;&amp;lt;body&amp;gt;&lt;br&gt;&amp;lt;form name="calendarForm"&amp;gt;&lt;br&gt;&amp;lt;input type="text" name="date1"&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;br/&amp;gt;&lt;br&gt;&amp;lt;input type="text" name="date2"&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;br/&amp;gt;&lt;br&gt;&amp;lt;input type="text" name="date3"&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;br/&amp;gt;&lt;br&gt;&amp;lt;input type="text" name="date4"&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;br/&amp;gt;&lt;br&gt;&amp;lt;input type="text" name="date5"&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;br/&amp;gt;&lt;br&gt;&amp;lt;input type="text" name="date6"&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;br/&amp;gt;&lt;br&gt;&amp;lt;input type="text" name="date7"&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;br/&amp;gt;&lt;br&gt;&amp;lt;input type="button" name="fillDates" onclick="FillDate()" value="Fill Days"&amp;gt;&amp;lt;/input&amp;gt;&lt;br&gt;&amp;lt;/form&amp;gt;&lt;br&gt;&amp;lt;/body&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;Given the code, which loop will accomplish this?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7285">
+                <material>
+                  <mattext texttype="text/plain">for (var i = 0; i &lt; document.calendarForm.length; i++) { if (document.calendarForm.elements[i].type == "text") { d.setDate(d.getDate() + 1); document.calendarForm.elements[i].value = d.toDateString(); } }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2120">
+                <material>
+                  <mattext texttype="text/plain">for (var i = 0; i &lt; document.calendarForm.length; i++) { if (document.calendarForm.elements[i].type == "text") { d.addDays(1); document.calendarForm.elements[i].value = d.toDateString(); } }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4895">
+                <material>
+                  <mattext texttype="text/plain">for (var i = 0; i &lt; document.calendarForm.elements.count; i++) { if (document.calendarForm.elements[i].type == "text") { d.setDate(d.getDate() + 1); document.calendarForm.elements[i].value = d.toDateString(); } }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7948">
+                <material>
+                  <mattext texttype="text/plain">for (var i = 0; i &lt; document.calendarForm.length; i++) { if (document.calendarForm.elements[i].value == "text") { d.setDate(d.getDate() + 1); document.calendarForm.elements[i].type = d.toDateString(); } }</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7285</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g3cd2a1f0b597dabb652845c9f004758e" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7351,3924,3526,9211</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gd67e1dbf970ea21f6b027b4e944def5d</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;When a user submits a form by clicking a button, which property of the form object specifies a URL to which the form data will be sent for processing?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7351">
+                <material>
+                  <mattext texttype="text/plain">action</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3924">
+                <material>
+                  <mattext texttype="text/plain">target</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3526">
+                <material>
+                  <mattext texttype="text/plain">name</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9211">
+                <material>
+                  <mattext texttype="text/plain">method</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7351</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga48bffd6bb7e9d47f390a85140f9b8f4" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1708,882,6602,7945</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g7acab2865833a727b615f1209fec2818</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Generally speaking, when is the JavaScript form object available to access in an X/HTML page?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1708">
+                <material>
+                  <mattext texttype="text/plain">When &lt;form&gt; tags are present in the X/HTML document</mattext>
+                </material>
+              </response_label>
+              <response_label ident="882">
+                <material>
+                  <mattext texttype="text/plain">Anytime in a correctly structured X/HTML document</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6602">
+                <material>
+                  <mattext texttype="text/plain">When you insert a reference to the form object in your script</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7945">
+                <material>
+                  <mattext texttype="text/plain">When you script any form-related functionality into the X/HTML document</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1708</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc31124c566dd5667b9fc3ad1a562777f" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2718,5669,6209,3336</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g3de783e937b133a205d572a0a6b252c2</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Each form on an X/HTML page is:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2718">
+                <material>
+                  <mattext texttype="text/plain">represented by a separate instance of the JavaScript form object.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5669">
+                <material>
+                  <mattext texttype="text/plain">represented by the same instance of the form object as the other forms on that page.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6209">
+                <material>
+                  <mattext texttype="text/plain">represented by the same instance of the form object as the other forms on the site.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3336">
+                <material>
+                  <mattext texttype="text/plain">represented by an X/HTML &lt;form&gt; tag but not a JavaScript form object.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2718</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gba23471e293973ec1b5755bee078f659" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>258,4646,9964,4223</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g6fc748c7e5379cd192e7a14b24f47d90</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which JavaScript object provides a basic push-button interface and relies on scripting for its functionality, rather than operating in a predefined manner?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="258">
+                <material>
+                  <mattext texttype="text/plain">The button object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4646">
+                <material>
+                  <mattext texttype="text/plain">The submit object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9964">
+                <material>
+                  <mattext texttype="text/plain">The form object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4223">
+                <material>
+                  <mattext texttype="text/plain">The reset object</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">258</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g6e9514e3a64940f483f00d6dee1a90bf" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1402,9346,9446,7515</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g615d4c36deca6214ca418872934ff418</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is the main method used by the JavaScript button object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1402">
+                <material>
+                  <mattext texttype="text/plain">click()</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9346">
+                <material>
+                  <mattext texttype="text/plain">reset()</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9446">
+                <material>
+                  <mattext texttype="text/plain">submit()</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7515">
+                <material>
+                  <mattext texttype="text/plain">select()</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1402</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gab42a6a84e5872ed18eb64e664eccb57" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8072,9541,2005,3292</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ge6ed227e1b3187eac23e3d39cbced631</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which property of the button object can you use to specify a string of the text that will be displayed on the button?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8072">
+                <material>
+                  <mattext texttype="text/plain">The value property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9541">
+                <material>
+                  <mattext texttype="text/plain">The form property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2005">
+                <material>
+                  <mattext texttype="text/plain">The name property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3292">
+                <material>
+                  <mattext texttype="text/plain">The click property</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8072</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4e55e3974dbc0ef7fdfa43d19888e761" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6983,597,8854,8428</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gca3219a9cfcb81a276444e8c9c21ecd5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which example shows the correct generic syntax for the button object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6983">
+                <material>
+                  <mattext texttype="text/plain">&lt;input type="button" value="Text on Button" onclick="script to execute" /&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="597">
+                <material>
+                  <mattext texttype="text/plain">&lt;button type="submit" value="Text on Button" click(script to execute) /&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8854">
+                <material>
+                  <mattext texttype="text/plain">&lt;button value="submit" name="Text on Button" onclick="script to execute" /&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8428">
+                <material>
+                  <mattext texttype="text/plain">&lt;input value="button" name="Text on Button" click(script to execute) /&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6983</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gaa4c1136af1fcf11127033ae6af1e017" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7342,2831,8648,845</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g6b7dfdb9b4aa83a050f5a83031848da6</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following XHTML fragment:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;form name="myForm"&amp;gt;&lt;br&gt;&amp;lt;input type="checkbox" name="myCheckbox" /&amp;gt;Click&lt;br&gt;&amp;lt;/form&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;Given this code, what is the correct way to determine whether the check box is checked?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7342">
+                <material>
+                  <mattext texttype="text/plain">document.myForm.myCheckbox.checked</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2831">
+                <material>
+                  <mattext texttype="text/plain">document.myForm[0].myCheckbox[0].checked</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8648">
+                <material>
+                  <mattext texttype="text/plain">document.myForm.myCheckbox.ischecked</mattext>
+                </material>
+              </response_label>
+              <response_label ident="845">
+                <material>
+                  <mattext texttype="text/plain">document.form[0].checkbox[0].ischecked</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7342</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g10bd8a0ea8dc70ad25269c222ed6f63f" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6169,2100,3612,4699</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gea5b17cdee44c765925b4f36f97eb357</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is the main property associated with the JavaScript checkbox object, and returns a Boolean value?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6169">
+                <material>
+                  <mattext texttype="text/plain">The checked property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2100">
+                <material>
+                  <mattext texttype="text/plain">The defaultchecked property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3612">
+                <material>
+                  <mattext texttype="text/plain">The form property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4699">
+                <material>
+                  <mattext texttype="text/plain">The name property</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6169</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0b2fd8887036cdd62dee4fcdfdf27761" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>534,9329,5901,433</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g0e565d4270792a93deab6dd59f520f46</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is the main event handler used by the JavaScript checkbox object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="534">
+                <material>
+                  <mattext texttype="text/plain">onclick</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9329">
+                <material>
+                  <mattext texttype="text/plain">onselect</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5901">
+                <material>
+                  <mattext texttype="text/plain">click()</mattext>
+                </material>
+              </response_label>
+              <response_label ident="433">
+                <material>
+                  <mattext texttype="text/plain">select()</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">534</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5f0bd213231533e1b0771d3ed307086b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7026,7776,6915,4393</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb60df3b6b0e7b4550d97825821e7a259</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;To JavaScript, what is the difference between a text object and a textarea object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7026">
+                <material>
+                  <mattext texttype="text/plain">They are very similar — they use the same properties, methods and event handlers.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7776">
+                <material>
+                  <mattext texttype="text/plain">They both take text as input, but they use different properties, methods and event handlers.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6915">
+                <material>
+                  <mattext texttype="text/plain">Both are created with the &lt;input&gt; tag, but they use different properties, methods and event handlers.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4393">
+                <material>
+                  <mattext texttype="text/plain">Both use the same properties, but they use different methods and event handlers.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7026</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga86089da3afec64e1ea529038ca2e0f2" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>330,8622,6885,7652</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gaae74a9d3d121c8de21e5c3c74508c88</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;After a user has entered information into a text field, which property is used to retrieve the information?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="330">
+                <material>
+                  <mattext texttype="text/plain">The value property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8622">
+                <material>
+                  <mattext texttype="text/plain">The name property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6885">
+                <material>
+                  <mattext texttype="text/plain">The defaultValue property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7652">
+                <material>
+                  <mattext texttype="text/plain">The form property</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">330</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gfd3b2d51eef94706fda7862cf1bc8af8" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7812,5435,8013,8427</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g032b45ea5d4cc21b56291ec0e8875725</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which method of the text and textarea objects occurs when the user's cursor moves over the object without clicking?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7812">
+                <material>
+                  <mattext texttype="text/plain">The focus() method</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5435">
+                <material>
+                  <mattext texttype="text/plain">The blur() method</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8013">
+                <material>
+                  <mattext texttype="text/plain">The select() method</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8427">
+                <material>
+                  <mattext texttype="text/plain">The change() method</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7812</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g78a63f17569f01fdc736244eda53cccb" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8343,186,6683,1594</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gabfbf4052b1eafae27a663d56002d506</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which JavaScript code segment correctly determines which radio button has been selected from a radio button group named myRadio in a form named myForm?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8343">
+                <material>
+                  <mattext texttype="text/plain">var len = myRadio.length; var myVar = ""; for(var idx = 0; idx &lt; len; idx++) { if(document.myForm.myRadio[idx].checked) { myVar = document.myForm.myRadio[idx].value; } }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="186">
+                <material>
+                  <mattext texttype="text/plain">var len = myRadio.length; var myVar = ""; for(var idx = 0; idx &lt; len; idx++) { if(document.myForm.myRadio[idx].selected) { myVar = document.myForm.myRadio.value; } }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6683">
+                <material>
+                  <mattext texttype="text/plain">var len = myRadio.length; var myVar = ""; for(var idx = 0; idx &lt; len; idx++) { if(document.myForm.myRadio[idx].selected) { myVar = document.myForm.myRadio[idx].value; } }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1594">
+                <material>
+                  <mattext texttype="text/plain">var len = myRadio.length; var myVar = ""; for(var idx = 0; idx &lt; len; idx++) { if(document.myForm.myRadio.checked) { myVar = document.myForm.myRadio[idx].value; } }</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8343</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g65d1d33094d26c01692bf8298432d1bc" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2966,2621,8861,5555</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g272a735251c07a88b7f37081c8b78444</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;The JavaScript radio object allows users to:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2966">
+                <material>
+                  <mattext texttype="text/plain">choose at most a single response from a group.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2621">
+                <material>
+                  <mattext texttype="text/plain">choose no, one or more items from a group.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8861">
+                <material>
+                  <mattext texttype="text/plain">type in their responses to a question.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5555">
+                <material>
+                  <mattext texttype="text/plain">present a list of links for navigation.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2966</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gd7ad59beb39a9efd44641e77cd218417" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7586,3990,9251,8541</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g3569b96ea72ff07d55db275f2150e98b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div class="pull-left inline-menu three_dots " title="bookmark"&gt;
+&lt;div class="dot-c" data-position="top"&gt;
+&lt;div class="arrow"&gt;&lt;span class="_title"&gt;What procedure does your script perform in order to determine which radio button was chosen by the user?&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7586">
+                <material>
+                  <mattext texttype="text/plain">The script will loop through the radio button group, querying the checked property for each element.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3990">
+                <material>
+                  <mattext texttype="text/plain">In the form object, the radio button group's checked property will return the name of the selected button.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9251">
+                <material>
+                  <mattext texttype="text/plain">The script will loop through the radio button group, querying the value property for each element.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8541">
+                <material>
+                  <mattext texttype="text/plain">In the form object, the radio button group's name property will return the name of the selected button.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7586</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g862b807eda0e1e79e68ba68cef94bd51" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1338,3718,1033,408</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g7b76ed513af5f9204c65f4fc5f6d3199</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a valid select list declaration?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1338">
+                <material>
+                  <mattext texttype="text/plain">&lt;select name="mySelect"&gt; &lt;option&gt; First &lt;/option&gt; &lt;option&gt; Second &lt;/option&gt; &lt;/select&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3718">
+                <material>
+                  <mattext texttype="text/plain">&lt;select name="mySelect" option="First" option="Second" /&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1033">
+                <material>
+                  <mattext texttype="text/plain">&lt;select name="mySelect" selectOption="First" selectOption="Second" /&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="408">
+                <material>
+                  <mattext texttype="text/plain">&lt;select name="mySelect"&gt; &lt;selectOption&gt; First &lt;/option&gt; &lt;selectOption&gt; Second &lt;/option&gt; &lt;/select&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1338</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9a2f564d2da4445e11adbfad7e19d93e" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8584,8753,8235,1347</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g76ef8d34a96d79a4ce8fc564099a159d</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which event handler is commonly used when checking the choice made by the user in a select object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8584">
+                <material>
+                  <mattext texttype="text/plain">onchange</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8753">
+                <material>
+                  <mattext texttype="text/plain">onblur</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8235">
+                <material>
+                  <mattext texttype="text/plain">onfocus</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1347">
+                <material>
+                  <mattext texttype="text/plain">onselected</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8584</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2d0304312a8c156537a0f22322693cd3" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7290,9022,4746,9751</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g398a34b0b7f7de9a841f0a35ae3c3f8f</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following JavaScript code segments properly accesses the numeric value of the array number returned when a user selects an option from a select object named mySelect in a form named myForm?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7290">
+                <material>
+                  <mattext texttype="text/plain">var myVar; myVar = document.myForm.mySelect.selectedIndex;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9022">
+                <material>
+                  <mattext texttype="text/plain">var myVar; myVar = document.myForm.mySelect.value;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4746">
+                <material>
+                  <mattext texttype="text/plain">var myVar; myVar = document.myForm.mySelect.selected;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9751">
+                <material>
+                  <mattext texttype="text/plain">var myVar; myVar = document.myForm.mySelect.integer;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7290</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gdcbb5f340352edb17ae7fe3413337c01" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1072,2418,696,5794</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g87b4ec994f0f3c1773d9e50f1fdb4c18</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What procedure does your script perform in order to determine which options were chosen by the user in a multiple-selection list box?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1072">
+                <material>
+                  <mattext texttype="text/plain">The script will loop through each option, checking the value of the selected property.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2418">
+                <material>
+                  <mattext texttype="text/plain">The script will loop through each option, checking the value of the selectedIndex property.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="696">
+                <material>
+                  <mattext texttype="text/plain">The script will use the selectedOptions array property of the select list.  D</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5794">
+                <material>
+                  <mattext texttype="text/plain">The script will use the selectedIndexes array property of the select list.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1072</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1596fc00d369949beea39f48bc5fc5aa" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1200,627,2941,2074</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gc9d9c414fc677851d8cacc5565416ff0</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which attribute is used to allow the user to choose more than one choice from a select object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1200">
+                <material>
+                  <mattext texttype="text/plain">multiple</mattext>
+                </material>
+              </response_label>
+              <response_label ident="627">
+                <material>
+                  <mattext texttype="text/plain">options</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2941">
+                <material>
+                  <mattext texttype="text/plain">length</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2074">
+                <material>
+                  <mattext texttype="text/plain">select</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1200</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge724b3670fee62558109e6673f0e9c93" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4927,4764,4006,1075</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g66726b1f7cc5476c5b4d792410fb5bf8</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a benefit of client-side form validation?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4927">
+                <material>
+                  <mattext texttype="text/plain">Conservation of bandwidth</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4764">
+                <material>
+                  <mattext texttype="text/plain">Decrease in amount of scripting needed</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4006">
+                <material>
+                  <mattext texttype="text/plain">Ability to record input into a database</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1075">
+                <material>
+                  <mattext texttype="text/plain">Ability to verify accuracy of all user input in form submissions</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4927</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g034ff50148edfeed4d9e579da90b200a" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7424,6056,8265,1926</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gcedaa9769a2dc93c63bde02061d0badf</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following statements about client-side validation is true?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7424">
+                <material>
+                  <mattext texttype="text/plain">Some shortcuts exist to bypass validations.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6056">
+                <material>
+                  <mattext texttype="text/plain">Client-side validation is completely reliable.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8265">
+                <material>
+                  <mattext texttype="text/plain">Hackers can bypass validations by re-engineering your code.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1926">
+                <material>
+                  <mattext texttype="text/plain">Hackers cannot usually identify validations because JavaScript is typically invisible.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7424</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf399373fad945c46db1f78dd07db9f3e" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3064,3788,964,3757</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g71121d492a887140d082666643f2964a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You want to create some client-side validations to ensure that your end users answer each of the required questions in your form. For a text field that requires the user to enter the number of years he or she has worked at a past job, you can validate that the user entered an answer by creating a script that detects what?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3064">
+                <material>
+                  <mattext texttype="text/plain">Whether the field holds a null value after submission</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3788">
+                <material>
+                  <mattext texttype="text/plain">Whether the user entered enough characters</mattext>
+                </material>
+              </response_label>
+              <response_label ident="964">
+                <material>
+                  <mattext texttype="text/plain">Whether the field value was changed from the default</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3757">
+                <material>
+                  <mattext texttype="text/plain">Whether the user entered truthful information</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3064</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g961b9d8c4cfe5795f744f7b4da7686fe" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5946,7060,3230,1380</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gebe0b2ebc928eba45f047903cf1b0d7c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a recommended practice for form validation with JavaScript?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5946">
+                <material>
+                  <mattext texttype="text/plain">Always test your form validations in several browsers.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7060">
+                <material>
+                  <mattext texttype="text/plain">Use validation on most or all fields in a form to decrease the server's load.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3230">
+                <material>
+                  <mattext texttype="text/plain">Make your messages clear by putting more detail in your alerts.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1380">
+                <material>
+                  <mattext texttype="text/plain">For efficiency, test multiple fields in a single validation when possible.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5946</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g33d60f793b32291f9e16e996fdf09bbd" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5399,7532,576,5086</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gdee402d790aa6aec1b9e65161e3c096b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following code:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;input type="text"&lt;br&gt;name="userName"&lt;br&gt;onblur="&lt;br&gt;if (this.value == '') {&lt;br&gt;alert('Please do not leave the Name field blank.');&lt;br&gt;this.focus();&lt;br&gt;}&lt;br&gt;else {&lt;br&gt;alert('Thank you, ' + this.value + '!');&lt;br&gt;}&lt;br&gt;" /&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;In this code, the focus() method is used to:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5399">
+                <material>
+                  <mattext texttype="text/plain">return the user's cursor to the text box if the user left it blank.  B</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7532">
+                <material>
+                  <mattext texttype="text/plain">invoke the inline scripting.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="576">
+                <material>
+                  <mattext texttype="text/plain">refer to the current object.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5086">
+                <material>
+                  <mattext texttype="text/plain">display the personalized thank-you message to the user.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5399</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

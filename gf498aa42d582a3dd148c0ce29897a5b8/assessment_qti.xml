@@ -1,0 +1,2445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_qtiasiv1p2p1_v1p0.xsd">
+  <assessment ident="gf498aa42d582a3dd148c0ce29897a5b8" title="2022-chp3-tech-in-action-all-questions">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_profile</fieldlabel>
+        <fieldentry>cc.exam.v0p1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_assessmenttype</fieldlabel>
+        <fieldentry>Examination</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_scoretype</fieldlabel>
+        <fieldentry>Percentage</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g6d4af456a417421ab2df3157835ba75f" title="03-001">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The Internet is ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="26776">
+                <material>
+                  <mattext texttype="text/plain">an internal communication system for businesses</mattext>
+                </material>
+              </response_label>
+              <response_label ident="48042">
+                <material>
+                  <mattext texttype="text/plain">a communication system for the U.S. navy</mattext>
+                </material>
+              </response_label>
+              <response_label ident="23913">
+                <material>
+                  <mattext texttype="text/plain">the same as the World Wide Web</mattext>
+                </material>
+              </response_label>
+              <response_label ident="92556">
+                <material>
+                  <mattext texttype="text/plain">a large network of networks</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">92556</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gda5804be29198d78d398c362479252ec" title="03-002">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The concept of the Internet was developed by the U.S. Department of Defense as a network that ________ in event of an attack.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8009">
+                <material>
+                  <mattext texttype="text/plain">provides point to point connections</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62699">
+                <material>
+                  <mattext texttype="text/plain">allows commerce to continue</mattext>
+                </material>
+              </response_label>
+              <response_label ident="29282">
+                <material>
+                  <mattext texttype="text/plain">would not be disrupted easily</mattext>
+                </material>
+              </response_label>
+              <response_label ident="91655">
+                <material>
+                  <mattext texttype="text/plain">would not be easily hacked</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">29282</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge54f577f7e3bb14cc6418e8aa0edd025" title="03-003">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The World Wide Web was based on a protocol developed by ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="59044">
+                <material>
+                  <mattext texttype="text/plain">Bill Gates</mattext>
+                </material>
+              </response_label>
+              <response_label ident="55605">
+                <material>
+                  <mattext texttype="text/plain">Ray Tomlinson</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73210">
+                <material>
+                  <mattext texttype="text/plain">Tim Berners-Lee</mattext>
+                </material>
+              </response_label>
+              <response_label ident="15558">
+                <material>
+                  <mattext texttype="text/plain">Vinton Cerf</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">73210</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g318d7da4797ca607d66baf387a3053e7" title="03-004">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The "fathers of the Internet" are Vinton Cerf and ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="52981">
+                <material>
+                  <mattext texttype="text/plain">Robert Cailliau</mattext>
+                </material>
+              </response_label>
+              <response_label ident="95453">
+                <material>
+                  <mattext texttype="text/plain">Tim Berners-Lee</mattext>
+                </material>
+              </response_label>
+              <response_label ident="88035">
+                <material>
+                  <mattext texttype="text/plain">Bill Gates</mattext>
+                </material>
+              </response_label>
+              <response_label ident="48152">
+                <material>
+                  <mattext texttype="text/plain">Robert Kahn</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">48152</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g52687cb436ff116e8ab7be30333be84d" title="03-005">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Software that enables you to display and interact with text and other media on the web is a web ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="85752">
+                <material>
+                  <mattext texttype="text/plain">viewer</mattext>
+                </material>
+              </response_label>
+              <response_label ident="37145">
+                <material>
+                  <mattext texttype="text/plain">server</mattext>
+                </material>
+              </response_label>
+              <response_label ident="10450">
+                <material>
+                  <mattext texttype="text/plain">agent</mattext>
+                </material>
+              </response_label>
+              <response_label ident="14903">
+                <material>
+                  <mattext texttype="text/plain">browser</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">14903</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf1dcc855030329853b1d882eb354c772" title="03-006">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The web is based on the ________ Protocol.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="90801">
+                <material>
+                  <mattext texttype="text/plain">Hypertext Transfer</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8018">
+                <material>
+                  <mattext texttype="text/plain">Hypertext Trade</mattext>
+                </material>
+              </response_label>
+              <response_label ident="27825">
+                <material>
+                  <mattext texttype="text/plain">Hypertext Transmit</mattext>
+                </material>
+              </response_label>
+              <response_label ident="46527">
+                <material>
+                  <mattext texttype="text/plain">Hypertext Translate</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">90801</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g3c88b12cd14db8b411a37b0dcb746e66" title="03-007">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A computer connected to the Internet that asks for data is a(n) ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6873">
+                <material>
+                  <mattext texttype="text/plain">server</mattext>
+                </material>
+              </response_label>
+              <response_label ident="50745">
+                <material>
+                  <mattext texttype="text/plain">client</mattext>
+                </material>
+              </response_label>
+              <response_label ident="41520">
+                <material>
+                  <mattext texttype="text/plain">surrogate</mattext>
+                </material>
+              </response_label>
+              <response_label ident="43626">
+                <material>
+                  <mattext texttype="text/plain">aggregator</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">50745</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g82f349fdfeeabd481cb393a2e98fa402" title="03-008">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; a description of the unique identification number assigned to your computer when you connect to the Internet?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="45758">
+                <material>
+                  <mattext texttype="text/plain">dotted quad</mattext>
+                </material>
+              </response_label>
+              <response_label ident="18610">
+                <material>
+                  <mattext texttype="text/plain">path</mattext>
+                </material>
+              </response_label>
+              <response_label ident="76992">
+                <material>
+                  <mattext texttype="text/plain">dotted decimal</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7595">
+                <material>
+                  <mattext texttype="text/plain">IP address</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">18610</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5da9a14eaae306bafc61106d5e575682" title="03-009">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;________ is a professional, business-oriented social networking site.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="14218">
+                <material>
+                  <mattext texttype="text/plain">Flickr</mattext>
+                </material>
+              </response_label>
+              <response_label ident="16944">
+                <material>
+                  <mattext texttype="text/plain">Pinterest</mattext>
+                </material>
+              </response_label>
+              <response_label ident="39510">
+                <material>
+                  <mattext texttype="text/plain">Twitter</mattext>
+                </material>
+              </response_label>
+              <response_label ident="25549">
+                <material>
+                  <mattext texttype="text/plain">LinkedIn</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">25549</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g7e4d91fe5ee8b364d361d1bb0bb199fe" title="03-010">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; considered a social networking/media site?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="44277">
+                <material>
+                  <mattext texttype="text/plain">Facebook</mattext>
+                </material>
+              </response_label>
+              <response_label ident="52874">
+                <material>
+                  <mattext texttype="text/plain">YouTube</mattext>
+                </material>
+              </response_label>
+              <response_label ident="66311">
+                <material>
+                  <mattext texttype="text/plain">LinkedIn</mattext>
+                </material>
+              </response_label>
+              <response_label ident="66978">
+                <material>
+                  <mattext texttype="text/plain">iTunes</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">66978</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2d89f79dc179b6a7c039a7117ed480b5" title="03-011">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A ________ usually allows multiple users to add, remove, or edit its content.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="81055">
+                <material>
+                  <mattext texttype="text/plain">wiki</mattext>
+                </material>
+              </response_label>
+              <response_label ident="99417">
+                <material>
+                  <mattext texttype="text/plain">podcast</mattext>
+                </material>
+              </response_label>
+              <response_label ident="71512">
+                <material>
+                  <mattext texttype="text/plain">blog</mattext>
+                </material>
+              </response_label>
+              <response_label ident="72304">
+                <material>
+                  <mattext texttype="text/plain">vlog</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">81055</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g117dfb3ec249e7958b9fe455a80de2e2" title="03-012">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following are personal video journal entries posted on the web?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="90649">
+                <material>
+                  <mattext texttype="text/plain">Podcasts</mattext>
+                </material>
+              </response_label>
+              <response_label ident="49691">
+                <material>
+                  <mattext texttype="text/plain">Newsgroups</mattext>
+                </material>
+              </response_label>
+              <response_label ident="80169">
+                <material>
+                  <mattext texttype="text/plain">Vlogs</mattext>
+                </material>
+              </response_label>
+              <response_label ident="59490">
+                <material>
+                  <mattext texttype="text/plain">Blogs</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">80169</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g795c46cee7dbd4ebcb008932d376478d" title="03-013">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A(n) ________ is usually a live broadcast of audio or video content.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="63348">
+                <material>
+                  <mattext texttype="text/plain">podcast</mattext>
+                </material>
+              </response_label>
+              <response_label ident="50756">
+                <material>
+                  <mattext texttype="text/plain">wiki</mattext>
+                </material>
+              </response_label>
+              <response_label ident="69858">
+                <material>
+                  <mattext texttype="text/plain">instant message</mattext>
+                </material>
+              </response_label>
+              <response_label ident="77024">
+                <material>
+                  <mattext texttype="text/plain">webcast</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">77024</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gbde53de2e5637e26e67d8e2c5c772bd9" title="03-014">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A ________ is a personal journal posted on the web and is usually maintained by one person.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="42753">
+                <material>
+                  <mattext texttype="text/plain">blog</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2642">
+                <material>
+                  <mattext texttype="text/plain">podcast</mattext>
+                </material>
+              </response_label>
+              <response_label ident="28337">
+                <material>
+                  <mattext texttype="text/plain">wiki</mattext>
+                </material>
+              </response_label>
+              <response_label ident="51738">
+                <material>
+                  <mattext texttype="text/plain">webcast</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">42753</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2b704de06f6b6cf39ff39737ef8e10c2" title="03-015">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Podcasts enable you to ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="75367">
+                <material>
+                  <mattext texttype="text/plain">deliver audio/video files via RSS</mattext>
+                </material>
+              </response_label>
+              <response_label ident="22149">
+                <material>
+                  <mattext texttype="text/plain">post journal entries on the web</mattext>
+                </material>
+              </response_label>
+              <response_label ident="84262">
+                <material>
+                  <mattext texttype="text/plain">communicate with friends in real time</mattext>
+                </material>
+              </response_label>
+              <response_label ident="34274">
+                <material>
+                  <mattext texttype="text/plain">edit video files over the web</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">75367</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g28cb0ccf28abff991899c7e7867b63f9" title="03-016">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; a tip for professional e-mail etiquette?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="78827">
+                <material>
+                  <mattext texttype="text/plain">Be concise and to the point.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="49325">
+                <material>
+                  <mattext texttype="text/plain">Use spell-checker and proofread before sending.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="11169">
+                <material>
+                  <mattext texttype="text/html">Use abbreviations such as "u," "r," and "BRB" to keep the e-mail message shorter.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="16509">
+                <material>
+                  <mattext texttype="text/plain">Include a meaningful subject line.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">11169</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9f8fb4847e157b145d0ec1133b82f674" title="03-017">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;________ is installed on your computer, and when the program is opened, your e-mail downloads to your computer.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="67226">
+                <material>
+                  <mattext texttype="text/plain">Web-based e-mail program</mattext>
+                </material>
+              </response_label>
+              <response_label ident="42495">
+                <material>
+                  <mattext texttype="text/plain">E-mail client software</mattext>
+                </material>
+              </response_label>
+              <response_label ident="31275">
+                <material>
+                  <mattext texttype="text/plain">E-mail host package</mattext>
+                </material>
+              </response_label>
+              <response_label ident="46774">
+                <material>
+                  <mattext texttype="text/plain">E-mail server software</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">42495</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g48bff9ce8a2394d586fe9fb7bc955a17" title="03-018">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; a type of e-commerce business?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="53560">
+                <material>
+                  <mattext texttype="text/plain">B2C</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2400">
+                <material>
+                  <mattext texttype="text/plain">B2B</mattext>
+                </material>
+              </response_label>
+              <response_label ident="34844">
+                <material>
+                  <mattext texttype="text/plain">C2C</mattext>
+                </material>
+              </response_label>
+              <response_label ident="79028">
+                <material>
+                  <mattext texttype="text/plain">C2B</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">79028</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gda76f489a6a2b8cba9c34a2a84d72f7d" title="03-019">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Microsoft ________ is a cloud storage and file sharing service.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="49142">
+                <material>
+                  <mattext texttype="text/plain">iCloud</mattext>
+                </material>
+              </response_label>
+              <response_label ident="88586">
+                <material>
+                  <mattext texttype="text/plain">Dropbox</mattext>
+                </material>
+              </response_label>
+              <response_label ident="59329">
+                <material>
+                  <mattext texttype="text/plain">OneDrive</mattext>
+                </material>
+              </response_label>
+              <response_label ident="50431">
+                <material>
+                  <mattext texttype="text/plain">Drive</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">59329</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g76b96a5682da326996b2d1c404a8edd7" title="03-020">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A subset of e-commerce that uses social networks to assist in marketing and purchasing products is known as ________ commerce.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="59717">
+                <material>
+                  <mattext texttype="text/plain">crowd</mattext>
+                </material>
+              </response_label>
+              <response_label ident="11928">
+                <material>
+                  <mattext texttype="text/plain">source</mattext>
+                </material>
+              </response_label>
+              <response_label ident="92150">
+                <material>
+                  <mattext texttype="text/plain">friend</mattext>
+                </material>
+              </response_label>
+              <response_label ident="18693">
+                <material>
+                  <mattext texttype="text/plain">social</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">18693</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcf507f0035da4500ab2a7dfa6bd22d1b" title="03-021">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; a precaution to take when shopping online?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="95533">
+                <material>
+                  <mattext texttype="text/plain">Pay with a debit card, not a credit card.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="29728">
+                <material>
+                  <mattext texttype="text/plain">Shop at well-known, reputable sites.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73932">
+                <material>
+                  <mattext texttype="text/plain">Avoid making online transactions on a public computer.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="43599">
+                <material>
+                  <mattext texttype="text/plain">When placing an order, make sure you receive a confirmation number.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">95533</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0a78305567d35c9dc359a09abe61ca9c" title="03-022">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The "s" in "https" stands for ________ socket layer.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="85115">
+                <material>
+                  <mattext texttype="text/plain">semantic</mattext>
+                </material>
+              </response_label>
+              <response_label ident="24701">
+                <material>
+                  <mattext texttype="text/plain">secure</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73287">
+                <material>
+                  <mattext texttype="text/plain">server</mattext>
+                </material>
+              </response_label>
+              <response_label ident="41429">
+                <material>
+                  <mattext texttype="text/plain">social</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">24701</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g6b39bcc8f7a0d9e730215297442dc868" title="03-023">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; a feature of the most popular web browsers?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="82416">
+                <material>
+                  <mattext texttype="text/plain">Pinned tabs</mattext>
+                </material>
+              </response_label>
+              <response_label ident="11242">
+                <material>
+                  <mattext texttype="text/plain">Session restore</mattext>
+                </material>
+              </response_label>
+              <response_label ident="68417">
+                <material>
+                  <mattext texttype="text/plain">Social browsing</mattext>
+                </material>
+              </response_label>
+              <response_label ident="64564">
+                <material>
+                  <mattext texttype="text/plain">Thumbnail preview</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">68417</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb095204462070fef5389325bf78e563e" title="03-024">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The browser feature which enables tabs to work independently from one another so if one crashes, the others may continue to work is known as ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="492">
+                <material>
+                  <mattext texttype="text/plain">pinned tabs</mattext>
+                </material>
+              </response_label>
+              <response_label ident="57085">
+                <material>
+                  <mattext texttype="text/plain">tab isolation</mattext>
+                </material>
+              </response_label>
+              <response_label ident="46964">
+                <material>
+                  <mattext texttype="text/plain">free tabs</mattext>
+                </material>
+              </response_label>
+              <response_label ident="57462">
+                <material>
+                  <mattext texttype="text/plain">privacy browsing</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">57085</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g7673073123feb9b9cdf2620f074bc41c" title="03-025">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The unique address for a particular website is the ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="78348">
+                <material>
+                  <mattext texttype="text/plain">protocol</mattext>
+                </material>
+              </response_label>
+              <response_label ident="99034">
+                <material>
+                  <mattext texttype="text/plain">domain section</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62619">
+                <material>
+                  <mattext texttype="text/plain">client</mattext>
+                </material>
+              </response_label>
+              <response_label ident="35302">
+                <material>
+                  <mattext texttype="text/plain">URL</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">35302</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gd3ff0216f6cefdc7f57c31028c1cd006" title="03-026">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;In the URL: http://www.microsoft.com/surface, the portion labeled ".com" is the ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1676">
+                <material>
+                  <mattext texttype="text/plain">subdirectory</mattext>
+                </material>
+              </response_label>
+              <response_label ident="27582">
+                <material>
+                  <mattext texttype="text/plain">host</mattext>
+                </material>
+              </response_label>
+              <response_label ident="42617">
+                <material>
+                  <mattext texttype="text/plain">top-level domain</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62343">
+                <material>
+                  <mattext texttype="text/plain">protocol</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">42617</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4d0aba5be03d73fd71e04f47209a9ef9" title="03-027">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;In the URL: http://www.microsoft.com/surface, the portion labeled "surface" is the ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="90823">
+                <material>
+                  <mattext texttype="text/plain">protocol</mattext>
+                </material>
+              </response_label>
+              <response_label ident="20754">
+                <material>
+                  <mattext texttype="text/plain">domain name</mattext>
+                </material>
+              </response_label>
+              <response_label ident="15790">
+                <material>
+                  <mattext texttype="text/plain">subdirectory</mattext>
+                </material>
+              </response_label>
+              <response_label ident="45936">
+                <material>
+                  <mattext texttype="text/plain">top-level domain</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">15790</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9636496611ffb1674ba2eb81325feb5b" title="03-028">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;In the URL: http://www.microsoft.com/surface, the portion labeled "http" is the ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="30605">
+                <material>
+                  <mattext texttype="text/plain">protocol</mattext>
+                </material>
+              </response_label>
+              <response_label ident="85085">
+                <material>
+                  <mattext texttype="text/plain">domain name</mattext>
+                </material>
+              </response_label>
+              <response_label ident="79030">
+                <material>
+                  <mattext texttype="text/plain">path</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8009">
+                <material>
+                  <mattext texttype="text/plain">top-level domain</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">30605</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gede263597a655c7824b117cbe2cf71de" title="03-029">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following top-level domains is restricted to degree-granting institutions?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="73146">
+                <material>
+                  <mattext texttype="text/plain">.gov</mattext>
+                </material>
+              </response_label>
+              <response_label ident="55249">
+                <material>
+                  <mattext texttype="text/plain">.net</mattext>
+                </material>
+              </response_label>
+              <response_label ident="61612">
+                <material>
+                  <mattext texttype="text/plain">.edu</mattext>
+                </material>
+              </response_label>
+              <response_label ident="42387">
+                <material>
+                  <mattext texttype="text/plain">.info</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">61612</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc27f1cc051f0ddfa5ebb3f52ce3e714c" title="03-030">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A(n) ________ is a navigation aid that shows the path you have taken to get to a web page or where the page is located within the website.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="60370">
+                <material>
+                  <mattext texttype="text/plain">index</mattext>
+                </material>
+              </response_label>
+              <response_label ident="69375">
+                <material>
+                  <mattext texttype="text/plain">navigation bar</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6689">
+                <material>
+                  <mattext texttype="text/plain">breadcrumb trail</mattext>
+                </material>
+              </response_label>
+              <response_label ident="30939">
+                <material>
+                  <mattext texttype="text/plain">cookie trail</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6689</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge40704f1f5544872a509942af83e2049" title="03-031">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;AND, OR, and NOT are examples of ________ operators.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="21550">
+                <material>
+                  <mattext texttype="text/plain">Boolean</mattext>
+                </material>
+              </response_label>
+              <response_label ident="85391">
+                <material>
+                  <mattext texttype="text/plain">Jacobean</mattext>
+                </material>
+              </response_label>
+              <response_label ident="74836">
+                <material>
+                  <mattext texttype="text/plain">relational</mattext>
+                </material>
+              </response_label>
+              <response_label ident="67457">
+                <material>
+                  <mattext texttype="text/plain">keyword</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">21550</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9eff4832b9d272e9607f5540caf73f68" title="03-032">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Catfishing is ________.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4432">
+                <material>
+                  <mattext texttype="text/plain">creating fake profiles on a dating site and developing a fabricated online and phone relationship</mattext>
+                </material>
+              </response_label>
+              <response_label ident="13264">
+                <material>
+                  <mattext texttype="text/plain">posting inflammatory remarks to solicit angry and negative responses</mattext>
+                </material>
+              </response_label>
+              <response_label ident="66512">
+                <material>
+                  <mattext texttype="text/plain">bombarding someone with harassing messages</mattext>
+                </material>
+              </response_label>
+              <response_label ident="36793">
+                <material>
+                  <mattext texttype="text/plain">posting embarrassing pictures, rumors, or videos via social media</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4432</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5b79cf980d0d1a58ec0392ca1b6e8211" title="03-033">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;When you purchase a new computer from Apple.com for yourself to use at school, you are using which model of e-commerce?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="51838">
+                <material>
+                  <mattext texttype="text/plain">B2C</mattext>
+                </material>
+              </response_label>
+              <response_label ident="97183">
+                <material>
+                  <mattext texttype="text/plain">C2C</mattext>
+                </material>
+              </response_label>
+              <response_label ident="41737">
+                <material>
+                  <mattext texttype="text/plain">C2B</mattext>
+                </material>
+              </response_label>
+              <response_label ident="20459">
+                <material>
+                  <mattext texttype="text/plain">B2B</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">51838</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g73e286342238e1eb662d654bac08fca2" title="03-034">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;When you sell your bicycle to another individual on eBay, you are engaging in which type of e-commerce?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="11269">
+                <material>
+                  <mattext texttype="text/plain">C2C</mattext>
+                </material>
+              </response_label>
+              <response_label ident="41104">
+                <material>
+                  <mattext texttype="text/plain">B2C</mattext>
+                </material>
+              </response_label>
+              <response_label ident="35499">
+                <material>
+                  <mattext texttype="text/plain">B2B</mattext>
+                </material>
+              </response_label>
+              <response_label ident="52808">
+                <material>
+                  <mattext texttype="text/plain">C2B</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">11269</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g99c029d2017ca8dafeb12616cd994dd2" title="03-035">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; true about instant messaging?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="21944">
+                <material>
+                  <mattext texttype="text/plain">It only requires an Internet connection.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="15220">
+                <material>
+                  <mattext texttype="text/plain">It does not use cellular data.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="72409">
+                <material>
+                  <mattext texttype="text/plain">Because of security concerns, businesses do not use it.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="88099">
+                <material>
+                  <mattext texttype="text/plain">It can often be real-time communication.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">72409</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g8258ab185767dd368168d46b0bb961f8" title="03-036">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; true about texting?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9088">
+                <material>
+                  <mattext texttype="text/plain">It is also called text messaging.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="59144">
+                <material>
+                  <mattext texttype="text/plain">It uses SMS for text-based messages.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="59753">
+                <material>
+                  <mattext texttype="text/plain">It uses MMS to send images or videos.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="70419">
+                <material>
+                  <mattext texttype="text/plain">It uses the Internet, not your cellular network.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">70419</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g867f3e2197d82c41e527daa2af35a0c4" title="03-037">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="font-style: italic;"&gt;not&lt;/span&gt; true about VOIP?&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="25407">
+                <material>
+                  <mattext texttype="text/plain">It uses digital, not analog, signals.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="78153">
+                <material>
+                  <mattext texttype="text/plain">It stands for Voice Over Internet Possibility</mattext>
+                </material>
+              </response_label>
+              <response_label ident="25268">
+                <material>
+                  <mattext texttype="text/plain">It uses the Internet, rather than regular phone lines or your cellular network.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="31211">
+                <material>
+                  <mattext texttype="text/plain">It can transmit both voice and video.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">78153</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gfef7a1bcedcd145dd01e0ebbf5537510" title="03-038">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The Internet was developed to ensure faster delivery of communications such as e-mail.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="37379">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="36731">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">36731</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gd22c5d91f6d12d876489482d450b266d" title="03-039">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;All popular social networking sites have privacy policies, but you still need to follow certain precautions when using their sites.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1016">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="28141">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1016</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gbfbfc61b5eaf65bd2325fe6fa76f5607" title="03-040">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;E-mails are completely private.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="58154">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="19789">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">19789</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb7ee22c2e06a7a440ac34e8b019236fc" title="03-041">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;With a client-based e-mail account, you can view your e-mail only from the computer on which the client program is installed.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="36052">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="91060">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">36052</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g147b181633e73e40b39500f16d681a18" title="03-042">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;When shopping on the web, it is better to pay for your purchase with a debit card rather than a credit card.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="39800">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="66122">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">66122</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4abd0ac135323d5c09b314a260e8d075" title="03-043">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A browser's bookmark feature makes it easy to return to a specific web page.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="84452">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62082">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">84452</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf1ecba2cdef5ec77078a808f65106932" title="03-044">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Using the browser feature called tab isolation, you can drag an open tab away from its current window and open it in a new window.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7280">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3214">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3214</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc2f13856072485600888ec531224a3f2" title="03-045">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The semantic web uses metadata with text data to make it more easily processed by computers.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="28999">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="81171">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">28999</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0365144a246e9fc4e84b0b4b110e75c8" title="03-046">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Wikipedia is a good reference for a research paper.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2412">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="23300">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">23300</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb78a06c54819908ebff39b6cf591f469" title="03-047">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;When evaluating the relevance of a website, an important factor is the date of publication.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2180">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="71586">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2180</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g69e56eafbd4217a36eb5132de3b72e82" title="03-048">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A criticism of hashtag activism is that it fosters a false sense of involvement.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="73721">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="95659">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">73721</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="geca31d44ac758a2c7d3896e9126d8979" title="03-049">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Geolocation is a GPS enabled feature on a smartphone that provides your location to apps like Uber.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="58190">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="25886">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">58190</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g02cde46b7dc0eac171f860f4979b16ff" title="03-050">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;One method of cyberbullying involves spreading rumors about another person.&lt;br&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="95618">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="32083">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">95618</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

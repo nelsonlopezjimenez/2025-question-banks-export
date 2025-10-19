@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubrics xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <rubric identifier="gec1537108fae8fc9ae8021774257b4e0">
+    <read_only>false</read_only>
+    <title>Final Project Site Structure Assignment</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>10.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <criteria>
+      <criterion>
+        <criterion_id>186934_7407</criterion_id>
+        <points>10.0</points>
+        <description>Determine and create appropriate site folder structure</description>
+        <ratings>
+          <rating>
+            <description>Student demonstrates the ability to determine and create appropriate site folder structure.</description>
+            <points>10.0</points>
+            <criterion_id>186934_7407</criterion_id>
+            <id>blank</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>186934_7407</criterion_id>
+            <id>blank_2</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="g57a0a3bc7ed9e162d30a1e1ff02695eb">
+    <read_only>false</read_only>
+    <title>Some Rubric</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>10.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <criteria>
+      <criterion>
+        <criterion_id>_7642</criterion_id>
+        <points>5.0</points>
+        <description>Login to CIW curriculum and link to your Instructor.  Screenshot 1</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>5.0</points>
+            <criterion_id>_7642</criterion_id>
+            <id>blank</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_7642</criterion_id>
+            <id>blank_2</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_9345</criterion_id>
+        <points>5.0</points>
+        <description>Login to CIW curriculum and link to your Instructor.  Screenshot 2</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>5.0</points>
+            <criterion_id>_9345</criterion_id>
+            <id>_945</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_9345</criterion_id>
+            <id>_9897</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="gd2da7b835a396d5329647533d512020a">
+    <read_only>false</read_only>
+    <title>Some Rubric (1)</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>10.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <criteria>
+      <criterion>
+        <criterion_id>_4788</criterion_id>
+        <points>10.0</points>
+        <description>Week 1 Lab: Site Development Associate Pre-assessment. Screenshot 3</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>10.0</points>
+            <criterion_id>_4788</criterion_id>
+            <id>blank</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_4788</criterion_id>
+            <id>blank_2</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="g29532eed18a2121fe9a3569091395b87">
+    <read_only>false</read_only>
+    <title>Some Rubric (2)</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>10.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <criteria>
+      <criterion>
+        <criterion_id>_3438</criterion_id>
+        <points>4.0</points>
+        <description>HTML Editor Assignment. Screenshots 1-2</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>4.0</points>
+            <criterion_id>_3438</criterion_id>
+            <id>blank</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_3438</criterion_id>
+            <id>blank_2</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_1740</criterion_id>
+        <points>4.0</points>
+        <description>Notepad++ Compare Plugin.  Screenshots 3-4</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>4.0</points>
+            <criterion_id>_1740</criterion_id>
+            <id>_291</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_1740</criterion_id>
+            <id>_9075</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_4212</criterion_id>
+        <points>2.0</points>
+        <description>Challenge:  Install Preview HTML plugin in Notepad++.  Screenshots 5</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>2.0</points>
+            <criterion_id>_4212</criterion_id>
+            <id>_734</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_4212</criterion_id>
+            <id>_1179</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="g90e685f6cd0eb8faecb84e3a186a3734">
+    <read_only>false</read_only>
+    <title>Some Rubric (3)</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>10.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <criteria>
+      <criterion>
+        <criterion_id>_7839</criterion_id>
+        <points>2.0</points>
+        <description>Lab 3-1. Screenshots 1-3</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>2.0</points>
+            <criterion_id>_7839</criterion_id>
+            <id>blank</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_7839</criterion_id>
+            <id>blank_2</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_5651</criterion_id>
+        <points>1.0</points>
+        <description>Lab 3-2. Screenshots 4-5</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>1.0</points>
+            <criterion_id>_5651</criterion_id>
+            <id>_5473</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_5651</criterion_id>
+            <id>_923</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_4664</criterion_id>
+        <points>1.0</points>
+        <description>Lab 3-3. Screenshots 6-8</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>1.0</points>
+            <criterion_id>_4664</criterion_id>
+            <id>_4528</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_4664</criterion_id>
+            <id>_3684</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_7626</criterion_id>
+        <points>1.0</points>
+        <description>Lab 3-4. Screenshots 9-11</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>1.0</points>
+            <criterion_id>_7626</criterion_id>
+            <id>_97</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_7626</criterion_id>
+            <id>_2825</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_4495</criterion_id>
+        <points>1.0</points>
+        <description>Lab 3-5. Screenshots 12</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>1.0</points>
+            <criterion_id>_4495</criterion_id>
+            <id>_9173</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_4495</criterion_id>
+            <id>_8059</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_9118</criterion_id>
+        <points>2.0</points>
+        <description>Lab 3-6. Screenshots 13-15</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>2.0</points>
+            <criterion_id>_9118</criterion_id>
+            <id>_8989</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_9118</criterion_id>
+            <id>_6758</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_2730</criterion_id>
+        <points>1.0</points>
+        <description>Lab 3-7. Screenshots 16-17</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>1.0</points>
+            <criterion_id>_2730</criterion_id>
+            <id>_5801</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_2730</criterion_id>
+            <id>_8570</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_4065</criterion_id>
+        <points>1.0</points>
+        <description>Lab 3-9. Screenshots 18-19</description>
+        <ratings>
+          <rating>
+            <description>Full Marks</description>
+            <points>1.0</points>
+            <criterion_id>_4065</criterion_id>
+            <id>_3751</id>
+          </rating>
+          <rating>
+            <description>No Marks</description>
+            <points>0.0</points>
+            <criterion_id>_4065</criterion_id>
+            <id>_5509</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+</rubrics>

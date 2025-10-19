@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g65edb45caa5fe4f9c8cae1f2c0fd72a7" title="2022-FALL-MIDTERM-initial">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="gab3e082b30c5421aecbb22e64bf71dc7" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2694,3064,7286,3024</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g1a08cc0e9dff0619f886376a7fd33c69</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What type of language is HTML?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2694">
+                <material>
+                  <mattext texttype="text/plain">Markup language</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3064">
+                <material>
+                  <mattext texttype="text/plain">Scripting language</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7286">
+                <material>
+                  <mattext texttype="text/plain">Programming language</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3024">
+                <material>
+                  <mattext texttype="text/plain">Semantic language</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2694</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcb257294a2e0bee1117aadce12163915" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2619,2068,9941,4990</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g16c56673a7f00880d5fa0656096f69a2</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What term is usually used in programming to refer to attributes and values?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2619">
+                <material>
+                  <mattext texttype="text/plain">Properties</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2068">
+                <material>
+                  <mattext texttype="text/plain">Objects</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9941">
+                <material>
+                  <mattext texttype="text/plain">Classes</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4990">
+                <material>
+                  <mattext texttype="text/plain">Events</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2619</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g89edcdfb4c466ea4308ec0d78e89b98c" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>9496,4400,7377,104</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gbdfca90f42bc464907ecef96e0f1ddf5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a feature of JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9496">
+                <material>
+                  <mattext texttype="text/plain">Checks object references at run time ("dynamic binding")</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4400">
+                <material>
+                  <mattext texttype="text/plain">Compiled on server before execution on client</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7377">
+                <material>
+                  <mattext texttype="text/plain">Requires variable types to be declared ("strong typing")</mattext>
+                </material>
+              </response_label>
+              <response_label ident="104">
+                <material>
+                  <mattext texttype="text/plain">Object-oriented</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9496</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2eea39295c89ef2de2f0b6b2a25558e6" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3929,3695,9377,8649</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g0460b810378aae07929e4d28352af1f4</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following best describes the relationship between JavaScript and Java?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3929">
+                <material>
+                  <mattext texttype="text/plain">JavaScript and Java are different languages and have no relationship.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3695">
+                <material>
+                  <mattext texttype="text/plain">JavaScript is a subset of Java.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9377">
+                <material>
+                  <mattext texttype="text/plain">JavaScript and Java are both object-oriented programming languages.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8649">
+                <material>
+                  <mattext texttype="text/plain">JavaScript is used to create mini Java applications called applets.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3929</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g3153e32e10e82e323a14b5b3c9bfc152" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5807,8994,3807,5967</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf47b767d37e06559ff801f2d253307ba</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following accurately describes a difference between JavaScript and Java?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5807">
+                <material>
+                  <mattext texttype="text/plain">JavaScript is interpreted whereas Java is compiled.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8994">
+                <material>
+                  <mattext texttype="text/plain">JavaScript is object-oriented whereas Java is object-based.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3807">
+                <material>
+                  <mattext texttype="text/plain">JavaScript uses static binding whereas Java uses dynamic binding.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5967">
+                <material>
+                  <mattext texttype="text/plain">JavaScript requires strong typing whereas Java allows loose typing.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5807</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb6e08be681be54375fffcd4ae08b78e1" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1855,8286,5948,2051</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gd1389a9cab498b692c67e5d29e80f8c9</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why should comments be included within JavaScript code blocks?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1855">
+                <material>
+                  <mattext texttype="text/plain">Because comments provide a way to indicate the intent of the code</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8286">
+                <material>
+                  <mattext texttype="text/plain">Because comments are required for each JavaScript code block</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5948">
+                <material>
+                  <mattext texttype="text/plain">Because comments provide accessibility in browsers for the visually impaired</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2051">
+                <material>
+                  <mattext texttype="text/plain">Because comments deactivate all JavaScript code during debugging</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1855</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gae7b30a9367f413e6f31a605fac3cd8f" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3737,595,9687,2361</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gcc69075a727365c2b583885f00ebe91c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which code block demonstrates correct syntax for a single-line comment in JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3737">
+                <material>
+                  <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; //This is a single-line comment. The JavaScript interpreter will ignore this text.&lt;/script&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="595">
+                <material>
+                  <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; &lt;comment&gt;This is a single-line comment. The JavaScript interpreter will ignore this text.&lt;/comment&gt;&lt;/script&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9687">
+                <material>
+                  <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; !--This is a single-line comment. The JavaScript interpreter will ignore this text.&lt;/script&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2361">
+                <material>
+                  <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; */This is a single-line comment. The JavaScript interpreter will ignore this text./*&lt;/script&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3737</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga09092fc76ece8306ae0734d22880176" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6375,174,2626,1893</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g8174d8cc7eac80d106b0d48b97fa2f69</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is used to add multiline comments in JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6375">
+                <material>
+                  <mattext texttype="text/plain">/* */</mattext>
+                </material>
+              </response_label>
+              <response_label ident="174">
+                <material>
+                  <mattext texttype="text/plain">//</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2626">
+                <material>
+                  <mattext texttype="text/plain">&lt;!-- ... --&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1893">
+                <material>
+                  <mattext texttype="text/plain">::</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6375</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

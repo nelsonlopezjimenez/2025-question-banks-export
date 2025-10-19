@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gcccfb277ac695bb1aef0c3e5447309db">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS242-635-Quizzes-Lesson-9</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g5909cfd61b67b30c5ecb6cc2f2a57e5d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9778,3426,7439,6732</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about custom JavaScript objects?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9778">
+              <material>
+                <mattext texttype="text/plain">They can provide database-type functionality without a formal database server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3426">
+              <material>
+                <mattext texttype="text/plain">They are most effective when used with data that changes frequently.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7439">
+              <material>
+                <mattext texttype="text/plain">They can replace database objects when used properly.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6732">
+              <material>
+                <mattext texttype="text/plain">They provide necessary functionality when the overhead of a database application is already in place.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9778</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd3110279dd1fcbeb241f61d88a18faa2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7340,3609,5269,5825</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following is an example of a custom JavaScript object?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7340">
+              <material>
+                <mattext texttype="text/plain">Name()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3609">
+              <material>
+                <mattext texttype="text/plain">Date()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5269">
+              <material>
+                <mattext texttype="text/plain">Array()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5825">
+              <material>
+                <mattext texttype="text/plain">String()</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7340</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="geb9de4bea44e605b428e93a232e5cb9a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5388,4307,7596,954</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which choice accurately describes a difference between a client-side array and a database?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5388">
+              <material>
+                <mattext texttype="text/plain">A client-side array is manipulated on the fly and the queries cannot be stored.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4307">
+              <material>
+                <mattext texttype="text/plain">A client-side array can permanently store queries in special tables called views.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7596">
+              <material>
+                <mattext texttype="text/plain">In a database, the queries cannot be stored.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="954">
+              <material>
+                <mattext texttype="text/plain">A database stores data and returns information when queried, whereas a client-side array does not.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5388</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb790f0e362bcc491ba0d98a0dfb52b06" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8171,6817,977,2450</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is one advantage of using custom JavaScript objects instead of arrays?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8171">
+              <material>
+                <mattext texttype="text/plain">Ability to represent programming constructs as objects</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6817">
+              <material>
+                <mattext texttype="text/plain">Random access to any element in the custom JavaScript object  C</mattext>
+              </material>
+            </response_label>
+            <response_label ident="977">
+              <material>
+                <mattext texttype="text/plain">Ability to store multiple values</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2450">
+              <material>
+                <mattext texttype="text/plain">Access to properties through dot notation</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8171</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g259a35ccdbdb8c79372056335c99c8bf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9040,124,9935,2440</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is the first step in creating a custom object in JavaScript?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9040">
+              <material>
+                <mattext texttype="text/plain">Defining a constructor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="124">
+              <material>
+                <mattext texttype="text/plain">Creating a property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9935">
+              <material>
+                <mattext texttype="text/plain">Naming property values</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2440">
+              <material>
+                <mattext texttype="text/plain">Creating a method</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9040</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge4d1d29f8a33de39797317eec71900c2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>717,5023,8922,1174</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Generally speaking, what does a constructor do?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="717">
+              <material>
+                <mattext texttype="text/plain">It creates an empty template from which real-time objects, called instances, can be generated.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5023">
+              <material>
+                <mattext texttype="text/plain">It creates a database-like structure into which you can store custom objects.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8922">
+              <material>
+                <mattext texttype="text/plain">It creates an instance of a custom object, and a new constructor is needed for each instance.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1174">
+              <material>
+                <mattext texttype="text/plain">It creates properties and methods that can be passed into custom objects.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">717</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g087ae3f64259c80599bde1e43359840e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7092,5609,7871,1682</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following constructor function:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;function productObject(id,item,description,price,image) {&lt;br&gt;this.id = id;&lt;br&gt;this.item = item;&lt;br&gt;this.description = description;&lt;br&gt;this.price = price;&lt;br&gt;this.image = image;&lt;br&gt;}&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;What keyword is used to reference the object containing the script in which the keyword appears?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7092">
+              <material>
+                <mattext texttype="text/plain">this</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5609">
+              <material>
+                <mattext texttype="text/plain">productObject</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7871">
+              <material>
+                <mattext texttype="text/plain">id</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1682">
+              <material>
+                <mattext texttype="text/plain">item</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7092</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g583928eef709677ef0eb0bc61e539494" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5961,2273,4984,9387</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;For custom JavaScript objects, what is the purpose of the constructor?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5961">
+              <material>
+                <mattext texttype="text/plain">To define the properties and methods of your object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2273">
+              <material>
+                <mattext texttype="text/plain">To instantiate a new object with its default values</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4984">
+              <material>
+                <mattext texttype="text/plain">To create a new object from a template</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9387">
+              <material>
+                <mattext texttype="text/plain">To create all the JavaScript code that your program will require</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5961</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd7f61af75c640b0554c41297a1ed5e38" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6530,910,7661,3777</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which choice uses the correct syntax for declaring a custom JavaScript object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6530">
+              <material>
+                <mattext texttype="text/plain">function NewObject(param) { this.param = param; }</mattext>
+              </material>
+            </response_label>
+            <response_label ident="910">
+              <material>
+                <mattext texttype="text/plain">function NewObject(param) { param = param; }</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7661">
+              <material>
+                <mattext texttype="text/plain">object NewObject(param) { this.param = param; }</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3777">
+              <material>
+                <mattext texttype="text/plain">object NewObject(param) { param = param; }</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6530</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4c4db22db00d2e021219644b9d6b27aa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7302,8252,90,9636</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In JavaScript, which term is used to describe a special function that enables you to create instances of custom objects?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7302">
+              <material>
+                <mattext texttype="text/plain">Constructor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8252">
+              <material>
+                <mattext texttype="text/plain">Client-side array</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90">
+              <material>
+                <mattext texttype="text/plain">Property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9636">
+              <material>
+                <mattext texttype="text/plain">Method</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7302</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g87782106e5c31b690cdcd5d5e3e0261d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2094,2547,1844,4342</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about creating instances of custom objects?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2094">
+              <material>
+                <mattext texttype="text/plain">You must declare variables to instantiate and then populate the properties of each new instance with data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2547">
+              <material>
+                <mattext texttype="text/plain">You usually use custom objects for single tasks that need to be performed only once.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1844">
+              <material>
+                <mattext texttype="text/plain">It is usually most useful to create your custom objects as individual variables rather than creating elements of an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4342">
+              <material>
+                <mattext texttype="text/plain">To create an array, you need to declare a new instance of your custom object.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2094</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3cb6ca633565d6b0012c26a3964cf963" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7182,8071,1107,4648</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;When creating a custom object in JavaScript, what is instantiation?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7182">
+              <material>
+                <mattext texttype="text/plain">The process of creating new copies of an object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8071">
+              <material>
+                <mattext texttype="text/plain">The process of defining a constructor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1107">
+              <material>
+                <mattext texttype="text/plain">The process of defining properties and methods of a custom object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4648">
+              <material>
+                <mattext texttype="text/plain">The process of returning specific method parameters to the calling statement</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7182</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga1ab2a64bb7eff5c9dcc010d33f1ce8a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9329,2947,7057,3584</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What must you always do when creating an instance of a custom object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9329">
+              <material>
+                <mattext texttype="text/plain">Use the keyword new to create the object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2947">
+              <material>
+                <mattext texttype="text/plain">Assign the variable this to the object  C</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7057">
+              <material>
+                <mattext texttype="text/plain">Set a value for every variable in the object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3584">
+              <material>
+                <mattext texttype="text/plain">Create an array to hold the object</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9329</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7573b680d1c03d825a6c985eccd7dbaf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8929,8754,9128,4558</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You access the properties and methods of a newly instantiated custom object by:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8929">
+              <material>
+                <mattext texttype="text/plain">using dot notation.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8754">
+              <material>
+                <mattext texttype="text/plain">using the keyword this.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9128">
+              <material>
+                <mattext texttype="text/plain">declaring variables.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4558">
+              <material>
+                <mattext texttype="text/plain">using the keyword new.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8929</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5632e066ab41abffd54cb0e13f036e7d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4963,5500,6315,6497</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which property is used to add additional fields to a custom object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4963">
+              <material>
+                <mattext texttype="text/plain">prototype</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5500">
+              <material>
+                <mattext texttype="text/plain">addField</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6315">
+              <material>
+                <mattext texttype="text/plain">addNew</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6497">
+              <material>
+                <mattext texttype="text/plain">new</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4963</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g46af3b2f72d707c226ba45f71a4f3140" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6077,9841,2500,7992</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;strong&gt; &lt;span class="sr-only"&gt;Question 16 :&lt;/span&gt; &lt;/strong&gt;&lt;span&gt; &lt;/span&gt;&lt;span class="_title"&gt;Consider the following script:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;function prodObject(id, item) {&lt;br&gt;this.id = id;&lt;br&gt;this.item = item;&lt;br&gt;}&lt;br&gt;var shoe = new prodObject("t-1", "Tennis");&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;Which of the following statements will add a new property to the custom object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6077">
+              <material>
+                <mattext texttype="text/plain">prodObject.prototype.description = "";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9841">
+              <material>
+                <mattext texttype="text/plain">shoe.prototype.description = "Tennis shoe";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2500">
+              <material>
+                <mattext texttype="text/plain">shoe.description.prototype = "Tennis show";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7992">
+              <material>
+                <mattext texttype="text/plain">prodObject.description.prototype = "";</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6077</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g22ead803cf06961563f3c9bb481b7a95" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7578,8795,1800,5122</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about retrieving and viewing the information you just stored in your custom object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7578">
+              <material>
+                <mattext texttype="text/plain">You can define one or more methods that allow you to view the data in instances of the object.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8795">
+              <material>
+                <mattext texttype="text/plain">You can define an unlimited number of methods for your object because memory is not a limiting factor for this functionality.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1800">
+              <material>
+                <mattext texttype="text/plain">You can define one method that allows you to view the data in instances of the object, but only one method per object.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5122">
+              <material>
+                <mattext texttype="text/plain">Any methods you define for a custom object must be simple or they will not run properly.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7578</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdb8ae66d4b2af59770cd2cea33b2c656" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9393,2225,4205,4403</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following function signature:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;function methodOne()&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;Which is the correct syntax to add this function as a method in a custom object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9393">
+              <material>
+                <mattext texttype="text/plain">this.methodOne = methodOne;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2225">
+              <material>
+                <mattext texttype="text/plain">this.methodOne = methodOne();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4205">
+              <material>
+                <mattext texttype="text/plain">this.methodOne = new methodOne;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4403">
+              <material>
+                <mattext texttype="text/plain">this.methodOne = new methodOne();</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9393</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbc17c4237757baf2d747e6a3ee33b97f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>404,6441,8832,8334</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;div class="pull-left inline-menu three_dots " title="bookmark"&gt;
+&lt;div class="dot-c" data-position="top"&gt;
+&lt;div class="arrow"&gt;
+&lt;span class="_title"&gt;In a custom JavaScript object, how does a method access the properties of an instance of the custom object when it is called?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="404">
+              <material>
+                <mattext texttype="text/plain">By using the this keyword</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6441">
+              <material>
+                <mattext texttype="text/plain">By passing in a reference to the instance as a parameter</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8832">
+              <material>
+                <mattext texttype="text/plain">By directly accessing the properties by their names</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8334">
+              <material>
+                <mattext texttype="text/plain">By using the element keyword</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">404</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g11e30b85c7ad6aa7925f58c2d0b08256" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5221,2011,5264,8992</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following operates on single instances of custom objects rather than on all objects?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5221">
+              <material>
+                <mattext texttype="text/plain">Methods</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2011">
+              <material>
+                <mattext texttype="text/plain">Functions</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5264">
+              <material>
+                <mattext texttype="text/plain">Properties</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8992">
+              <material>
+                <mattext texttype="text/plain">Arrays</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5221</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3fd9819b53933f0658ea8dea60274364" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7661,9244,2268,1240</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;A function for a custom JavaScript object differs from a method in what way?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7661">
+              <material>
+                <mattext texttype="text/plain">Functions are able to operate on multiple instances of a custom JavaScript object.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9244">
+              <material>
+                <mattext texttype="text/plain">Functions are declared in the constructor of the custom JavaScript object.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2268">
+              <material>
+                <mattext texttype="text/plain">Only functions can use the this keyword to access the object properties.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1240">
+              <material>
+                <mattext texttype="text/plain">Functions cannot access the properties of a custom JavaScript object.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7661</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g57b122323d5c1fcfb0eba2541c9f6b3b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>149,4376,3843,9204</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;How can you determine when you should use custom objects instead of arrays in your programs?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="149">
+              <material>
+                <mattext texttype="text/plain">Ask yourself whether an object can benefit from having a method or methods associated with it.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4376">
+              <material>
+                <mattext texttype="text/plain">Ask yourself whether you need to be able to manipulate data on the fly and store queries.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3843">
+              <material>
+                <mattext texttype="text/plain">Use the JavaScript predefined method for choosing custom object versus array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9204">
+              <material>
+                <mattext texttype="text/plain">Remember that for experienced developers, custom objects are generally the better server-side solution.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">149</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g16073c520dade3b4a4f52dd799fd99ac" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9320,851,6575,3515</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is a complex custom object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9320">
+              <material>
+                <mattext texttype="text/plain">A custom object that contains one or more other custom objects</mattext>
+              </material>
+            </response_label>
+            <response_label ident="851">
+              <material>
+                <mattext texttype="text/plain">A custom object that has methods implemented in it</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6575">
+              <material>
+                <mattext texttype="text/plain">A custom object with multiple variables defined in it</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3515">
+              <material>
+                <mattext texttype="text/plain">A custom object that is contained in an array of multiple custom objects</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9320</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

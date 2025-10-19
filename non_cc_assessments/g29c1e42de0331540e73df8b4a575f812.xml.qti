@@ -1,0 +1,4615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g29c1e42de0331540e73df8b4a575f812">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>2024-Q2-week6.6</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g18887beae50bcce84dac854bccc2221b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>730,6457,3624,8891</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What step should you take to ensure that your JavaScript code runs as expected?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="730">
+              <material>
+                <mattext texttype="text/plain">Test your code in various browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6457">
+              <material>
+                <mattext texttype="text/plain">Make sure all users access your code from a specific browser.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3624">
+              <material>
+                <mattext texttype="text/plain">Implement a function to download the latest Java runtime environment when necessary.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8891">
+              <material>
+                <mattext texttype="text/plain">Test your code in Google Chrome. Explanation: Answer A is correct.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">730</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g16c56673a7f00880d5fa0656096f69a2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2619,2068,9941,4990</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What term is usually used in programming to refer to attributes and values?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2619">
+              <material>
+                <mattext texttype="text/plain">Properties</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2068">
+              <material>
+                <mattext texttype="text/plain">Objects</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9941">
+              <material>
+                <mattext texttype="text/plain">Classes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4990">
+              <material>
+                <mattext texttype="text/plain">Events</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2619</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0460b810378aae07929e4d28352af1f4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3929,3695,9377,8649</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following best describes the relationship between JavaScript and Java?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3929">
+              <material>
+                <mattext texttype="text/plain">JavaScript and Java are different languages and have no relationship.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3695">
+              <material>
+                <mattext texttype="text/plain">JavaScript is a subset of Java.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9377">
+              <material>
+                <mattext texttype="text/plain">JavaScript and Java are both object-oriented programming languages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8649">
+              <material>
+                <mattext texttype="text/plain">JavaScript is used to create mini Java applications called applets.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3929</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd1389a9cab498b692c67e5d29e80f8c9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1855,8286,5948,2051</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why should comments be included within JavaScript code blocks?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1855">
+              <material>
+                <mattext texttype="text/plain">Because comments provide a way to indicate the intent of the code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8286">
+              <material>
+                <mattext texttype="text/plain">Because comments are required for each JavaScript code block</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5948">
+              <material>
+                <mattext texttype="text/plain">Because comments provide accessibility in browsers for the visually impaired</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2051">
+              <material>
+                <mattext texttype="text/plain">Because comments deactivate all JavaScript code during debugging</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1855</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcc69075a727365c2b583885f00ebe91c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3737,595,9687,2361</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which code block demonstrates correct syntax for a single-line comment in JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3737">
+              <material>
+                <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; //This is a single-line comment. The JavaScript interpreter will ignore this text.&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="595">
+              <material>
+                <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; &lt;comment&gt;This is a single-line comment. The JavaScript interpreter will ignore this text.&lt;/comment&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9687">
+              <material>
+                <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; !--This is a single-line comment. The JavaScript interpreter will ignore this text.&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2361">
+              <material>
+                <mattext texttype="text/plain">&lt;script type="text/javascript"&gt; */This is a single-line comment. The JavaScript interpreter will ignore this text./*&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3737</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8174d8cc7eac80d106b0d48b97fa2f69" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6375,174,2626,1893</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is used to add multiline comments in JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6375">
+              <material>
+                <mattext texttype="text/plain">/* */</mattext>
+              </material>
+            </response_label>
+            <response_label ident="174">
+              <material>
+                <mattext texttype="text/plain">//</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2626">
+              <material>
+                <mattext texttype="text/plain">&lt;!-- ... --&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1893">
+              <material>
+                <mattext texttype="text/plain">::</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6375</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g788046892797218e7817c4df8abdb331" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>49628,49310,67582,37518</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;2. Which of the following is true of JavaScript keywords and/or reserved words?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="49628">
+              <material>
+                <mattext texttype="text/plain">You cannot use reserved words as names for objects.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49310">
+              <material>
+                <mattext texttype="text/plain">You can use reserved words as names for variables.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67582">
+              <material>
+                <mattext texttype="text/plain">You can use reserved words but not keywords as names for objects.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="37518">
+              <material>
+                <mattext texttype="text/plain">All keywords are specific to particular versions of JavaScript.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">49628</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1bf6df7922ebcf0e3fc71dc3370219a5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>36751,31660,22201,3348</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;3. In JavaScript, what is an argument?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="36751">
+              <material>
+                <mattext texttype="text/plain">A value passed into a function from outside the function</mattext>
+              </material>
+            </response_label>
+            <response_label ident="31660">
+              <material>
+                <mattext texttype="text/plain">Any method that returns a value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22201">
+              <material>
+                <mattext texttype="text/plain">A named block of code that can be called</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3348">
+              <material>
+                <mattext texttype="text/plain">A statement that transfers program execution to a subroutine</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">36751</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g820a853640cf6510c35d948a9b755367" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>93662,62123,50061,5038</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;span style="font-size: 9pt; background-color: transparent;"&gt;4. How does the &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;do...while&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; statement differ from the &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;while&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; statement?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="93662">
+              <material>
+                <mattext texttype="text/plain">The do...while statement guarantees that the code within the curly braces will execute at least once, whereas the while statement does not.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="62123">
+              <material>
+                <mattext texttype="text/plain">The while statement executes a block of code until a condition is true, whereas the do...while statement executes a block of code while (for as long as) a condition is true.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50061">
+              <material>
+                <mattext texttype="text/plain">The do...while statement can branch to one of two or more processes, whereas the while statement can only complete one process.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5038">
+              <material>
+                <mattext texttype="text/plain">The while statement guarantees that the code within the curly braces will execute at least once, whereas the do...while statement does not.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">93662</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc38263557c43e4173456064a271637cf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>82412,52772,61109,77881</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;span style="font-size: 9pt; background-color: transparent;"&gt;6. Which statement will reorder and display the array &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;myArray&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; in alphabetical order?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="82412">
+              <material>
+                <mattext texttype="text/plain">myArray.sort();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="52772">
+              <material>
+                <mattext texttype="text/plain">myArray.alphabetize();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61109">
+              <material>
+                <mattext texttype="text/plain">myArray = sort(myArray);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77881">
+              <material>
+                <mattext texttype="text/plain">myArray = alphabetize(myArray);</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">82412</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga846e4e9a835b5f0b724377d50cc6e7e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>92008,80038,76568,61885</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which of the following best describes mathematical precedence in JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="92008">
+              <material>
+                <mattext texttype="text/plain">Mathematical precedence determines the order in which expressions will be evaluated in JavaScript statements.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="80038">
+              <material>
+                <mattext texttype="text/plain">Mathematical precedence determines which expressions will be evaluated in JavaScript statements.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76568">
+              <material>
+                <mattext texttype="text/plain">Mathematical precedence allows the developer to choose the order in which expressions will be evaluated in JavaScript statement</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61885">
+              <material>
+                <mattext texttype="text/plain">Mathematical precedence determines which operators will be evaluated in JavaScript statements.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">92008</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2833347f29e9cd6884cb2548e1d21fd7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>33571,56884,90993,86605</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Consider the following expression:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt 0pt 0pt 36pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;30 &amp;lt; 50;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;What is the result of this expression?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="33571">
+              <material>
+                <mattext texttype="text/plain">The result is: true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56884">
+              <material>
+                <mattext texttype="text/plain">The result is: 20</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90993">
+              <material>
+                <mattext texttype="text/plain">The result is: false</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86605">
+              <material>
+                <mattext texttype="text/plain">The result is: -20</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">33571</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5c31101d7f2b078b3bb8e48a4a902b63" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>14854,82985,7736,97133</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which type of JavaScript expression evaluates to true or false?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="14854">
+              <material>
+                <mattext texttype="text/plain">Logical</mattext>
+              </material>
+            </response_label>
+            <response_label ident="82985">
+              <material>
+                <mattext texttype="text/plain">Assignment</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7736">
+              <material>
+                <mattext texttype="text/plain">Arithmetic</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97133">
+              <material>
+                <mattext texttype="text/plain">String</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">14854</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd5d2c26457067712a7b3a1d9b8f54eb9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>26107,8700,67787,40814</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which of the following operators is an assignment operator?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="26107">
+              <material>
+                <mattext texttype="text/plain">+=</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8700">
+              <material>
+                <mattext texttype="text/plain">+</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67787">
+              <material>
+                <mattext texttype="text/plain">%</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40814">
+              <material>
+                <mattext texttype="text/plain">==</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">26107</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g85433c3cea7d57e6851258d52f1a6598" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>68016,65095,20481,18547</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Consider the following code:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt 0pt 0pt 36pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;let age = 18;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt 0pt 0pt 36pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;let testValue = (age &amp;lt; 21) ? 'Teenager': 'Adult';&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;What is the value of &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;testValue&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; after execution?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="68016">
+              <material>
+                <mattext texttype="text/plain">The value is: Teenager</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65095">
+              <material>
+                <mattext texttype="text/plain">The value is: 18</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20481">
+              <material>
+                <mattext texttype="text/plain">The value is: 21</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18547">
+              <material>
+                <mattext texttype="text/plain">The value is: true</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">68016</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6616a6fc128aee44d9286a701129e3ea" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>87188,51230,86130,77510</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Consider the following JavaScript code:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt 0pt 0pt 36pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;let subTotal = 1;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt 0pt 0pt 36pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;let tax = 0.03;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt 0pt 0pt 36pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;alert("The total is " + subTotal * (1 + tax));&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;What is the result of this code?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="87188">
+              <material>
+                <mattext texttype="text/plain">A dialog box that displays: The total is 1.03</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51230">
+              <material>
+                <mattext texttype="text/plain">A dialog box that displays: The total is 10 * 1.03</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86130">
+              <material>
+                <mattext texttype="text/plain">A dialog box that displays: The total is 1010.03</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77510">
+              <material>
+                <mattext texttype="text/plain">A dialog box that displays: The total is castError!</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">87188</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7354424e1b7330d959bbf8d6bf7f11ed" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>40178,95081,28928,13191</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;How does a global variable differ from local variable?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="40178">
+              <material>
+                <mattext texttype="text/plain">You can access a global variable value from any function or &lt;script&gt; block you define on the HTML page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="95081">
+              <material>
+                <mattext texttype="text/plain">You declare a local variable outside of any function.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28928">
+              <material>
+                <mattext texttype="text/plain">You declare a global variable within a function.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13191">
+              <material>
+                <mattext texttype="text/plain">You can access a local variable value from any function or &lt;script&gt; block you define on the X/HTML page.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">40178</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g77945546acef0b097bcc3586be32ba38" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30019,80849,812,52683</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;span style="font-size: 9pt; background-color: transparent;"&gt;What is the purpose of the &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;do...while&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; statement?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30019">
+              <material>
+                <mattext texttype="text/plain">It executes the code once, then checks to see if the condition is true and continues to execute the code for as long as a condition is true.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="80849">
+              <material>
+                <mattext texttype="text/plain">It repeats a group of statements for some particular range of values.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="812">
+              <material>
+                <mattext texttype="text/plain">It checks the test condition, then branches to one of two or more processes, depending on the result of the condition.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="52683">
+              <material>
+                <mattext texttype="text/plain">It checks to see if the condition is true, then executes the code for as long as the condition is true.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30019</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g30096936c588126286a93dd9c0874c55" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>97639,18380,67285,21335</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;span style="font-size: 9pt; background-color: transparent;"&gt;How does the &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;do...while&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; statement differ from the &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;while&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; statement?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="97639">
+              <material>
+                <mattext texttype="text/plain">The do...while statement guarantees that the code within the curly braces will execute at least once, whereas the while statement does not.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18380">
+              <material>
+                <mattext texttype="text/plain">The while statement executes a block of code until a condition is true, whereas the do...while statement executes a block of code while (for as long as) a condition is true.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67285">
+              <material>
+                <mattext texttype="text/plain">The do...while statement can branch to one of two or more processes, whereas the while statement can only complete one process.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="21335">
+              <material>
+                <mattext texttype="text/plain">The while statement guarantees that the code within the curly braces will execute at least once, whereas the do...while statement does not.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">97639</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8ac1a909750f0383d70e2c6ca6f71276" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95745,65786,87842,69332</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which of the following demonstrates the correct general syntax for an &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;if&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; statement?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95745">
+              <material>
+                <mattext texttype="text/html">&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;if (Boolean expression) {&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;//statements to execute &lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;}&lt;/span&gt;&lt;/p&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65786">
+              <material>
+                <mattext texttype="text/html">&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;if Boolean expression (&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;//statements to execute&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;)&lt;/span&gt;&lt;/p&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87842">
+              <material>
+                <mattext texttype="text/html">&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;Boolean expression (if true) {&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;//statements to execute&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;}&lt;/span&gt;&lt;/p&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="69332">
+              <material>
+                <mattext texttype="text/html">&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;if Boolean expression == true (&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;//statements to execute&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;)&lt;/span&gt;&lt;/p&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">95745</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6c16c221f374dcd4449485be53e7f953" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>87420,32957,89018,9818</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;span style="font-size: 9pt; background-color: transparent;"&gt;What is the primary purpose of the &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;for&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; statement?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="87420">
+              <material>
+                <mattext texttype="text/plain">To repeat a group of statements for some particular range of values</mattext>
+              </material>
+            </response_label>
+            <response_label ident="32957">
+              <material>
+                <mattext texttype="text/plain">To force the flow of control back to the top of a loop</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89018">
+              <material>
+                <mattext texttype="text/plain">To exit a loop that would otherwise continue to execute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9818">
+              <material>
+                <mattext texttype="text/plain">To compare a value against other values, searching for a match</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">87420</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2faa84af992177f533d55afab862c4c8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>65525,87650,23877,29710</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Consider the following string:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt 0pt 0pt 36pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;const myString = "five four two";&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0pt; text-align: left; text-indent: 0pt;"&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which statement will extract the characters &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;our&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; from this string?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="65525">
+              <material>
+                <mattext texttype="text/plain">myString.substr(6,3);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87650">
+              <material>
+                <mattext texttype="text/plain">myString.charAt(7,8,9);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="23877">
+              <material>
+                <mattext texttype="text/plain">myString.substring(6,8);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="29710">
+              <material>
+                <mattext texttype="text/plain">myString[7,8,9];</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">65525</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gff6196eca7117bc9cf9705e91864b8cd" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>87612,24336,16682,65379</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Your users want to see a list of names sorted alphabetically but backward, starting at Z and working toward A. Which statement will accomplish this?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="87612">
+              <material>
+                <mattext texttype="text/plain">nameList.sort().reverse();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24336">
+              <material>
+                <mattext texttype="text/plain">reverse(sort(nameList));</mattext>
+              </material>
+            </response_label>
+            <response_label ident="16682">
+              <material>
+                <mattext texttype="text/plain">sort(reverse(nameList));</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65379">
+              <material>
+                <mattext texttype="text/plain">nameList.reverse().sort();</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">87612</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd443895d277b68b12fcfb4faf62e2312" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>26611,85330,83084,5644</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which statement will reorder and display the array &lt;/span&gt;&lt;span style="font-family: Georgia, Times New Roman, Times, serif; font-size: 9pt; background-color: transparent;"&gt;myArray&lt;/span&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt; in alphabetical order?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="26611">
+              <material>
+                <mattext texttype="text/plain">myArray.sort();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85330">
+              <material>
+                <mattext texttype="text/plain">myArray.alphabetize();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83084">
+              <material>
+                <mattext texttype="text/plain">myArray = sort(myArray);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5644">
+              <material>
+                <mattext texttype="text/plain">myArray = alphabetize(myArray);</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">26611</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3cf669bc98750d2afa1430b15efb35b2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>53969,90574,19374,8848</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;What procedure does your script perform in order to determine which radio button was chosen by the user?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="53969">
+              <material>
+                <mattext texttype="text/plain">The script will loop through the radio button group, querying the checked property for each element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90574">
+              <material>
+                <mattext texttype="text/plain">In the form object, the radio button group's checked property will return the name of the selected button.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="19374">
+              <material>
+                <mattext texttype="text/plain">The script will loop through the radio button group, querying the value property for each element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8848">
+              <material>
+                <mattext texttype="text/plain">In the form object, the radio button group's name property will return the name of the selected button.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">53969</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g12571e70750be1f7f9a640ab162cd738" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57116,24852,11866,4704</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Consider the following code snippet:&lt;br&gt;&lt;br&gt;function myFunction(param1, param2){&lt;br&gt;   return param1 * param2;&lt;br&gt;}&lt;br&gt;console.log(myFunction(10, 4));&lt;br&gt;&lt;br&gt;WHAT IS THE OUPUT?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="57116">
+              <material>
+                <mattext texttype="text/plain">40</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24852">
+              <material>
+                <mattext texttype="text/plain">10</mattext>
+              </material>
+            </response_label>
+            <response_label ident="11866">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4704">
+              <material>
+                <mattext texttype="text/plain">the program does not compile</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">57116</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g03d8fe69e353fef00bb3f88b6a9771f4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>73591,94150,90584,72926</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following symbol represents a single-line comment in JavaScript?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="73591">
+              <material>
+                <mattext texttype="text/plain">//</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94150">
+              <material>
+                <mattext texttype="text/plain">/*</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90584">
+              <material>
+                <mattext texttype="text/plain">*/</mattext>
+              </material>
+            </response_label>
+            <response_label ident="72926">
+              <material>
+                <mattext texttype="text/plain">--</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">73591</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf0c8917ab551fc2a0b6b34ec574927e5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1162,67460,93786,78997</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following statements is false concerning JavaScript identifiers (variable names)?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1162">
+              <material>
+                <mattext texttype="text/plain">Identifiers cannot begin with a digit</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67460">
+              <material>
+                <mattext texttype="text/plain">Identifiers can be of any length</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93786">
+              <material>
+                <mattext texttype="text/plain">Identifiers are case sensitive.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="78997">
+              <material>
+                <mattext texttype="text/plain">can consist of letters, numbers, and hyphens.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">78997</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb6823a21410b78e9c1ac5b6c321ef2d0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2885,48164,5558,29585</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following is the way used to declare constants?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2885">
+              <material>
+                <mattext texttype="text/plain">var</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48164">
+              <material>
+                <mattext texttype="text/plain">const</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5558">
+              <material>
+                <mattext texttype="text/plain">echo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="29585">
+              <material>
+                <mattext texttype="text/plain">let</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">48164</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3d4e7a13928fb6e6b541fc4c20cb7e66" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>81888,53756,48591,66914</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the correct JavaScript syntax to change the content of the HTML element below?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="81888">
+              <material>
+                <mattext texttype="text/plain">document.getElementByName("p").innerHTML = "Hello World!";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="53756">
+              <material>
+                <mattext texttype="text/plain">document.getElement("p").innerHTML = "Hello World!";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48591">
+              <material>
+                <mattext texttype="text/plain">document.getElementById("demo").innerHTML = "Hello World!";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66914">
+              <material>
+                <mattext texttype="text/plain">#demo.innerHTML = "Hello World!";</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">48591</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g43a048d500036672f5e8233511d7cea6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>93410,99919,59588,5200</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How do you create a function in JavaScript?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="93410">
+              <material>
+                <mattext texttype="text/plain">function = myFunction</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99919">
+              <material>
+                <mattext texttype="text/plain">function myFunction()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59588">
+              <material>
+                <mattext texttype="text/plain">function: myFunction()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5200">
+              <material>
+                <mattext texttype="text/plain">function = myFunction</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">99919</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc9c24548efb68a5945218592336177ad" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>32384,38259,39436,36850</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;JavaScript variables that are declared outside functions are known as:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="32384">
+              <material>
+                <mattext texttype="text/plain">inside variables</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38259">
+              <material>
+                <mattext texttype="text/plain">local variables</mattext>
+              </material>
+            </response_label>
+            <response_label ident="39436">
+              <material>
+                <mattext texttype="text/plain">outside variables</mattext>
+              </material>
+            </response_label>
+            <response_label ident="36850">
+              <material>
+                <mattext texttype="text/plain">global variables</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">36850</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga5af2f489d28fe817f3309c423a757a1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9471,7879,7739,8048</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which JavaScript code segment indicates that either the variable myVar is not zero, or the variable myVar2 is less than or equal to 20?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9471">
+              <material>
+                <mattext texttype="text/plain">!(myVar == 0) || myVar2 &lt;= 20;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7879">
+              <material>
+                <mattext texttype="text/plain">!(myVar == 0 || myVar2 &gt;= 20);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7739">
+              <material>
+                <mattext texttype="text/plain">!(myVar != 0) &amp;&amp; myVar2 &lt;= 20;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8048">
+              <material>
+                <mattext texttype="text/plain">myVar != 0 &amp;&amp; myVar2 &gt;= 20;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9471</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7b45c3ee36e88ea66e8458d838113c7d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7582,2124,8627,1200</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following expression:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;newValue = 43 + 90&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;What is the result of this expression?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7582">
+              <material>
+                <mattext texttype="text/plain">The result is: 133</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2124">
+              <material>
+                <mattext texttype="text/plain">The result is: 4390</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8627">
+              <material>
+                <mattext texttype="text/plain">The result is: null</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1200">
+              <material>
+                <mattext texttype="text/plain">The result is: 47</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7582</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6bcb21f88def94fad78cd99d7cc80890" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3888,8017,5524,4229</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following expression:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;newValue = "25" + "37"&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;What is the result of this expression?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3888">
+              <material>
+                <mattext texttype="text/plain">The result is: 2537</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8017">
+              <material>
+                <mattext texttype="text/plain">The result is: 62</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5524">
+              <material>
+                <mattext texttype="text/plain">The result is: undefined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4229">
+              <material>
+                <mattext texttype="text/plain">The result is: null</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3888</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g033b19470962cc44b86f2f7454efaad6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7183,2978,3257,3336</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;div class="clearfix"&gt;
+&lt;div class="pull-left mr-md fw"&gt;
+&lt;div id="snippet_02pSn" class="test-question pl"&gt;&lt;span class="_title"&gt;Which of the following expressions evaluates to true?&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7183">
+              <material>
+                <mattext texttype="text/plain">"90" !== 90</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2978">
+              <material>
+                <mattext texttype="text/plain">"23" === 23</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3257">
+              <material>
+                <mattext texttype="text/plain">25 !== 25</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3336">
+              <material>
+                <mattext texttype="text/plain">13 == "thirteen"</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7183</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gae0c0730a0a40ddcbf2ce083c1bb2a21" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8732,3422,4047,1529</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="_title"&gt;Marcos is trying to validate a user's access permissions. He wants to give admin permission only to the username "Admin". He includes the following code in his script, but he gets an error:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;adminPermission = (UserName="Admin") true: false;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="_title"&gt;&lt;br&gt;What is the problem with his code?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8732">
+              <material>
+                <mattext texttype="text/plain">The conditional operator requires a logical or comparison expression, but an assignment expression is used.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3422">
+              <material>
+                <mattext texttype="text/plain">The values true and false are literals and need to be enclosed in quotation marks.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4047">
+              <material>
+                <mattext texttype="text/plain">There is a colon (:) where there should be a comma (,).</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1529">
+              <material>
+                <mattext texttype="text/plain">The value Admin should not be enclosed in quotation marks.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8732</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1a021129e78f70a127e7c2d55a23c0bc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9027,7494,4187,1594</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span&gt;Consider the following code:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;alert("Hello " + prompt("what is your name?", "");&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span class="_title"&gt;Assuming the user's name is Jon, what would the resulting dialog box display when he runs this script and enters his input?&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9027">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: Hello Jon</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7494">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: Hello what is your name?</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4187">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: Hello what is your name? Jon</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1594">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: Hello</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9027</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9a677601bd79374dffd49e3db3ca74ca" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9311,9899,8292,2168</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a variable data type supported by JavaScript?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9311">
+              <material>
+                <mattext texttype="text/plain">String</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9899">
+              <material>
+                <mattext texttype="text/plain">Integer</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8292">
+              <material>
+                <mattext texttype="text/plain">No value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2168">
+              <material>
+                <mattext texttype="text/plain">Alphanumeric</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9311</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga0c20ee7948fc400605f2c10b5819e4b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4227,721,9296,4694</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span&gt;Consider the following code:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;var yearOfBirth = 1978;&lt;br&gt;alert("YearOfBirth");&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span class="_title"&gt;What would the resulting dialog box display?&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4227">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: YearOfBirth</mattext>
+              </material>
+            </response_label>
+            <response_label ident="721">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: 1978</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9296">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: undefined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4694">
+              <material>
+                <mattext texttype="text/plain">The dialog will display: yearOfBirth</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4227</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb95dc6e935e1b08a1093b98b750e089b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1596,4038,6215,8762</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In JavaScript, what is an argument?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1596">
+              <material>
+                <mattext texttype="text/plain">A value passed into a function from outside the function</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4038">
+              <material>
+                <mattext texttype="text/plain">Any method that returns a value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6215">
+              <material>
+                <mattext texttype="text/plain">A named block of code that can be called</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8762">
+              <material>
+                <mattext texttype="text/plain">A statement that transfers program execution to a subroutine</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1596</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g41be92a9038780e6a7733597beedaba0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2744,4993,6555,8090</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which code snippet demonstrates the correct syntax for a user-defined JavaScript function?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2744">
+              <material>
+                <mattext texttype="text/plain">function my_function() { alert("test function"); }</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4993">
+              <material>
+                <mattext texttype="text/plain">function my function() alert("test function"); }</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6555">
+              <material>
+                <mattext texttype="text/plain">function my_function() [ alert("test function"); alert(username); ]</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8090">
+              <material>
+                <mattext texttype="text/plain">function my_function [] { alert("test function"); }</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2744</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb7a9fa6b671d51cd39470da31232f5ae" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1672,1240,6050,836</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;div class="clearfix"&gt;
+&lt;div class="pull-left mr-md fw"&gt;
+&lt;div id="snippet_02pMH" class="test-question pl"&gt;&lt;span class="_title"&gt;Which of the following is true about calling statements in JavaScript?&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1672">
+              <material>
+                <mattext texttype="text/plain">Calling statements require parentheses, even if the function does not require arguments to be passed.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1240">
+              <material>
+                <mattext texttype="text/plain">It is not necessary to know a function name to create a calling statement.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6050">
+              <material>
+                <mattext texttype="text/plain">Calling statements cannot be used for user-defined functions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="836">
+              <material>
+                <mattext texttype="text/plain">Calling statements only work in Internet Explorer and should be avoided.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1672</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g18b0b2ac31b75a77d9c67550f81ed905" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4964,4767,8177,8408</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Consider the following code:&lt;/pre&gt;
+&lt;p&gt;function counter(x) {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;x++&lt;br&gt;}&lt;br&gt;var myVar = 0;&lt;br&gt;counter(myVar);&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;What is the value of myVar after execution?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4964">
+              <material>
+                <mattext texttype="text/plain">The value is: 0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4767">
+              <material>
+                <mattext texttype="text/plain">The value is: 1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8177">
+              <material>
+                <mattext texttype="text/plain">The value is: x</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8408">
+              <material>
+                <mattext texttype="text/plain">The value is: null</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4964</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbc39012c87ecda92d17e44f31751b08b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3969,423,2854,370</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following JavaScript function:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;function myFunction(x) {&lt;br&gt;//your code here&lt;br&gt;}&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;Which code statement should be added to the function to return to the calling statement the value of x multiplied by 2?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3969">
+              <material>
+                <mattext texttype="text/plain">return x * 2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="423">
+              <material>
+                <mattext texttype="text/plain">x * 2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext texttype="text/plain">myFunction = x * 2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="370">
+              <material>
+                <mattext texttype="text/plain">x = x * 2</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3969</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8a0cca93b7da4a52044a806bc3487fed" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9151,1606,3156,3077</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;span class="_title"&gt;Consider the following JavaScript code:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;function concatenate(txt1, txt2) {&lt;br&gt;   txt1 += " ";&lt;br&gt;   var myText;&lt;br&gt;   return txt1 + txt2;&lt;br&gt;}&lt;br&gt;var myText = concatenate("Hello","World");&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;What is the value of myText after execution?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9151">
+              <material>
+                <mattext texttype="text/plain">The value is: Hello World</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1606">
+              <material>
+                <mattext texttype="text/plain">The value is: false</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3156">
+              <material>
+                <mattext texttype="text/plain">The value is: HelloWorld</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3077">
+              <material>
+                <mattext texttype="text/plain">The value is: true</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9151</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g380a906b14adb40693f80b6c9fab9dec" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9086,3376,774,6965</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an example of a user-defined JavaScript function?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9086">
+              <material>
+                <mattext texttype="text/plain">addSpace()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3376">
+              <material>
+                <mattext texttype="text/plain">parseInt()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="774">
+              <material>
+                <mattext texttype="text/plain">isNaN()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6965">
+              <material>
+                <mattext texttype="text/plain">parseFloat()</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9086</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga8434b36669305d8a270c3f0f2d92cd7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9245,8746,6989,3959</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following JavaScript expression:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;parseInt("1.5y");&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;What is the result of this expression?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9245">
+              <material>
+                <mattext texttype="text/plain">The result is: 1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8746">
+              <material>
+                <mattext texttype="text/plain">The result is: 1.5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6989">
+              <material>
+                <mattext texttype="text/plain">The result is: 1.5y</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3959">
+              <material>
+                <mattext texttype="text/plain">The result is: 4</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9245</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g89487ecac7b0bf7896375defb55aa46a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9056,5296,6723,331</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In JavaScript, what is casting?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9056">
+              <material>
+                <mattext texttype="text/plain">A way of changing a variable from one data type to another</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5296">
+              <material>
+                <mattext texttype="text/plain">A way of repairing corrupted user input</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6723">
+              <material>
+                <mattext texttype="text/plain">The practice of creating functions molded to pre-defined algorithms</mattext>
+              </material>
+            </response_label>
+            <response_label ident="331">
+              <material>
+                <mattext texttype="text/plain">The practice of declaring all variables and creating all objects before programming procedures</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9056</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf1e2b2af38a75ff300e5ceb1b54b0ea4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4010,987,1546,7899</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;div class="clearfix"&gt;
+&lt;div class="pull-left mr-md fw"&gt;
+&lt;div id="snippet_02pNG" class="test-question pl"&gt;
+&lt;span class="_title"&gt;Consider the following code:&lt;br&gt;&lt;br&gt;&lt;/span&gt;
+&lt;pre&gt;var x = 100;&lt;br&gt;while (x &amp;gt; 5) {&lt;br&gt;x--;&lt;br&gt;}&lt;/pre&gt;
+&lt;span class="_title"&gt;&lt;br&gt;What will be the value of x after execution?&lt;/span&gt;
+&lt;p class="sr-only"&gt;This task contains the radio buttons and checkboxes for options. The shortcut keys to perform this task are A to H and alt+1 to alt+9.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4010">
+              <material>
+                <mattext texttype="text/plain">The value will be: 5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="987">
+              <material>
+                <mattext texttype="text/plain">The value will be: 4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1546">
+              <material>
+                <mattext texttype="text/plain">The value will be: 6</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7899">
+              <material>
+                <mattext texttype="text/plain">The value will be: 100</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4010</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g16b1b60ada11217187f9b19ebd34cffb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6726,2191,950,9184</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following code:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;var myVar = isNaN("One");&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;What will be the value of myVar after execution of this code?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6726">
+              <material>
+                <mattext texttype="text/plain">The value will be: true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2191">
+              <material>
+                <mattext texttype="text/plain">The value will be: One</mattext>
+              </material>
+            </response_label>
+            <response_label ident="950">
+              <material>
+                <mattext texttype="text/plain">The value will be: 1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9184">
+              <material>
+                <mattext texttype="text/plain">The value will be: false</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6726</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g43b782c4dcb9fe0af24bef892dd54124" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1892,3544,7270,3944</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following will determine how many characters are in the variable string str?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1892">
+              <material>
+                <mattext texttype="text/plain">str.length;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3544">
+              <material>
+                <mattext texttype="text/plain">str.length();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7270">
+              <material>
+                <mattext texttype="text/plain">length(str);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3944">
+              <material>
+                <mattext texttype="text/plain">str.lengthOf;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1892</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga0f5368d7e2835436fb5ad891e2fc2c1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8547,2756,8253,5021</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span&gt;Consider the following code:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;var msg = "A Message";&lt;br&gt;alert("\"" + msg + "\" is " + msg.length + " characters long.");&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;What will this script display?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8547">
+              <material>
+                <mattext texttype="text/plain">It will display: "A Message" is 9 characters long.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2756">
+              <material>
+                <mattext texttype="text/plain">It will display: A Message is 9 characters long.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8253">
+              <material>
+                <mattext texttype="text/plain">It will display: "A Message" is 8 characters long.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5021">
+              <material>
+                <mattext texttype="text/plain">It will display: A Message is 8 characters long.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8547</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g224cc30ca250f30bfd3444a3f3413de7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>702,2284,1702,8317</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span&gt;Consider the following code:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;var str = "Ice Cream"&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;Which statement will find the second occurrence of the letter e in this code?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="702">
+              <material>
+                <mattext texttype="text/plain">str.indexOf("e", 3);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2284">
+              <material>
+                <mattext texttype="text/plain">str.indexOf("e").indexOf("e");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1702">
+              <material>
+                <mattext texttype="text/plain">str.indexOf("E", 4);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8317">
+              <material>
+                <mattext texttype="text/plain">str.indexOf("E");</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">702</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g91c23aa2f888fa05d2cfa6fcc7d7ab2b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>456,6008,6734,9299</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span&gt;Consider the following code:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;var msg = "A Messy Memo";&lt;br&gt;alert(msg.lastIndexOf("M"));&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;What will be displayed in the alert box?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="456">
+              <material>
+                <mattext texttype="text/plain">The alert will display: 8</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6008">
+              <material>
+                <mattext texttype="text/plain">The alert will display: Memo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6734">
+              <material>
+                <mattext texttype="text/plain">The alert will display: 3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9299">
+              <material>
+                <mattext texttype="text/plain">The alert will display: Messy</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">456</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9224a1131ad1ab75eaa4614b8119d13e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3199,1412,5683,7433</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span&gt;Consider the following variable:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;var email = joseph@somehwere.something.com&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;How can you extract the username portion of the e-mail address in this variable?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3199">
+              <material>
+                <mattext texttype="text/plain">email.substring(0, email.indexOf("@"));</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1412">
+              <material>
+                <mattext texttype="text/plain">email.substring(1, email.indexOf("@") + 1);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5683">
+              <material>
+                <mattext texttype="text/plain">email.substring(1, email.indexOf("@"));</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7433">
+              <material>
+                <mattext texttype="text/plain">email.substring(0, email.indexOf("@") - 1);</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3199</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g076a53ddba7aa7a38a2a9cb39520a633" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8215,7343,1696,2568</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You need to create a comma-delimited list from an array of values. Which function will accomplish this?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8215">
+              <material>
+                <mattext texttype="text/plain">myArray.join(",");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7343">
+              <material>
+                <mattext texttype="text/plain">myArray.split(",");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1696">
+              <material>
+                <mattext texttype="text/plain">myArray.replace(",");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2568">
+              <material>
+                <mattext texttype="text/plain">myArray.delimit(",")</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8215</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4be4bb4d081b4ed2d8b38c0049353a83" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5887,5312,9128,1855</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement will reorder and display the array myArray in alphabetical order?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5887">
+              <material>
+                <mattext texttype="text/plain">myArray.sort();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5312">
+              <material>
+                <mattext texttype="text/plain">myArray.alphabetize();</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9128">
+              <material>
+                <mattext texttype="text/plain">myArray = sort(myArray);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1855">
+              <material>
+                <mattext texttype="text/plain">myArray = alphabetize(myArray);</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5887</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga8f58147cd4f8063f9d8b43a638fd04d" title="Question 101">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>81324,9305,272,15520</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How to write an IF statement in JavaScript?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="81324">
+              <material>
+                <mattext texttype="text/plain">if i == 5 then</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9305">
+              <material>
+                <mattext texttype="text/plain">if i = 5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="272">
+              <material>
+                <mattext texttype="text/plain">if i = 5 then</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15520">
+              <material>
+                <mattext texttype="text/plain">if (i == 5)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">15520</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g42a394d135078b232c84f4aed951f764" title="Question m121">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8988,13628,3351,87621</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following represents the HTML encoding of &amp;lt;?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8988">
+              <material>
+                <mattext texttype="text/plain">&amp;lt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13628">
+              <material>
+                <mattext texttype="text/plain">&amp;gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3351">
+              <material>
+                <mattext texttype="text/plain">&amp;apos;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87621">
+              <material>
+                <mattext texttype="text/plain">&amp;amp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8988</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3bf8e7cc5689a764c06289688a80e7de" title="Question m131">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>65017,64484,5459,71123</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the result of the statement console.log( ("Hello, world!").length);?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="65017">
+              <material>
+                <mattext texttype="text/plain">11</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64484">
+              <material>
+                <mattext texttype="text/plain">12</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5459">
+              <material>
+                <mattext texttype="text/plain">13</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71123">
+              <material>
+                <mattext texttype="text/plain">14</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5459</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g26ad973047f097a504f27a7885dcef24" title="Question m161">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95873,16454,12736,97467</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Calls to JavaScript functions:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95873">
+              <material>
+                <mattext texttype="text/plain">must appear in the footer of the page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="16454">
+              <material>
+                <mattext texttype="text/plain">must appear in the header of the page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="12736">
+              <material>
+                <mattext texttype="text/plain">are case-insensitive</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97467">
+              <material>
+                <mattext texttype="text/plain">are case-sensitive</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">97467</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g45d9b8656c68e371a1dfa3291596d51b" title="Question m81">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>84799,10167,51125,94860</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How do you write "Hello World" in an alert box?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="84799">
+              <material>
+                <mattext texttype="text/plain">alertbox("Hello World");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="10167">
+              <material>
+                <mattext texttype="text/plain">message("Hello World");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51125">
+              <material>
+                <mattext texttype="text/plain">msgBox("Hello World");</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94860">
+              <material>
+                <mattext texttype="text/plain">alert("Hello World");</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">94860</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6294abed33f4dc2a3c378371f9a48131" title="Question m91">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>12580,67302,44665,61644</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How do you call a function named "myFunction"?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="12580">
+              <material>
+                <mattext texttype="text/plain">myFunction()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67302">
+              <material>
+                <mattext texttype="text/plain">call function myFunction()</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44665">
+              <material>
+                <mattext texttype="text/plain">call myFunction</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61644">
+              <material>
+                <mattext texttype="text/plain">none of the above</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">12580</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g84b341f0f200407f06c3a0e29199d07a" title="Question m91">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>44166,28980,38550,96657</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following expression shows a correct JavaScript array definition?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="44166">
+              <material>
+                <mattext texttype="text/plain">products = 'Tires':'Oil':'Spark Plugs';</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28980">
+              <material>
+                <mattext texttype="text/plain">products = ['Tires', 'Oil', 'Spark Plugs'];</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38550">
+              <material>
+                <mattext texttype="text/plain">products = ('Tires', 'Oil', 'Spark Plugs');</mattext>
+              </material>
+            </response_label>
+            <response_label ident="96657">
+              <material>
+                <mattext texttype="text/plain">products = {'Tires', 'Oil', 'Spark Plugs'};</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">28980</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcae1a9a54712726a033cd4d41dd24e40" title="w19 final 10">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;&lt;span&gt;Write a program to print the following:&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;**********&lt;br&gt;**********&lt;br&gt;**********&lt;br&gt;**********&lt;br&gt;**********&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g50931bbb68b2fa66b33233d592a078ad" title="w19 final 8">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57365,5812,51856,7761</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;&lt;span&gt;What is the output of the following program fragment?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;for (let j = 0;  j ===  5; j = j + 2 )
+{
+  console.log( j + " " );
+}&lt;/pre&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="57365">
+              <material>
+                <mattext texttype="text/plain">infinite loop</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5812">
+              <material>
+                <mattext texttype="text/plain">0 1 2 3 4 5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51856">
+              <material>
+                <mattext texttype="text/plain">0 1 2 3 4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7761">
+              <material>
+                <mattext texttype="text/plain">j j j j j</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">57365</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g16b74a35743ae1f43839c862a5f523e8" title="w19 final 9">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>26680,68472,34493,10516</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;&lt;span&gt;What is the output of the following program fragment?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;let count = 1;&lt;br&gt;while (count &amp;lt;= 10){&lt;br&gt;   console.log(count);&lt;br&gt;}&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="26680">
+              <material>
+                <mattext texttype="text/plain">The loop is infinite</mattext>
+              </material>
+            </response_label>
+            <response_label ident="68472">
+              <material>
+                <mattext texttype="text/plain">the loop is off by one</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34493">
+              <material>
+                <mattext texttype="text/plain">the loop control variable is not properly initialized</mattext>
+              </material>
+            </response_label>
+            <response_label ident="10516">
+              <material>
+                <mattext texttype="text/plain">the comparison points the wrong way</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">26680</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g075c3f49b2ba0880ff57882e91b52699" title="w19final001">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>44640,83394,41457,7008</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;&lt;span&gt;What is the output of the following program fragment?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;for (let j = 0;  j &amp;lt;  5; j++ )
+{
+  console.log( j + " " );
+}
+&lt;/pre&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="44640">
+              <material>
+                <mattext texttype="text/plain">0 1 2 3 4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83394">
+              <material>
+                <mattext texttype="text/plain">1 2 3 4 5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="41457">
+              <material>
+                <mattext texttype="text/plain">j j j j j</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7008">
+              <material>
+                <mattext texttype="text/plain">0 1 2 3 4 5</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">44640</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd269145e197a77b1cb919a9f9c367a2a" title="w19final002">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>63763,65075,59697,78166</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;&lt;span&gt;What is the output of the following program fragment?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;for (let j = 10;  j &amp;gt;  5; j-- )
+{
+  console.log( j + " " );
+}
+&lt;/pre&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="63763">
+              <material>
+                <mattext texttype="text/plain">10 9 8 7 6</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65075">
+              <material>
+                <mattext texttype="text/plain">10 9 8 7 6 5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59697">
+              <material>
+                <mattext texttype="text/plain">9 8 7 6 5 4 3 2 1 0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="78166">
+              <material>
+                <mattext texttype="text/plain">10 11 12 13 14 15</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">63763</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf222ebb03caf464e0e382d416d487f97" title="w19final003">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>89307,34770,83741,26466</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;&lt;span&gt;What must be the test be so that the following fragment prints out the integers 5 through and including 15?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;for (let j = 5;  _________ ; j++ )
+{
+  console.log( j + " " );
+}
+&lt;/pre&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="89307">
+              <material>
+                <mattext texttype="text/plain">j  &lt; 16</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34770">
+              <material>
+                <mattext texttype="text/plain">j  &lt;= 16</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83741">
+              <material>
+                <mattext texttype="text/plain">j == 15</mattext>
+              </material>
+            </response_label>
+            <response_label ident="26466">
+              <material>
+                <mattext texttype="text/plain">j &lt; 15</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">89307</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0cdfe8e39f66ad81bcb4d289668b509d" title="w19final004">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>67534,9954,86805,40566</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;&lt;span&gt;What is the output of the following code fragment?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;for (let j = 5;  j &amp;gt; -5; j-- )
+  console.log( j + " " );
+
+&lt;/pre&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="67534">
+              <material>
+                <mattext texttype="text/plain">5 4 3 2 1 0 -1 -2 -3 -4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9954">
+              <material>
+                <mattext texttype="text/plain">5 4 3 2 1 0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86805">
+              <material>
+                <mattext texttype="text/plain">-5 -4 -3 -2 -1 0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40566">
+              <material>
+                <mattext texttype="text/plain">5 4 3 2 1 0</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">67534</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g454279d3571dfcafc91ffd68b1a3bd35" title="w19final005">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>69274,67210,5687,34307</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;&lt;span&gt;What is the output of the following code fragment?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;for (let j = 5;  j &amp;gt; -5; j-- );
+  console.log( i + " " );
+&lt;/pre&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="69274">
+              <material>
+                <mattext texttype="text/plain">ReferenceError: i is not defined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67210">
+              <material>
+                <mattext texttype="text/plain">5 4 3 2 1 0 -1 -2 -3 -4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5687">
+              <material>
+                <mattext texttype="text/plain">5 4 3 2 1 0 -1 -2 -3 -4 -5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34307">
+              <material>
+                <mattext texttype="text/plain">5 4 3 2 1 -1 -2 -3 -4</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">69274</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="geb9ade4a03824dc9b325fe53442bfbcc" title="w19final006">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>75712,40761,43062,28545</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;&lt;span&gt;What is the output of the following program fragment?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;let x = 5;&lt;br&gt;let y = 4;&lt;br&gt;if (x &amp;gt; y)&lt;br&gt;   console.log(y);&lt;br&gt;else&lt;br&gt;   console.log(x);&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="75712">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40761">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="43062">
+              <material>
+                <mattext texttype="text/plain">error</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28545">
+              <material>
+                <mattext texttype="text/plain">the program crashes</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">75712</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1efc96a1313e7b0e7a506632c1d2d0d1" title="w19final007">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>26981,53327,24195,88091</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;&lt;span&gt;What must the&amp;nbsp;&lt;/span&gt;&lt;em&gt;change&lt;/em&gt;&lt;span&gt;&amp;nbsp;be so that the following fragment prints out the even integers 0 2 4 6 8 10?&lt;/span&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;for (let j = 0; j &amp;lt;= 10; &lt;span style="color: blue;"&gt;_______&lt;/span&gt;   )
+  console.log( j + " " );
+&lt;/pre&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="26981">
+              <material>
+                <mattext texttype="text/plain">int j = j + 2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="53327">
+              <material>
+                <mattext texttype="text/plain">j + 2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24195">
+              <material>
+                <mattext texttype="text/plain">j++++</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88091">
+              <material>
+                <mattext texttype="text/plain">++j++</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">26981</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g599a8dc459f7b3fbc7ad75e58d03a4e2" title="w19final11">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Write a program to print the following:&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;        1&lt;br&gt;      222&lt;br&gt;    33333&lt;br&gt;  4444444&lt;br&gt;555555555&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8a483ca7c5bf078b7ec75d928bf4bd1b" title="w19final12">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>31004,51316,34279,42044</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Consider the following code snippet:&lt;br&gt;&lt;br&gt;function myFunction(param2, param1){&lt;br&gt;   return param1 - param2;&lt;br&gt;}&lt;br&gt;console.log(myFunction(10, 4));&lt;br&gt;&lt;br&gt;WHAT IS THE OUTPUT?&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="31004">
+              <material>
+                <mattext texttype="text/plain">-6</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51316">
+              <material>
+                <mattext texttype="text/plain">6</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34279">
+              <material>
+                <mattext texttype="text/plain">14</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42044">
+              <material>
+                <mattext texttype="text/plain">the program does not compile</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">31004</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

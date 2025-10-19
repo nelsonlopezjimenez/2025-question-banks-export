@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g96a7129497219201935f774c2e47614a">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS241Ch10</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gcdb7017b0fece8c29d2885d3654c4673" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1517,5146,9134,2146</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a concept or collection of symbols associated with a product, service or person&lt;/span&gt;&lt;span&gt;?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1517">
+              <material>
+                <mattext texttype="text/plain">Brand</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5146">
+              <material>
+                <mattext texttype="text/plain">Market</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9134">
+              <material>
+                <mattext texttype="text/plain">Resource</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2146">
+              <material>
+                <mattext texttype="text/plain">Copyright</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1517</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8fa871bff037ac4b4fdee0928b3920cf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5027,2886,7175,6008</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is an accepted branding concept in business?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5027">
+              <material>
+                <mattext texttype="text/plain">The brand should be simple.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2886">
+              <material>
+                <mattext texttype="text/plain">The brand should have a personality distinct from that of the company.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7175">
+              <material>
+                <mattext texttype="text/plain">The brand should be similar to other successful brands.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6008">
+              <material>
+                <mattext texttype="text/plain">The brand should be complicated.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5027</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1e95fac6ade1173524776c84a7c776c0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4039,8748,6611,1726</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the primary purpose of a business Web site?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4039">
+              <material>
+                <mattext texttype="text/plain">To provide a way for a business's customers to find that business over the Internet</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8748">
+              <material>
+                <mattext texttype="text/plain">To enable the business's employees to put attractive page design techniques into place</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6611">
+              <material>
+                <mattext texttype="text/plain">To convince storefront customers to place their orders online instead of in person</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1726">
+              <material>
+                <mattext texttype="text/plain">To demonstrate high-tech graphics and design capabilities to other competitors</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4039</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb36fe55dbc8b3a7b456a66cdd9e735f1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1516,4761,5,7949</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Effectively designed business Web sites:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1516">
+              <material>
+                <mattext texttype="text/plain">feature crisp, concise text.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4761">
+              <material>
+                <mattext texttype="text/plain">include numerous ideas per paragraph.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5">
+              <material>
+                <mattext texttype="text/plain">avoid search engine keywords in the main text.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7949">
+              <material>
+                <mattext texttype="text/plain">require skilled Web users to navigate.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1516</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g523379f066fffba05def1a125c050326" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>31,2247,9665,445</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for the integration of communications, data management and security capabilities designed to allow organizations and consumers to exchange information about the sale of goods and services?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="31">
+              <material>
+                <mattext texttype="text/plain">Electronic commerce</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2247">
+              <material>
+                <mattext texttype="text/plain">Traditional commerce</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9665">
+              <material>
+                <mattext texttype="text/plain">The World Wide Web</mattext>
+              </material>
+            </response_label>
+            <response_label ident="445">
+              <material>
+                <mattext texttype="text/plain">Google Shopping</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">31</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gba08bc12e267209f75c2c62bff8291bf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1079,4760,7807,3721</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following best describes the business-to-consumer (B2C) e-commerce model?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1079">
+              <material>
+                <mattext texttype="text/plain">A Web site that targets consumers or end users, and sells products and/or services</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4760">
+              <material>
+                <mattext texttype="text/plain">A Web site that helps organizations to manage relationships and transactions with other businesses</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7807">
+              <material>
+                <mattext texttype="text/plain">A Web site that allows consumers to sell their pre-owned products or personal services to other consumers</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3721">
+              <material>
+                <mattext texttype="text/plain">A Web site that sells products, raw materials and services used by businesses</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1079</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc6ebe50a5e2625b8846b9d65f5dca09b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1460,5084,1437,1742</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which term describes an e-commerce model in which a Web-based business sells products and/or services to other businesses?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1460">
+              <material>
+                <mattext texttype="text/plain">Business-to-business (B2B)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5084">
+              <material>
+                <mattext texttype="text/plain">Consumer-to-consumer (C2C)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1437">
+              <material>
+                <mattext texttype="text/plain">Business-to-consumer (B2C)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1742">
+              <material>
+                <mattext texttype="text/plain">Web-based consumer model</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1460</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge74cbb544ae31ce0b13f020fa2010930" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3850,8128,2802,1517</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which Internet marketing practice involves studying trends associated with particular population groups?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3850">
+              <material>
+                <mattext texttype="text/plain">Demographics</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8128">
+              <material>
+                <mattext texttype="text/plain">Branding</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2802">
+              <material>
+                <mattext texttype="text/plain">Web analytics</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1517">
+              <material>
+                <mattext texttype="text/plain">Aggregator</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3850</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga72a8689a9b49eebc7310ab261098aa1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1345,5458,7728,3444</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Mind share is:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1345">
+              <material>
+                <mattext texttype="text/plain">the effect of marketing efforts influencing a particular target market or demographic.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5458">
+              <material>
+                <mattext texttype="text/plain">the creation of a distinctive identity and place in the market for a product or organization.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7728">
+              <material>
+                <mattext texttype="text/plain">the study of groups of people, including the study of trends and cultures.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3444">
+              <material>
+                <mattext texttype="text/plain">the projected point in time that a product or service will be released.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1345</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g96b7963746001b6e6cd19ecb54dce145" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9113,9793,8992,6001</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which term describes a business that markets and sells goods and services that it does not own or store?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9113">
+              <material>
+                <mattext texttype="text/plain">Aggregator</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9793">
+              <material>
+                <mattext texttype="text/plain">Niche</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8992">
+              <material>
+                <mattext texttype="text/plain">Target</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6001">
+              <material>
+                <mattext texttype="text/plain">Cluster</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9113</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g610ad9cc2f680fd3df523ff1f5d8f103" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>646,2713,2428,2388</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for the use of specific techniques to increase a page's or site's rank on a search engine?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="646">
+              <material>
+                <mattext texttype="text/plain">Search engine optimization (SEO)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2713">
+              <material>
+                <mattext texttype="text/plain">Branding</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2428">
+              <material>
+                <mattext texttype="text/plain">Web analytics</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2388">
+              <material>
+                <mattext texttype="text/plain">Aggregator</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">646</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3603043efc42bd5401c7594b50e65ef1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2590,2969,2044,9078</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why is pay per click (PPC) not considered an "organic" Internet marketing technique?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2590">
+              <material>
+                <mattext texttype="text/plain">Because you pay to have your page listed as highly as possible in search engine rankings instead of optimizing pages to help make them appear naturally more relevant</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2969">
+              <material>
+                <mattext texttype="text/plain">Because you optimize your page to help make it appear naturally more relevant instead of paying to have it listed as highly as possible in search engine rankings</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2044">
+              <material>
+                <mattext texttype="text/plain">Because it is not an effective way to reach your target market and generate sales leads</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9078">
+              <material>
+                <mattext texttype="text/plain">Because it involves collecting data and studying user behavior in an attempt to increase market share and sales</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2590</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g56cf7a154acb6ffb31d40318aea721b9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6201,7843,8828,5769</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is an example of on-site Web analytics?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6201">
+              <material>
+                <mattext texttype="text/plain">Using trend-analysis software to analyze server logs</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7843">
+              <material>
+                <mattext texttype="text/plain">Identifying the size of your market</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8828">
+              <material>
+                <mattext texttype="text/plain">Conducting surveys</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5769">
+              <material>
+                <mattext texttype="text/plain">Consulting market research sources</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6201</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g99ca8c529b7853d3cbca14f96520e814" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2361,8996,4238,9131</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a hardware-based or software-based system that mediates between a merchant and an acquirer?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2361">
+              <material>
+                <mattext texttype="text/plain">Payment gateway</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8996">
+              <material>
+                <mattext texttype="text/plain">Clearing house</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4238">
+              <material>
+                <mattext texttype="text/plain">Transaction host</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9131">
+              <material>
+                <mattext texttype="text/plain">Certificate authority (CA)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2361</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7dbbb928c643a073721072049a6efe51" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4944,8604,1997,7159</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is an XML-based protocol used by credit card companies to add security to online credit and debit card transactions?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4944">
+              <material>
+                <mattext texttype="text/plain">3-D Secure</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8604">
+              <material>
+                <mattext texttype="text/plain">Secure Sockets Layer (SSL)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1997">
+              <material>
+                <mattext texttype="text/plain">Transport Layer Security (TLS)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7159">
+              <material>
+                <mattext texttype="text/plain">Secure Electronic Transactions (SET)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4944</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd655cfbda007bdcb82c6351ae3259cfe" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4692,7906,6721,4356</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is a certificate authority (CA)?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4692">
+              <material>
+                <mattext texttype="text/plain">An organization that issues digital certificates and helps to ensure the identity of a person, host or process</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7906">
+              <material>
+                <mattext texttype="text/plain">A computer that provides the ability to authoritatively confirm the identity of a person, host or organization</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6721">
+              <material>
+                <mattext texttype="text/plain">A signed public key that verifies a set of credentials associated with the public key of another CA</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4356">
+              <material>
+                <mattext texttype="text/plain">An organization that details information about standardized Internet protocols and those in various development stages</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4692</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g33b6dddc068eae718a31394faf795968" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3787,2983,5797,4341</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is true of Secure Sockets Layer (SSL) and Transport Layer Security (TLS)?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3787">
+              <material>
+                <mattext texttype="text/plain">SSL and TLS are protocols that provide authentication and encryption to secure transactions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2983">
+              <material>
+                <mattext texttype="text/plain">SSL and TLS are electronic transaction methods.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5797">
+              <material>
+                <mattext texttype="text/plain">SSL and TLS are a collection of individuals, networks and computers that together comprise the ability to authoritatively confirm the identity of a person, host or organization.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4341">
+              <material>
+                <mattext texttype="text/plain">SSL and TLS detail information about standardized Internet protocols and those in various development stages.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3787</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g61dc65ab89f8476bf43e4b7a1036e933" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2416,797,1343,6668</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;To alleviate language concerns when designing Web pages that will be viewed globally, you should:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2416">
+              <material>
+                <mattext texttype="text/plain">specify Unicode support for all of your site's Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="797">
+              <material>
+                <mattext texttype="text/plain">build trust through quality customer service and frequent contact.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1343">
+              <material>
+                <mattext texttype="text/plain">customize orders to accommodate potential customers from countries outside yours.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6668">
+              <material>
+                <mattext texttype="text/plain">include currency-conversion capability.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2416</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gaffe7caaf1e538d6190722f342e6a7ce" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8191,5582,6925,7901</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which term describes the national departments responsible for controlling items entering and leaving the country?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8191">
+              <material>
+                <mattext texttype="text/plain">Customs</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5582">
+              <material>
+                <mattext texttype="text/plain">Tariffs</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6925">
+              <material>
+                <mattext texttype="text/plain">Unicode Technical Committee (UTC)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7901">
+              <material>
+                <mattext texttype="text/plain">Exports</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8191</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g93d3b12d1b2cde25cc5442a0b402f841" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5827,9789,4180,1433</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is a Common Gateway Interface (CGI) application?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5827">
+              <material>
+                <mattext texttype="text/plain">An application that conveys information provided by an end user on a user-input form to a Web server or a database server</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9789">
+              <material>
+                <mattext texttype="text/plain">An application that is used to make Web pages interactive.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4180">
+              <material>
+                <mattext texttype="text/plain">An application that stores and processes the information provided by an end user on a user-input form</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1433">
+              <material>
+                <mattext texttype="text/plain">An application that authoritatively confirms the identity of a person, host or organization.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5827</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gafdec7839a885774ad609c4215ee243d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6691,2803,9700,1301</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Perl, PHP Hypertext Preprocessor (PHP), Active Server Pages (ASP) and .NET are examples of:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6691">
+              <material>
+                <mattext texttype="text/plain">Common Gateway Interface (CGI) applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2803">
+              <material>
+                <mattext texttype="text/plain">Web analytic applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9700">
+              <material>
+                <mattext texttype="text/plain">relational database applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1301">
+              <material>
+                <mattext texttype="text/plain">Multipurpose Internet Mail Extensions (MIME) file types.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6691</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g187843161b0fc5290582fc3527762d57" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3056,1787,9060,6309</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a factor search engine companies consider when ranking the most relevant Web pages for a user's search?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3056">
+              <material>
+                <mattext texttype="text/plain">How many hyperlinks from other sites point to a page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1787">
+              <material>
+                <mattext texttype="text/plain">The page's support for mobile devices</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9060">
+              <material>
+                <mattext texttype="text/plain">How well the page accommodates global users</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6309">
+              <material>
+                <mattext texttype="text/plain">How recognizable the page's brand is</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3056</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8bdb698bcabb1bf0427cb1046fcd8346" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>595,3266,1774,8452</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why is a site map an important component of Web page accessibility?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="595">
+              <material>
+                <mattext texttype="text/plain">A site map allows visitors to view a summary of a Web site's structure.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3266">
+              <material>
+                <mattext texttype="text/plain">A site map acts as a centralized access point for other sites.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1774">
+              <material>
+                <mattext texttype="text/plain">A site map provides clickable regions that are defined as "hot spot" hyperlinks to other pages or page sections.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8452">
+              <material>
+                <mattext texttype="text/plain">A site map indexes and catalogs a site.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">595</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g93fa6d922f6fb77cc5f9f3b01adefb4a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9462,3723,1071,3862</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;To design Web pages to be part of a larger marketing strategy, you need to help establish name and brand recognition, otherwise known as:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9462">
+              <material>
+                <mattext texttype="text/plain">mind share.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3723">
+              <material>
+                <mattext texttype="text/plain">hot spots.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1071">
+              <material>
+                <mattext texttype="text/plain">image maps.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3862">
+              <material>
+                <mattext texttype="text/plain">site maps.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9462</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb192059947d59cb9199b6d8f5c9c8065" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9476,2458,3985,4523</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Automatically providing information to a client list is an example of:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9476">
+              <material>
+                <mattext texttype="text/plain">push technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2458">
+              <material>
+                <mattext texttype="text/plain">pull technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3985">
+              <material>
+                <mattext texttype="text/plain">visitor-tracking technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4523">
+              <material>
+                <mattext texttype="text/plain">spam technology.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9476</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g055f2fc5f038f7025bbd9ec952dcb66b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3600,1258,7,5186</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Providing information to a client only upon client request is an example of:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3600">
+              <material>
+                <mattext texttype="text/plain">pull technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1258">
+              <material>
+                <mattext texttype="text/plain">push technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7">
+              <material>
+                <mattext texttype="text/plain">visitor-tracking technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5186">
+              <material>
+                <mattext texttype="text/plain">spam technology.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3600</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1608d965bcb451e4d53670fe9e07ec05" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6763,4649,9502,8089</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a Web site that acts as a centralized access point for other sites?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6763">
+              <material>
+                <mattext texttype="text/plain">Portal</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4649">
+              <material>
+                <mattext texttype="text/plain">Hot spot</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9502">
+              <material>
+                <mattext texttype="text/plain">Image map</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8089">
+              <material>
+                <mattext texttype="text/plain">Site map</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6763</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g432108bb76db140f3b0cdd18ff1c3ee1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3093,6187,1662,2029</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Intranets and extranets are examples of:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3093">
+              <material>
+                <mattext texttype="text/plain">vertical portals.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6187">
+              <material>
+                <mattext texttype="text/plain">horizontal portals.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1662">
+              <material>
+                <mattext texttype="text/plain">visitor-tracking technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2029">
+              <material>
+                <mattext texttype="text/plain">push technology.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3093</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb9fe9394b1be4fe1590a0dd20827e711" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2953,7884,227,889</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Yahoo! and Google are examples of:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2953">
+              <material>
+                <mattext texttype="text/plain">horizontal portals.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext texttype="text/plain">vertical portals.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="227">
+              <material>
+                <mattext texttype="text/plain">visitor-tracking technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="889">
+              <material>
+                <mattext texttype="text/plain">push technology.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2953</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gffc48aeb4c69cb7989afc68ba2e5892f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6256,6288,703,5442</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is a Wiki site?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6256">
+              <material>
+                <mattext texttype="text/plain">A Web site that allows all visitors to collaborate in its construction</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6288">
+              <material>
+                <mattext texttype="text/plain">A Web site that has its origins in Hawaii</mattext>
+              </material>
+            </response_label>
+            <response_label ident="703">
+              <material>
+                <mattext texttype="text/plain">A Web site that has no site map</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5442">
+              <material>
+                <mattext texttype="text/plain">A Web site that complements a larger marketing and sales strategy</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6256</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd221115b87df07b65202f371cec0c7b3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7380,8482,1971,7898</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Proprietary file formats can enhance the look and feel of your Web site. Which of the following is a drawback to using proprietary formats?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7380">
+              <material>
+                <mattext texttype="text/plain">Some proprietary formats limit a disabled person's ability to obtain information.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8482">
+              <material>
+                <mattext texttype="text/plain">Some proprietary formats have specific MIME types.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1971">
+              <material>
+                <mattext texttype="text/plain">Some proprietary formats require easy to access plug-ins.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7898">
+              <material>
+                <mattext texttype="text/plain">Some proprietary formats will not render in Web portals.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7380</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5fb4b2556bd087048c6bb23aa79d0954" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5876,6975,6184,6441</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is considered a back-end issue?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5876">
+              <material>
+                <mattext texttype="text/plain">Database connectivity</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6975">
+              <material>
+                <mattext texttype="text/plain">Name and brand recognition</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6184">
+              <material>
+                <mattext texttype="text/plain">Web page accessibility</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6441">
+              <material>
+                <mattext texttype="text/plain">Site maps</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5876</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga79c43a44d18abf01509680980fb69b2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2341,653,3817,3506</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;A flat file is a database in which information:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2341">
+              <material>
+                <mattext texttype="text/plain">is stored in a single table.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="653">
+              <material>
+                <mattext texttype="text/plain">can be sorted, altered and placed into other databases for retrieval.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3817">
+              <material>
+                <mattext texttype="text/plain">is stored statically; information can be searched, but cannot be reorganized or placed into another database.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3506">
+              <material>
+                <mattext texttype="text/plain">is inaccessible by front-end users.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2341</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc6a39d4ff7449cb1df558357f6886021" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9466,4262,8871,7664</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a language used to create and maintain professional, high-performance corporate databases?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9466">
+              <material>
+                <mattext texttype="text/plain">Structured Query Language (SQL)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext texttype="text/plain">Hypertext Markup Language (HTML)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8871">
+              <material>
+                <mattext texttype="text/plain">Extensible Hypertext Markup Language (XHTML)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7664">
+              <material>
+                <mattext texttype="text/plain">Markup language</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9466</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga1c405b2f5598f9d2b07e763cd1e6925" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6835,5909,7598,5214</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is proprietary to Windows-based operating systems and is used to update database files?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6835">
+              <material>
+                <mattext texttype="text/plain">Open Database Connectivity (ODBC)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5909">
+              <material>
+                <mattext texttype="text/plain">Structured Query Language (SQL)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7598">
+              <material>
+                <mattext texttype="text/plain">Java Database Connectivity (JDBC)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5214">
+              <material>
+                <mattext texttype="text/plain">Common Gateway Interface (CGI)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6835</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g59dccb006df72b9bf1e186b0fd4c677c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>431,3069,5920,7198</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following can be run on various systems and is used to update database files?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="431">
+              <material>
+                <mattext texttype="text/plain">Java Database Connectivity (JDBC)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3069">
+              <material>
+                <mattext texttype="text/plain">Structured Query Language (SQL)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5920">
+              <material>
+                <mattext texttype="text/plain">Open Database Connectivity (ODBC)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7198">
+              <material>
+                <mattext texttype="text/plain">Common Gateway Interface (CGI)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">431</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8616047bbe7a3780c5d3bde232b3cca7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7322,7681,1139,9410</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;To download a large file in a short amount of time, you need:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7322">
+              <material>
+                <mattext texttype="text/plain">more bandwidth.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7681">
+              <material>
+                <mattext texttype="text/plain">a relational database.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1139">
+              <material>
+                <mattext texttype="text/plain">a database driver.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9410">
+              <material>
+                <mattext texttype="text/plain">less bandwidth.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7322</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7a2e8142514603bf2e871a32d4de2da5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5978,8682,3817,907</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When a user enters the minimum amount of information required to connect to a Web site, what will the HTTP server present to the user?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5978">
+              <material>
+                <mattext texttype="text/plain">The Web site's default page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8682">
+              <material>
+                <mattext texttype="text/plain">An HTTP 404 message</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3817">
+              <material>
+                <mattext texttype="text/plain">The first HTML file in the Web site that has an .htm or .html file name extension</mattext>
+              </material>
+            </response_label>
+            <response_label ident="907">
+              <material>
+                <mattext texttype="text/plain">The amount of bandwidth necessary to access the site</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5978</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcf28adbd3e1c473a3500c5cf9889d34c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5311,1744,2104,2889</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What does an HTTP 404 error signify?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5311">
+              <material>
+                <mattext texttype="text/plain">That you have requested a file that does not exist on the specified Web server</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1744">
+              <material>
+                <mattext texttype="text/plain">That you have requested a default Web page that does not have an .htm or .html file name extension</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2104">
+              <material>
+                <mattext texttype="text/plain">That you have requested a Web page that is too large for the available bandwidth</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2889">
+              <material>
+                <mattext texttype="text/plain">That you have requested a Web page whose name does not correspond to its content</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5311</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

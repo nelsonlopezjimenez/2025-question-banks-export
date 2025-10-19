@@ -1,0 +1,1000 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>The Basics of Forms</title>
+<meta name="identifier" content="gb926f586b1091f228b6cfd62d6a4cabc"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div style="background-color: #005588; padding: 25px 25px 25px 25px;">
+<table><tbody><tr>
+<td><img src="$IMS-CC-FILEBASE$/Uploaded%20Media/unfiled/smaller_logo-1.png" alt="smaller_logo.png"></td>
+<td style="color: white; padding: 25px 25px 25px 25px;"><span style="font-size: large;"><span class="ellipsible"><span class="ellipsible">The Basics of Forms</span></span></span></td>
+</tr></tbody></table>
+<div>
+<div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+<h3><span style="font-size: large;"><span class="ellipsible"><span class="ellipsible">The Basics of Forms</span></span></span></h3>
+<p>How can I say that I fell in love with the way that CIW and Certification Partners presents the concepts of HTML forms to you?&nbsp; I truly did.&nbsp; For years I've taught the elements and tags that make up forms, they start with presenting how forms work, how they are processed and how they are parsed on the Web.&nbsp; Bravo, CIW!</p>
+<p>The notes below are from the previous online course, which does give you a lot of information on how the HTML elements work.</p>
+<p>&nbsp;</p>
+<div style="border: thin black solid; padding: 25px 25px 25px 25px;">
+<p><em>Lesson Objective:&nbsp; <br></em></p>
+<ul>
+<li><em>Construct and test HTML forms.</em></li>
+</ul>
+</div>
+<h4>&nbsp;</h4>
+<h4><span style="color: #000000;">Forms make the WWW what it is today.</span></h4>
+<p>How many forms have you filled out on the WWW? Every time you log into your email, every time you log into Facebook or some other site?&nbsp; Forms make the web interactive, and personal.&nbsp; They also make the web vulnerable. We use forms on the web without thinking much about them, but they are what moved the web from a research forum to a commercially viable tool.&nbsp; <br><br>Our dependence on web forms has become so everyday, we honestly don't think about how forms are used. We are used to saving passwords via cookies.&nbsp; We set up new accounts or send for information without pause or thought.&nbsp; There is so much out there on the great WWW and in the database servers that collect information, I would hate to think to long on it.<br><br>Learning and creating forms is your assignment this week.&nbsp; The importance of this topic can't be stressed.&nbsp; It is where almost all programming / development on the WWW really starts.&nbsp; Below you will find some old lecture notes on forms.&nbsp; I don't know how badly Blackboard will eat these notes, I'm hoping not to badly.</p>
+<h3><span style="background-color: #bbd6ef; padding: 20px 20px 0px 20px;">Lecture notes on forms</span></h3>
+Forms, fields and elements An HTML form is a section of a document containing normal content, markup, special elements called controls (checkboxes, radio buttons, menus, etc.), and labels on those controls. Users generally "complete" a form by modifying its controls (entering text selecting menu items, etc.), before submitting the form to an agent for processing (e.g., to a Web server, to a mail server, etc.)<ol>
+<li>Forms became a part of HTML in the 2.0 Standards.</li>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#edef-form" target="_parent"><strong>form</strong></a> element
+<ul>
+<li>The form element should be contained within the BODY element of your document</li>
+<li>The form element is a container tag, it requires an open and close statement, on and off!</li>
+<li>All remaining portions of the form are contained with the form element.<br> Example:</li>
+</ul>
+</li>
+</ol>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action=" " method" " id=" " enctype=" " target=" " onsubmit=" " onreset=" "&gt;<br><br><em>The control elements of the form</em><br><br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ol start="3">
+<li>Attributes to the &lt;form&gt; tag or element are:
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-action" target="_parent"><strong>action</strong></a> attribute<ol type="a">
+<li>This is a <strong>required</strong> attribute.</li>
+<li>This attribute specifies a form processing agent. For example, the value might be a URL (to submit the form to a program) or a mailto: URL (to email the form).<br> Example: (submission to a program)</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="/cgi-bin/test.exe"&gt;<br><br><em>The control elements of the form</em><br><br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ol type="a">Example: (submission by the mailto protocol/email)</ol>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="mailto:persons_name@address.com"&gt;<br><br><em>The control elements of the form</em><br><br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-method" target="_parent"><strong>method</strong></a> attribute.<ol type="a">
+<li>This is a <strong>optional</strong> attribute.</li>
+<li>This attribute specifies which HTTP method will be used to submit the forms information.</li>
+<li>Acceptable (case-insensitive) values are "get" (the default) and "post".
+<ul>
+<li>Because this is an optional attribute, if you don't include it in your form element, the browser will assume "get"</li>
+<li>While "get" is the default, "post" is the preferred value assigned to this attribute.</li>
+<li>"get" tacks all the information acquired by the form onto the URL or mailto: of the action attribute, therefore, use the "post" method which separates the data.<br> Example:</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="mailto:persons_name@address.com" method="post"&gt;<br><br><em>The control elements of the form</em><br><br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/struct/global.html#adef-id" target="_parent"><strong>id</strong></a> attribute<ol type="a">
+<li>This attribute assigns a unique identification to an element.</li>
+<li>This name must be unique in a document<br> Example:</li>
+</ol>
+</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="mailto:persons_name@address.com" method="post" id="guestbook"&gt;<br><br><em>The control elements of the form</em><br><br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-enctype" target="_parent"><strong>enctype</strong></a> attribute<ol type="a">
+<li>enctype tells the browser how it should treat or encode information being submitted from the form to the server, when the value of method is "post". This is called <a href="http://www.w3.org/TR/REC-html40/types.html#type-content-type" target="_parent">"content type"</a>
+</li>
+<li>ENCYTPE can be <a href="https://sbctc.instructure.com/courses/850963/definitions/mime.htm">MIME</a> types or other types.</li>
+</ol>
+</li>
+<li>Encryption/MIME is beyond the scope of this class, if you want to learn more about it, visit the W3C page about <a href="http://www.w3.org/TR/REC-html40/references.html#ref-MIMEtypeS">MIME</a>. For this class we will be using the least common denominator:<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="mailto:persons_name@address.com" method="post" id="guestbook" enctype="text/plain"&gt;<br><br><em>The control elements of the form</em><br><br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/present/frames.html#adef-target" target="_parent"><strong>target</strong></a> attribute<ol type="a">
+<li>This attribute specifies the name of a frame where the form submission is to be opened.</li>
+<li>Acceptable values are a frame name, or one of the reserved values:<br> "_self", "_parent", "_top" or "_blank".<br> Example:</li>
+</ol>
+</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="mailto:persons_name@address.com" method="post" id="guestbook" enctype="text/plain" target="_self"&gt;<br><br><em>The control elements of the form</em><br><br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/scripts.html#adef-onsubmit" target="_parent"><strong>onsubmit</strong></a> and <a href="http://www.w3.org/TR/REC-html40/interact/scripts.html#adef-onreset" target="_parent"><strong>onreset</strong></a> attributes<ol type="a">
+<li>When a form is sent to a server for action, either to a program or other Internet protocol, the form is being "submitted", the onsubmit attribute is activated</li>
+<li>If the user has the option to "reset" the form with a button, the onreset attribute is activated.</li>
+<li>These attributes are used with scripting, either JavaScript, VBScript, JScript or Perl scripting.</li>
+</ol>
+</li>
+<li>The form element does nothing by itself, it needs control elements to allow interaction with the user.</li>
+</ul>
+++++++++++++++++++++++<ol>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#edef-input" target="_parent"><strong>input</strong></a> element
+<ul>
+<li>The input element is an empty tag, requiring only an on statement</li>
+<li>It should be contained within the form element of your document.<br> Example:</li>
+</ul>
+</li>
+</ol>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;input type=" " name=" " [additional attributes depending the the value assigned to type] /&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>The input element does nothing without attributes.</li>
+<li>I think of the input tag as just a warning to the browser, the real work is done by the <strong>type=" "</strong> attribute</li>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-type-input" target="_parent"><strong>type</strong></a> attribute<ol type="a">
+<li>is a <strong>required</strong> attribute of the input tag</li>
+<li>it defines what the user of your page will be able to do with the form field.</li>
+<li>acceptable values to be assigned to the type attribute are:<br> text | password | checkbox | radio | submit | reset | file | hidden | image | button</li>
+<li>After choosing the value you assign to type, there are a number of associated or other attributes, which work with each of the "typeS" you assign.</li>
+</ol>
+</li>
+<li>
+<strong>text</strong>, creates a single-line text input control. This is the default value to the attribute <strong>type=" "</strong>.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="text" name="exampleForm" value="an example of input type='text'" size="30" maxlength="20" /&gt;<br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types"><strong>"text"</strong></a> value of the type attribute works the additional input attributes of:<br><br><table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for text</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">size=" "</td>
+<td>when used with text this refers to the number of characters wide</td>
+</tr>
+<tr>
+<td valign="TOP">maxlength=" "</td>
+<td>when used with text this refers to the maximum number of characters which can be enter into the field</td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>A text "control name" is given by its name attribute. The scope of the name attribute for a control within a form element is the form element and can be used by a script to access the form field</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>Displays a default value within the text area</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">readonly="readonly"</td>
+<td>The readonly attribute specifies whether the control may be modified by the user.<br><br> When set, the readonly attribute has the following effects on an element:
+<ul>
+<li>Read-only elements receive focus but cannot be modified by the user.</li>
+<li>Read-only elements are included in tabbing navigation.</li>
+<li>Read-only elements may be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onselect=" " (Scripting)</td>
+<td>The onselect event occurs when a user selects some text in a text field.</td>
+</tr>
+<tr>
+<td valign="TOP">onchange=" " (Scripting)</td>
+<td>The onchange event occurs when a control loses the input focus and its value has been modified since gaining focus.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+</li>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>password</strong></a> value, similar to the text input field, but uses the "<strong>*</strong>" to hide what the user is typing from prying eyes.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="password" name="exampleForm" value="MYpassword" size="20" maxlength="10" /&gt;<br><br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for password</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">size=" "</td>
+<td>when used with password this refers to the number of characters wide</td>
+</tr>
+<tr>
+<td valign="TOP">maxlength=" "</td>
+<td>when used with password this refers to the maximum number of characters which can be enter into the field</td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>A password "control name" is given by its name attribute. The scope of the name attribute for a control within a form element is the form element and can be used by a script to access the form field</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>Displays a default value within the password area, show as "*"</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">readonly="readonly"</td>
+<td>The readonly attribute specifies whether the control may be modified by the user.<br><br> When set, the readonly attribute has the following effects on an element:
+<ul>
+<li>Read-only elements receive focus but cannot be modified by the user.</li>
+<li>Read-only elements are included in tabbing navigation.</li>
+<li>Read-only elements may be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onselect=" " (Scripting)</td>
+<td>The onselect event occurs when a user selects some text in a text field.</td>
+</tr>
+<tr>
+<td valign="TOP">onchange=" " (Scripting)</td>
+<td>The onchange event occurs when a control loses the input focus and its value has been modified since gaining focus.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>checkbox</strong></a> value, checkboxes are on/off switches that may be toggled by the user. The value of a checkbox is "checked" when the checkbox is selected. checkboxes allow multiple selections.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="checkbox" name="exampleForm" value="an example of checkbox 1 &lt;input type="checkbox" name="exampleForm" value="an example of checkbox 2" /&gt; <br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for checkbox</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">size=" "</td>
+<td>when used with checkbox this refers to the number of pixels wide</td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>A required field for checkbox. Identification of the checkbox group to which the element belongs</td>
+</tr>
+<tr>
+<td valign="TOP">checked="checked"</td>
+<td>Like "value" for other input types. When the type attribute has the value "radio" or "checkbox", this boolean attribute specifies that the button is on. Browsers must ignore this attribute for other control types.</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onselect=" " (Scripting)</td>
+<td>The onselect event occurs when a user selects some text in a text field.</td>
+</tr>
+<tr>
+<td valign="TOP">onchange=" " (Scripting)</td>
+<td>The onchange event occurs when a control loses the input focus and its value has been modified since gaining focus.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>radio</strong></a> value, is like the checkbox value, but as a group they are mutually exclusive, only one radio can be selected at time.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="radio" name="exampleForm" value="Certificate" /&gt;Certificate<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="radio" name="exampleForm" value="Degree" /&gt;Degree<br><br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for radio</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">size=" "</td>
+<td>when used with radio this refers to the number of pixels wide</td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>A required field for radio. Identification of the radio group to which the element belongs</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>A required field for radio.</td>
+</tr>
+<tr>
+<td valign="TOP">checked="checked"</td>
+<td>Like "value" for other input types. When the type attribute has the value "radio", this boolean attribute specifies that the button is on. Browsers must ignore this attribute for other control types.</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" " (HTML 4.0)</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" " (HTML 4.0)</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onselect=" " (Scripting)</td>
+<td>The onselect event occurs when a user selects some text in a text field.</td>
+</tr>
+<tr>
+<td valign="TOP">onchange=" " (Scripting)</td>
+<td>The onchange event occurs when a control loses the input focus and its value has been modified since gaining focus.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>submit</strong></a> value, creates a submit button and submits according to the action and onsubmit values of the form. A form may contain more than one submit button.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="submit" name="exampleForm" value="Submit the form" size="20" /&gt;<br> &lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for submit</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>The name by which you identify the instance of the submit button</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>When used with the submit type, value is what is displayed on the button</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>reset</strong></a> value creates a reset button which, causes all controls to their initial or default values.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="text" name="exampleForm" value="" size="50" maxlength="10" /&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="reset" name="exampleForm" value="reset the form" size="20" /&gt;<br><br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for reset</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>The name by which you identify the instance of the reset button</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>When used with the reset type, value is what is displayed on the button</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>file</strong></a> value, this control type allows the user to select files so that their contents may be submitted with a form. A "BROWSE" button is automatically created to look for the file. This control works in IE 4.0, Netscape Navigator 3.X and Communicator.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="file" name="exampleForm" size="20" /&gt;<br><br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for file</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">size=" "</td>
+<td>when used with file this refers to the number of characters wide</td>
+</tr>
+<tr>
+<td valign="TOP">maxlength=" "</td>
+<td>when used with file this refers to the maximum number of characters which can be enter into the field <strong>NOTE:</strong> be careful when using maxlength with file, you could limit the path and file the user will be uploading</td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>A file "control name" is given by its name attribute. The scope of the name attribute for a control within a form element is the form element and can be used by a script to access the form field</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onselect=" " (Scripting)</td>
+<td>The onselect event occurs when a user selects some text in a text field.</td>
+</tr>
+<tr>
+<td valign="TOP">onchange=" " (Scripting)</td>
+<td>The onchange event occurs when a control loses the input focus and its value has been modified since gaining focus.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>hidden</strong></a> value, authors may create controls that are not rendered but whose values are submitted with a form.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="hidden" name="exampleForm" value="a hidden field of information" /&gt;<br><br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<br><table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for hidden</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>A hidden "control name" is given by its name attribute. The scope of the name attribute for a control within a form element is the form element and can be used by a script to access the form field</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>The value is what is sent with the submission</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>image</strong></a>, creates a graphical submit button.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br><br>&lt;input type="image" src="humingbirdleft.gif" name="exampleForm" /&gt;&lt;br /&gt; Click the bird to submit your form!<br><br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for image</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>A image "control name" is given by its name attribute. The scope of the name attribute for a control within a form element is the form element and can be used by a script to access the form field</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">src=" "</td>
+<td>When the type attribute has the value "image", this attribute specifies the location of the image to be used to decorate the graphical submit button</td>
+</tr>
+<tr>
+<td valign="TOP">alt=" "</td>
+<td>A short description if the browser is not loading images</td>
+</tr>
+<tr>
+<td valign="TOP">usemap=" "</td>
+<td>This attribute associates an client-side image map with an element. The image map is defined by a MAP element. The value of usemap must match the value of the name attribute of the associated MAP element.</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onselect=" " (Scripting)</td>
+<td>The onselect event occurs when a user selects some text in a text field.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#input-control-types" target="_parent"><strong>button</strong></a> value, buttons have no default behavior. Each button may have client-side scripts associated with the element's event attributes. When an event occurs (e.g., the user presses the button, releases it, etc.), the associated script is triggered.<br> Example:</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;form action="example" method="post"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="button" name="exampleForm" value="Click here to run a mini-script" onclick="alert('Thanks for clicking!')" /&gt;<br><br>&lt;/form&gt;<br><br>
+</td>
+</tr></tbody></table>
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Explanation for button</strong></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>The name by which you identify the instance of the button</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>When used with the button type, value is what is displayed on the button</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>This attribute specifies the position of the current element in the tabbing order for the current document. This value must be a number between 0 and 32767.</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>This attribute assigns an access key to an element. An access key is a single character from the document character set.</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>When set for a form control, this boolean attribute disables the control for user input.<br><br> When set, the disabled attribute has the following effects on an element:
+<ul>
+<li>Disabled controls do not receive focus.</li>
+<li>Disabled controls are skipped in tabbing navigation.</li>
+<li>Disabled controls cannot be successful.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" " (Scripting)</td>
+<td>The onfocus event occurs when an element receives focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" " (Scripting)</td>
+<td>The onblur event occurs when an element loses focus either by the pointing device or by tabbing navigation.</td>
+</tr>
+<tr>
+<td valign="TOP">onClick=" " (Scripting)</td>
+<td>The onclick event occurs when the button is pressed with the mouse or if the button has focus and the enter key is pressed.</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+</tbody></table>
+<ul>
+<li>Now wasn't that a lot of information to digest. Let's recap it the other way</li>
+<li>The <strong>input</strong> tag has the required attribute of <strong>type</strong>, and depending on the value you assign to type, other attributes of the input tag work to further refine the assigned type.
+<table border="0" cellspacing="3" cellpadding="3"><tbody>
+<tr>
+<td><strong>Attribute Name</strong></td>
+<td><strong>Works with:</strong></td>
+<td>Required with:</td>
+</tr>
+<tr>
+<td colspan="3"><hr></td>
+</tr>
+<tr>
+<td valign="TOP">name=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, hidden, file</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">id=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, hidden, file</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">value=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, hidden, file</td>
+<td valign="TOP">radio</td>
+</tr>
+<tr>
+<td valign="TOP">checked="checked"</td>
+<td>checkbox, radio</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">disabled="disabled"</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, file</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">readonly="readonly"</td>
+<td>text, password, checkbox, radio</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">size=" "</td>
+<td>text, password, file</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">maxlength=" "</td>
+<td>text, password, file</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">src=" "</td>
+<td>image</td>
+<td valign="TOP">image</td>
+</tr>
+<tr>
+<td valign="TOP">alt=" "</td>
+<td>image</td>
+<td valign="TOP">image</td>
+</tr>
+<tr>
+<td valign="TOP">usemap=" "</td>
+<td>image</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">tabindex=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, file</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">accesskey=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, file</td>
+<td valign="TOP">&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">onfocus=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, file</td>
+<td valign="TOP">&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">onblur=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, file</td>
+<td valign="TOP">&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">onselect=" "</td>
+<td>text, password, checkbox, radio, submit, image, reset, button, file</td>
+<td valign="TOP">&nbsp;</td>
+</tr>
+<tr>
+<td valign="TOP">onchange=" "</td>
+<td>text, password, checkbox, radio, file</td>
+<td valign="TOP">&nbsp;</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<h2>
+<a name="'cont'"></a>Continuing with Forms, fields and elements</h2>
+<ol>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#edef-select" target="_parent"><strong>select</strong></a> element
+<ul>
+<li>is a container tag requiring on and off tags.</li>
+<li>The select tag by itself the select tag does nothing (another one of those wonderful tags).</li>
+<li>The select tag and it's associated tags and attributes, create either a drop down box, or a list of selectable items.</li>
+</ul>
+Syntax:</li>
+</ol>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;select [name=" " size=" " multiple="multiple" disabled="disabled" tabindex=" " onfocus=" " onblur=" " onchange=" "]&gt;<br><br> &lt;/select&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>Attributes of the select tag are:<ol type="a">
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-name-select" target="_parent"><strong>name=" "</strong></a>
+<ul>
+<li>any value you want to assign, used to identify the particular textAREA tag</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-size-select" target="_parent"><strong>size=" "</strong></a>
+<ul>
+<li>this is an integer value representing the number of lines you want to display in your list.</li>
+<li>Default value is 1.</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-multiple" target="_parent"><strong>multiple</strong></a>
+<ul>
+<li>allows for multiple selection from the list, one or more.</li>
+<li>select assumes one unless you specify more.</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-disabled" target="_parent"><strong>disabled</strong></a>
+<ul>
+<li>a boolean value, either true or false</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-tabindex" target="_parent"><strong>tabindex=" "</strong></a>
+<ul>
+<li>this is an integer value representing the position in the tabbing order.</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/scripts.html#adef-onfocus" target="_parent"><strong>onfocus=" "</strong></a>
+<ul>
+<li>scripting, when the select has focus</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/scripts.html#adef-onblur" target="_parent"><strong>onblur=" "</strong></a>
+<ul>
+<li>scripting, when the select has lost focus</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/scripts.html#adef-onchange" target="_parent"><strong>onchange=" "</strong></a>
+<ul>
+<li>scripting, when a change has been made in the select</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>But again, without additional tags, the select tag does NOTHING!</li>
+<li>The <a href="http://www.w3.org/TR/REC-html40/interact/forms.html#edef-option" target="_parent"><strong>option</strong></a> element
+<ul>
+<li>is a container tag, it requires on and optional off tags.</li>
+</ul>
+Syntax:<br><br>
+</li>
+</ul>
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;option [value=" " selected="selected" disabled="disabled"]&gt;<em>Visible Information</em>&lt;/option&gt;<br><br>
+</td>
+</tr></tbody></table>
+<ul>
+<li>Attributes of the option tag are:<ol type="a">
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-selected" target="_parent"><strong>selected</strong></a>
+<ul>
+<li>if selected used as an attribute, the item is pre-selected from the list.</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-disabled" target="_parent"><strong>disabled</strong></a>
+<ul>
+<li>boolean value</li>
+</ul>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-html40/interact/forms.html#adef-value-option" target="_parent"><strong>value=" "</strong></a>
+<ul>
+<li>a pre-assigned value to the option</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+Example:
+<table style="background-color: white; font-family: monospace; width: 100%; border: thin black solid; padding: 10px 10px 10px 10px;"><tbody><tr>
+<td>
+<br>&lt;select size="4" name="operating_system"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;option selected value="Win3X"&gt;Windows 3.X&lt;/option&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;option value="Win95"&gt;Windows 95 or NT&lt;/option&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;option value="MAC"&gt;MacIntosh&lt;/option&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;option value="Unix"&gt;Unix&lt;/option&gt;<br><br>&lt;/select&gt;<br><br>
+</td>
+</tr></tbody></table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Click Next to continue</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</body>
+</html>

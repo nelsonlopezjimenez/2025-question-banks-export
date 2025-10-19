@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g4b0bc4e9b7688492af5d47860053082d">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS242-635-Quizzes-Lesson-11</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g6e769656e068ba0f15122db5fce33769" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9350,5274,8723,3121</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following best defines a code library?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9350">
+              <material>
+                <mattext texttype="text/plain">A collection of predefined, fully formed scripts, stored in files and made available to Web developers to use in order to speed development of basic functions</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5274">
+              <material>
+                <mattext texttype="text/plain">JavaScript code placed in a file separate from the HTML file, and referenced and applied to the HTML page using the &lt;script&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8723">
+              <material>
+                <mattext texttype="text/plain">A file separate from the HTML file, containing formatting, programming or scripting code, and generally associated with a specific provider or site</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3121">
+              <material>
+                <mattext texttype="text/plain">A site that lists all the keywords and commands in a programming or scripting language, such as the W3C site does for JavaScript</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9350</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g06f23d685f8c2ee32fcb7dffc673f69e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9222,4165,2167,7233</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In a professional program development environment, which statement regarding the use of code libraries is true?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9222">
+              <material>
+                <mattext texttype="text/plain">Using code libraries is acceptable and helps you produce error-free code as quickly as possible.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4165">
+              <material>
+                <mattext texttype="text/plain">Using code libraries is illegal and can open your company to litigation for copyright infringement.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2167">
+              <material>
+                <mattext texttype="text/plain">Using code libraries is unprofessional because developers are hired to write original code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7233">
+              <material>
+                <mattext texttype="text/plain">Using code libraries is acceptable only if your company provides its own code library for you to use.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9222</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gede6d6105c4b43f2896830c25dab39de" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2396,1880,5953,1158</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Why should a developer use JavaScript libraries?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2396">
+              <material>
+                <mattext texttype="text/plain">Because they speed up development time by providing basic scripts</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1880">
+              <material>
+                <mattext texttype="text/plain">Because they extend the functionality and syntax of the JavaScript language</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5953">
+              <material>
+                <mattext texttype="text/plain">Because they provide practice in coding complex functionality</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1158">
+              <material>
+                <mattext texttype="text/plain">Because they are required in order to learn the JavaScript language</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2396</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g64302629cab3538ef72b012bd9799585" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1096,1696,9159,548</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;A JavaScript library helps with development because it:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1096">
+              <material>
+                <mattext texttype="text/plain">makes existing JavaScript functions and methods easier to use.  B</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1696">
+              <material>
+                <mattext texttype="text/plain">extends the capabilities of JavaScript.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9159">
+              <material>
+                <mattext texttype="text/plain">adds new functions and methods to JavaScript.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="548">
+              <material>
+                <mattext texttype="text/plain">means the developer does not have to learn the JavaScript language.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1096</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb86ba028a5c97871944ec3645bf9244e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7445,3639,3935,2725</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a disadvantage of using JavaScript code libraries?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7445">
+              <material>
+                <mattext texttype="text/plain">Code from libraries can have security risks.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3639">
+              <material>
+                <mattext texttype="text/plain">Libraries require a larger learning curve than JavaScript itself.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3935">
+              <material>
+                <mattext texttype="text/plain">Libraries slow down development time because you must research the code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2725">
+              <material>
+                <mattext texttype="text/plain">Most libraries consist of code from unknown sources and include many bugs.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7445</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3e9e70961eb2f9c70b7817e75d717e8c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8436,9199,8758,8264</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an advantage of using JavaScript code libraries?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8436">
+              <material>
+                <mattext texttype="text/plain">Libraries require a shorter learning curve than the JavaScript language.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9199">
+              <material>
+                <mattext texttype="text/plain">Libraries allow you to use JavaScript on your site without any knowledge of the language.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8758">
+              <material>
+                <mattext texttype="text/plain">Libraries guarantee that you are using high-quality, secure code on your site.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8264">
+              <material>
+                <mattext texttype="text/plain">Libraries provide cutting-edge, rarely used code and functions so your site can be unique.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8436</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6d212aa940b22cfed0bd4f779b7660a4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5693,516,6519,9814</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an example of a JavaScript code library?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5693">
+              <material>
+                <mattext texttype="text/plain">jQuery</mattext>
+              </material>
+            </response_label>
+            <response_label ident="516">
+              <material>
+                <mattext texttype="text/plain">jScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6519">
+              <material>
+                <mattext texttype="text/plain">W3C</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9814">
+              <material>
+                <mattext texttype="text/plain">AJAX</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5693</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gda2559482ada019e8d4f3649f8b5a00d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8380,5188,6080,5979</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;When evaluating libraries, which of the following factors is probably the most important for you to consider?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8380">
+              <material>
+                <mattext texttype="text/plain">How easy is it to use a specific library?</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5188">
+              <material>
+                <mattext texttype="text/plain">Which library do your friends prefer?</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6080">
+              <material>
+                <mattext texttype="text/plain">What organization provides the library?</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5979">
+              <material>
+                <mattext texttype="text/plain">Is the library approved by the W3C?</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8380</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4e11779ad4f83c052adc68469c607bb4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7199,5264,660,2268</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which term is used to describe any JavaScript code placed in a document separate from the HTML, and referenced and applied to the HTML page?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7199">
+              <material>
+                <mattext texttype="text/plain">External file</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5264">
+              <material>
+                <mattext texttype="text/plain">Code library</mattext>
+              </material>
+            </response_label>
+            <response_label ident="660">
+              <material>
+                <mattext texttype="text/plain">Plug-in</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2268">
+              <material>
+                <mattext texttype="text/plain">Code editor</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7199</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4c0bd70ef49b9dbf25ee2efc0c788513" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3781,8714,3551,6204</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a main advantage of running external scripts?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3781">
+              <material>
+                <mattext texttype="text/plain">You can create the script once and use it on many pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8714">
+              <material>
+                <mattext texttype="text/plain">The script code is easier to locate within the HTML.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3551">
+              <material>
+                <mattext texttype="text/plain">It allows the HTML page code to become reusable.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6204">
+              <material>
+                <mattext texttype="text/plain">It prevents other developers from copying your script from the HTML page code.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3781</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g27eebb078fccf1dcb27e957d548d0155" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1089,5719,7813,2829</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;A plug-in from a JavaScript library is used to:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1089">
+              <material>
+                <mattext texttype="text/plain">add a single scripted function or a set of similar functions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5719">
+              <material>
+                <mattext texttype="text/plain">add new HTML tags that can be used on the page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7813">
+              <material>
+                <mattext texttype="text/plain">add new functionality to the JavaScript language.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2829">
+              <material>
+                <mattext texttype="text/plain">add new functionality to the browser.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1089</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g63a420d3194573bcc51c8f6b3918f8eb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>598,1298,1513,2300</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following is true about JavaScript library plug-ins?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="598">
+              <material>
+                <mattext texttype="text/plain">Plug-ins provide more specialized functions, whereas other pre-made scripts provide more common, basic functions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1298">
+              <material>
+                <mattext texttype="text/plain">A code library consists entirely of plug-ins, some of which are external scripts.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1513">
+              <material>
+                <mattext texttype="text/plain">Every pre-made script in a library is a plug-in, but not every plug-in is a pre-made script.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2300">
+              <material>
+                <mattext texttype="text/plain">Pre-made scripts can be used only with a specific library, whereas plug-ins can be used on their own.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">598</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2cd680936d6bfaf1955b41730bc0e898" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7626,9072,9527,3815</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is the main advantage of separating logic (script) from presentation (HTML)?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7626">
+              <material>
+                <mattext texttype="text/plain">Cleaner, easier-to-read code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9072">
+              <material>
+                <mattext texttype="text/plain">Ability to reuse presentation files</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9527">
+              <material>
+                <mattext texttype="text/plain">Separation of developer duties</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3815">
+              <material>
+                <mattext texttype="text/plain">Fewer files to store and organize</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7626</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9b7e91aef6d4d634cdccd40cf63bc9c3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8233,7835,9257,5694</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt; &lt;/span&gt;&lt;span class="_title"&gt;Which choice shows the correct general syntax for referencing a JavaScript library?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8233">
+              <material>
+                <mattext texttype="text/plain">&lt;script src="jquery-1.4.4.min.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7835">
+              <material>
+                <mattext texttype="text/plain">&lt;body href="jquery-1.4.4.min.js" type="text/javascript" charset="utf-8"&gt;&lt;/body&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9257">
+              <material>
+                <mattext texttype="text/plain">&lt;link href="jquery-1.4.4.min.htm" type="text/javascript" charset="utf-8"&gt;&lt;/link&gt;  D</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5694">
+              <material>
+                <mattext texttype="text/plain">&lt;head src="jquery-1.4.4.min.txt" type="text/javascript" charset="utf-8"&gt;&lt;/head&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8233</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc8b1558fd5d2c61a029ce2eee2b50b3f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8178,4861,5477,3140</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is the method for loading multiple external JavaScript files in your HTML page?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8178">
+              <material>
+                <mattext texttype="text/plain">You must reference each external file with a separate &lt;script&gt; tag in the HTML file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4861">
+              <material>
+                <mattext texttype="text/plain">You cannot load multiple external JavaScript files in a single HTML file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5477">
+              <material>
+                <mattext texttype="text/plain">You must use the file attribute in the &lt;script&gt; tag to list all of the external files to load.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3140">
+              <material>
+                <mattext texttype="text/plain">You must include a separate src attribute in the &lt;script&gt; tag to reference each external file.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8178</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g42cb45e03c37e73c8048c776574afea0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9413,9616,5995,2678</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about using a JavaScript library file in your HTML page?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9413">
+              <material>
+                <mattext texttype="text/plain">You must enter a separate reference to the library in another &lt;script&gt; tag similar to the one used to reference the script file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9616">
+              <material>
+                <mattext texttype="text/plain">You must enter a reference to the library in the same &lt;script&gt; tag used to reference the script file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5995">
+              <material>
+                <mattext texttype="text/plain">The JavaScript files for the library and the script do not need to be in the same directory as the HTML file, but must be in the same domain.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2678">
+              <material>
+                <mattext texttype="text/plain">The JavaScript files for the library and the script must be in the same directory as the HTML file.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9413</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd3872f1fd24c994b0aa750b6f15ff550" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4513,1102,3822,9091</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You generally load external files and code libraries into HTML files by:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4513">
+              <material>
+                <mattext texttype="text/plain">using the &lt;script&gt; tag in the &lt;head&gt;&lt;/head&gt; section of the document.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1102">
+              <material>
+                <mattext texttype="text/plain">using the &lt;link&gt; tag in the &lt;body&gt;&lt;/body&gt; section of the document.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3822">
+              <material>
+                <mattext texttype="text/plain">using the &lt;link&gt; tag in the &lt;head&gt;&lt;/head&gt; section of the document.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9091">
+              <material>
+                <mattext texttype="text/plain">using the &lt;script&gt; tag in the &lt;body&gt;&lt;/body&gt; section of the document.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4513</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gfb8bf0048708cdc79b61dc640ab55673" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1161,2433,6154,6177</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is the correct general syntax for referencing an external JavaScript file?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1161">
+              <material>
+                <mattext texttype="text/plain">&lt;script src="script.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2433">
+              <material>
+                <mattext texttype="text/plain">&lt;link href="script.js" type="text/javascript" charset="utf-8"&gt;&lt;/link&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6154">
+              <material>
+                <mattext texttype="text/plain">&lt;link src="script.txt" type="text/javascript" charset="utf-8"&gt;&lt;/link&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6177">
+              <material>
+                <mattext texttype="text/plain">&lt;script href="script.txt" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1161</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g58f3cc3850997394cf0d94b71a9a5f49" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1186,2074,540,9399</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement is true about loading a JavaScript library?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1186">
+              <material>
+                <mattext texttype="text/plain">You attach the entire library file to your HTML page as a reference for the portions of code that you actually use.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2074">
+              <material>
+                <mattext texttype="text/plain">It is good practice to use only the part of the library directory that you intend to use for your HTML page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="540">
+              <material>
+                <mattext texttype="text/plain">After you have loaded the library file in your HTML page, you can make any changes you want to the library file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9399">
+              <material>
+                <mattext texttype="text/plain">The specific script you are using in your HTML page is included within the library directory file.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1186</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g83f75cd076093abaa2463bb12cd7f843" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1575,6662,4861,4913</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Where in your HTML file do you place the reference to link to a JavaScript library directory file?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1575">
+              <material>
+                <mattext texttype="text/plain">In a &lt;script&gt; tag in the &lt;head&gt; section</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6662">
+              <material>
+                <mattext texttype="text/plain">In a &lt;meta&gt; tag in the &lt;head&gt; section</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4861">
+              <material>
+                <mattext texttype="text/plain">In a &lt;link&gt; tag in the &lt;body&gt; section</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4913">
+              <material>
+                <mattext texttype="text/plain">In a &lt;link&gt; tag in the &lt;head&gt; section</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1575</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6a36db6c31c58897d4e64cf37798b5ca" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3312,7505,1295,2716</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Where do you place the specific script commands (code) from the code library that you want to use in your HTML page?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3312">
+              <material>
+                <mattext texttype="text/plain">In a script.js file, which you reference with a &lt;script&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7505">
+              <material>
+                <mattext texttype="text/plain">In a &lt;meta&gt; tag within the &lt;head&gt; section of the HTML page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1295">
+              <material>
+                <mattext texttype="text/plain">In a &lt;script&gt; tag within the &lt;body&gt; section of the HTML page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2716">
+              <material>
+                <mattext texttype="text/plain">In a script.js file, which you reference with a &lt;meta&gt; tag</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3312</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcfbac93cceb0fdf1ca0ccdfde74ad486" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8251,4076,103,8751</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which example shows the correct syntax when using jQuery to create a reference to all of the &amp;lt;p&amp;gt; tags on your page?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8251">
+              <material>
+                <mattext texttype="text/plain">var paras = $('p');</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4076">
+              <material>
+                <mattext texttype="text/plain">var paras = $('&lt;p&gt;');</mattext>
+              </material>
+            </response_label>
+            <response_label ident="103">
+              <material>
+                <mattext texttype="text/plain">var paras = $('#p');</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8751">
+              <material>
+                <mattext texttype="text/plain">var paras = $('.p');</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8251</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g02e9bbf253fa200751351fe73f89e089" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>677,9177,2507,8125</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement is true about JavaScript library plug-ins?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="677">
+              <material>
+                <mattext texttype="text/plain">You can make changes to plug-ins under GNU license agreements.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9177">
+              <material>
+                <mattext texttype="text/plain">Plug-ins should be replaced occasionally because they do not receive updates or patches like software.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2507">
+              <material>
+                <mattext texttype="text/plain">Plug-ins are shared on the Web for free and cannot be licensed in any way.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8125">
+              <material>
+                <mattext texttype="text/plain">Plug-ins are typically developed by corporations and sold on the Web for fees that vary based on their complexity.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">677</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0825064a68758c11f4f8aa2091b79823" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5218,5103,2240,8433</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Why is jquery.validate.js a very good example of a plug-in?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5218">
+              <material>
+                <mattext texttype="text/plain">This plug-in makes it easy to validate user input, which is a commonly needed task.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5103">
+              <material>
+                <mattext texttype="text/plain">This plug-in can be used without the jQuery library to perform its intended function.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2240">
+              <material>
+                <mattext texttype="text/plain">This plug-in validates your jQuery script and ensures that the code you write is correct.  D</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8433">
+              <material>
+                <mattext texttype="text/plain">This plug-in validates your HTML code and ensures that the code you write is correct.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5218</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf787da2dc4c7392acdd11a7edf4051b3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2388,6379,6293,2242</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In a JavaScript code library, a plug-in:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2388">
+              <material>
+                <mattext texttype="text/plain">performs a particular function or extends functionality toward a particular result.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6379">
+              <material>
+                <mattext texttype="text/plain">can be used as is, but cannot be modified to suit your page's specific needs.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6293">
+              <material>
+                <mattext texttype="text/plain">can be used instead of the entire library if you need only that single functionality.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2242">
+              <material>
+                <mattext texttype="text/plain">is the &lt;script&gt; tag reference to the library that you must place in your HTML file.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2388</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4b3b9140a8eac56bacc38eacaabc97c8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7845,7209,1782,5585</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You are about to start on a complex Web page development and coding project. Which of the following is a good practice for you to employ in order to complete the project in a timely manner and in an easily maintainable state?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7845">
+              <material>
+                <mattext texttype="text/plain">Before you begin, look first in the library to see if any solutions are already available.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7209">
+              <material>
+                <mattext texttype="text/plain">Use many different JavaScript libraries, picking and choosing the functions you need from them.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1782">
+              <material>
+                <mattext texttype="text/plain">Jump right in to coding the project, because you can always go back later and fix anything that is not working.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5585">
+              <material>
+                <mattext texttype="text/plain">Use any available plug-ins without concern, because they are already reviewed for security issues by the library's maintenance staff.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7845</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge32e3c7dfa9ac753695f87403fe5365f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3894,5731,2917,9774</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true regarding your HTML code when using libraries?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3894">
+              <material>
+                <mattext texttype="text/plain">You should consider the functionality of script on your page when writing your HTML so you will not have to heavily rewrite the HTML after adding the library function.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5731">
+              <material>
+                <mattext texttype="text/plain">You can use HTML workarounds for maximum compatibility, including deprecated tags and varying HTML versions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2917">
+              <material>
+                <mattext texttype="text/plain">You must remember to place a link to your HTML file in each library file and script file you use.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9774">
+              <material>
+                <mattext texttype="text/plain">Library functions are already tested to ensure they are cross-browser compatible for HTML.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3894</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9cf4d238120ccfeb2c1f47db28f1d066" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8289,8226,6901,5813</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;JavaScript libraries are:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8289">
+              <material>
+                <mattext texttype="text/plain">not all the same, they differ in certain aspects such as functionality and scope.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8226">
+              <material>
+                <mattext texttype="text/plain">all basically the same in functionality and scope.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6901">
+              <material>
+                <mattext texttype="text/plain">for general-purpose functions, providing simpler coding within JavaScript.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5813">
+              <material>
+                <mattext texttype="text/plain">for specific tasks that are handled similarly, so the plug-ins from different libraries are compatible with each other.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8289</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g39589491ab61ef80f77ba167c159ae98" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4534,6200,2162,5426</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement is true about the jQuery code library?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4534">
+              <material>
+                <mattext texttype="text/plain">jQuery offers specialization in validation and formatting tasks.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6200">
+              <material>
+                <mattext texttype="text/plain">jQuery is a general-purpose library only.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2162">
+              <material>
+                <mattext texttype="text/plain">jQuery cannot be used with other libraries.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5426">
+              <material>
+                <mattext texttype="text/plain">jQuery supports CSS 1, but not newer versions of CSS.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4534</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g155c665f9b877458e395051efb9af552" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3083,5880,6153,8303</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a recommended practice for writing your Web page code when using the jQuery library?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3083">
+              <material>
+                <mattext texttype="text/plain">Use W3C-standard coding practices.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5880">
+              <material>
+                <mattext texttype="text/plain">Use HTML 3.2, for which most jQuery code is optimized.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6153">
+              <material>
+                <mattext texttype="text/plain">Use deprecated tags as needed for compatibility with older browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8303">
+              <material>
+                <mattext texttype="text/plain">Do not reference any other code libraries in the same HTML file with a jQuery reference.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3083</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9084ec8e05c84126cd002e91e4a199b2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6061,585,5338,7566</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What do jQuery and some other code libraries use as a shortcut to reference themselves?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6061">
+              <material>
+                <mattext texttype="text/plain">The $ variable</mattext>
+              </material>
+            </response_label>
+            <response_label ident="585">
+              <material>
+                <mattext texttype="text/plain">The &lt;script&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5338">
+              <material>
+                <mattext texttype="text/plain">A .js file</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7566">
+              <material>
+                <mattext texttype="text/plain">The src=jquery attribute</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6061</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdf861a542f508ef2ccba3c4d7fb989e2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2051,8437,3485,1687</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;How does copyright apply to code used to create a Web page?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2051">
+              <material>
+                <mattext texttype="text/plain">Code used in Web pages, scripts or application programs is considered someone's creation and is thus subject to copyright rules.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8437">
+              <material>
+                <mattext texttype="text/plain">Code and script used in Web pages is not subject to any type of copyright restriction.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3485">
+              <material>
+                <mattext texttype="text/plain">Copyright gives a work's creator the right to specify the work's use, but in the case of code, the creator has rights only to author credit.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1687">
+              <material>
+                <mattext texttype="text/plain">Copyright restricts the use of any type of code that you did not create yourself, even if you have express permission from its creator.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2051</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g31051f374123609517dc6db80b04c8f8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>823,8908,5323,5260</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;For JavaScript code, which of the following is a requirement for copyright eligibility?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="823">
+              <material>
+                <mattext texttype="text/plain">The work must generate revenue.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8908">
+              <material>
+                <mattext texttype="text/plain">The code must be unique or a new combination of previously used JavaScript functions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5323">
+              <material>
+                <mattext texttype="text/plain">The code must be at least a snippet from a complete function.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5260">
+              <material>
+                <mattext texttype="text/plain">The work must be shared as freeware for a minimum of one ye</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">823</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf233772c40f445bfeb83521c0a7d58a4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7051,8720,7848,110</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt; &lt;span class="sr-only"&gt;Question 34 :&lt;/span&gt; &lt;/strong&gt;&lt;span&gt; &lt;/span&gt;&lt;span class="_title"&gt;Which statement is true about developers sharing JavaScript code?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7051">
+              <material>
+                <mattext texttype="text/plain">Sharing code improves the development community.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8720">
+              <material>
+                <mattext texttype="text/plain">Sharing code slows development because licensing terms must be met.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7848">
+              <material>
+                <mattext texttype="text/plain">Sharing code causes less experienced developers to spread bad code on the Web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="110">
+              <material>
+                <mattext texttype="text/plain">Sharing code opens programs to competition, infringement, theft and sabotage, thus developers do not like to share.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7051</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd665aa8851816a4991ebf180f516796a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2507,6846,731,2049</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following prohibits others from using or distributing an author's work without express permission?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2507">
+              <material>
+                <mattext texttype="text/plain">Copyright</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6846">
+              <material>
+                <mattext texttype="text/plain">Copyleft</mattext>
+              </material>
+            </response_label>
+            <response_label ident="731">
+              <material>
+                <mattext texttype="text/plain">Copycenter</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2049">
+              <material>
+                <mattext texttype="text/plain">GNU license</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2507</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga56363f3cc57dbf02a04046cded9cf32" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8955,230,5720,781</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following gives people blanket permission to use, modify and distribute an author's work without paying royalties, as long as those who do so also distribute their variations on the work royalty-free?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8955">
+              <material>
+                <mattext texttype="text/plain">Copyleft</mattext>
+              </material>
+            </response_label>
+            <response_label ident="230">
+              <material>
+                <mattext texttype="text/plain">Copyright</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5720">
+              <material>
+                <mattext texttype="text/plain">Copycenter</mattext>
+              </material>
+            </response_label>
+            <response_label ident="781">
+              <material>
+                <mattext texttype="text/plain">BSD license</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8955</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0825dd2b79f1ce8870515dd66d6d670c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2580,6122,9601,9139</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following poses no restrictions on how you distribute or license your derivative works?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2580">
+              <material>
+                <mattext texttype="text/plain">Copycenter</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6122">
+              <material>
+                <mattext texttype="text/plain">Copyright</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9601">
+              <material>
+                <mattext texttype="text/plain">Copyleft</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9139">
+              <material>
+                <mattext texttype="text/plain">GNU license</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2580</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g27ae39a65af5081eefd9390f22295851" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4938,218,5814,6428</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an example of a copycenter license?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4938">
+              <material>
+                <mattext texttype="text/plain">BSD (Berkeley Software Distribution)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="218">
+              <material>
+                <mattext texttype="text/plain">MIT (Massachusetts Institute of Technology</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5814">
+              <material>
+                <mattext texttype="text/plain">GNU GPL (GNU General Public License)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6428">
+              <material>
+                <mattext texttype="text/plain">The Open Source Initiative</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4938</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdfd407b9688d4f979d76c29f368501db" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7973,5364,6103,307</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You plan to release a small JavaScript code library that you have written. You want to ensure that you retain ownership of the original code of your scripts, but you want to allow other developers to use your scripts without any restrictions, including allowing them to make any modifications they want and to redistribute the code. Which type of license would be most appropriate?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7973">
+              <material>
+                <mattext texttype="text/plain">Copycenter</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5364">
+              <material>
+                <mattext texttype="text/plain">Copyright</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6103">
+              <material>
+                <mattext texttype="text/plain">Copyleft</mattext>
+              </material>
+            </response_label>
+            <response_label ident="307">
+              <material>
+                <mattext texttype="text/plain">None</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7973</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g53ed042d2ddcd40bbb2775f8cffef83f">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS242week01</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g07e5cbb18b3eff2594a5cb3e44d190d7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95624,64197,76565,95787</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;7. The main advantage of validating data on the client side using JavaScript is that:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95624">
+              <material>
+                <mattext texttype="text/plain">you can prevent information from passing to the server until it is correct.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64197">
+              <material>
+                <mattext texttype="text/plain">you can save the server resources from having to process the data at all.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76565">
+              <material>
+                <mattext texttype="text/plain">you can compel users to submit only truthful information to your server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="95787">
+              <material>
+                <mattext texttype="text/plain">you can provide a more dynamic interface to the user for data collection.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">95624</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6a3d9c8adad89b0a4d7609a66e711dd7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>68191,56562,31877,92263</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;8. Which choice best describes steps you can take to secure your browser and operating system from threats related to JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="68191">
+              <material>
+                <mattext texttype="text/plain">Use the latest stable version of the software and the latest updates to best protect your operating system, browser and other applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56562">
+              <material>
+                <mattext texttype="text/plain">Vendors and developers have verified and secured JavaScript, so developers can accept the fact that JavaScript does not pose threats to browsers or operating systems.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="31877">
+              <material>
+                <mattext texttype="text/plain">The browser is typically secured using anti-virus software, but the operating system cannot be protected this way.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92263">
+              <material>
+                <mattext texttype="text/plain">The operating system is typically secured using pop-up blockers, but the browser cannot be protected this way.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">68191</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1abc32a5a2378e4968e461d006a996aa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>58754,61465,98826,83903</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;9. Generally speaking, what does a constructor do?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="58754">
+              <material>
+                <mattext texttype="text/plain">It creates an empty template from which real-time objects, called instances, can be generated.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61465">
+              <material>
+                <mattext texttype="text/plain">It creates a database-like structure into which you can store custom objects.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98826">
+              <material>
+                <mattext texttype="text/plain">It creates an instance of a custom object, and a new constructor is needed for each instance.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83903">
+              <material>
+                <mattext texttype="text/plain">It creates properties and methods that can be passed into custom objects.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">58754</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g44e117d33dccd74015c6a45ee4926928" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>16881,21761,8959,13802,65614,29053,493</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;10. Match the following document methods with their descriptions:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_16881">
+          <material>
+            <mattext texttype="text/plain">getElementsByName</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5451">
+              <material>
+                <mattext>will get all the named elements it encounters in the script and return them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9606">
+              <material>
+                <mattext>access all the properties of the first occurrence of an element with a specified id value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3986">
+              <material>
+                <mattext>allows you to remove entire X/HTML attributes from an element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7496">
+              <material>
+                <mattext>retrieves the corresponding value of an attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2459">
+              <material>
+                <mattext>accesses all elements with the specified tag name in the script and returns them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="420">
+              <material>
+                <mattext>dynamically modifies the value of an element's attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext>enables you to add elements to the end of the page, before the closing &lt;/body&gt; tag, without overwriting the existing page content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_21761">
+          <material>
+            <mattext texttype="text/plain">getElementById</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5451">
+              <material>
+                <mattext>will get all the named elements it encounters in the script and return them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9606">
+              <material>
+                <mattext>access all the properties of the first occurrence of an element with a specified id value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3986">
+              <material>
+                <mattext>allows you to remove entire X/HTML attributes from an element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7496">
+              <material>
+                <mattext>retrieves the corresponding value of an attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2459">
+              <material>
+                <mattext>accesses all elements with the specified tag name in the script and returns them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="420">
+              <material>
+                <mattext>dynamically modifies the value of an element's attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext>enables you to add elements to the end of the page, before the closing &lt;/body&gt; tag, without overwriting the existing page content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_8959">
+          <material>
+            <mattext texttype="text/plain">removeAttribute</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5451">
+              <material>
+                <mattext>will get all the named elements it encounters in the script and return them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9606">
+              <material>
+                <mattext>access all the properties of the first occurrence of an element with a specified id value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3986">
+              <material>
+                <mattext>allows you to remove entire X/HTML attributes from an element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7496">
+              <material>
+                <mattext>retrieves the corresponding value of an attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2459">
+              <material>
+                <mattext>accesses all elements with the specified tag name in the script and returns them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="420">
+              <material>
+                <mattext>dynamically modifies the value of an element's attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext>enables you to add elements to the end of the page, before the closing &lt;/body&gt; tag, without overwriting the existing page content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_13802">
+          <material>
+            <mattext texttype="text/plain">getAttribute</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5451">
+              <material>
+                <mattext>will get all the named elements it encounters in the script and return them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9606">
+              <material>
+                <mattext>access all the properties of the first occurrence of an element with a specified id value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3986">
+              <material>
+                <mattext>allows you to remove entire X/HTML attributes from an element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7496">
+              <material>
+                <mattext>retrieves the corresponding value of an attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2459">
+              <material>
+                <mattext>accesses all elements with the specified tag name in the script and returns them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="420">
+              <material>
+                <mattext>dynamically modifies the value of an element's attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext>enables you to add elements to the end of the page, before the closing &lt;/body&gt; tag, without overwriting the existing page content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_65614">
+          <material>
+            <mattext texttype="text/plain">getElementsByTagName</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5451">
+              <material>
+                <mattext>will get all the named elements it encounters in the script and return them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9606">
+              <material>
+                <mattext>access all the properties of the first occurrence of an element with a specified id value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3986">
+              <material>
+                <mattext>allows you to remove entire X/HTML attributes from an element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7496">
+              <material>
+                <mattext>retrieves the corresponding value of an attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2459">
+              <material>
+                <mattext>accesses all elements with the specified tag name in the script and returns them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="420">
+              <material>
+                <mattext>dynamically modifies the value of an element's attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext>enables you to add elements to the end of the page, before the closing &lt;/body&gt; tag, without overwriting the existing page content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_29053">
+          <material>
+            <mattext texttype="text/plain">setAttribute</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5451">
+              <material>
+                <mattext>will get all the named elements it encounters in the script and return them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9606">
+              <material>
+                <mattext>access all the properties of the first occurrence of an element with a specified id value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3986">
+              <material>
+                <mattext>allows you to remove entire X/HTML attributes from an element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7496">
+              <material>
+                <mattext>retrieves the corresponding value of an attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2459">
+              <material>
+                <mattext>accesses all elements with the specified tag name in the script and returns them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="420">
+              <material>
+                <mattext>dynamically modifies the value of an element's attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext>enables you to add elements to the end of the page, before the closing &lt;/body&gt; tag, without overwriting the existing page content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_493">
+          <material>
+            <mattext texttype="text/plain">appendChild</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5451">
+              <material>
+                <mattext>will get all the named elements it encounters in the script and return them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9606">
+              <material>
+                <mattext>access all the properties of the first occurrence of an element with a specified id value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3986">
+              <material>
+                <mattext>allows you to remove entire X/HTML attributes from an element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7496">
+              <material>
+                <mattext>retrieves the corresponding value of an attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2459">
+              <material>
+                <mattext>accesses all elements with the specified tag name in the script and returns them in an array.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="420">
+              <material>
+                <mattext>dynamically modifies the value of an element's attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7884">
+              <material>
+                <mattext>enables you to add elements to the end of the page, before the closing &lt;/body&gt; tag, without overwriting the existing page content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_16881">5451</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_21761">9606</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_8959">3986</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_13802">7496</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_65614">2459</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_29053">420</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_493">7884</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3c0efeb1f00b788ea25dbe576ea67afc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>43385,12712,43649</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;13. Match the following program errors and their descriptions:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_43385">
+          <material>
+            <mattext texttype="text/plain">Load-time errors</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="3870">
+              <material>
+                <mattext>Commonly called compiler or interpreter errors, these are typically syntax errors.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7015">
+              <material>
+                <mattext>After the script has loaded and is running, an error occurs. These are typically caused by improper use of commands.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5621">
+              <material>
+                <mattext>These are mathematical errors, errors in proper command usage or errors in the structure of the script, which result in the script running improperly.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_12712">
+          <material>
+            <mattext texttype="text/plain">Run-time errors</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="3870">
+              <material>
+                <mattext>Commonly called compiler or interpreter errors, these are typically syntax errors.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7015">
+              <material>
+                <mattext>After the script has loaded and is running, an error occurs. These are typically caused by improper use of commands.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5621">
+              <material>
+                <mattext>These are mathematical errors, errors in proper command usage or errors in the structure of the script, which result in the script running improperly.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_43649">
+          <material>
+            <mattext texttype="text/plain">Logic errors</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="3870">
+              <material>
+                <mattext>Commonly called compiler or interpreter errors, these are typically syntax errors.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7015">
+              <material>
+                <mattext>After the script has loaded and is running, an error occurs. These are typically caused by improper use of commands.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5621">
+              <material>
+                <mattext>These are mathematical errors, errors in proper command usage or errors in the structure of the script, which result in the script running improperly.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_43385">3870</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_12712">7015</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_43649">5621</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3c68ddbed9aaebf8dd7b22cfd7c3de19" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>3.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>45671,1011,36893,61066</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;The JavaScript language was originally developed by which of the following?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="45671">
+              <material>
+                <mattext texttype="text/plain">Netscape Corporation</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1011">
+              <material>
+                <mattext texttype="text/plain">Sun Microsystems</mattext>
+              </material>
+            </response_label>
+            <response_label ident="36893">
+              <material>
+                <mattext texttype="text/plain">Microsoft Corporation</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61066">
+              <material>
+                <mattext texttype="text/plain">Apple</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">45671</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc43c34d0e74a8841f1024812c0b7a40c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>82810,49225,38871,22032</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;When programming with objects, what is a method?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="82810">
+              <material>
+                <mattext texttype="text/plain">The actions that an object can be made to perform</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49225">
+              <material>
+                <mattext texttype="text/plain">The specific qualities of a property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38871">
+              <material>
+                <mattext texttype="text/plain">The school of thought under which a program is developed</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22032">
+              <material>
+                <mattext texttype="text/plain">The process a programmer uses to develop a function</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">82810</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga71db9e94e38c7f2d5db827ad7bc806c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>52898,34563,97583,2247</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;The JavaScript language was originally developed by which of the following?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="52898">
+              <material>
+                <mattext texttype="text/plain">Netscape Corporation</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34563">
+              <material>
+                <mattext texttype="text/plain">Sun Microsystems</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97583">
+              <material>
+                <mattext texttype="text/plain">Microsoft Corporation</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2247">
+              <material>
+                <mattext texttype="text/plain">No answer text provided.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">52898</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9b6539414c257b434a900cde12487db8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>752,16133,44818,38939</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which of the following is true of JavaScript keywords and/or reserved words?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="752">
+              <material>
+                <mattext texttype="text/plain">You cannot use reserved words as names for objects.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="16133">
+              <material>
+                <mattext texttype="text/plain">You can use reserved words as names for variables.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44818">
+              <material>
+                <mattext texttype="text/plain">You can use reserved words but not keywords as names for objects.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38939">
+              <material>
+                <mattext texttype="text/plain">All keywords are specific to particular versions of JavaScript.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">752</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g51382d1ceb635f5c19ba2997fc3570c7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>45639,32686,68395,35010</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which event occurs when input focus is removed from a form element (e.g., when a user clicks the mouse button outside of a particular field)?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="45639">
+              <material>
+                <mattext texttype="text/plain">blur</mattext>
+              </material>
+            </response_label>
+            <response_label ident="32686">
+              <material>
+                <mattext texttype="text/plain">click</mattext>
+              </material>
+            </response_label>
+            <response_label ident="68395">
+              <material>
+                <mattext texttype="text/plain">change</mattext>
+              </material>
+            </response_label>
+            <response_label ident="35010">
+              <material>
+                <mattext texttype="text/plain">focus</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">45639</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7f1549b4220118b4d150712e4f1dfdb2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9575,11770,81958,40977</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;In JavaScript, what is an argument?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9575">
+              <material>
+                <mattext texttype="text/plain">A value passed into a function from outside the function</mattext>
+              </material>
+            </response_label>
+            <response_label ident="11770">
+              <material>
+                <mattext texttype="text/plain">Any method that returns a value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81958">
+              <material>
+                <mattext texttype="text/plain">A named block of code that can be called</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40977">
+              <material>
+                <mattext texttype="text/plain">A statement that transfers program execution to a subroutine</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9575</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd42835a6f1297cd75fc185abe1f7077b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5955,99813,52305,48423</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span style="font-size: 9pt; background-color: transparent;"&gt;Which JavaScript object is a combination of the content and interface elements that constitute the current Web page?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5955">
+              <material>
+                <mattext texttype="text/plain">The document object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99813">
+              <material>
+                <mattext texttype="text/plain">The navigator object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="52305">
+              <material>
+                <mattext texttype="text/plain">The image object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48423">
+              <material>
+                <mattext texttype="text/plain">The window object</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5955</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

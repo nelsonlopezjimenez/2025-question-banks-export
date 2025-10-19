@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gf472902795ee8ab2519d1ea732a65092">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS245-Mid-term exam</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g1c22f06045448607e7a3e985417fd77f" title="CSS Buoyancy: Collapsing Margins, Floating, and Vertical Alignment">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>10.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Discuss margin collapsing, when it takes place and what general rules can you apply to margin collapse.&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2a6bc9ae22d5e7916b9b66fd3e1b5e88" title="CSS Buoyancy: Collapsing Margins, Floating, and Vertical Alignment">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>12839</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The ________ property is used to control the effects of the &lt;span class="fixed"&gt;float&lt;/span&gt; property in situations where you don't want all the content following a floated element to float beside it.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">clear</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g69f104f550c4db514a00a32e92a3034f" title="CSS Buoyancy: Collapsing Margins, Floating, and Vertical Alignment">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>79316</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The _____ property is used for layout — for   instance, to achieve a multicolumn design and to include content in the   flow of paragraph text in such a way that text wraps around the _____   element.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">float floated</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g25a86de2e3fd2192f0eb894edba43e37" title="Font Manipulation">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>43348,23789,12024,97313</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Match the effect with the property&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_43348">
+          <material>
+            <mattext texttype="text/plain">specify the font face</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="6251">
+              <material>
+                <mattext>font-family property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5920">
+              <material>
+                <mattext>font-style property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9666">
+              <material>
+                <mattext>font-variant property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6862">
+              <material>
+                <mattext>font-weight property</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_23789">
+          <material>
+            <mattext texttype="text/plain">make the font oblique or italic</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="6251">
+              <material>
+                <mattext>font-family property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5920">
+              <material>
+                <mattext>font-style property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9666">
+              <material>
+                <mattext>font-variant property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6862">
+              <material>
+                <mattext>font-weight property</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_12024">
+          <material>
+            <mattext texttype="text/plain">the small-caps effect</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="6251">
+              <material>
+                <mattext>font-family property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5920">
+              <material>
+                <mattext>font-style property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9666">
+              <material>
+                <mattext>font-variant property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6862">
+              <material>
+                <mattext>font-weight property</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_97313">
+          <material>
+            <mattext texttype="text/plain">the lightness and boldness of a font</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="6251">
+              <material>
+                <mattext>font-family property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5920">
+              <material>
+                <mattext>font-style property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9666">
+              <material>
+                <mattext>font-variant property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6862">
+              <material>
+                <mattext>font-weight property</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_43348">6251</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_23789">5920</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_12024">9666</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_97313">6862</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf3105223e1e8aa1211bd4f262c11279e" title="Inheritance">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>65465,50873</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;All proprieties assigned to the parent are inheritied by the child.&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="65465">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50873">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">50873</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Some properties are inherited, which reduces redundancy in the document by eliminating the need for declarations to be written multiple times.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Some properties are inherited, which reduces redundancy in the document by eliminating the need for declarations to be written multiple times.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gdef126c5595bd88ef3c165525e7175db" title="Inheritance">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>75343</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The _______________ provides both some ground rules and a simple formula to determine the precedence of style sheets and selectors.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">cascade</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g705e0dea8e502c98de2e08e68ffe5fab" title="Inheritance">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95942,55504</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Custom style sheets allow users to specify their own styles for the websites they visit.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95942">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="55504">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">95942</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2282f25e125288a909c04a0f777a54cb" title="Liquid Design and the CSS Box Model">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>3.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>63854,31370,33188</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;From out-most (1) to inner-most (3), place the box model aspects in order&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_63854">
+          <material>
+            <mattext texttype="text/plain">1</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5624">
+              <material>
+                <mattext>padding</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9071">
+              <material>
+                <mattext>margin</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1802">
+              <material>
+                <mattext>border</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_31370">
+          <material>
+            <mattext texttype="text/plain">2</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5624">
+              <material>
+                <mattext>padding</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9071">
+              <material>
+                <mattext>margin</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1802">
+              <material>
+                <mattext>border</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_33188">
+          <material>
+            <mattext texttype="text/plain">3</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5624">
+              <material>
+                <mattext>padding</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9071">
+              <material>
+                <mattext>margin</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1802">
+              <material>
+                <mattext>border</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_63854">9071</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_31370">1802</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_33188">5624</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gac1fe8c0c0dd7841b9c5d667f96db50f" title="Liquid Design and the CSS Box Model">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>21211</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;____________-_______________ designs increase the size and expense of maintaining a website&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">Table-based</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g029aa6cb98f5172a7024b8fbac86e49a" title="Liquid Design and the CSS Box Model">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>37389,71406</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The CSS box model is a set of rules that tells the browser how to handle the placement of a box within the document.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="37389">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71406">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">71406</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">The CSS box model is a set of rules that tells the browser how to handle the width of a box, padding, borders, and margins.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ga202d61252878e5d3079265017c4cf98" title="Pseudo-Element and Pseudo-Class Selectors">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>20308,18549,4269,81856</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Dynamic pseudo-classes alter styles based on user actions, which include:&amp;nbsp; (Select all that apply)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="20308">
+              <material>
+                <mattext texttype="text/plain">visiting a link</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18549">
+              <material>
+                <mattext texttype="text/plain">not visiting a link</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4269">
+              <material>
+                <mattext texttype="text/plain">hovering over an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81856">
+              <material>
+                <mattext texttype="text/plain">clicking an element</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">20308</varequal>
+              <varequal respident="response1">18549</varequal>
+              <varequal respident="response1">4269</varequal>
+              <varequal respident="response1">81856</varequal>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span class="b24-bookchaptertitle" id="b24-chaptertitle"&gt;Chapter 6 - Pseudo-Element and Pseudo-Class Selectors - Summary&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span class="b24-bookchaptertitle" id="b24-chaptertitle"&gt;Chapter 6 - Pseudo-Element and Pseudo-Class Selectors - Summary&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gdde237e011707aa1fcf834f57777d8fb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>88134</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The most important principle of ____________ _____________ is content that adapts to the user's environment.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">liquid design</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbefb6d538d8ea4e02c7a15bcc4a8da89" title="Selectors">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>4.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19672,76898,50845,61831</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Selectors may also be user-defined using the:&amp;nbsp; (Select all that apply)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="19672">
+              <material>
+                <mattext texttype="text/html">&lt;span class="fixed"&gt;class&lt;/span&gt; attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76898">
+              <material>
+                <mattext texttype="text/html">&lt;span class="fixed"&gt;id&lt;/span&gt; attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50845">
+              <material>
+                <mattext texttype="text/plain">* (Universal Selector)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61831">
+              <material>
+                <mattext texttype="text/plain">body element</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">19672</varequal>
+              <varequal respident="response1">76898</varequal>
+              <not>
+                <varequal respident="response1">50845</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">61831</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4ca14f1019fc462c3c968adbb68c868d" title="Selectors">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>73772</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The ____________ selector applies style to all conceivable page elements.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">universal</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span class="b24-bookchaptertitle" id="b24-chaptertitle"&gt;Chapter 5 - CSS Selectors - Summary&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span class="b24-bookchaptertitle" id="b24-chaptertitle"&gt;Chapter 5 - CSS Selectors - Summary&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5dc4a92a004de61796d7a921e5a44727" title="Selectors">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8632,37520</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Using child selectors makes the methodology created for descendant selectors more specific.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8632">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="37520">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8632</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span class="b24-bookchaptertitle" id="b24-chaptertitle"&gt;Chapter 5 - CSS Selectors - Summary&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span class="b24-bookchaptertitle" id="b24-chaptertitle"&gt;Chapter 5 - CSS Selectors - Summary&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb83dc97646fc4d932aca3fc7269f2c50" title="Styling Lists and the User Interface">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>84694</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The &lt;span class="fixed"&gt;________&lt;/span&gt; property may be used to change the cursor displayed to the user&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">cursor</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g80dfe33ed921ca38141b58717aeb5111" title="Styling Lists and the User Interface">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>3.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>45338,44314,1981</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Match the property with the effect &lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_45338">
+          <material>
+            <mattext texttype="text/html">&lt;span class="fixed"&gt;list-style-image&lt;/span&gt; property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="4920">
+              <material>
+                <mattext>used to provide a custom image as the list item marker</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6763">
+              <material>
+                <mattext>dictates whether the markers appear inside the list item element or outside of it</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6914">
+              <material>
+                <mattext>provides a shortcut syntax where all three list style properties may be referenced at once</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_44314">
+          <material>
+            <mattext texttype="text/html">&lt;span class="fixed"&gt;list-style-position&lt;/span&gt;</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="4920">
+              <material>
+                <mattext>used to provide a custom image as the list item marker</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6763">
+              <material>
+                <mattext>dictates whether the markers appear inside the list item element or outside of it</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6914">
+              <material>
+                <mattext>provides a shortcut syntax where all three list style properties may be referenced at once</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_1981">
+          <material>
+            <mattext texttype="text/html">&lt;span class="fixed"&gt;list-style&lt;/span&gt;</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="4920">
+              <material>
+                <mattext>used to provide a custom image as the list item marker</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6763">
+              <material>
+                <mattext>dictates whether the markers appear inside the list item element or outside of it</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6914">
+              <material>
+                <mattext>provides a shortcut syntax where all three list style properties may be referenced at once</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_45338">4920</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_44314">6763</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_1981">6914</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3f76abdc1e4597e6a4e0e2c21c5e0995" title="Text Manipulation">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>7.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>80113,89607,34529,78366,96050,13484,4731</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Match the property with the effect.&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_80113">
+          <material>
+            <mattext texttype="text/plain">letter-spacing property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="9851">
+              <material>
+                <mattext>used to specify the length of space between letters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext>used to specify the length of space between words</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext>used to indent text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9557">
+              <material>
+                <mattext>used to align the text of a document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4808">
+              <material>
+                <mattext>used to apply decorative styling to text, such as underlining, overlining, strikethrough, or blinking text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6409">
+              <material>
+                <mattext>used to control the case of text regardless of what case is used in the document's source code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext>used to control text formatting as it relates to how the text appears in the document's source code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_89607">
+          <material>
+            <mattext texttype="text/plain">word-spacing property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="9851">
+              <material>
+                <mattext>used to specify the length of space between letters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext>used to specify the length of space between words</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext>used to indent text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9557">
+              <material>
+                <mattext>used to align the text of a document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4808">
+              <material>
+                <mattext>used to apply decorative styling to text, such as underlining, overlining, strikethrough, or blinking text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6409">
+              <material>
+                <mattext>used to control the case of text regardless of what case is used in the document's source code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext>used to control text formatting as it relates to how the text appears in the document's source code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_34529">
+          <material>
+            <mattext texttype="text/plain">text-indent property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="9851">
+              <material>
+                <mattext>used to specify the length of space between letters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext>used to specify the length of space between words</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext>used to indent text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9557">
+              <material>
+                <mattext>used to align the text of a document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4808">
+              <material>
+                <mattext>used to apply decorative styling to text, such as underlining, overlining, strikethrough, or blinking text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6409">
+              <material>
+                <mattext>used to control the case of text regardless of what case is used in the document's source code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext>used to control text formatting as it relates to how the text appears in the document's source code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_78366">
+          <material>
+            <mattext texttype="text/plain">text-align property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="9851">
+              <material>
+                <mattext>used to specify the length of space between letters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext>used to specify the length of space between words</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext>used to indent text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9557">
+              <material>
+                <mattext>used to align the text of a document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4808">
+              <material>
+                <mattext>used to apply decorative styling to text, such as underlining, overlining, strikethrough, or blinking text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6409">
+              <material>
+                <mattext>used to control the case of text regardless of what case is used in the document's source code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext>used to control text formatting as it relates to how the text appears in the document's source code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_96050">
+          <material>
+            <mattext texttype="text/plain">text-decoration property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="9851">
+              <material>
+                <mattext>used to specify the length of space between letters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext>used to specify the length of space between words</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext>used to indent text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9557">
+              <material>
+                <mattext>used to align the text of a document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4808">
+              <material>
+                <mattext>used to apply decorative styling to text, such as underlining, overlining, strikethrough, or blinking text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6409">
+              <material>
+                <mattext>used to control the case of text regardless of what case is used in the document's source code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext>used to control text formatting as it relates to how the text appears in the document's source code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_13484">
+          <material>
+            <mattext texttype="text/plain">text-transform property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="9851">
+              <material>
+                <mattext>used to specify the length of space between letters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext>used to specify the length of space between words</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext>used to indent text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9557">
+              <material>
+                <mattext>used to align the text of a document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4808">
+              <material>
+                <mattext>used to apply decorative styling to text, such as underlining, overlining, strikethrough, or blinking text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6409">
+              <material>
+                <mattext>used to control the case of text regardless of what case is used in the document's source code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext>used to control text formatting as it relates to how the text appears in the document's source code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_4731">
+          <material>
+            <mattext texttype="text/plain">white-space property</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="9851">
+              <material>
+                <mattext>used to specify the length of space between letters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2854">
+              <material>
+                <mattext>used to specify the length of space between words</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4262">
+              <material>
+                <mattext>used to indent text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9557">
+              <material>
+                <mattext>used to align the text of a document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4808">
+              <material>
+                <mattext>used to apply decorative styling to text, such as underlining, overlining, strikethrough, or blinking text</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6409">
+              <material>
+                <mattext>used to control the case of text regardless of what case is used in the document's source code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6779">
+              <material>
+                <mattext>used to control text formatting as it relates to how the text appears in the document's source code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_80113">9851</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_89607">2854</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_34529">4262</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_78366">9557</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_96050">4808</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_13484">6409</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_4731">6779</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">14.29</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g55011699a46be58bd8e760c3c1e8eaac" title="Text Manipulation">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>10.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Discuss the techniques and strategies for approaching a website design project.&amp;nbsp; Your discussion should include aspects of a web project as discussed in this text.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

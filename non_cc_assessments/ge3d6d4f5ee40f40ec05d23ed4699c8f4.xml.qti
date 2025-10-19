@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="ge3d6d4f5ee40f40ec05d23ed4699c8f4">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS241Ch4</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gbaa89d74982abb42d10a86b03d7a47e0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5856,5120,5870,1933</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the default appearance of hyperlinks in the browser?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5856">
+              <material>
+                <mattext texttype="text/plain">Blue and underlined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5120">
+              <material>
+                <mattext texttype="text/plain">Purple and underlined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5870">
+              <material>
+                <mattext texttype="text/plain">Bold and italic</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1933">
+              <material>
+                <mattext texttype="text/plain">Italic and underlined</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5856</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gec293266d3449987dc9048ab270b510f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1921,2055,5904,6808</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;By default, what occurs when a user clicks a hyperlink in a browser?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1921">
+              <material>
+                <mattext texttype="text/plain">The link's specified destination will appear.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2055">
+              <material>
+                <mattext texttype="text/plain">A new browser window will open displaying the specified destination.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5904">
+              <material>
+                <mattext texttype="text/plain">The destination Web site's home page will appear.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6808">
+              <material>
+                <mattext texttype="text/plain">The destination Web site's default page will appear.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1921</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge36116f8342576b581cba27021fa893d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>623,6789,5704,362</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;An internal hyperlink is a link you can use to jump to another:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="623">
+              <material>
+                <mattext texttype="text/plain">section on the same Web page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6789">
+              <material>
+                <mattext texttype="text/plain">page on the Web site</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5704">
+              <material>
+                <mattext texttype="text/plain">Web site</mattext>
+              </material>
+            </response_label>
+            <response_label ident="362">
+              <material>
+                <mattext texttype="text/plain">Web browser</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">623</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2392833e866b1890a19b79590be41d32" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8413,4145,3076,3179</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="_title"&gt;Which of the following do you use to create a hyperlink in an HTML document?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8413">
+              <material>
+                <mattext texttype="text/plain">The &lt;a&gt; element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4145">
+              <material>
+                <mattext texttype="text/plain">The &lt;html&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3076">
+              <material>
+                <mattext texttype="text/plain">The &lt;hr&gt; element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3179">
+              <material>
+                <mattext texttype="text/plain">The &lt;img&gt; tag</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8413</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd62259cbaf2a2a88cc779d9e6ce820b6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6678,1988,6274,1576</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you create a hyperlink with the anchor element, which of the following should you use to specify the target of the link?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6678">
+              <material>
+                <mattext texttype="text/plain">The href attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1988">
+              <material>
+                <mattext texttype="text/plain">The alt attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6274">
+              <material>
+                <mattext texttype="text/plain">The id attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1576">
+              <material>
+                <mattext texttype="text/plain">The src attribute</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6678</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g137e493d8fcc12a5a6deb8ac35c53bfa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6743,3530,4452,2330</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;An absolute URL:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6743">
+              <material>
+                <mattext texttype="text/plain">contains a full path to a resource, including the protocol indicator.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3530">
+              <material>
+                <mattext texttype="text/plain">assumes the current document's path so that all references are made from the document's current directory.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4452">
+              <material>
+                <mattext texttype="text/plain">assumes the current document's path so that all references are made from the top of the site's hierarchical directory structure.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2330">
+              <material>
+                <mattext texttype="text/plain">contains a full path to a resource, excluding the protocol indicator.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6743</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g03fe0779e4561b0b63db9b77e91d6f58" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7398,2242,4419,1260</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following assumes the current document's path so that all references are made from the document's current directory?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7398">
+              <material>
+                <mattext texttype="text/plain">Partial URL</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2242">
+              <material>
+                <mattext texttype="text/plain">Absolute URL</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4419">
+              <material>
+                <mattext texttype="text/plain">Fully qualified URL</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1260">
+              <material>
+                <mattext texttype="text/plain">Targeted URL</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7398</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc8932d973e453c3e051a0c1cc658438f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8461,3678,9412,8944</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following examples uses the correct syntax for the anchor element?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8461">
+              <material>
+                <mattext texttype="text/plain">&lt;a href="http://www.habitat.org"&gt; Habitat &lt;/a&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3678">
+              <material>
+                <mattext texttype="text/plain">&lt;a href="http://www.habitat.org"/&gt; Habitat</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9412">
+              <material>
+                <mattext texttype="text/plain">&lt;a href=http://www.habitat.org&gt; Habitat &lt;/a&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8944">
+              <material>
+                <mattext texttype="text/plain">&lt;a href="http://www.habitat.org" Habitat &lt;/a&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8461</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5d83c120058f3c7093e9e46ac1883115" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8061,8364,5427,9320</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Consider the following anchor element:&lt;/p&gt;
+&lt;p&gt;&amp;lt;a href="http://www.habitat.org"&amp;gt; Habitat &amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;In this example, to what does "http://www.habitat.org" refer?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8061">
+              <material>
+                <mattext texttype="text/plain">The target of the hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8364">
+              <material>
+                <mattext texttype="text/plain">The page text that will be affected by the anchor element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5427">
+              <material>
+                <mattext texttype="text/plain">The page text that will display when you access the destination Web page via the anchor element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9320">
+              <material>
+                <mattext texttype="text/plain">The section of your Web page to which the destination page is linked</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8061</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge62b5001632efda5b947523d8e3c9ae4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1347,7552,6897,7670</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Consider the following anchor element:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;code&gt;&amp;lt;a href="http://www.habitat.org"&amp;gt; Habitat &amp;lt;/a&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;In this example, to what does "Habitat" refer?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1347">
+              <material>
+                <mattext texttype="text/plain">The page text that will be affected by the anchor element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7552">
+              <material>
+                <mattext texttype="text/plain">The page text that will display when you access the destination Web page via the anchor element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6897">
+              <material>
+                <mattext texttype="text/plain">The section of your Web page to which the destination page is linked</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7670">
+              <material>
+                <mattext texttype="text/plain">The target of your hyperlink</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1347</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd5e8b5ca0d24a9f6aa6b20b79a6053e6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6646,711,6576,9517</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following should you use when you develop your own Web pages and want to link them to form a site?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6646">
+              <material>
+                <mattext texttype="text/plain">Local hyperlinks</mattext>
+              </material>
+            </response_label>
+            <response_label ident="711">
+              <material>
+                <mattext texttype="text/plain">External hyperlinks</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6576">
+              <material>
+                <mattext texttype="text/plain">Internal hyperlinks</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9517">
+              <material>
+                <mattext texttype="text/plain">Image hyperlinks</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6646</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf73f8f252a916be4feef0a62e3de20be" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2311,9990,7328,7074</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you upload your Web site to a Web server, the file references can remain unchanged as long as:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2311">
+              <material>
+                <mattext texttype="text/plain">your directory structure persists.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9990">
+              <material>
+                <mattext texttype="text/plain">you used no internal hyperlinks in your Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7328">
+              <material>
+                <mattext texttype="text/plain">you used only local hyperlinks in your Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7074">
+              <material>
+                <mattext texttype="text/plain">you upload all the files in one operation.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2311</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1c45d636640db2f5fddf1051b479582a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3133,4256,9146,4237</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which term describes a hyperlink that links one file on your hard drive to another file on your hard drive?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3133">
+              <material>
+                <mattext texttype="text/plain">Local hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4256">
+              <material>
+                <mattext texttype="text/plain">External hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9146">
+              <material>
+                <mattext texttype="text/plain">Internal hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4237">
+              <material>
+                <mattext texttype="text/plain">Image hyperlink</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3133</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4306f5c5a4c2e51a61659f846c4ad891" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7725,1401,1893,2645</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which term describes a hyperlink you create from a file on your system to a separate file on the Internet?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7725">
+              <material>
+                <mattext texttype="text/plain">External hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1401">
+              <material>
+                <mattext texttype="text/plain">Local hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1893">
+              <material>
+                <mattext texttype="text/plain">Internal hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2645">
+              <material>
+                <mattext texttype="text/plain">Image hyperlink</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7725</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g790f07ef46c3eeb43dde240cd6b9e902" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8992,7531,6961,2703</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following should you use on your Web pages when you want to reference pages on other Web sites?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8992">
+              <material>
+                <mattext texttype="text/plain">External hyperlinks</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7531">
+              <material>
+                <mattext texttype="text/plain">Local hyperlinks</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6961">
+              <material>
+                <mattext texttype="text/plain">Internal hyperlinks</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2703">
+              <material>
+                <mattext texttype="text/plain">Image hyperlinks</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8992</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge6e3bd1078149ef8d891081aa64cabcb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7887,1385,6422,4684</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You should create external hyperlinks only after:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7887">
+              <material>
+                <mattext texttype="text/plain">obtaining permission from the owner of the site to which you want to link.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1385">
+              <material>
+                <mattext texttype="text/plain">determining the directory structure of your Web site on your local system.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6422">
+              <material>
+                <mattext texttype="text/plain">ensuring that your Web site directory structure will persist on the Web server in which it resides.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4684">
+              <material>
+                <mattext texttype="text/plain">identifying the internal bookmarks that the links will reference.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7887</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g44b493ddff3d73b3f9e447a1e1f82e67" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9829,5346,7670,472</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="_title"&gt;In order to create an external hyperlink, you must determine:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9829">
+              <material>
+                <mattext texttype="text/plain">the absolute URL, including the protocol indicator, for the Web page to which you want to link.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5346">
+              <material>
+                <mattext texttype="text/plain">the relative URL, including the protocol indicator, for the Web page to which you want to link.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7670">
+              <material>
+                <mattext texttype="text/plain">the partial URL, including the protocol indicator, for the Web page to which you want to link.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="472">
+              <material>
+                <mattext texttype="text/plain">the absolute URL, excluding the protocol indicator, for the Web page to which you want to link.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9829</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gde870762f404220676a905f2c27fc0fa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4897,499,1615,9871</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What occurs when you surround an image tag with opening and closing anchor tags?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4897">
+              <material>
+                <mattext texttype="text/plain">The graphic image defined by the image tag will become a hyperlink.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="499">
+              <material>
+                <mattext texttype="text/plain">The graphic image defined by the image tag will become the destination for a hyperlink.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1615">
+              <material>
+                <mattext texttype="text/plain">The graphic image defined by the image tag will not render.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9871">
+              <material>
+                <mattext texttype="text/plain">The Web page containing the graphic image defined by the image tag will not render.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4897</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8a82269f229f17271eaeffc76def802c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6628,5302,5903,623</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a hyperlink you create to link one point to another in the same Web page?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6628">
+              <material>
+                <mattext texttype="text/plain">Internal hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5302">
+              <material>
+                <mattext texttype="text/plain">External hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5903">
+              <material>
+                <mattext texttype="text/plain">Local hyperlink</mattext>
+              </material>
+            </response_label>
+            <response_label ident="623">
+              <material>
+                <mattext texttype="text/plain">Image hyperlink</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6628</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1d090d59b1501a53d848a514609160b4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8134,7641,5409,7180</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When developing your own Web pages, when should you use an internal hyperlink?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8134">
+              <material>
+                <mattext texttype="text/plain">To reference another area within the same Web page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7641">
+              <material>
+                <mattext texttype="text/plain">To link a Web page file to a separate file on the Internet</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5409">
+              <material>
+                <mattext texttype="text/plain">To link a file on your local system to another file on your local system</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7180">
+              <material>
+                <mattext texttype="text/plain">To create a link from a graphic image to a separate file on the Internet</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8134</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf19987c3b26e03495af3d019d30fb3a5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1529,3831,6645,5647</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="_title"&gt;When you create an internal hyperlink, you create the link that points to the bookmark using the anchor tag with which attribute?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1529">
+              <material>
+                <mattext texttype="text/plain">The href attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3831">
+              <material>
+                <mattext texttype="text/plain">The link attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6645">
+              <material>
+                <mattext texttype="text/plain">The id attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5647">
+              <material>
+                <mattext texttype="text/plain">The img attribute</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1529</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g08669d8c8aaefb802448b3a71766e731" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8536,1894,5039,5568</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you create an internal hyperlink with the anchor element, which attribute should you use to define the area of the Web page to which the hyperlink will link?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8536">
+              <material>
+                <mattext texttype="text/plain">The id attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1894">
+              <material>
+                <mattext texttype="text/plain">The link attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5039">
+              <material>
+                <mattext texttype="text/plain">The href attribute</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5568">
+              <material>
+                <mattext texttype="text/plain">The img attribute</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8536</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8bd71ca088d834e91fb9a4e730949556" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8635,8614,5873,8932</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you create an internal hyperlink with the anchor element, what symbol must you use in the href attribute to tell the browser to look for a target within the current document?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8635">
+              <material>
+                <mattext texttype="text/plain">The hash ( # )</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8614">
+              <material>
+                <mattext texttype="text/plain">The ampersand ( &amp; )</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5873">
+              <material>
+                <mattext texttype="text/plain">The asterisk ( * )</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8932">
+              <material>
+                <mattext texttype="text/plain">The slash ( / )</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8635</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7a60851babdce674007e61def6ace89e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5504,144,1489,9635</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you create an internal hyperlink with the anchor element, what occurs if you omit the hash ( # ) from the href attribute?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5504">
+              <material>
+                <mattext texttype="text/plain">The browser will look for an external file by the name specified in the id attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="144">
+              <material>
+                <mattext texttype="text/plain">The browser will look for an internal file by the name specified in the id attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1489">
+              <material>
+                <mattext texttype="text/plain">The internal hyperlink will target the Web site home page rather than the area specified in the id attribute.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9635">
+              <material>
+                <mattext texttype="text/plain">The Web page containing the internal hyperlink will not render.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5504</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf438440716439e07a3aa184455894202" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5845,3098,9273,7776</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Consider the following HTML code:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;code&gt;&amp;lt;a href="http://www.habitat.org/support/default.aspx#DonateOnline"&amp;gt; habitat.jpg &amp;lt;/a&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;What does the internal hyperlink in this example do?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5845">
+              <material>
+                <mattext texttype="text/plain">It links to an internal anchor in an external file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3098">
+              <material>
+                <mattext texttype="text/plain">It links to an internal anchor in an internal file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9273">
+              <material>
+                <mattext texttype="text/plain">It links to the home page of a separate file on the Internet.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7776">
+              <material>
+                <mattext texttype="text/plain">It bookmarks the image hyperlink on your Web page.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5845</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g620582bd38f065e4ef4729c69a69bcff" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7594,262,8356,1256</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What occurs when a referenced page is moved or deleted, or if page content is changed and all anchors are renamed or lost?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7594">
+              <material>
+                <mattext texttype="text/plain">All hyperlinks that link to that page become invalid.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="262">
+              <material>
+                <mattext texttype="text/plain">All successive Web page text becomes a hyperlink.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8356">
+              <material>
+                <mattext texttype="text/plain">All hyperlinks that link to that page continue to function.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1256">
+              <material>
+                <mattext texttype="text/plain">The text or images to which the hyperlinks refer disappear.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7594</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g175ed6d7d3d00a5975eecc812e9aefda" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5022,8672,4094,596</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Y&lt;/span&gt;&lt;span&gt;ou can use automatic link-checking software to identify invalid hyperlinks. If you find invalid links, what should you do next?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5022">
+              <material>
+                <mattext texttype="text/plain">Manually update the code to delete or modify invalid links.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8672">
+              <material>
+                <mattext texttype="text/plain">Re-create the page from scratch to ensure that all code is fresh and valid.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4094">
+              <material>
+                <mattext texttype="text/plain">Use the link-checking software to re-create all links in your code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="596">
+              <material>
+                <mattext texttype="text/plain">Run the link-checking software in Fix Invalid Links mode.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5022</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

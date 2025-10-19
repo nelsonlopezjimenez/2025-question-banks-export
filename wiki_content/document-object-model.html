@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Document Object Model</title>
+<meta name="identifier" content="gfb188cd422b8ee441ad1c2bf93e88f36"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div style="background-color: #005588; padding: 25px 25px 25px 25px;">
+<table><tbody><tr>
+<td><img src="$IMS-CC-FILEBASE$/Uploaded%20Media/unfiled/WWW%20Highlighted%20logo-2.png" alt="WWW Highlighted logo.png"></td>
+<td style="color: white; padding: 25px 25px 25px 25px;"><span style="font-size: large;"><span class="ellipsible">Document Object Model</span></span></td>
+</tr></tbody></table>
+<div>
+<div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+<h3>Document Object Model</h3>
+<div style="border: thin black solid; padding: 25px 25px 25px 25px;">
+<em>Lesson Objective:&nbsp; At the end of this lesson, you will be able to:<br></em><br><ul>
+<li>Define the Document Object Model (DOM) and its relationship to Dynamic HTML (DHTML).</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<p>When a page is loaded into the browser, there browser takes an inventory of all items that make up the page.&nbsp; The inventory can elements, multimedia, forms, links; basically everything that makes up the page.&nbsp;</p>
+<p>The inventory becomes your playground, that you can change anytime that you want through the use of the DOM (document object model).&nbsp; The DOM can also be called the JavaScript Hierarchy.&nbsp;</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="$IMS-CC-FILEBASE$/Uploaded%20Media/javascripthierarchy.gif" alt="javascripthierarchy.gif"></p>
+<p>&nbsp;</p>
+<h3><em>Using the DOM (just a little fun)</em></h3>
+<p>Although your text does not show you any examples, I thought it might be fun for you to play with at least one simple example.&nbsp; Scroll over the code below, save it as DOM.html and display it in your browser.</p>
+<div style="background-color: white; border: thin red solid; font-family: monospace; padding: 25px 25px 25px 25px;">&lt;!DOCTYPE html&gt;<br>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;<br>&lt;head&gt;<br>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;<br>&lt;title&gt;JavaScript Fun&lt;/title&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="author" content="your name" /&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="keywords" content="JavaScript" /&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="description" content="A simple JavaScript Expression Evaluator" /&gt;<br>&lt;script type="text/javascript"&gt;<br>&lt;!--<br>//&lt;[CDATA[<br>/* ------------------------------------<br>function DOM()<br>purpose: &nbsp;&nbsp;&nbsp; &nbsp;Get input from the user and <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;add the information to a specific div <br>author:&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;Marti Baker<br>date:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;12/19/2013<br>parameters:&nbsp;&nbsp; &nbsp;none<br>return value:&nbsp; true, let the calling position know that function<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;has been completed<br>----------------------------------------*/<br>function DOM(){<br><br>&nbsp;&nbsp; &nbsp;var strUser = prompt("What is your first name?");<br>&nbsp;&nbsp; &nbsp;<br>&nbsp;&nbsp; &nbsp;// dynamically write the output to the window<br>&nbsp;&nbsp; &nbsp;document.getElementById("output").innerHTML = "Thank you " + strUser + " for visiting our page. ";<br>&nbsp;&nbsp; &nbsp;<br>&nbsp;&nbsp; &nbsp;// hid the input button<br>&nbsp;&nbsp; &nbsp;document.getElementById("input").style.visibility = "hidden";<br>&nbsp;&nbsp; &nbsp;<br>&nbsp;&nbsp; &nbsp;return true;<br>}<br><br>//]]&gt;<br>--&gt;<br>&lt;/script&gt;<br>&lt;/head&gt;<br><br>&lt;body&gt;<br>&lt;h3&gt;DHTML and DOM demonstration&lt;/h3&gt;<br><br>&lt;!-- add a button for the user to click and call the JavaScript function above --&gt;<br>&lt;!-- give the paragraph a unique identifier (id) to hide it once the input has been received --&gt;<br>&lt;p id="input"&gt;&lt;input type="button" onclick="return DOM();" value="Please click me!" /&gt;&lt;/p&gt;<br><br>&lt;!-- create a location for content to be dynamically adding info to the page --&gt;<br>&lt;div id="output"&gt;<br><br>&lt;/div&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+<p>&nbsp;</p>
+<p>&nbsp;This is just for fun, you will learn more about JavaScript in the next set of modules.<br><br></p>
+<p>Click Next to continue</p>
+</div>
+</div>
+</div>
+</body>
+</html>

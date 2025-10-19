@@ -1,0 +1,2341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gd0ce3b1770bfcf76f1f8c8011b610380">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS242-635-Quizzes-Lesson-8</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="ge747a67b3e8bce8e456e07d6bd271d37" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3098,8890,4232,8678</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about the security of the JavaScript language?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3098">
+              <material>
+                <mattext texttype="text/plain">JavaScript has some security features that can help protect users from malicious Web sites by enforcing strict limits on the page authors.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8890">
+              <material>
+                <mattext texttype="text/plain">Client-side JavaScript cannot be easily viewed in the browser (like X/HTML) and is therefore useful for collecting or validating user names or passwords.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4232">
+              <material>
+                <mattext texttype="text/plain">JavaScript has no security features and presents many risks to both developers and end-users.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8678">
+              <material>
+                <mattext texttype="text/plain">JavaScript protects data passed between browser and server, and can also protect Web site owners from manipulation of their pages by outsiders</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3098</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0a333c2770dceed0642f20842250f9e0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1828,578,8699,5508</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In regard to security, JavaScript:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1828">
+              <material>
+                <mattext texttype="text/plain">is a fairly secure open scripting language.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="578">
+              <material>
+                <mattext texttype="text/plain">can replace many common security measures, such as encryption.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8699">
+              <material>
+                <mattext texttype="text/plain">is safe enough to collect or validate user names or passwords.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5508">
+              <material>
+                <mattext texttype="text/plain">cannot be viewed in the browser by end-users.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1828</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g896d607786dda4c3ddcad29d08adb0f5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5931,3677,6516,3622</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You are developing Web pages that feature JavaScript functionality for your site. These pages include a log-in page, and a customer order and payment form. Which security measures are most appropriate?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5931">
+              <material>
+                <mattext texttype="text/plain">Your pages should use SSL/TLS and your server should have all the checks in place.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3677">
+              <material>
+                <mattext texttype="text/plain">The JavaScript code replaces other common security measures, such as encryption.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6516">
+              <material>
+                <mattext texttype="text/plain">You can use JavaScript code to create security lockouts for brute-force attacks.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3622">
+              <material>
+                <mattext texttype="text/plain">It is not possible to secure pages that use JavaScript code for collecting user information.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5931</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9737c0e592b5f0cf84da5380ae2a1f67" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4538,1569,4079,6587</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an example of JavaScript functionality that can pose a security threat?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4538">
+              <material>
+                <mattext texttype="text/plain">JavaScript can bypass certain security features and take privileges with the user's browser by using signed scripts.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1569">
+              <material>
+                <mattext texttype="text/plain">JavaScript can open windows that the user is unable to see, and can close any open window in most browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4079">
+              <material>
+                <mattext texttype="text/plain">JavaScript can inherently determine which Web pages a user has open or has visited.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6587">
+              <material>
+                <mattext texttype="text/plain">JavaScript can inherently set the value attribute of a file input and upload files without permission.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4538</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8b50def420dd251111400df5251690e4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9453,8029,1630,9254</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;It is important to be able to distinguish between the browser and the operating system in relation to the elements responsible for security. Which of the following describes a function of the operating system?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9453">
+              <material>
+                <mattext texttype="text/plain">It allows the computer to interface directly with users.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8029">
+              <material>
+                <mattext texttype="text/plain">It is one of many applications that runs on the browser.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1630">
+              <material>
+                <mattext texttype="text/plain">It is an X/HTML interpreter that enables the user to access and view documents posted on the World Wide Web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9254">
+              <material>
+                <mattext texttype="text/plain">It is one of a few applications that connect your browser to the unprotected network of the Internet.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9453</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g258d940c330e75e176101496b555bb38" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8582,4312,9125,8358</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;It is important to be able to distinguish between the browser and the operating system in relation to the elements responsible for security. Which of the following describes a function of the browser?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8582">
+              <material>
+                <mattext texttype="text/plain">It is one of a few applications that connect your operating system to the unprotected network of the Internet.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4312">
+              <material>
+                <mattext texttype="text/plain">It allows the computer to interface directly with users.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9125">
+              <material>
+                <mattext texttype="text/plain">It is a viewer application that enables users to access documents saved on the hard drive.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8358">
+              <material>
+                <mattext texttype="text/plain">It provides an environment for a variety of practical applications (e.g., word processors, calculators, spreadsheet programs) to run on the computer.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8582</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g959440fb0ee9c23513f743389f926f4d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9609,1472,8977,9794</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which choice best describes steps you can take to secure your browser and operating system from threats related to JavaScript?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9609">
+              <material>
+                <mattext texttype="text/plain">Use the latest stable version of the software and the latest updates to best protect your operating system, browser and other applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1472">
+              <material>
+                <mattext texttype="text/plain">Vendors and developers have verified and secured JavaScript, so developers can accept the fact that JavaScript does not pose threats to browsers or operating systems.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8977">
+              <material>
+                <mattext texttype="text/plain">The browser is typically secured using anti-virus software, but the operating system cannot be protected this way.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9794">
+              <material>
+                <mattext texttype="text/plain">The operating system is typically secured using pop-up blockers, but the browser cannot be protected this way.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9609</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8d88983ff55a17a2a054397eddd07e95" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2712,1856,2388,1254</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;The lesson gave several examples of known security issues involving browsers and JavaScript. Considering these, you know that security exploits:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2712">
+              <material>
+                <mattext texttype="text/plain">may use JavaScript only to mask the exploit.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1856">
+              <material>
+                <mattext texttype="text/plain">occur only with older browser versions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2388">
+              <material>
+                <mattext texttype="text/plain">occur only with recent browser versions.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1254">
+              <material>
+                <mattext texttype="text/plain">generally feature viruses created with JavaScript.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2712</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ged85bb91c88e366890e6dcd65145eafc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2052,3034,3939,4268</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which example is a way that users can protect themselves from browser-specific security problems?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2052">
+              <material>
+                <mattext texttype="text/plain">Always keep your anti-virus software and patches up to date.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3034">
+              <material>
+                <mattext texttype="text/plain">Always use the most recent version of a browser because it will be the most secure.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3939">
+              <material>
+                <mattext texttype="text/plain">Always use an older version of a browser because its security issues are already known.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4268">
+              <material>
+                <mattext texttype="text/plain">Always use the maximum pop-up blocking settings available.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2052</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge86946e57c3b583244abe12df55cd132" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8978,5269,3826,4820</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true regarding browser-specific security issues?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8978">
+              <material>
+                <mattext texttype="text/plain">Most versions of most browsers have some security holes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5269">
+              <material>
+                <mattext texttype="text/plain">Very few browsers have security holes, most problems occur only with faulty operating systems.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3826">
+              <material>
+                <mattext texttype="text/plain">When security holes are discovered, vendors immediately recall the browser version and release a new one with the holes corrected.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4820">
+              <material>
+                <mattext texttype="text/plain">The past two versions of the popular browsers have corrected all security holes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8978</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g84f929af2f73d72353e41fd21cf7ce37" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>618,2008,2800,55</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Client-side detection allows you to tailor your Web pages for optimum viewing in particular browsers. Which JavaScript object can you use to perform client-side detection?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="618">
+              <material>
+                <mattext texttype="text/plain">The navigator object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2008">
+              <material>
+                <mattext texttype="text/plain">The document.write object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2800">
+              <material>
+                <mattext texttype="text/plain">The window object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="55">
+              <material>
+                <mattext texttype="text/plain">The location object</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">618</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g15c11c5931a6efdaab2fda3f48bcc3a5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>199,6511,4819,7975</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement about browser compatibility is true?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="199">
+              <material>
+                <mattext texttype="text/plain">It is difficult, if not impossible, to create truly cross-browser compatible Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6511">
+              <material>
+                <mattext texttype="text/plain">Client-side detection allows you to create fully cross-browser compatible Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4819">
+              <material>
+                <mattext texttype="text/plain">All browsers implement JavaScript the same, but they implement X/HTML differently.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7975">
+              <material>
+                <mattext texttype="text/plain">All browsers implement X/HTML the same, but they implement JavaScript differently.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">199</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g765cd5d954f9d78bf363de2cd3371215" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1196,9226,156,4810</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which browser layout engine was designed to comply with the W3C and ECMA standards, making it truly cross-platform and able to provide consistent behavior across the operating systems that support it?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1196">
+              <material>
+                <mattext texttype="text/plain">Gecko</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9226">
+              <material>
+                <mattext texttype="text/plain">Internet Explorer</mattext>
+              </material>
+            </response_label>
+            <response_label ident="156">
+              <material>
+                <mattext texttype="text/plain">Safari</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4810">
+              <material>
+                <mattext texttype="text/plain">Chrome</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1196</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd9d021080bf7c70f6a8978865ae9fabf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1286,7567,9336,1629</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;div class="pull-left inline-menu three_dots " title="bookmark"&gt;
+&lt;div class="dot-c" data-position="top"&gt;
+&lt;div class="arrow"&gt;
+&lt;span class="_title"&gt;Which statement about browser detection is true?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1286">
+              <material>
+                <mattext texttype="text/plain">Browser detection is still essential because you must balance standards-based content with support for various modern and older browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7567">
+              <material>
+                <mattext texttype="text/plain">Browser detection is no longer necessary because the major browsers are now standards-based.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9336">
+              <material>
+                <mattext texttype="text/plain">Browser detection is still essential because you must support only the specific browsers used by your target audience.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1629">
+              <material>
+                <mattext texttype="text/plain">Browser detection is no longer necessary because you need only support the specific browsers used by your target audience.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1286</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gfc47f44ef587905011ab17a82ddad022" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3546,1093,9961,2115</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;The Ultimate Browser Sniffer script is a classic example of a complex vendor/version client-side detection strategy that employs the user agent string and requires code forks for many browsers and versions. Developers are advised against using this type of script. What is this script's specific disadvantage?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3546">
+              <material>
+                <mattext texttype="text/plain">Attempting to perform browser detection to this level of detail is impossible to maintain.  B</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1093">
+              <material>
+                <mattext texttype="text/plain">This type of script is known to misidentify browsers because of the numerous code forks.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9961">
+              <material>
+                <mattext texttype="text/plain">Browser detection scripts include all browsers except those in mobile devices.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2115">
+              <material>
+                <mattext texttype="text/plain">This type of script includes unnecessary information about unknown and future browsers.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3546</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8dc2cbe6aed1a7957b95c842696ff0a6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>145,8559,6439,5753</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;There are several alternative coding approaches you can take to develop your Web pages for browser compatibility. Which approach avoids workarounds for non-compliant browsers, giving users a compelling reason to choose only Gecko-based browsers?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="145">
+              <material>
+                <mattext texttype="text/plain">Provide only code that supports standards-based browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8559">
+              <material>
+                <mattext texttype="text/plain">Use non-script detection methods whenever possible.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6439">
+              <material>
+                <mattext texttype="text/plain">Develop pages that avoid using vendor- or version-specific features, unless required.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5753">
+              <material>
+                <mattext texttype="text/plain">Limit the use of detection based on the user agent string.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">145</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g582fddeb1f1882b18fe54958f5db332f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5541,1420,6930,2927</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In addition to some basic information about the browser, such as the application name, vendor and version, which of the following is an environmental variable that you can learn with a client-side detection script?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5541">
+              <material>
+                <mattext texttype="text/plain">Patch level for the operating system</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1420">
+              <material>
+                <mattext texttype="text/plain">User preferences for monitor display  C</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6930">
+              <material>
+                <mattext texttype="text/plain">List of installed applications</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2927">
+              <material>
+                <mattext texttype="text/plain">Pop-up blocker software</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5541</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g858e36059f7dffa1f10e42ffced9fb8d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7109,1693,6953,7016</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In relation to security, browser detection:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7109">
+              <material>
+                <mattext texttype="text/plain">can provide a hacker with enough information about a system to stage an attack.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1693">
+              <material>
+                <mattext texttype="text/plain">is useful only for determining browser compatibility and is completely safe.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6953">
+              <material>
+                <mattext texttype="text/plain">does not provide any information that hackers can use to stage an exploit.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7016">
+              <material>
+                <mattext texttype="text/plain">provides Web developers with users' personal information so it must be used with integrity.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7109</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4748cc13cfe23540ce563da3cfee4fec" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1709,7792,7037,9856</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Script-blocking tools enable users to block JavaScript code and other executable content. Why are script blockers used?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1709">
+              <material>
+                <mattext texttype="text/plain">Because scripts can be malicious or annoying for the end user</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7792">
+              <material>
+                <mattext texttype="text/plain">Because scripts corrupt Web pages and make them unusable</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7037">
+              <material>
+                <mattext texttype="text/plain">Because developers need help detecting and removing scripts from the pages they develop</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9856">
+              <material>
+                <mattext texttype="text/plain">Because the W3C recommends that users avoid visiting pages that include scripts</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1709</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc0d0a3b49c52159168e8c291ad3fa9da" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4443,1545,1039,1856</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement about script-blocking tools is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4443">
+              <material>
+                <mattext texttype="text/plain">They usually block scripts by default unless you change the settings.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1545">
+              <material>
+                <mattext texttype="text/plain">They are all native tools, meaning they are built in to browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1039">
+              <material>
+                <mattext texttype="text/plain">They always allow scripts by default unless you change the settings.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1856">
+              <material>
+                <mattext texttype="text/plain">They are all third-party tools that you can add to a browser as a plug-in or add-on.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4443</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3708c824c0cd536dc2d0b77ac92da345" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4981,4218,3965,9825</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;A script-blocking add-on or plug-in is generally meant to:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4981">
+              <material>
+                <mattext texttype="text/plain">prevent scripts from exploiting security vulnerabilities, but without losing functionality by disallowing all executable content.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4218">
+              <material>
+                <mattext texttype="text/plain">block only specified scripts and executable content from running in any browser on your system.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3965">
+              <material>
+                <mattext texttype="text/plain">block all scripts and executable content from running in a specific browser on your system.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9825">
+              <material>
+                <mattext texttype="text/plain">prevent scripts from exploiting security vulnerabilities by disallowing all executable content.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4981</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g055b4334dc44f1127a8a3cc69169b8de" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7318,4210,9406,9300</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;If you use scripts on a site you develop, you should:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7318">
+              <material>
+                <mattext texttype="text/plain">advise users about the script and provide alternatives to that functionality.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4210">
+              <material>
+                <mattext texttype="text/plain">expect the scripted functionality to be blocked by all browsers by default.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9406">
+              <material>
+                <mattext texttype="text/plain">include a script blocker on the site to make it more secure for your end-users.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9300">
+              <material>
+                <mattext texttype="text/plain">expect that your site will have security issues that you will need to monitor and repair.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7318</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g679c536121b87b97c1b340c1ac54df83" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>578,924,2906,4263</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;As a developer, why might you need to disable JavaScript completely from your own browser?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="578">
+              <material>
+                <mattext texttype="text/plain">To examine a page you are unfamiliar with, possibly because of a security problem</mattext>
+              </material>
+            </response_label>
+            <response_label ident="924">
+              <material>
+                <mattext texttype="text/plain">To keep the pages you develop securely hidden from hackers</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2906">
+              <material>
+                <mattext texttype="text/plain">To develop the JavaScript code on your system without it running prematurely</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4263">
+              <material>
+                <mattext texttype="text/plain">To test the scripts you develop without making your browser vulnerable to a security exploit</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">578</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g20e7925a716b657851d8adf8d861b50b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3560,9684,5491,5846</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;The document.write method may perform differently in some browsers because:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3560">
+              <material>
+                <mattext texttype="text/plain">in pages with an XHTML doctype, the browser will process as XML, which some browsers have problems displaying.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9684">
+              <material>
+                <mattext texttype="text/plain">the document.write method is part of newer JavaScript versions, so older browsers do not recognize it.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5491">
+              <material>
+                <mattext texttype="text/plain">when developers invoke it before a page finishes loading, it creates a new page and overwrites their existing page content in some browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5846">
+              <material>
+                <mattext texttype="text/plain">the document.write method has been deprecated, so newer browsers will not process or render it at all.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3560</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g788d7112cf4ce539b3ae41e02e6b1a56" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5760,4697,7942,5084</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Many novice developers rely on the document.write method for much of their scripted functionality. Which statement about document.write is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5760">
+              <material>
+                <mattext texttype="text/plain">It is not necessarily the best way to use JavaScript to write text onto a Web page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4697">
+              <material>
+                <mattext texttype="text/plain">It is the only way to use JavaScript to write text onto a Web page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7942">
+              <material>
+                <mattext texttype="text/plain">It is the best way to use JavaScript to write text onto a Web page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5084">
+              <material>
+                <mattext texttype="text/plain">It provides an effective but complicated way to use JavaScript to write text onto a Web page.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5760</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3510ba6179d8e533ded6d4fa4b0135f0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3017,2977,8926,9792</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;As a developer, what can you do to work around the problems with document.write rendering in some browsers?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3017">
+              <material>
+                <mattext texttype="text/plain">Create multiple versions of the page that conform to the appropriate HTML or XHTML standard, then use the navigator object to detect the user's browser type.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2977">
+              <material>
+                <mattext texttype="text/plain">Declare your pages as HTML 4.0 Transitional in the &lt;!DOCTYPE&gt; tag if you want to use document.write with the Firefox or Chrome browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8926">
+              <material>
+                <mattext texttype="text/plain">Use document.write only when necessary in your pages, because there are no JavaScript alternatives for this functionality.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9792">
+              <material>
+                <mattext texttype="text/plain">Declare your pages as XHTML 1.0 Transitional in the &lt;!DOCTYPE&gt; tag if you want to use document.write with the Internet Explorer browser.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3017</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6ba7af91399febd262e4ce72f96dbd4f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9644,6073,7940,5827</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;An example of accidental or malicious coding is a JavaScript statement that has no attainable conditions for ending, and thus requires the user to close the browser in order to end the script. What is the term for this type of statement?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9644">
+              <material>
+                <mattext texttype="text/plain">Infinite loop</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6073">
+              <material>
+                <mattext texttype="text/plain">Cookie</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7940">
+              <material>
+                <mattext texttype="text/plain">Script blocker</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5827">
+              <material>
+                <mattext texttype="text/plain">document.write statement</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9644</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g095a662c7ebc30cacea2ad67de9fe41a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>466,1836,3642,8161</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;If an end-user encounters an infinite loop in your Web page, what must she do?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="466">
+              <material>
+                <mattext texttype="text/plain">Force her browser to quit using CTRL+ALT+DELETE</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1836">
+              <material>
+                <mattext texttype="text/plain">Report your site to the W3C, which will contact you to correct the code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3642">
+              <material>
+                <mattext texttype="text/plain">Find and correct the error in the page using her debugging tool</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8161">
+              <material>
+                <mattext texttype="text/plain">Turn on her script blocker so she can proceed with her browsing</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">466</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc3774574007f0f654abc9a5d5fe4a822" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1379,4905,8372,6422</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;With which of the following JavaScript statements might a developer accidentally generate an infinite loop?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1379">
+              <material>
+                <mattext texttype="text/plain">A for statement</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4905">
+              <material>
+                <mattext texttype="text/plain">A document.write statement</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8372">
+              <material>
+                <mattext texttype="text/plain">An innerHTML statement</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6422">
+              <material>
+                <mattext texttype="text/plain">A !DOCTYPE statement</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1379</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g392314c1820b6799f26897c097ea645f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8423,5652,9911,7962</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following expressions is an example of a condition that can never be met and would thus cause an infinite loop?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8423">
+              <material>
+                <mattext texttype="text/plain">var i = 1; do{ i--;} while (i &lt; 5);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5652">
+              <material>
+                <mattext texttype="text/plain">var i = 5; do{ i--;} while (i &gt; 2);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9911">
+              <material>
+                <mattext texttype="text/plain">for (i=0; i &lt;= 0; i++);</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7962">
+              <material>
+                <mattext texttype="text/plain">for (i=0; i &lt;= 2; i++);</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8423</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8fbd30048c4ae1478b8790ab9a48dc76" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8704,4321,6981,2091</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which description best fits the JavaScript security issue known as frame-to-frame URL changing?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8704">
+              <material>
+                <mattext texttype="text/plain">A technique in which one frame in a frameset can direct another frame to display a different page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4321">
+              <material>
+                <mattext texttype="text/plain">A policy that requires site pages to be ancestors in order to be allowed to navigate each other's frames</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6981">
+              <material>
+                <mattext texttype="text/plain">A script validated by a certificate authority that can request extended privileges and abilities in the browser, such as URL changing in frames</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2091">
+              <material>
+                <mattext texttype="text/plain">A security vulnerability in which an attacker embeds malicious script into a link that, when clicked, can execute and change a frame's URL</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8704</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9b31b44198419466b0d0b8c379db87db" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7589,6917,7616,2622</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Frames are not as commonly used on the Web as they once were, and thus frame-to-frame URL changing is not the problem it once was. However, it does still occur. Which of the following is currently a particular target for frame-to-frame URL changing attacks?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7589">
+              <material>
+                <mattext texttype="text/plain">Inline frames</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6917">
+              <material>
+                <mattext texttype="text/plain">AJAX pages</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7616">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripts</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2622">
+              <material>
+                <mattext texttype="text/plain">The &lt;noframes&gt; tag</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7589</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g16bcf63ad100b720f92cd3140d13dba9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3166,2784,1828,8695</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You are browsing a Web site that uses a frameset for its page design. As you click links on the main page, you see the site's supporting pages appear in the other frames. One of the supporting pages asks you to enter your e-mail address to subscribe to the site's blog. You glance at your browser's address bar and see that you are still on the legitimate site you originally accessed, so you go ahead and enter your address. Shortly after that, you are inundated with e-mail messages promoting pornography sites. Which malicious scripting technique has been perpetrated?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3166">
+              <material>
+                <mattext texttype="text/plain">Cloaking</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2784">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1828">
+              <material>
+                <mattext texttype="text/plain">Signed script</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8695">
+              <material>
+                <mattext texttype="text/plain">Malicious cookie</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3166</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc2db753b4fbb1cbade6a7522f6612c02" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2309,7792,2925,4162</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which term is used to describe the practice, either legitimate or malicious, when one frame in a frameset redirects a URL, and the browser still displays the URL of the frameset document — rather than the URL of the target page — in the address bar?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2309">
+              <material>
+                <mattext texttype="text/plain">Cloaking</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7792">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2925">
+              <material>
+                <mattext texttype="text/plain">Inline frames</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4162">
+              <material>
+                <mattext texttype="text/plain">Same-origin policy</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2309</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc169ff8a895d8899b6ac25b59be2fddf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5328,9416,7984,547</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which term is used to describe a policy that defines the relationships among various pages in a Web site and requires site pages to be ancestors in order to be allowed to navigate each other?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5328">
+              <material>
+                <mattext texttype="text/plain">Same origin</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9416">
+              <material>
+                <mattext texttype="text/plain">Frame-to-frame URL changing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7984">
+              <material>
+                <mattext texttype="text/plain">Inline frames</mattext>
+              </material>
+            </response_label>
+            <response_label ident="547">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5328</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7707604bafcb2b0bdf07a56055a46c40" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3947,6372,1904,4895</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which JavaScript security issue invokes the same-origin policy for browser restrictions?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3947">
+              <material>
+                <mattext texttype="text/plain">Frame-to-frame URL changing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6372">
+              <material>
+                <mattext texttype="text/plain">Script blocking</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1904">
+              <material>
+                <mattext texttype="text/plain">Problems with document.write</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4895">
+              <material>
+                <mattext texttype="text/plain">Browser compatibility</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3947</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9b618973f857957bd392daf7e65d24dd" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8300,7424,9790,5389</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following still does not support signed scripts, but rather allows the user to define security zones of trusted sites and specify security settings for the entire zone?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8300">
+              <material>
+                <mattext texttype="text/plain">Microsoft Internet Explorer</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7424">
+              <material>
+                <mattext texttype="text/plain">Mozilla Firefox</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9790">
+              <material>
+                <mattext texttype="text/plain">Netscape</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5389">
+              <material>
+                <mattext texttype="text/plain">Google Chrome</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8300</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g334bc0ce00ceabc506fa2b57bc458e5c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7626,6669,490,2096</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You are browsing the Web, and as you access a particular page, you see a dialog box that advises you of a script that is about to run. The dialog says that this script will install another script and run a related Web page from another site. It then asks for you to agree to allow this script to run. You think you can trust this site, so you click to allow the script. &lt;br&gt;&lt;br&gt;Next you see several Web pages appear — one is related to the content you were just browsing, but others are advertisements and some contain unsavory content that you would not have approved. What type of security exploit has been perpetrated?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7626">
+              <material>
+                <mattext texttype="text/plain">Signed script</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6669">
+              <material>
+                <mattext texttype="text/plain">Phishing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="490">
+              <material>
+                <mattext texttype="text/plain">Cloaking</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2096">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7626</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0c39a7de84cb8017961a447e33d3ec1d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>920,5566,4087,2379</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an example of the functionality of a signed script?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="920">
+              <material>
+                <mattext texttype="text/plain">Reading a user's browser preference settings after asking for permission</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5566">
+              <material>
+                <mattext texttype="text/plain">Installing other scripts and running files without requiring the user to confirm that he trusts the source</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4087">
+              <material>
+                <mattext texttype="text/plain">Displaying the URL of the frameset document rather than the URL of the frame page in the browser address bar</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2379">
+              <material>
+                <mattext texttype="text/plain">Reading a user's browser preference settings without asking for permission</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">920</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga38d8dec214738863da56d04e97b9916" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6923,5214,4195,5130</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;It is important to be able to distinguish between the browser and the operating system in relation to the elements responsible for security. Regarding this, which statement is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6923">
+              <material>
+                <mattext texttype="text/plain">The browser can be considered a doorway for security problems that can affect your operating system.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5214">
+              <material>
+                <mattext texttype="text/plain">A browser can run without an operating system, but an operating system cannot run without a browser.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4195">
+              <material>
+                <mattext texttype="text/plain">An operating system is one of many applications that runs on the browser.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5130">
+              <material>
+                <mattext texttype="text/plain">The operating system can be considered a doorway for security problems that can affect your browser.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6923</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

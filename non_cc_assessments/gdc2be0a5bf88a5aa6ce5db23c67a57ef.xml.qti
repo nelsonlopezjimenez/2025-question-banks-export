@@ -1,0 +1,2509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gdc2be0a5bf88a5aa6ce5db23c67a57ef">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS241Ch9</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gc9ad569c5c44b366708a7f07abb20d3d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6915,3176,5321,7691</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which tool's main function is to allow Web authors to create Web pages without typing the requisite HTML code?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6915">
+              <material>
+                <mattext texttype="text/plain">GUI HTML editor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3176">
+              <material>
+                <mattext texttype="text/plain">Web browser</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5321">
+              <material>
+                <mattext texttype="text/plain">HTML text editor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7691">
+              <material>
+                <mattext texttype="text/plain">Word-processing application</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6915</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge6b9f13444d7edf89f302b84152d8874" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>304,453,9402,5997</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the purpose of a GUI HTML editor?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="304">
+              <material>
+                <mattext texttype="text/plain">To enable Web authors to create Web pages without typing HTML code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="453">
+              <material>
+                <mattext texttype="text/plain">To enable Web authors to edit Web sites they find on the Internet</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9402">
+              <material>
+                <mattext texttype="text/plain">To enable Web authors to create Web pages by typing HTML code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5997">
+              <material>
+                <mattext texttype="text/plain">To enable Web authors with disabilities to develop and edit Web pages</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">304</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8f1e8530325993db3271f9fe7537e558" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2721,8044,1005,9330</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is another term used for graphical user interface (GUI) HTML editors?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2721">
+              <material>
+                <mattext texttype="text/plain">What You See Is What You Get (WYSIWYG) editors</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8044">
+              <material>
+                <mattext texttype="text/plain">Web browsers</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1005">
+              <material>
+                <mattext texttype="text/plain">HTML text editors</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9330">
+              <material>
+                <mattext texttype="text/plain">Web site management applications</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2721</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1c85a3142818262a09f58fa9a1585f18" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6756,2483,6791,5731</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What are the two types of GUI editors?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6756">
+              <material>
+                <mattext texttype="text/plain">Page editors and site management editors</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2483">
+              <material>
+                <mattext texttype="text/plain">WYSIWYG editors and text editors</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6791">
+              <material>
+                <mattext texttype="text/plain">Text editors and HTML editors</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5731">
+              <material>
+                <mattext texttype="text/plain">Adobe Dreamweaver and Microsoft Expression Web</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6756</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g44be95df17366bdb77d76b5b84118bd8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2779,3807,904,1318</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which choice correctly describes the functionality of GUI page editors, rather than GUI site management editors?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2779">
+              <material>
+                <mattext texttype="text/plain">GUI page editors are usually limited to creating individual Web pages using your mouse and a toolbar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3807">
+              <material>
+                <mattext texttype="text/plain">GUI page editors allow you to edit existing Web pages but not create Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="904">
+              <material>
+                <mattext texttype="text/plain">GUI page editors provide both Web page creation and site management functionality.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1318">
+              <material>
+                <mattext texttype="text/plain">GUI page editors are larger applications of which GUI site management editors are one feature.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2779</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge979c5810edcd10b57106e446404f53a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5414,6693,8245,8861</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which choice correctly describes the functionality of GUI site management editors, rather than GUI page editors?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5414">
+              <material>
+                <mattext texttype="text/plain">GUI site management editors provide both Web page creation and site management functionality.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6693">
+              <material>
+                <mattext texttype="text/plain">GUI site management editors allow you to edit existing Web pages but not create Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8245">
+              <material>
+                <mattext texttype="text/plain">GUI site management editors provide site management functionality but do not allow you to create pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8861">
+              <material>
+                <mattext texttype="text/plain">GUI site management editors are limited to creating individual Web pages using your mouse and a toolbar.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5414</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gde432265a0e6c39230c59720dc5d3bab" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2441,2650,3282,8991</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Certain functionality features are offered by most GUI editors. Which feature allows you to create custom Web pages quickly by selecting from a series of choices?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2441">
+              <material>
+                <mattext texttype="text/plain">Templates and wizards</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2650">
+              <material>
+                <mattext texttype="text/plain">Publishing documents tools</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3282">
+              <material>
+                <mattext texttype="text/plain">Hyperlink tools</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8991">
+              <material>
+                <mattext texttype="text/plain">Import HTML pages features</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2441</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gea745e6871039eced5d5a6739c2d5d40" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2670,8156,764,1509</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Certain functionality features are offered by most GUI editors. Which feature allows you to apply formatting such as font size and color, centering, bold, and italic?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2670">
+              <material>
+                <mattext texttype="text/plain">Text style options</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8156">
+              <material>
+                <mattext texttype="text/plain">Templates and wizards</mattext>
+              </material>
+            </response_label>
+            <response_label ident="764">
+              <material>
+                <mattext texttype="text/plain">Publishing documents tools</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1509">
+              <material>
+                <mattext texttype="text/plain">Import HTML pages features</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2670</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g419cd3d1f1647c1efb62cca11a4b5e5c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9936,8356,371,9537</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Certain functionality features are offered by most GUI editors. Which feature offers easily identifiable graphical buttons to provide the same functions found in text-based menus?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9936">
+              <material>
+                <mattext texttype="text/plain">Icon bars</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8356">
+              <material>
+                <mattext texttype="text/plain">Image functions</mattext>
+              </material>
+            </response_label>
+            <response_label ident="371">
+              <material>
+                <mattext texttype="text/plain">Text style options</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9537">
+              <material>
+                <mattext texttype="text/plain">Templates and wizards</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9936</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb249ad7f7ad3bd6d97062faa9ea6e351" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7853,3565,3659,6829</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Certain functionality features are offered by most GUI editors. Which feature allows you to connect your Web pages to other pages and files within your Web site, and to pages and files on the World Wide Web?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7853">
+              <material>
+                <mattext texttype="text/plain">Hyperlink features</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3565">
+              <material>
+                <mattext texttype="text/plain">Import HTML pages features</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3659">
+              <material>
+                <mattext texttype="text/plain">Publishing documents tools</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6829">
+              <material>
+                <mattext texttype="text/plain">Image functions</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7853</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7f1428a0ea281c1f801a6c5ba9878f56" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1032,2912,5134,3106</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Certain functionality features are offered by most GUI editors. Which feature allows you to open pages from the World Wide Web and, when permissible, save them to a Web site or local file system?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1032">
+              <material>
+                <mattext texttype="text/plain">Import HTML pages feature</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2912">
+              <material>
+                <mattext texttype="text/plain">Templates and wizards</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5134">
+              <material>
+                <mattext texttype="text/plain">Publishing documents tools</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3106">
+              <material>
+                <mattext texttype="text/plain">Hyperlink features</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1032</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0759e68f290544ba76ed059131ed26c9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9141,9818,380,1496</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Certain functionality features are offered by most GUI editors. Which feature allows you to click a button to post pages to a Web server, automatically copying files from a local hard disk drive to a directory on an ISP's server?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9141">
+              <material>
+                <mattext texttype="text/plain">Publishing documents tools</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9818">
+              <material>
+                <mattext texttype="text/plain">Icon bars</mattext>
+              </material>
+            </response_label>
+            <response_label ident="380">
+              <material>
+                <mattext texttype="text/plain">Import HTML pages feature</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1496">
+              <material>
+                <mattext texttype="text/plain">Hyperlink features</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9141</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge74a9c35278dd549bba9617303eee205" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8032,946,4256,9342</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The W3C Authoring Tool Accessibility Guidelines Recommendation outlines seven points that help determine what?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8032">
+              <material>
+                <mattext texttype="text/plain">The suitability of a GUI editor for developers with disabilities</mattext>
+              </material>
+            </response_label>
+            <response_label ident="946">
+              <material>
+                <mattext texttype="text/plain">The availability of a GUI editor for free use or on a low-cost basis</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4256">
+              <material>
+                <mattext texttype="text/plain">The ability of a GUI editor to automatically create accessible Web page features</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9342">
+              <material>
+                <mattext texttype="text/plain">The ability of a GUI editor to automatically create advanced programming code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8032</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd075de7efecaf3f01270b658bafe5d58" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5079,9778,2274,640</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The W3C Authoring Tool Accessibility Guidelines Recommendation outlines seven requirements that all focus on what issues for a GUI editor?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5079">
+              <material>
+                <mattext texttype="text/plain">Its ability to generate proper code and its usability by a disabled person creating Web pages</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9778">
+              <material>
+                <mattext texttype="text/plain">Its availability for free or low-cost use and its ability to generate proper code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2274">
+              <material>
+                <mattext texttype="text/plain">Its availability for free or low-cost use and its usability by a disabled person creating Web pages</mattext>
+              </material>
+            </response_label>
+            <response_label ident="640">
+              <material>
+                <mattext texttype="text/plain">Its ability to automatically create advanced programming code and accessible Web page features</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5079</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6e6125bb1769e2d0181ed62e0cf662b6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2128,6462,4585,7026</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a simple guideline you can use when developing your Web pages to provide accessibility for users who have trouble using the mouse?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2128">
+              <material>
+                <mattext texttype="text/plain">Make sure that your pages allow users to tab to new links.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6462">
+              <material>
+                <mattext texttype="text/plain">Do not use proprietary tags.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4585">
+              <material>
+                <mattext texttype="text/plain">Provide larger text on your Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7026">
+              <material>
+                <mattext texttype="text/plain">Use the latest versions of W3C Recommendations when available and appropriate.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2128</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc694d89953def598e554277082362e72" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8924,5651,6375,2302</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a simple guideline you can use when developing your Web pages to provide accessibility for visually impaired users?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8924">
+              <material>
+                <mattext texttype="text/plain">Provide larger text on your Web pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5651">
+              <material>
+                <mattext texttype="text/plain">Do not use proprietary tags.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6375">
+              <material>
+                <mattext texttype="text/plain">Make sure that your pages allow users to tab to new links.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2302">
+              <material>
+                <mattext texttype="text/plain">Use the latest versions of W3C Recommendations when available and appropriate.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8924</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g04d03799bab623f38945efe76d8c95fc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1721,7428,1913,9564</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you are considering whether to use a text editor or a GUI editor, which of the following is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1721">
+              <material>
+                <mattext texttype="text/plain">In most cases, it is best to use both types of editors.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7428">
+              <material>
+                <mattext texttype="text/plain">It is better to use a text editor because there are no disadvantages to using it.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1913">
+              <material>
+                <mattext texttype="text/plain">It is better to use a GUI editor because there are no disadvantages to using it.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9564">
+              <material>
+                <mattext texttype="text/plain">You can create most of your Web site quickly with a text editor, then use a GUI editor for scripts.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1721</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge850596dd49283df75516342cc6daaa1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9053,3575,6685,7712</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is an advantage of using a text editor rather than a GUI editor?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9053">
+              <material>
+                <mattext texttype="text/plain">You can learn the fundamentals of HTML and update your pages to the latest version(s).</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3575">
+              <material>
+                <mattext texttype="text/plain">People with disabilities usually find manual code entry easier.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6685">
+              <material>
+                <mattext texttype="text/plain">Text editors allow you to create pages quickly by clicking your mouse.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7712">
+              <material>
+                <mattext texttype="text/plain">A text editor requires little time and effort if you need only a simple page.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9053</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ged9680ae9f8bddf87836701bf0010c8c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7659,2627,8316,8117</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You are developing a Web site using a GUI editor. You are curious as to whether your pages will look or function any differently after you publish them to the Web. Which of the following is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7659">
+              <material>
+                <mattext texttype="text/plain">Most GUI editors allow you to easily preview and test your pages in the browser(s) of your choice.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2627">
+              <material>
+                <mattext texttype="text/plain">Most GUI editors make it easy to preview your pages using built-in code validators or validation sites.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8316">
+              <material>
+                <mattext texttype="text/plain">The WYSIWYG environment displays pages exactly as they will appear and work on the Web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8117">
+              <material>
+                <mattext texttype="text/plain">You can proof your pages after you publish them to the Web, make any changes, then republish them.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7659</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gab62218b0b51e819c501012fc7b9aa02" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7335,3557,3588,6068</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the best way to ensure that your Web page code conforms to the W3C's standards?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7335">
+              <material>
+                <mattext texttype="text/plain">Use the GUI editor's built-in code validator or visit a validation site.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3557">
+              <material>
+                <mattext texttype="text/plain">Preview your pages in a browser, view the source code and carefully proof it for non-standard tags.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3588">
+              <material>
+                <mattext texttype="text/plain">Carefully preview and test your pages in as many different browser types and versions as possible.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6068">
+              <material>
+                <mattext texttype="text/plain">You need do nothing - the WYSIWYG environment automatically generates W3C-compliant code.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7335</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga58464fbc880141785a3db2cfd2c4ea7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4776,352,2007,4868</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You are developing a Web site using a GUI editor, and you want to validate your code for conformity to W3C standards. What does a validation engine use to determine the W3C standard it should validate against?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4776">
+              <material>
+                <mattext texttype="text/plain">The HTML page's !DOCTYPE declaration</mattext>
+              </material>
+            </response_label>
+            <response_label ident="352">
+              <material>
+                <mattext texttype="text/plain">The HTML page's &lt;html&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2007">
+              <material>
+                <mattext texttype="text/plain">The HTML page's &lt;DTD&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4868">
+              <material>
+                <mattext texttype="text/plain">The HTML page's template</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4776</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g225626be36fafb08af8dde5aa1b11974" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>407,8752,9660,1035</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You are developing a Web site using a GUI editor. You have written code in the pages to the HTML 4.01 Transitional standard, and it has validated. Then a team member, hearing that the site will be updated to HTML5 soon, changes the !DOCTYPE declaration on this page to refer to HTML5. Although your page once validated as HTML 4.01 Transitional, it no longer validates. What is the fastest way to get the page to validate?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="407">
+              <material>
+                <mattext texttype="text/plain">Change the !DOCTYPE declaration back to HTML 4.01, to which the page code currently conforms.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8752">
+              <material>
+                <mattext texttype="text/plain">Delete the !DOCTYPE declaration from the page and validate the code without it.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9660">
+              <material>
+                <mattext texttype="text/plain">Delete the DTD reference from the page's !DOCTYPE declaration and validate the code without it.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1035">
+              <material>
+                <mattext texttype="text/plain">Edit the page code to conform to the HTML5 standard as declared in the !DOCTYPE.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">407</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge1cb7aee4bca44ee386cdd5285a71c7c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5955,9476,8657,13</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You are developing a Web site using a GUI editor, and you want to validate your code. What information does a validation engine use to determine the W3C standard it should validate against?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5955">
+              <material>
+                <mattext texttype="text/plain">The code standard specified in the !DOCTYPE declaration (e.g., HTML5)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9476">
+              <material>
+                <mattext texttype="text/plain">The W3C Authoring Tool Accessibility Guidelines</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8657">
+              <material>
+                <mattext texttype="text/plain">The HTML compatibility list (e.g., JavaScript and Flash)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13">
+              <material>
+                <mattext texttype="text/plain">The page's content list (e.g., images, text and downloadable files)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5955</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3c3c6ea208de5305ea6f90944fbc21af" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>239,4336,8839,7728</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What does a validation engine (such as the W3C Markup Validation Service) determine about your Web page?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="239">
+              <material>
+                <mattext texttype="text/plain">Whether it conforms to a specific W3C markup code standard</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4336">
+              <material>
+                <mattext texttype="text/plain">Whether it conforms to W3C accessibility standards</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8839">
+              <material>
+                <mattext texttype="text/plain">Whether it conforms to any of the W3C markup code standards</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7728">
+              <material>
+                <mattext texttype="text/plain">Whether it conforms to minimum expectations for design and aesthetics</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">239</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gfee285e6a1c6975fa49399ccbcdbfd75" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7686,1679,8575,5413</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is true about validating code when using a GUI editor to develop a Web site?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7686">
+              <material>
+                <mattext texttype="text/plain">Most GUI editors include their own native validation tools or offer easy access to validators.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1679">
+              <material>
+                <mattext texttype="text/plain">Most GUI editors do not provide native validation tools or offer access to validators.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8575">
+              <material>
+                <mattext texttype="text/plain">GUI editors provide validation tools but no special features to help ensure accessibility for validation.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5413">
+              <material>
+                <mattext texttype="text/plain">Code created by GUI editors cannot be validated by sites such as the W3C Markup Validation Service.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7686</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g70163b3e3fbd5b4feec0542778f7632f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2867,19,7191,5918</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You have developed a Web site using a GUI editor. The final step in Web site development is publishing your site to the World Wide Web. Which of the following is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2867">
+              <material>
+                <mattext texttype="text/plain">Most GUI editors provide a publish feature to easily post your Web page files to the Web host.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="19">
+              <material>
+                <mattext texttype="text/plain">You must use a separate File Transfer Protocol (FTP) client to post your Web page files to the Web host.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7191">
+              <material>
+                <mattext texttype="text/plain">Most GUI editors provide a Web hosting feature that publishes and maintains your pages on the Web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5918">
+              <material>
+                <mattext texttype="text/plain">You must contract an ISP to post your Web page files to the Web host for you.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2867</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2f7c5dab3d963760bc5f116a6b0bb132" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9833,7131,8096,9666</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is most often used to transfer files between a computer and a server for the purpose of publishing a Web site?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9833">
+              <material>
+                <mattext texttype="text/plain">File Transfer Protocol (FTP)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7131">
+              <material>
+                <mattext texttype="text/plain">Hypertext Transfer Protocol (HTTP)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8096">
+              <material>
+                <mattext texttype="text/plain">Extensible Markup Language (XML)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9666">
+              <material>
+                <mattext texttype="text/plain">Hypertext Markup Language (HTML)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9833</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2dc6d003cdcd5b1623d59755b007eb99" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>185,361,7676,9624</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Y&lt;/span&gt;&lt;span&gt;ou have developed a Web site using a GUI editor. Your supervisor wants to allow members of the development team and other stakeholders to preview the site. What should you do prior to publishing your site to the World Wide Web?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="185">
+              <material>
+                <mattext texttype="text/plain">Post the final Web site files to a test Web server before moving them to the production server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="361">
+              <material>
+                <mattext texttype="text/plain">Post the final Web site files to the production server before publishing them on the Web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7676">
+              <material>
+                <mattext texttype="text/plain">Perform tests and reviews on final Web site files on your local system before publishing them to the Web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9624">
+              <material>
+                <mattext texttype="text/plain">Publish the Web site files to the Web, perform tests and reviews, then make necessary changes to the site.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">185</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gfd1170b174cd039f3f68d0ea3c31016b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4997,7332,6806,573</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When configuring a test server for your Web site, which three components should be as nearly identical to the production server as possible?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4997">
+              <material>
+                <mattext texttype="text/plain">Operating system, Web server software, and CGI interpreter software</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7332">
+              <material>
+                <mattext texttype="text/plain">Operating system, Web server software, and GUI HTML editor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6806">
+              <material>
+                <mattext texttype="text/plain">Site management application, protocol for transferring files, and CGI interpreter software</mattext>
+              </material>
+            </response_label>
+            <response_label ident="573">
+              <material>
+                <mattext texttype="text/plain">Site management application, protocol for transferring files, and Web server software</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4997</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g280a2ff8acf2be6ccd5d88764e8cc8fc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3748,1973,441,5420</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you are ready to publish your Web site files to your Web host, which choice lists all the information you must specify in order to publish your files?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3748">
+              <material>
+                <mattext texttype="text/plain">The destination server's name or IP address, authentication information, and the file location on the remote server</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1973">
+              <material>
+                <mattext texttype="text/plain">The destination server's name or IP address, the file location on the remote server, and your Web site's name or IP address</mattext>
+              </material>
+            </response_label>
+            <response_label ident="441">
+              <material>
+                <mattext texttype="text/plain">The destination server's name or IP address, your Web site's name or IP address, and authentication information</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5420">
+              <material>
+                <mattext texttype="text/plain">The destination server's name or IP address, your Web site's name or IP address, and the file location on your local system</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3748</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdb55f43070146169ef3de160190caf83" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2877,4828,1984,3700</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is important for optimizing your Web site for viewing on mobile devices?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2877">
+              <material>
+                <mattext texttype="text/plain">Keep your Web pages simple and uncluttered.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4828">
+              <material>
+                <mattext texttype="text/plain">Use more images than text to take advantage of mobile-device technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1984">
+              <material>
+                <mattext texttype="text/plain">Target the user who wants to browse.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3700">
+              <material>
+                <mattext texttype="text/plain">Optimize your site to a larger screen size.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2877</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g84b8658661e22483e69bbd42291c60d5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9444,3327,8185,7190</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;As you develop a Web site designed for mobile devices, always use:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9444">
+              <material>
+                <mattext texttype="text/plain">the alt attribute in your &lt;img&gt; tags.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3327">
+              <material>
+                <mattext texttype="text/plain">more images than text to take advantage of mobile-device technology.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8185">
+              <material>
+                <mattext texttype="text/plain">banner ads.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7190">
+              <material>
+                <mattext texttype="text/plain">small heading tags, preferably smaller than &lt;h4&gt;.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9444</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g959e7879ec58e2d5529186ee01c71b0f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3923,6368,90,4870</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a stand-alone application that is downloaded from a vendor's software repository onto a mobile device?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3923">
+              <material>
+                <mattext texttype="text/plain">Mobile app</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6368">
+              <material>
+                <mattext texttype="text/plain">Mobile Web site</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90">
+              <material>
+                <mattext texttype="text/plain">Application Programming Interface (API)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4870">
+              <material>
+                <mattext texttype="text/plain">Common Gateway Interface (CGI)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3923</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g834409be6cba3242307a3d0780b4f322" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3694,866,5805,9961</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement about mobile Web sites is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3694">
+              <material>
+                <mattext texttype="text/plain">Mobile Web sites can be viewed from almost any mobile device.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="866">
+              <material>
+                <mattext texttype="text/plain">Mobile Web sites must download and install mobile apps to access Web information.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5805">
+              <material>
+                <mattext texttype="text/plain">Mobile Web sites do not provide cross-platform usability.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9961">
+              <material>
+                <mattext texttype="text/plain">Mobile Web sites are stand-alone applications that are downloaded from a vendor's software repository.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3694</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb7dff79f2ae19706d3752212659a40e0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>412,9380,9508,6408</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement about mobile apps is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="412">
+              <material>
+                <mattext texttype="text/plain">Mobile apps are designed and built for specific mobile operating systems.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9380">
+              <material>
+                <mattext texttype="text/plain">Mobile apps are designed and built to run on any mobile operating system.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9508">
+              <material>
+                <mattext texttype="text/plain">Mobile apps are usually stripped-down versions of traditional Web sites.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6408">
+              <material>
+                <mattext texttype="text/plain">Mobile apps require a Web browser in order to run.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">412</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g739b43a3a9db3dee9231354dacbae150" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6205,4408,5123,7430</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you develop a mobile Web site, why is it important that you validate your markup code to HTML5?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6205">
+              <material>
+                <mattext texttype="text/plain">Because HTML5 was created in part to provide support for mobile devices.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4408">
+              <material>
+                <mattext texttype="text/plain">Because it will eliminate the need to test your mobile Web site on mobile devices.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5123">
+              <material>
+                <mattext texttype="text/plain">Because it makes converting a mobile Web site to a traditional Web site easier.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7430">
+              <material>
+                <mattext texttype="text/plain">Because it makes converting a mobile Web site to a mobile app easier.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6205</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0e4d97d9af5533d205aa113652136ada" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2322,6477,7273,2181</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the name of the concept for the changing trends in the use of WWW technology and Web design that have led to the development of information-sharing and collaboration capabilities?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2322">
+              <material>
+                <mattext texttype="text/plain">Web 2.0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6477">
+              <material>
+                <mattext texttype="text/plain">Web 1.0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7273">
+              <material>
+                <mattext texttype="text/plain">Cloud computing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2181">
+              <material>
+                <mattext texttype="text/plain">Software as a Service (SaaS)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2322</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g15ee2e1c665cae1a6b19060d3e1c1a2b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3319,4509,3137,952</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="_title"&gt;What is the term for the Web 2.0 programming methodology that enables Web applications to interact with users in much the same way they do with desktop applications?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3319">
+              <material>
+                <mattext texttype="text/plain">Ajax</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4509">
+              <material>
+                <mattext texttype="text/plain">Cloud computing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3137">
+              <material>
+                <mattext texttype="text/plain">Web application framework</mattext>
+              </material>
+            </response_label>
+            <response_label ident="952">
+              <material>
+                <mattext texttype="text/plain">Software as a Service (SaaS)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3319</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc1b1ff52c524febc92e47dad13e0e535" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4047,1471,5619,861</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What term refers to hosted applications and services offered by a third party?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4047">
+              <material>
+                <mattext texttype="text/plain">Cloud computing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1471">
+              <material>
+                <mattext texttype="text/plain">Ajax</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5619">
+              <material>
+                <mattext texttype="text/plain">Web application framework</mattext>
+              </material>
+            </response_label>
+            <response_label ident="861">
+              <material>
+                <mattext texttype="text/plain">Web feed</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4047</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g55ea8cbfc1d9491bb77c93f7442670ac" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4400,9581,8898,2579</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which data format is most often used to allow users to view headlines and updates from news Web sites?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4400">
+              <material>
+                <mattext texttype="text/plain">Web feed</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9581">
+              <material>
+                <mattext texttype="text/plain">Podcast</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8898">
+              <material>
+                <mattext texttype="text/plain">Ajax</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2579">
+              <material>
+                <mattext texttype="text/plain">Web application framework</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4400</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge79fa85a14b25c521c0d6ec84b0281b3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7514,1239,971,2326</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which data format consists of audio or video digital-media files that are distributed to subscribed users?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7514">
+              <material>
+                <mattext texttype="text/plain">Podcast</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1239">
+              <material>
+                <mattext texttype="text/plain">Web feed</mattext>
+              </material>
+            </response_label>
+            <response_label ident="971">
+              <material>
+                <mattext texttype="text/plain">Ajax</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2326">
+              <material>
+                <mattext texttype="text/plain">Software as a Service (SaaS)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7514</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g79ca01814363ff19319409553c7bd7a8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>918,4852,8125,7045</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is an advantage of using a GUI editor rather than a text editor?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="918">
+              <material>
+                <mattext texttype="text/plain">GUI editors allow you to create pages quickly by clicking your mouse.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4852">
+              <material>
+                <mattext texttype="text/plain">GUI editors update your pages to the latest version(s) of HTML.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8125">
+              <material>
+                <mattext texttype="text/plain">GUI editors apply to your pages any code that you enter manually.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7045">
+              <material>
+                <mattext texttype="text/plain">GUI editors help you develop your coding skills for advanced languages.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">918</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2ab08f7617a7d9b409c72885573b2cca" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9349,5724,9811,5536</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You have developed a Web site using a GUI editor. You are now ready to post the Web site files to a test server. Which of the following is an important&amp;nbsp;&lt;/span&gt;&lt;span&gt;configuration for your test&amp;nbsp;&lt;/span&gt;&lt;span&gt;server?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9349">
+              <material>
+                <mattext texttype="text/plain">The same type and version of Web server software as the production server</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5724">
+              <material>
+                <mattext texttype="text/plain">A UNIX operating system</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9811">
+              <material>
+                <mattext texttype="text/plain">Greater RAM and bandwidth than the production server</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5536">
+              <material>
+                <mattext texttype="text/plain">A Windows operating system</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9349</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

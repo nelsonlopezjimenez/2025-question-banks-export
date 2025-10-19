@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_qtiasiv1p2p1_v1p0.xsd">
+  <assessment ident="g3bcfe33324992047fa1e69153d8c3f61" title="2022-FALL-MIDTERM-initial-242-lesson5">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_profile</fieldlabel>
+        <fieldentry>cc.exam.v0p1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_assessmenttype</fieldlabel>
+        <fieldentry>Examination</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_scoretype</fieldlabel>
+        <fieldentry>Percentage</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g9f14aa01dacba7f1a0a8d8044971b0a2" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You have a link on your Web page. You want to display a message in the status bar when a user hovers his mouse over the link. Which code will achieve these results?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5256">
+                <material>
+                  <mattext texttype="text/plain">&lt;a href="http://www.CIWcertified.com" onmouseover="status='Visit the CIW Web site.';return true;" onmouseout="status='';return true;"&gt;Visit CIW&lt;/a&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5497">
+                <material>
+                  <mattext texttype="text/plain">&lt;a href="http://www.CIWcertified.com" hover="status='Visit the CIW Web site.';return true;" blur="status='';return true;"&gt;Visit CIW&lt;/a&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9694">
+                <material>
+                  <mattext texttype="text/plain">&lt;a href="http://www.CIWcertified.com" onHover="status='Visit the CIW Web site.';return false;" onBlur="status='';return false;"&gt;Visit CIW&lt;/a&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6807">
+                <material>
+                  <mattext texttype="text/plain">&lt;a href="http://www.CIWcertified.com" onmouseover="statusBar=Visit the CIW Web site.;return false;" onmouseout="statusBar='';return false;"&gt;Visit CIW&lt;/a&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5256</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g69faf5dd0896e3a6cc93eb2ea87135ec" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which JavaScript object represents the frame of the browser and the mechanisms associated with it?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6333">
+                <material>
+                  <mattext texttype="text/plain">The window object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5676">
+                <material>
+                  <mattext texttype="text/plain">The document object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1601">
+                <material>
+                  <mattext texttype="text/plain">The image object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1190">
+                <material>
+                  <mattext texttype="text/plain">The navigator object</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6333</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g533b1ab1807b646256947f3a514f456e" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a property commonly used with the image object?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="99">
+                <material>
+                  <mattext texttype="text/plain">src</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8046">
+                <material>
+                  <mattext texttype="text/plain">open()</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5462">
+                <material>
+                  <mattext texttype="text/plain">location</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9555">
+                <material>
+                  <mattext texttype="text/plain">onload</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">99</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g86b721d6a19f1ac2a7d4060fe6de41ef" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which JavaScript object provides essential information if you must code your script for use in different browsers?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4040">
+                <material>
+                  <mattext texttype="text/plain">The navigator object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6061">
+                <material>
+                  <mattext texttype="text/plain">The window object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9414">
+                <material>
+                  <mattext texttype="text/plain">The history object</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4840">
+                <material>
+                  <mattext texttype="text/plain">The location object</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4040</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g7b7a8d69f72fe13b2925c2c73ddc6dd5" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You are developing a Web application that requires features available only in the latest version of certain browsers. Which property or properties of the navigator object must you include to verify that the user is employing one of the correct browsers?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6519">
+                <material>
+                  <mattext texttype="text/plain">The appName and appVersion properties</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7700">
+                <material>
+                  <mattext texttype="text/plain">The appCodeName property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6488">
+                <material>
+                  <mattext texttype="text/plain">The platform property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2164">
+                <material>
+                  <mattext texttype="text/plain">The userAgent and platform properties</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6519</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g998e29fb9a59dad2ee0447c39589886b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which line of code will redirect the browser user to the page she was previously viewing?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1004">
+                <material>
+                  <mattext texttype="text/plain">history.back();</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9397">
+                <material>
+                  <mattext texttype="text/plain">history.backward();</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5914">
+                <material>
+                  <mattext texttype="text/plain">history.go(1);</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6639">
+                <material>
+                  <mattext texttype="text/plain">history.forward();</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1004</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

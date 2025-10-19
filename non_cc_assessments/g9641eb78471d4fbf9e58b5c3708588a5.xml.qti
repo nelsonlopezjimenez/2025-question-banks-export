@@ -1,0 +1,2236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g9641eb78471d4fbf9e58b5c3708588a5" title="2025-w3s-react">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="gc50eddf8cb3f776d0823adb24dfc8b41" title="react001">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4111,4272,7436,8346</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gff989b14fd71ecee0e8cf52df8a727e1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p id="qobj_question"&gt;What is a correct command to create a React application&lt;/p&gt;
+&lt;div id="qobj_options"&gt;&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4111">
+                <material>
+                  <mattext texttype="text/plain">npx create-react-app my-team</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4272">
+                <material>
+                  <mattext texttype="text/plain">npx start-react-app my-team</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7436">
+                <material>
+                  <mattext texttype="text/plain">npx init-react-app my-tea</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8346">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4111</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1c59139542d8fd100717e55f372a0034" title="react0010">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>9922,3182,3151,8847</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gd3431450d5bdef3d3aad565ee758376e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What type of element will be rendered from the following code?&lt;/p&gt;
+&lt;p&gt;function Car() {&lt;br&gt;&amp;nbsp; return &amp;lt;h1&amp;gt;Ford Mustang&amp;lt;/h1&amp;gt;;&lt;br&gt;}&lt;/p&gt;
+&lt;p&gt;const root = createRoot(document.getElementById('root'));&lt;br&gt;root.render(&amp;lt;Car /&amp;gt;);&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9922">
+                <material>
+                  <mattext texttype="text/plain">h1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3182">
+                <material>
+                  <mattext texttype="text/plain">div</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3151">
+                <material>
+                  <mattext texttype="text/plain">Component</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8847">
+                <material>
+                  <mattext texttype="text/plain">ReactDom</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9922</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g720056a62de82d38f09ca99f028c7b19" title="react0011">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5245,835,6047,5137</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g87caa5a3eac9e77c31e328a758d55b80</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What tool does React use to compile JSX?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5245">
+                <material>
+                  <mattext texttype="text/plain">Babel</mattext>
+                </material>
+              </response_label>
+              <response_label ident="835">
+                <material>
+                  <mattext texttype="text/plain">JSX Compiler</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6047">
+                <material>
+                  <mattext texttype="text/plain">React Router</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5137">
+                <material>
+                  <mattext texttype="text/plain">ReactDom</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5245</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g11145fe6534e23efea53e5306d857c55" title="react0012">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2026,2855,8680,1589</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g433a616d16f4f6857f20b4892f469167</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What props will be available to the following component?&lt;/p&gt;
+&lt;p&gt;&amp;lt;Car {...props} /&amp;gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2026">
+                <material>
+                  <mattext texttype="text/plain">all of them</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2855">
+                <material>
+                  <mattext texttype="text/plain">only updated ones</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8680">
+                <material>
+                  <mattext texttype="text/plain">children</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1589">
+                <material>
+                  <mattext texttype="text/plain">only static ones</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2026</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc54baaeaeb4d3892fddba44327688f95" title="react0013">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>9198,2962,7124,7403</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g4bbc8d431e3da594d49d5505e826822b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is a common use case for ref?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9198">
+                <material>
+                  <mattext texttype="text/plain">To directly access a DOM node</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2962">
+                <material>
+                  <mattext texttype="text/plain">To refer to another JavaScript file</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7124">
+                <material>
+                  <mattext texttype="text/plain">To refer to a function</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7403">
+                <material>
+                  <mattext texttype="text/plain">To bind the function</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9198</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g7ab28ee4b9d646a6372187799579daff" title="react0014">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2985,4718,807,5863</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2aaa46e3392431083c720567e1a1e431</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;How can you combine the following arrays using the spread operator?&lt;/p&gt;
+&lt;p&gt;const array1 = [1, 2, 3];&lt;br&gt;const array2 = [4, 5, 6];&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2985">
+                <material>
+                  <mattext texttype="text/plain">const combined = [...array1, ...array2];</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4718">
+                <material>
+                  <mattext texttype="text/plain">const combined = array1 + array2;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="807">
+                <material>
+                  <mattext texttype="text/plain">const combined = [array1, array2];</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5863">
+                <material>
+                  <mattext texttype="text/plain">const combined = ...array1 + ...array2;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2985</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge1eb6a9ed2015b37c342ec8e7055745c" title="react0015">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8201,3325,4060,427</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ga0012a2ead54b36fec34d5116b9398b1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is the correct syntax to import a Component from React?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8201">
+                <material>
+                  <mattext texttype="text/plain">import { Component } from 'react'</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3325">
+                <material>
+                  <mattext texttype="text/plain">import Component from 'react'</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4060">
+                <material>
+                  <mattext texttype="text/plain">import [ Component ] from 'react'</mattext>
+                </material>
+              </response_label>
+              <response_label ident="427">
+                <material>
+                  <mattext texttype="text/plain">import React.Component from 'react'</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8201</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g82436e637adae8170a3c7733630fb729" title="react0016">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2876,3613,7808,7371</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g0edde5a3848b280d24af88b0e5c0aac4</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Find the bug in this code:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;function car({make, model}) {&lt;br&gt;&amp;nbsp; return &amp;lt;h1&amp;gt;{make} {model}&amp;lt;/h1&amp;gt;;&lt;br&gt;};&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2876">
+                <material>
+                  <mattext texttype="text/plain">The first letter of the function must be capitalized</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3613">
+                <material>
+                  <mattext texttype="text/plain">Remove the return statement</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7808">
+                <material>
+                  <mattext texttype="text/plain">Wrap the return in a fragment</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7371">
+                <material>
+                  <mattext texttype="text/plain">Add parenthesis around the return value</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2876</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1f54b4e550388fd7f9644c2be8e0c07c" title="react0017">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2872,4088,9259,1359</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf2d220313d2d13ae1097a6fb1ac8310e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;React separates the user interface into components. How are components combined to create a user interface?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2872">
+                <material>
+                  <mattext texttype="text/plain">By nesting components</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4088">
+                <material>
+                  <mattext texttype="text/plain">By putting them in a folder structure</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9259">
+                <material>
+                  <mattext texttype="text/plain">With webpack</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1359">
+                <material>
+                  <mattext texttype="text/plain">With code splitting</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2872</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g7ed46c96c399f481922ef1be3004d0f5" title="react0018">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6786,1763,627,3626</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g4cafedc96519197b4ce63f8e5e72a91f</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is NOT a rule for React Hooks?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6786">
+                <material>
+                  <mattext texttype="text/plain">Hooks can be called in Class or Function components</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1763">
+                <material>
+                  <mattext texttype="text/plain">Hooks can only be called at the top level of a component</mattext>
+                </material>
+              </response_label>
+              <response_label ident="627">
+                <material>
+                  <mattext texttype="text/plain">Hooks can only be called inside React Function components</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3626">
+                <material>
+                  <mattext texttype="text/plain">Hooks cannot be conditional</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6786</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g11a58ae19b3d8f972aa829af41aa6da5" title="react0019">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2826,3664,4038,3155</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gd3842b069d62ff2741602a1c13dbbf02</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the output of the following code?&lt;/p&gt;
+&lt;p&gt;const make = 'Ford';&lt;br&gt;const model = 'Mustang';&lt;br&gt;const car = { make, model };&lt;br&gt;console.log(car);&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2826">
+                <material>
+                  <mattext texttype="text/plain">{make: 'Ford', model: 'Mustang'}</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3664">
+                <material>
+                  <mattext texttype="text/plain">{car: 'Ford', car: 'Mustang'}}</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4038">
+                <material>
+                  <mattext texttype="text/plain">{car: {make: 'Ford', model: 'Mustang'}}</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3155">
+                <material>
+                  <mattext texttype="text/plain">{{make: 'Ford', model: 'Mustang'}}</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2826</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g64378a532ce3858de1f641a807289ba9" title="react002">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>short_answer_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6276</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gaa9a42e95e4bf359ce9a4734881d4200</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="assignmenttext"&gt;
+&lt;p&gt;Enter the correct ReactDOM function to render the React element to the DOM.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p id="showcorrectanswercontainer"&gt;const container = document.getElementById('root');&lt;/p&gt;
+&lt;p&gt;const root = ReactDOM. ______________ (container);&lt;/p&gt;
+&lt;p&gt;root.render(myElement);&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib>
+              <response_label ident="answer1" rshuffle="No"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">createRoot</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1a5eba82f82ac9a6aa6664e96c44fb3e" title="react0020">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3809,2156,4387,7531</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb64f40ce29d640e24d385b2702488eb9</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Why should you avoid copying the values of props into a component's state?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3809">
+                <material>
+                  <mattext texttype="text/plain">Because that would create two instances of the same state that could become out of sync</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2156">
+                <material>
+                  <mattext texttype="text/plain">Because you should never mutate state</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4387">
+                <material>
+                  <mattext texttype="text/plain">Because you want to allow data to flow back up to the parent</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7531">
+                <material>
+                  <mattext texttype="text/plain">Because prop values cannot be stored in state</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3809</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0af8b4ab51182d5bd38a46cd040a7830" title="react0021">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4383,6368,7998,8061</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g8a62635dc4c799ac3f2e2cee930a2905</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;br&gt;What is a correct arrow function syntax?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4383">
+                <material>
+                  <mattext texttype="text/plain">myarrow = () =&gt; 'Hello';</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6368">
+                <material>
+                  <mattext texttype="text/plain">myarrow = function() { return 'Hello'; }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7998">
+                <material>
+                  <mattext texttype="text/plain">myarrow =&gt; 'Hello';</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8061">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4383</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb81dece60f8d029f0763e087d9e95718" title="react0022">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6889,7504,4661,1422</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gfd044f49e9a620cbe06019bdd761ff71</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is a correct statement of the array map() method?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6889">
+                <material>
+                  <mattext texttype="text/plain">The map() method is used to run a function on every item in an array</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7504">
+                <material>
+                  <mattext texttype="text/plain">The map() method is used to generate maps</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4661">
+                <material>
+                  <mattext texttype="text/plain">The map() method is used to hold map coordinates</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1422">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6889</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb53de9d49edd60f7bfa7b5bf3cc73211" title="react0023">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4920,7637,8693,3672</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g59eb02e5180a9381dd0c1afbad27c4d9</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;const family = ['Jane', 'John', 'Mike'];&lt;br&gt;What is a correct syntax to put 'Mike' as a value to x?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4920">
+                <material>
+                  <mattext texttype="text/plain">const [,,x] = family;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7637">
+                <material>
+                  <mattext texttype="text/plain">const [,x] = family;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8693">
+                <material>
+                  <mattext texttype="text/plain">const [x] = family;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3672">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4920</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g3df2ac0a4c16160eb14aeff54a3a8d11" title="react0024">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6338,3885,868,1071</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g50789a716ad16fbc6f8bf9f85756eac0</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is the spread operator?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6338">
+                <material>
+                  <mattext texttype="text/plain">...</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3885">
+                <material>
+                  <mattext texttype="text/plain">+++</mattext>
+                </material>
+              </response_label>
+              <response_label ident="868">
+                <material>
+                  <mattext texttype="text/plain">###</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1071">
+                <material>
+                  <mattext texttype="text/plain">&amp;lt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6338</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge8206602969bfe501a72648810d45304" title="react0025">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4266,7537,5169,575</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gc0baa22c39e2fc2c89c0a003768f5939</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;Consider the following code:&lt;br&gt;const numbers = [1, 2, 3, 4, 5, 6];&lt;br&gt;const [one, two, ...x] = numbers;&lt;br&gt;What will be the result of x?&lt;/strong&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4266">
+                <material>
+                  <mattext texttype="text/plain">[3,4,5,6]</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7537">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5169">
+                <material>
+                  <mattext texttype="text/plain">6</mattext>
+                </material>
+              </response_label>
+              <response_label ident="575">
+                <material>
+                  <mattext texttype="text/plain">[1, 2, 3, 4, 5, 6];</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4266</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9ef15993bb7e9f45734523bd3698ba63" title="react0026">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7463,4826,3507,5108</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf0f8147340e317655f858d5344d46ad1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is a correct use of the ternary operator?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7463">
+                <material>
+                  <mattext texttype="text/plain">x ? y : z;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4826">
+                <material>
+                  <mattext texttype="text/plain">x = y : z;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3507">
+                <material>
+                  <mattext texttype="text/plain">x = y ? z;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5108">
+                <material>
+                  <mattext texttype="text/plain">x ?? y : z;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7463</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g890b27cf8f2044107cca701ea936f2bb" title="react0027">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>9512,1821,8378,658</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g326e59e37da84873620425ba4a9e91ac</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which statement is true regarding the ternary operator:&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9512">
+                <material>
+                  <mattext texttype="text/plain">Ternary operator is a simplified way of writing conditional statements</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1821">
+                <material>
+                  <mattext texttype="text/plain">Ternary operator is a simplified way of writing while loops</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8378">
+                <material>
+                  <mattext texttype="text/plain">Ternary operator is a simplified way of writing for loops</mattext>
+                </material>
+              </response_label>
+              <response_label ident="658">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9512</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g3e74fe8927e89423a0b9e52f3173ddd2" title="react0028">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4996,7429,7650,1732</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g467778b0ebd44f5b7da380abb65587e4</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following uses correct syntax for expressions in JSX?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4996">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1&gt;React is {5 + 5} times better with JSX&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7429">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1&gt;React is [5 + 5] times better with JSX&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7650">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1&gt;React is (5 + 5) times better with JSX&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1732">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1&gt;React is `(5 + 5)` times better with JSX&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4996</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g30f402767c54f412f07e08f83becc363" title="react0029">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3464,8344,9483,9224</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gce77df4beaf0ba8b6658ab8457ef35aa</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which one is a correct way of sending the value 'John' via the 'firstname' property to the Person component?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3464">
+                <material>
+                  <mattext texttype="text/plain">root.render(&lt;Person firstname='John' /&gt;);</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8344">
+                <material>
+                  <mattext texttype="text/plain">root.render(&lt;Person props(firstname='John') /&gt;);</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9483">
+                <material>
+                  <mattext texttype="text/plain">root.render(Person(firstname='John'));</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9224">
+                <material>
+                  <mattext texttype="text/plain">root.render(Person('firstname'='John'));</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3464</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g18083a7eef991cc70f89490d528cefe2" title="react003">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8608,5048,2829,8843,4559</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g512ab090ea672f9da27330770b303925</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What does myReactApp refer to in the following command?&lt;/p&gt;
+&lt;p&gt;npx create-react-app myReactApp&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8608">
+                <material>
+                  <mattext texttype="text/plain">The name you want to use for the new app</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5048">
+                <material>
+                  <mattext texttype="text/plain">The name you want to use for the new app</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2829">
+                <material>
+                  <mattext texttype="text/plain">A reference to an existing app</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8843">
+                <material>
+                  <mattext texttype="text/plain">The type of app to create</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4559">
+                <material>
+                  <mattext texttype="text/plain">The directory to create the new app in</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8608</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9b2809c176b86f78a0027a07ce6783d3" title="react0030">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>9672,5169,4456,883</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g50487e88932ddeefcf432d058c8c4dc9</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which is a correct way of receiving, and using a prop named firstname, in a function class?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9672">
+                <material>
+                  <mattext texttype="text/plain">function Person(props) {     return &lt;h2&gt;My name is { props.firstname }!&lt;/h2&gt;; }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5169">
+                <material>
+                  <mattext texttype="text/plain">function Person(firstname) {     return &lt;h2&gt;My name is { firstname }!&lt;/h2&gt;; }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4456">
+                <material>
+                  <mattext texttype="text/plain">Both of the above is correct</mattext>
+                </material>
+              </response_label>
+              <response_label ident="883">
+                <material>
+                  <mattext texttype="text/plain">none of them is correct</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9672</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2bf2d509a0bfea6452456450870647d3" title="react0031">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3848,3233,6107,3257</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g0ccd3b083f0fa6e9c9c8ea13b74904d8</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;In React, which is a correct way of adding a mouseover event to trigger a function called 'run_now'?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3848">
+                <material>
+                  <mattext texttype="text/plain">&lt;div onMouseover={run_now}&gt;Lorum Ipsum&lt;/div&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3233">
+                <material>
+                  <mattext texttype="text/plain">&lt;div onMouseover='run_now'&gt;Lorum Ipsum&lt;/div&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6107">
+                <material>
+                  <mattext texttype="text/plain">&lt;div onmouseover='run_now()'&gt;Lorum Ipsum&lt;/div&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3257">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3848</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g10fc45d1ba7186281a82dba14e984f2a" title="react0032">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7375,1117,4677,8564</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g973ad77d8d136fc9f954232ff650a2a5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which one of these two code blocks is a correct way of adding a conditional statement in React?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7375">
+                <material>
+                  <mattext texttype="text/html">&lt;pre&gt;function Glass() { &lt;br&gt;   return ( &lt;br&gt;       &amp;lt;&amp;gt; {&lt;br&gt;            5 &amp;gt; 2 &amp;amp;&amp;amp; &amp;lt;h2&amp;gt;Hello&amp;lt;/h2&amp;gt; &lt;br&gt;           } &lt;br&gt;      &amp;lt;/&amp;gt; ); &lt;br&gt;}&lt;/pre&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1117">
+                <material>
+                  <mattext texttype="text/html">&lt;pre&gt;function Glass() { &lt;br&gt;   return ( &lt;br&gt;      &amp;lt;&amp;gt; {&lt;br&gt;         5 &amp;gt; 2 &amp;amp;&amp;amp; &lt;br&gt;         } &amp;lt;h2&amp;gt;Hello&amp;lt;/h2&amp;gt; &lt;br&gt;      &amp;lt;/&amp;gt; ); &lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;/pre&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4677">
+                <material>
+                  <mattext texttype="text/plain">Both of them</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8564">
+                <material>
+                  <mattext texttype="text/plain">None of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7375</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc236a7e11680f19b6ced05fd38ad101c" title="react0033">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3056,7918,4173,4799</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g81c41622d6a67bd1c85d03443940088a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which statement is used to initialize a state:&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3056">
+                <material>
+                  <mattext texttype="text/plain">useState</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7918">
+                <material>
+                  <mattext texttype="text/plain">setState</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4173">
+                <material>
+                  <mattext texttype="text/plain">initState</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4799">
+                <material>
+                  <mattext texttype="text/plain">stateInit</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3056</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5da5f740322599c5cec4101b9e3c9e67" title="react0034">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7245,2471,9060,9044</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ge4e08cd4bc87509d4c6413c66b14d74d</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Some effects require cleanup to reduce memory leaks, how can we do that?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7245">
+                <material>
+                  <mattext texttype="text/plain">We can add a return function at the end of the useEffect Hook</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2471">
+                <material>
+                  <mattext texttype="text/plain">We can add a function as the second argument of the useEffect Hook</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9060">
+                <material>
+                  <mattext texttype="text/plain">We can add -1 as the second argument of the useEffect Hook</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9044">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7245</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5c73111a5d4365f2d8b2d1416ab395f4" title="react0035">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6202,104,704,5176</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g8397d793464d686d5476b3af9cd6571c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Consider the following code:&lt;br&gt;const Header = () =&amp;gt; {&lt;br&gt;&amp;nbsp; const myStyle = {&lt;br&gt;&amp;nbsp; &amp;nbsp; color: "white",&lt;br&gt;&amp;nbsp; &amp;nbsp; backgroundColor: "DodgerBlue",&lt;br&gt;&amp;nbsp; };&lt;br&gt;&amp;nbsp; return (&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;h1&amp;gt;Hello Style!&amp;lt;/h1&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/&amp;gt;&lt;br&gt;&amp;nbsp; );&lt;br&gt;}&lt;br&gt;What is a correct syntax for using myStyle as styling for the &amp;lt;h1&amp;gt; element in the return function?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6202">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1 style={myStyle}&gt;Hello Style!&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="104">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1 class={myStyle}&gt;Hello Style!&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="704">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1 className={myStyle}&gt;Hello Style!&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5176">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6202</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g04ead09144ec0323da62794a51ca6298" title="react0036">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>fill_in_multiple_blanks_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1140</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf47b767d37e06559ff801f2d253307ba</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Add the following CSS styles inline to the &amp;lt;h1&amp;gt; element&lt;/p&gt;
+&lt;p&gt;color = "purple"&lt;/p&gt;
+&lt;p&gt;const Header = () =&amp;gt; {&lt;br&gt;&amp;nbsp; return (&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;h1 style=[tmp]&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;gt;Hello Style!&amp;lt;/h1&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;p&amp;gt;Add a little style!&amp;lt;/p&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/&amp;gt;&lt;br&gt;&amp;nbsp; );&lt;br&gt;}&lt;br&gt;===&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response_tmp">
+            <material>
+              <mattext>tmp</mattext>
+            </material>
+            <render_choice>
+              <response_label ident="1140">
+                <material>
+                  <mattext texttype="text/plain">{{color: "purple"}}</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="response_tmp">1140</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Add">100.00</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga90f2e4422a0ed4e33a8eaa681ba36a6" title="react004">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8492,7796,7285,5236</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g27a01324b1defb253651a4ecc36b26cc</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is the correct command to create a new React project?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8492">
+                <material>
+                  <mattext texttype="text/plain">npx create-react-app myReactApp</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7796">
+                <material>
+                  <mattext texttype="text/plain">npm create-react-app</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7285">
+                <material>
+                  <mattext texttype="text/plain">npm create-react-app myReactApp</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5236">
+                <material>
+                  <mattext texttype="text/plain">npx create-react-app</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8492</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc5d4b3b9f9ca9444a3a5a63efa441331" title="react005">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5035,1108,7245,4415</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g8dd9685b666d1c6889fd9452334aa7b7</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What command is used to start the React local development server?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5035">
+                <material>
+                  <mattext texttype="text/plain">npm start</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1108">
+                <material>
+                  <mattext texttype="text/plain">npm build</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7245">
+                <material>
+                  <mattext texttype="text/plain">npm serve</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4415">
+                <material>
+                  <mattext texttype="text/plain">npm run dev</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5035</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1721d2a79cb8f980152716820705b058" title="react006">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8374,3575,5601,5846</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gfe26469907690cc61d44da2982090d96</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;A copy of the 'real' DOM that is kept in memory is called what?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8374">
+                <material>
+                  <mattext texttype="text/plain">Virtual  DOM</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3575">
+                <material>
+                  <mattext texttype="text/plain">DOM</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5601">
+                <material>
+                  <mattext texttype="text/plain">Shadow DOM</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5846">
+                <material>
+                  <mattext texttype="text/plain">React DOM</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8374</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf498c9149fe83082424bb8f11724fae1" title="react007">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8,8649,4397,3186</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g685e78226dee103216579b385338954a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which operator can be used to conditionally render a React component?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8">
+                <material>
+                  <mattext texttype="text/plain">&amp;&amp;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8649">
+                <material>
+                  <mattext texttype="text/plain">??</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4397">
+                <material>
+                  <mattext texttype="text/plain">||</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3186">
+                <material>
+                  <mattext texttype="text/plain">::</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g63eda34d0de4847aed364a22a59731c0" title="react008">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>722,6214,6800,9232</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g265ce1ac00574f44a25baa9498fbfde1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;When rendering a list using the JavaScript map() method, what is required for each element rendered?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="722">
+                <material>
+                  <mattext texttype="text/plain">key</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6214">
+                <material>
+                  <mattext texttype="text/plain">id</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6800">
+                <material>
+                  <mattext texttype="text/plain">index</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9232">
+                <material>
+                  <mattext texttype="text/plain">data</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">722</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge9d3e330917cc4b97634c5d3ec513c89" title="react009">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3998,5134,8992,432</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gbd9353ec11a4e2fca43ab342dc5f4257</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is the children prop?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3998">
+                <material>
+                  <mattext texttype="text/plain">A property that lets you nest components in other components</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5134">
+                <material>
+                  <mattext texttype="text/plain">A property that lets you pass data to child components</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8992">
+                <material>
+                  <mattext texttype="text/plain">A property that lets you set an object as a property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="432">
+                <material>
+                  <mattext texttype="text/plain">A property that adds child values to state</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3998</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

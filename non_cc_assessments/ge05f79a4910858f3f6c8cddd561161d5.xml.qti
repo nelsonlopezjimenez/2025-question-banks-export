@@ -1,0 +1,2339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="ge05f79a4910858f3f6c8cddd561161d5">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS242-635-Quizzes-Lesson-8-2</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gbc42cbef603efdea7d60802fa6d7a2e7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8898,4602,490,2118</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which term is used to describe a program that is allowed to request expanded privileges and abilities in the browser, which may override the usual security?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8898">
+              <material>
+                <mattext texttype="text/plain">Signed script</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4602">
+              <material>
+                <mattext texttype="text/plain">Cookie</mattext>
+              </material>
+            </response_label>
+            <response_label ident="490">
+              <material>
+                <mattext texttype="text/plain">Script blocker</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2118">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8898</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g516a6768a761be7c427b4a96981fb97a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5715,9969,459,5342</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is a signed script?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5715">
+              <material>
+                <mattext texttype="text/plain">A program that can perform operations once considered a security risk</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9969">
+              <material>
+                <mattext texttype="text/plain">Embedded code that helps a hacker steal the user's information</mattext>
+              </material>
+            </response_label>
+            <response_label ident="459">
+              <material>
+                <mattext texttype="text/plain">JavaScript code that has been copyrighted by the author</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5342">
+              <material>
+                <mattext texttype="text/plain">Code that redirects the user to a fraudulent site masquerading as a trusted site</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5715</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1e3f0acb0fe7ec5f71ad3b1359811935" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2873,104,4091,513</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;For a signed script to run, the browser must receive a reference to it in the X/HTML page code. For recent browser versions such as Mozilla Firefox, which code is required to reference the signed script?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2873">
+              <material>
+                <mattext texttype="text/plain">The src attribute of the &lt;script&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="104">
+              <material>
+                <mattext texttype="text/plain">None of these — Firefox no longer supports signed scripts</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4091">
+              <material>
+                <mattext texttype="text/plain">The archive attribute of the &lt;script&gt; tag</mattext>
+              </material>
+            </response_label>
+            <response_label ident="513">
+              <material>
+                <mattext texttype="text/plain">The Java Archive (JAR) file</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2873</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1ded918caf11ccc9707986c8e56926e5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4993,7847,7972,2349</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;A signed script requires the use of a:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4993">
+              <material>
+                <mattext texttype="text/plain">digital certificate.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7847">
+              <material>
+                <mattext texttype="text/plain">cookie.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7972">
+              <material>
+                <mattext texttype="text/plain">script blocker.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2349">
+              <material>
+                <mattext texttype="text/plain">embedded link.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4993</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g45aeba570371a2e9410b8ce435abf41a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4342,4374,235,4579</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Consider a security vulnerability in which an attacker embeds malicious script into a link that appears to be from a trusted site. Upon clicking the link, the embedded script is submitted in the client's HTTP request and can execute on the user's computer, enabling the attacker to steal information. Which term is used to describe this security issue?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4342">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4374">
+              <material>
+                <mattext texttype="text/plain">Phishing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="235">
+              <material>
+                <mattext texttype="text/plain">Signed script</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4579">
+              <material>
+                <mattext texttype="text/plain">Cloaking</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4342</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8b47031b8936fe99bb730991707e6e89" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9253,7352,8187,2721</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Cross-site scripting (XSS) is a form of what type of attack?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9253">
+              <material>
+                <mattext texttype="text/plain">Code injection</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7352">
+              <material>
+                <mattext texttype="text/plain">Same origin</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8187">
+              <material>
+                <mattext texttype="text/plain">Browser detection</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2721">
+              <material>
+                <mattext texttype="text/plain">Script blocking</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9253</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1b705a970832dc3c3aea14bac076c314" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5216,9836,6099,1712</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;The term "cross-site scripting" is appropriate because:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5216">
+              <material>
+                <mattext texttype="text/plain">the attacker uses script to load his malicious application from an unrelated, vulnerable site, which is trusted by the user.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9836">
+              <material>
+                <mattext texttype="text/plain">the attacker uses one frame in a frameset to navigate another frame in the frameset to an unrelated, malicious Web page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6099">
+              <material>
+                <mattext texttype="text/plain">the attacker uses a single malicious script to engage multiple sites to exploit your site.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1712">
+              <material>
+                <mattext texttype="text/plain">the attacker uses a malicious site that masquerades as a legitimate trusted site to trick you into entering sensitive information.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5216</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gba7638548a48a862bf20237e40b6dc05" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9462,5487,1699,8306</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which practice is currently one of the most popular sources of hacking?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9462">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5487">
+              <material>
+                <mattext texttype="text/plain">Frame-to-frame URL changing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1699">
+              <material>
+                <mattext texttype="text/plain">Signed scripts</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8306">
+              <material>
+                <mattext texttype="text/plain">Script blocking</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9462</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g3ed2b8d0773cb3514e8024284d372615" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2880,7519,5047,3766</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a popular target for cross-site scripting (XSS) attacks?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2880">
+              <material>
+                <mattext texttype="text/plain">Guest book and forum programs</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7519">
+              <material>
+                <mattext texttype="text/plain">Search engine sites</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5047">
+              <material>
+                <mattext texttype="text/plain">E-commerce shopping cart programs</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3766">
+              <material>
+                <mattext texttype="text/plain">E-mail clients</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2880</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g63ab65f86861524e162b374106de398d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9628,6290,1888,4577</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true in relation to the three general types of cross-site scripting (XSS)?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9628">
+              <material>
+                <mattext texttype="text/plain">Reflected (non-persistent) XSS is the most common type of cross-site scripting.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6290">
+              <material>
+                <mattext texttype="text/plain">DOM-based XSS is the most common type of cross-site scripting.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1888">
+              <material>
+                <mattext texttype="text/plain">Persistent XSS is a problem that exists in a page's client-side script itself.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4577">
+              <material>
+                <mattext texttype="text/plain">DOM-based XSS enables the most powerful attacks.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9628</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0d9f02e025fb6ff378819b67cb6d0f46" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9149,3566,4580,2043</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the three general types of cross-site scripting (XSS) occurs when data provided by a browser is used immediately by server-side scripts to generate a page of results for that user?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9149">
+              <material>
+                <mattext texttype="text/plain">Reflected (non-persistent) XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3566">
+              <material>
+                <mattext texttype="text/plain">DOM-based XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4580">
+              <material>
+                <mattext texttype="text/plain">Persistent XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2043">
+              <material>
+                <mattext texttype="text/plain">Both DOM-based and persistent XSS</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9149</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g24ab2e208d1a01d205f353d3de901663" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5098,9545,3794,4939</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;With all three types of cross-site scripting (XSS), vulnerability occurs if data — from either the Web page or the user — fails to include what?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5098">
+              <material>
+                <mattext texttype="text/plain">Proper X/HTML escaping</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9545">
+              <material>
+                <mattext texttype="text/plain">Proper X/HTML closing tags</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3794">
+              <material>
+                <mattext texttype="text/plain">A digital certificate</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4939">
+              <material>
+                <mattext texttype="text/plain">Protective JavaScript code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5098</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g01b9126044aba253ac3b33f0b8d9310d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1564,5989,3568,6063</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the three general types of cross-site scripting (XSS) occurs when a user enters data in the browser, and it is first stored on the server, then later displayed to other users in a Web page without proper X/HTML escaping?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1564">
+              <material>
+                <mattext texttype="text/plain">Persistent XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5989">
+              <material>
+                <mattext texttype="text/plain">DOM-based XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3568">
+              <material>
+                <mattext texttype="text/plain">Reflected (non-persistent) XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6063">
+              <material>
+                <mattext texttype="text/plain">Both DOM-based and persistent XSS</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1564</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge4cc6a30ee275431761d9446513b392e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6860,1240,6716,5434</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;You receive an e-mail message from what appears to be a trusted Web site, your bank. Upon clicking a link in the message, you access your bank's legitimate site. But because there was malicious code embedded within the URL in the link you clicked, a hacker can now steal your password and the banking information you send during the session. What type of security attack has been perpetrated?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6860">
+              <material>
+                <mattext texttype="text/plain">Cross-site scripting</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1240">
+              <material>
+                <mattext texttype="text/plain">Phishing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6716">
+              <material>
+                <mattext texttype="text/plain">Frame-to-frame URL changing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5434">
+              <material>
+                <mattext texttype="text/plain">Signed script</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6860</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge54252a2c6e4ddc46b02cfffc7a1acdb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6,6962,4875,7345</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the three general types of cross-site scripting (XSS) exists in a page's client-side script itself, and occurs when a JavaScript program accesses a URL request parameter and uses it to write some X/HTML to its own page?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6">
+              <material>
+                <mattext texttype="text/plain">DOM-based XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6962">
+              <material>
+                <mattext texttype="text/plain">Reflected (non-persistent) XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4875">
+              <material>
+                <mattext texttype="text/plain">Persistent XSS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7345">
+              <material>
+                <mattext texttype="text/plain">Both DOM-based and reflected XSS</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g148ae2d432182123f156013cdfe5bf1f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5644,2362,7722,5571</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following practices will help you prevent most cross-site scripting attacks?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5644">
+              <material>
+                <mattext texttype="text/plain">Encode output to filter metacharacters</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2362">
+              <material>
+                <mattext texttype="text/plain">Click on links in e-mail messages only from sites you trust</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7722">
+              <material>
+                <mattext texttype="text/plain">Allow only your own scripts to run on your browser</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5571">
+              <material>
+                <mattext texttype="text/plain">Block all cookies from being set on your system</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5644</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4d64eb765ef46d0c2898ab2dc870f843" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6999,2725,3275,767</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Output encoding and input validation can help you prevent cross-site scripting attacks. Which of the following is an example of proper output encoding that you can implement?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6999">
+              <material>
+                <mattext texttype="text/plain">Encode opening angle brackets ( &lt; ) to the X/HTML entity &lt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2725">
+              <material>
+                <mattext texttype="text/plain">Encode the X/HTML entity &gt; to an opening angle bracket ( &lt; )</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3275">
+              <material>
+                <mattext texttype="text/plain">Encode ampersands ( &amp; ) to the X/HTML entity "</mattext>
+              </material>
+            </response_label>
+            <response_label ident="767">
+              <material>
+                <mattext texttype="text/plain">Encode the X/HTML entity " to an apostrophe or single quotation mark ( ' )</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6999</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd1e4f4c23ea0c6cfcdb90de8e25bee92" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3690,3853,7816,4437</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an example of a "cookie crumb"?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3690">
+              <material>
+                <mattext texttype="text/plain">You place items in a site's shopping cart but exit the site before purchasing, then return later to find the items still waiting for you in the cart.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3853">
+              <material>
+                <mattext texttype="text/plain">You complete a login registration to use a blog site, so each time you return, you enter your user name and password, and the site remembers and admits you.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7816">
+              <material>
+                <mattext texttype="text/plain">You log in to your favorite social networking site, and are able to play games hosted by another site that you have never visited.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4437">
+              <material>
+                <mattext texttype="text/plain">Each time you log in to an e-commerce site where you frequently shop, the site presents several products you might like, based on your previous purchases.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3690</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb23f4e122b7d88ca943cf4e5f03ec7e2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1578,3238,1452,1364</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;A cookie can be scripted to:&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1578">
+              <material>
+                <mattext texttype="text/plain">track user activities on a server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3238">
+              <material>
+                <mattext texttype="text/plain">obtain files from a user's hard drive.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1452">
+              <material>
+                <mattext texttype="text/plain">provide highly secure password protection for a page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1364">
+              <material>
+                <mattext texttype="text/plain">request expanded privileges that may override typical security.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1578</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g59a8f6e5ff9f95fe5bb3c5a944747aa6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>193,2520,9636,3858</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which term is used to describe a small piece of information sent to a client computer via the browser and stored in memory to help maintain state and track user activities?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="193">
+              <material>
+                <mattext texttype="text/plain">Cookie</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2520">
+              <material>
+                <mattext texttype="text/plain">Infinite loop</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9636">
+              <material>
+                <mattext texttype="text/plain">JavaScript file</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3858">
+              <material>
+                <mattext texttype="text/plain">Signed script</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">193</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2ec724198e12bc4243593c5b21706859" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4997,1622,9223,2036</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement best describes how cookies are generally used?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4997">
+              <material>
+                <mattext texttype="text/plain">Almost every commercial Web site uses cookies to track user activities and maintain state.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1622">
+              <material>
+                <mattext texttype="text/plain">Malicious developers conceal cookies in their Web page code to launch unwanted scripts or pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9223">
+              <material>
+                <mattext texttype="text/plain">Users can set cookies on their browsers to allow or block scripts from running.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2036">
+              <material>
+                <mattext texttype="text/plain">Hackers use cookies to mask the URLs of malicious sites and trick users into thinking a site is legitimate.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4997</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0f8bcf82848d67b435d3674fa4f0a6b2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1063,2175,1091,3763</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement is true about a cookie?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1063">
+              <material>
+                <mattext texttype="text/plain">It can reside in memory or be placed on a hard drive in the form of a text file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2175">
+              <material>
+                <mattext texttype="text/plain">It can be hidden in a long URL to make it appear legitimate.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1091">
+              <material>
+                <mattext texttype="text/plain">It can take privileges with the user's browser — such as changing preferences — if the user agrees to run it.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3763">
+              <material>
+                <mattext texttype="text/plain">It can be launched when the user clicks a link in an e-mail message from what appears to be a trusted site.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1063</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4e713407b3ccc37a2506286e41895c96" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4173,1828,2314,1794</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following JavaScript cookies properly scripts an expiration date?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4173">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; expires = Saturday, 31-Dec-2011 06:00:00 GMT";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1828">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; expiration = Saturday, 31-Dec-2011 06:00:00 GMT";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2314">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; expirationDate = Saturday, 31-Dec-2011 06:00:00 GMT";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1794">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; terminates = Saturday, 31-Dec-2011 06:00:00 GMT";</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4173</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4cd65a0876b67f02050e2581c77e616f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8531,3805,4184,7913</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following JavaScript cookies properly scripts a URL for cookie access?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8531">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; path = /";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3805">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; url = /";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4184">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; pathName = /";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7913">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "myCookie = myValue; access = /";</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8531</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5c340abcccbe8ec09d126922129a9616" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2644,7896,1087,1775</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;How are cookies sent from a Web page or server to the client system's browser?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2644">
+              <material>
+                <mattext texttype="text/plain">In the HTTP response header</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7896">
+              <material>
+                <mattext texttype="text/plain">As script in a link that the user clicks</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1087">
+              <material>
+                <mattext texttype="text/plain">As script in the page's URL</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1775">
+              <material>
+                <mattext texttype="text/plain">In an e-mail message</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2644</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gde73171ffc6623e372a291ab4af018ad" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6402,3669,3972,9782</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which cookie parameter is required?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6402">
+              <material>
+                <mattext texttype="text/plain">name=value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3669">
+              <material>
+                <mattext texttype="text/plain">expires=date</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3972">
+              <material>
+                <mattext texttype="text/plain">path=path</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9782">
+              <material>
+                <mattext texttype="text/plain">secure</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6402</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge54d2cab80009d96cf67e4b7626cc332" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5785,6112,9653,8132</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is an example of a "shared cookie"?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5785">
+              <material>
+                <mattext texttype="text/plain">You log in to your favorite social networking site, and are able to play games hosted by another site that you have never visited.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6112">
+              <material>
+                <mattext texttype="text/plain">You place items in a site's shopping cart but exit the site before purchasing, then return later to find the items still waiting for you in the cart.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9653">
+              <material>
+                <mattext texttype="text/plain">You complete a login registration to use a blog site, so each time you return, you enter your user name and password, and the site remembers and admits you.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8132">
+              <material>
+                <mattext texttype="text/plain">Each time you log in to an e-commerce site where you frequently shop, the site presents several products you might like, based on your previous purchases.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5785</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g72268ade74228a6f182848b799f8f54d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>657,2799,6388,6189</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Cookies can be used for many reasons. If cookies are used for authentication, which hazard is presented?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="657">
+              <material>
+                <mattext texttype="text/plain">An unauthorized user can log on to a password-protected site by using an authorized user's computer.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2799">
+              <material>
+                <mattext texttype="text/plain">A hacker can access files on your hard drive and modify or steal them. C  A Web site can store sensitive information about a user, such as birthdate an</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6388">
+              <material>
+                <mattext texttype="text/plain">A Web site can store sensitive information about a user, such as birthdate and credit card number.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6189">
+              <material>
+                <mattext texttype="text/plain">A Web site can gain information about a client that could be used in an attack, such as IP address and operating system.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">657</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5327f43d9c40bab7680b9c22474379ae" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2725,1479,4927,606</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;To compromise for connections that can get terminated rather quickly by either the Web server or the user, cookies allow your system to remember connections over time. Thus cookies can remember a user's activities from a previous visit, allowing the user to skip certain steps or return to a site activity where she left off. Which term describes this reason for using cookies?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2725">
+              <material>
+                <mattext texttype="text/plain">State maintenance</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1479">
+              <material>
+                <mattext texttype="text/plain">User information sharing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4927">
+              <material>
+                <mattext texttype="text/plain">Client information storage</mattext>
+              </material>
+            </response_label>
+            <response_label ident="606">
+              <material>
+                <mattext texttype="text/plain">Authentication</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2725</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf1643c4c9c7efde05fd9d7702c7343ba" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3572,9890,2387,2885</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement is true about mobile browsers and cookies?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3572">
+              <material>
+                <mattext texttype="text/plain">Mobile browsers set and store cookies similarly to most standard browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9890">
+              <material>
+                <mattext texttype="text/plain">Mobile browsers do not allow cookies by default.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2387">
+              <material>
+                <mattext texttype="text/plain">Mobile browsers cannot process cookies.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2885">
+              <material>
+                <mattext texttype="text/plain">Mobile browsers with Apple iOS platforms process cookies, but others do not.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3572</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga3bd7d8dc30303c7d98c4d105b85b30c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1073,4313,7146,5631</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;How can a user control cookies in his or her browser?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1073">
+              <material>
+                <mattext texttype="text/plain">Adjust browser settings to choose which cookies to accept.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4313">
+              <material>
+                <mattext texttype="text/plain">Adjust browser settings to avoid Web sites that set cookies.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7146">
+              <material>
+                <mattext texttype="text/plain">Use Mozilla Firefox because it does not accept cookies.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5631">
+              <material>
+                <mattext texttype="text/plain">Use Microsoft Internet Explorer because it does not accept cookies.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1073</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5e1713bb3cab6613d6305861fc157021" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4877,4228,6589,9842</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which example demonstrates the general JavaScript syntax to assign a cookie?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4877">
+              <material>
+                <mattext texttype="text/plain">document.cookie = "name = value";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4228">
+              <material>
+                <mattext texttype="text/plain">window.cookie = "name = value";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6589">
+              <material>
+                <mattext texttype="text/plain">cookie = "expires = date";</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9842">
+              <material>
+                <mattext texttype="text/plain">prompt(document.cookie);</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4877</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb7aca1e7a277b097463307624ddbd752" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1043,1811,5144,8226</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span&gt;Consider the following code:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;script type="text/javascript"&amp;gt;&lt;br&gt;&amp;lt;!--&lt;br&gt;alert(document.cookie);&lt;br&gt;//--&amp;gt;&lt;br&gt;&amp;lt;/script&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;What does this code do?&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1043">
+              <material>
+                <mattext texttype="text/plain">Test for the presence of a cookie</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1811">
+              <material>
+                <mattext texttype="text/plain">Block cookies from your browser</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5144">
+              <material>
+                <mattext texttype="text/plain">Clear a cookie</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8226">
+              <material>
+                <mattext texttype="text/plain">Set a cookie</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1043</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g627be9c888cb69cfc49e1b7737829ab7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2033,6606,1435,8866</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;You want to clear a cookie that you had previously scripted to be set on your site visitors' browsers. What is an easy way to do this with JavaScript?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2033">
+              <material>
+                <mattext texttype="text/plain">Set a new cookie with the same name to replace the old, adding an expiration date that has passed.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6606">
+              <material>
+                <mattext texttype="text/plain">Set a new cookie with a new name, adding an expiration date that has passed.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1435">
+              <material>
+                <mattext texttype="text/plain">Set a new cookie with a new name, adding the delete=delete pair to the code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8866">
+              <material>
+                <mattext texttype="text/plain">Set a new cookie with the same name to replace the old, adding the delete=delete pair to the code.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2033</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd45459a9583e491e46d8eb4beec884b0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9512,5992,1979,134</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which statement about JavaScript security is true?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9512">
+              <material>
+                <mattext texttype="text/plain">JavaScript sends and receives instructions in cleartext, and can therefore be read by looking at source code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5992">
+              <material>
+                <mattext texttype="text/plain">JavaScript security for the end-user is more complicated than for the developer because there is more to consider.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1979">
+              <material>
+                <mattext texttype="text/plain">JavaScript security for the developer is straightforward: You can deny it, or you can allow it and accept the risks.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="134">
+              <material>
+                <mattext texttype="text/plain">JavaScript is a compiled language and is therefore vulnerable to numerous types of security exploits.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9512</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga479668b0fd4a2b9963fd54df7122ce1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8373,3286,3316,9538</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;As you develop your Web pages, there are practices you can follow to ensure that the code you create and use in your Web pages is secure for your users. Which of the following development practices helps ensure more secure code?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8373">
+              <material>
+                <mattext texttype="text/plain">Understand the code you are using before putting it on a Web site.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3286">
+              <material>
+                <mattext texttype="text/plain">Use deprecated code as a workaround for wider browser compatibility.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3316">
+              <material>
+                <mattext texttype="text/plain">Test your scripts repeatedly in your audience's favorite browser.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9538">
+              <material>
+                <mattext texttype="text/plain">Write your code consistently, keeping comments to a minimum.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8373</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="geac8eb31e811e3828e96018ead3c0a1a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9187,6759,7292,5064</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;As you develop your Web pages, there are practices you can follow to ensure that your pages are secure for your users. Which of the following practices helps ensure more security for user-entered data in your database?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9187">
+              <material>
+                <mattext texttype="text/plain">Keep security patches up to date.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6759">
+              <material>
+                <mattext texttype="text/plain">Avoid using deprecated code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7292">
+              <material>
+                <mattext texttype="text/plain">Test your scripts in several browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5064">
+              <material>
+                <mattext texttype="text/plain">Write your code consistently.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9187</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g14e4f7b9f0e43a9e0821a3e12f779bb3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1031,8204,1806,1392</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;As you develop your Web pages, there are practices you can follow to ensure that your pages are secure for your users. Which of the following practices can help you find a security issue in your code easier and faster if a problem occurs?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1031">
+              <material>
+                <mattext texttype="text/plain">Comment your code liberally.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8204">
+              <material>
+                <mattext texttype="text/plain">Keep current in your knowledge about JavaScript and its security.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1806">
+              <material>
+                <mattext texttype="text/plain">Use proper encoding and validation practices.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1392">
+              <material>
+                <mattext texttype="text/plain">Keep your operating system up-to-date.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1031</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9692b7f9535c00c9cc72cd1949d6c890" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>376,2904,4110,9818</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;As you develop your Web pages, there are practices you can follow to ensure that your pages are secure for your users. Which of the following practices could help you repair a zero-day security exploit before your site is compromised?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="376">
+              <material>
+                <mattext texttype="text/plain">Keep current in your knowledge about JavaScript and its security.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2904">
+              <material>
+                <mattext texttype="text/plain">Test, test, test your scripts in several browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4110">
+              <material>
+                <mattext texttype="text/plain">Write your code consistently.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9818">
+              <material>
+                <mattext texttype="text/plain">Keep security patches up-to-date.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">376</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc362a10cfc9f9f44dca32e247dba8222" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9608,4921,3430,5596</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;As you develop your Web pages, there are practices you can follow to ensure that your pages are secure for your users. Which of the following practices could help protect your site and your users from cross-site scripting attacks?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9608">
+              <material>
+                <mattext texttype="text/plain">Use proper encoding and validation practices.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4921">
+              <material>
+                <mattext texttype="text/plain">Test, test, test your scripts in several browsers.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3430">
+              <material>
+                <mattext texttype="text/plain">Avoid using deprecated code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5596">
+              <material>
+                <mattext texttype="text/plain">Keep your operating system up-to-date.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9608</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

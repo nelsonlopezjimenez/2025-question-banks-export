@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g397984a9c7c99f72fc77917e738faf6f" title="FILL-IN-Quizz">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g9b69348fc5c8b730fcb12a176c3e9a8e" title="html0010">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>fill_in_multiple_blanks_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8062,8661</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf47b767d37e06559ff801f2d253307ba</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="assignmenttext"&gt;
+&lt;p&gt;Use the HTML comment tag to make a comment out of the "This is a comment" text.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="blueprint"&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div id="showcorrectanswercontainer"&gt;&amp;lt;h1&amp;gt;This is a heading&amp;lt;/h1&amp;gt;&lt;br&gt;&lt;span&gt;[com] &lt;/span&gt;This is a comment&lt;span&gt; [neg]&lt;/span&gt;&lt;br&gt;&amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response_com">
+            <material>
+              <mattext>com</mattext>
+            </material>
+            <render_choice>
+              <response_label ident="8062">
+                <material>
+                  <mattext texttype="text/plain">&lt;!--</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+          <response_lid ident="response_neg">
+            <material>
+              <mattext>neg</mattext>
+            </material>
+            <render_choice>
+              <response_label ident="8661">
+                <material>
+                  <mattext texttype="text/plain">--&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="response_com">8062</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Add">50.00</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="response_neg">8661</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Add">50.00</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gfca3743918568df9df701f561749fb34" title="html0018">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>fill_in_multiple_blanks_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5409</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g31ed72822ec3ca9cb6c4d5d624cb9889</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="assignmenttext"&gt;
+&lt;p&gt;Add a "tooltip" to the link.&lt;/p&gt;
+&lt;p&gt;The "tooltip" should say "Home".&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="blueprint"&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div id="showcorrectanswercontainer"&gt;&amp;lt;a href="default.html" [ti]&lt;span&gt;&amp;nbsp;&lt;/span&gt;&amp;gt;Back to Home&amp;lt;/a&amp;gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response_ti">
+            <material>
+              <mattext>ti</mattext>
+            </material>
+            <render_choice>
+              <response_label ident="5409">
+                <material>
+                  <mattext texttype="text/plain">title="Home"</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="response_ti">5409</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Add">100.00</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf742c819176ad890f7c7d74e70bcab07" title="html009">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>fill_in_multiple_blanks_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1465</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g30f0015293060893836dfa200d391737</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="assignmenttext"&gt;
+&lt;p&gt;Use CSS to set the background-color of the document to yellow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="blueprint"&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div id="assignmentcontainer"&gt;&amp;lt;html&amp;gt;&lt;br&gt;&amp;lt;body style="[bc]:yellow;"&amp;gt;&lt;br&gt;&lt;br&gt;&amp;lt;h1&amp;gt;This is a heading&amp;lt;/h1&amp;gt;&lt;br&gt;&lt;br&gt;&amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt;&lt;br&gt;&lt;br&gt;&amp;lt;/body&amp;gt;&lt;br&gt;&amp;lt;/html&amp;gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response_bc">
+            <material>
+              <mattext>bc</mattext>
+            </material>
+            <render_choice>
+              <response_label ident="1465">
+                <material>
+                  <mattext texttype="text/plain">background-color</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="response_bc">1465</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Add">100.00</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9c9d4f3a257fb9e3909a1e854df14d08" title="react002">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>short_answer_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6276</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gaa9a42e95e4bf359ce9a4734881d4200</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="assignmenttext"&gt;
+&lt;p&gt;Enter the correct ReactDOM function to render the React element to the DOM.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p id="showcorrectanswercontainer"&gt;const container = document.getElementById('root');&lt;/p&gt;
+&lt;p&gt;const root = ReactDOM. ______________ (container);&lt;/p&gt;
+&lt;p&gt;root.render(myElement);&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib>
+              <response_label ident="answer1" rshuffle="No"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">createRoot</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g6283f44974bcff5d2b2be2bbbc7b320b" title="react0035">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6202,104,704,5176</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g8397d793464d686d5476b3af9cd6571c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Consider the following code:&lt;br&gt;const Header = () =&amp;gt; {&lt;br&gt;&amp;nbsp; const myStyle = {&lt;br&gt;&amp;nbsp; &amp;nbsp; color: "white",&lt;br&gt;&amp;nbsp; &amp;nbsp; backgroundColor: "DodgerBlue",&lt;br&gt;&amp;nbsp; };&lt;br&gt;&amp;nbsp; return (&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;h1&amp;gt;Hello Style!&amp;lt;/h1&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/&amp;gt;&lt;br&gt;&amp;nbsp; );&lt;br&gt;}&lt;br&gt;What is a correct syntax for using myStyle as styling for the &amp;lt;h1&amp;gt; element in the return function?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6202">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1 style={myStyle}&gt;Hello Style!&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="104">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1 class={myStyle}&gt;Hello Style!&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="704">
+                <material>
+                  <mattext texttype="text/plain">&lt;h1 className={myStyle}&gt;Hello Style!&lt;/h1&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5176">
+                <material>
+                  <mattext texttype="text/plain">none of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6202</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf614cb74897768d833b69b1347d73009" title="react0036">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>fill_in_multiple_blanks_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1140</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf47b767d37e06559ff801f2d253307ba</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Add the following CSS styles inline to the &amp;lt;h1&amp;gt; element&lt;/p&gt;
+&lt;p&gt;color = "purple"&lt;/p&gt;
+&lt;p&gt;const Header = () =&amp;gt; {&lt;br&gt;&amp;nbsp; return (&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;h1 style=[tmp]&lt;br&gt;&amp;gt;Hello Style!&amp;lt;/h1&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;p&amp;gt;Add a little style!&amp;lt;/p&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/&amp;gt;&lt;br&gt;&amp;nbsp; );&lt;br&gt;}&lt;br&gt;===&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response_tmp">
+            <material>
+              <mattext>tmp</mattext>
+            </material>
+            <render_choice>
+              <response_label ident="1140">
+                <material>
+                  <mattext texttype="text/plain">{{color: "purple"}}</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="response_tmp">1140</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Add">100.00</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

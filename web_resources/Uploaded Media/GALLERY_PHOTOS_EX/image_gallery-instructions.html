@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Image gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <h1>Image gallery example</h1>
+
+    <div class="full-img">
+      <img class="displayed-img" src="images/pic1.jpg">
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
+    </div>
+
+    <div class="thumb-bar">
+
+
+    </div>
+    <h2>Instructions</h2>
+<p>The example looks like this:</p>
+
+<p><img alt="" src="/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery/gallery.png" style="display: block; margin: 0 auto;" width="652" height="647" loading="lazy"></p>
+
+<p>The most interesting parts of the example's CSS file:</p>
+
+<ul>
+ <li>It absolutely positions the three elements inside the <code>full-img &lt;div&gt;</code> — the <code>&lt;img&gt;</code> in which the full-sized image is displayed, an empty <code>&lt;div&gt;</code> that is sized to be the same size as the <code>&lt;img&gt;</code> and put right over the top of it (this is used to apply a darkening effect to the image via a semi-transparent background color), and a <code>&lt;button&gt;</code> that is used to control the darkening effect.</li>
+ <li>It sets the width of any images inside the <code>thumb-bar &lt;div&gt;</code> (so-called "thumbnail" images) to 20%, and floats them to the left so they sit next to one another on a line.</li>
+</ul>
+
+<p>Your JavaScript needs to:</p>
+
+<ul>
+ <li>Loop through all the images, and for each one insert an <code>&lt;img&gt;</code> element inside the <code>thumb-bar &lt;div&gt;</code> that embeds that image in the page.</li>
+ <li>Attach an <code>onclick</code> handler to each <code>&lt;img&gt;</code> inside the <code>thumb-bar &lt;div&gt;</code> so that when they are clicked, the corresponding image is displayed in the <code>displayed-img &lt;img&gt;</code> element.</li>
+ <li>Attach an <code>onclick</code> handler to the <code>&lt;button&gt;</code> so that when it is clicked, a darken effect is applied to the full-size image. When it is clicked again, the darken effect is removed again.</li>
+</ul>
+
+<p>To give you more of an idea, have a look at the <a href="https://mdn.github.io/learning-area/javascript/building-blocks/gallery/" class="external" rel=" noopener">finished example</a> (no peeking at the source code!)</p></div><h2 id="steps_to_complete"><a href="#steps_to_complete" title="Permalink to Steps to complete">Steps to complete</a></h2><div><p>The following sections describe what you need to do.</p></div><h3 id="looping_through_the_images"><a href="#looping_through_the_images" title="Permalink to Looping through the images">Looping through the images</a></h3><div><p>We've already provided you with lines that store a reference to the <code>thumb-bar &lt;div&gt;</code> inside a constant called <code>thumbBar</code>, create a new <code>&lt;img&gt;</code> element, set its <code>src</code> attribute to a placeholder value <code>xxx</code>, and append this new <code>&lt;img&gt;</code> element inside <code>thumbBar</code>.</p>
+
+<p>You need to:</p>
+
+<ol>
+ <li>Put the section of code below the "Looping through images" comment inside a loop that loops through all 5 images — you just need to loop through five numbers, one representing each image.</li>
+ <li>In each loop iteration, replace the <code>xxx</code> placeholder value with a string that will equal the path to the image in each case. We are setting the value of the <code>src</code> attribute to this value in each case. Bear in mind that in each case, the image is inside the images directory and its name is <code>pic1.jpg</code>, <code>pic2.jpg</code>, etc.</li>
+</ol></div><h3 id="adding_an_onclick_handler_to_each_thumbnail_image"><a href="#adding_an_onclick_handler_to_each_thumbnail_image" title="Permalink to Adding an onclick handler to each thumbnail image">Adding an onclick handler to each thumbnail image</a></h3><div><p>In each loop iteration, you need to add an <code>onclick</code> handler to the current <code>newImage</code> — this handler should find the value of the <code>src</code> attribute of the current image. Set the <code>src</code> attribute value of the <code>displayed-img &lt;img&gt;</code> to the <code>src</code> value passed in as a parameter.</p>
+
+<p>Alternatively, you can add one event listener to the thumb bar.</p></div><h3 id="writing_a_handler_that_runs_the_darkenlighten_button"><a href="#writing_a_handler_that_runs_the_darkenlighten_button" title="Permalink to Writing a handler that runs the darken/lighten button">Writing a handler that runs the darken/lighten button</a></h3><div><p>That just leaves our darken/lighten <code>&lt;button&gt;</code> — we've already provided a line that stores a reference to the <code>&lt;button&gt;</code> in a constant called <code>btn</code>. You need to add an <code>onclick</code> handler that:</p>
+
+<ol>
+ <li>Checks the current class name set on the <code>&lt;button&gt;</code> — you can again achieve this by using <code>getAttribute()</code>.</li>
+ <li>If the class name is <code>"dark"</code>, changes the <code>&lt;button&gt;</code> class to <code>"light"</code> (using <code><a href="/en-US/docs/Web/API/Element/setAttribute">setAttribute()</a></code>), its text content to "Lighten", and the <a href="/en-US/docs/Web/CSS/background-color"><code>background-color</code></a> of the overlay <code>&lt;div&gt;</code> to <code>"rgba(0,0,0,0.5)"</code>.</li>
+ <li>If the class name is not <code>"dark"</code>, changes the <code>&lt;button&gt;</code> class to <code>"dark"</code>, its text content back to "Darken", and the <a href="/en-US/docs/Web/CSS/background-color"><code>background-color</code></a> of the overlay <code>&lt;div&gt;</code> to <code>"rgba(0,0,0,0)"</code>.</li>
+</ol>
+
+<p>The following lines provide a basis for achieving the changes stipulated in points 2 and 3 above.</p>
+
+<div class="code-example"><pre class="brush: js notranslate"><code>btn<span class="token punctuation">.</span><span class="token function">setAttribute</span><span class="token punctuation">(</span><span class="token string">'class'</span><span class="token punctuation">,</span> xxx<span class="token punctuation">)</span><span class="token punctuation">;</span>
+btn<span class="token punctuation">.</span>textContent <span class="token operator">=</span> xxx<span class="token punctuation">;</span>
+overlay<span class="token punctuation">.</span>style<span class="token punctuation">.</span>backgroundColor <span class="token operator">=</span> xxx<span class="token punctuation">;</span></code></pre></div></div><h2 id="hints_and_tips"><a href="#hints_and_tips" title="Permalink to Hints and tips">Hints and tips</a></h2><div><ul>
+ <li>You don't need to edit the HTML or CSS in any way.</li>
+</ul></div><h2 id="assessment_or_further_help"><a href="#assessment_or_further_help" title="Permalink to Assessment or further help">Assessment or further help</a></h2><div><p>If you would like your work assessed, or are stuck and want to ask for help:</p>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g229684e0c9bc575319aa3350ea1f516a">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS242-635-Quizzes-Lesson-12</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g2e1d62e84db836b12d54c2d1ef631802" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1080,7848,8406,4167</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;AJAX is a combination of what technologies?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1080">
+              <material>
+                <mattext texttype="text/plain">JavaScript and XML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7848">
+              <material>
+                <mattext texttype="text/plain">JavaScript, the DOM and server requests</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8406">
+              <material>
+                <mattext texttype="text/plain">JavaScript, SQL and database extensions</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4167">
+              <material>
+                <mattext texttype="text/plain">JavaScript and X/HTML</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1080</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7109a894cf78c5a71d23b609831f9dd5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7622,2664,2700,3658</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In AJAX technology, what is the purpose of the XMLHttpRequest object?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7622">
+              <material>
+                <mattext texttype="text/plain">To request either XML data or plaintext data from a Web server</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2664">
+              <material>
+                <mattext texttype="text/plain">To provide a language to manipulate the DOM</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2700">
+              <material>
+                <mattext texttype="text/plain">To transport the content to be displayed on the page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3658">
+              <material>
+                <mattext texttype="text/plain">To control browser display based on the content's context rather than its appearance</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7622</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6ed3a5af8e82b51cf75870e45ed5bf2e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8447,208,3340,1928</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;In AJAX technology, what is the purpose of XML?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8447">
+              <material>
+                <mattext texttype="text/plain">To provide data in a language that controls display based on context</mattext>
+              </material>
+            </response_label>
+            <response_label ident="208">
+              <material>
+                <mattext texttype="text/plain">To provide a language to manipulate the DOM</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3340">
+              <material>
+                <mattext texttype="text/plain">To transport the content to be displayed on the page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1928">
+              <material>
+                <mattext texttype="text/plain">To request data from a Web server</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8447</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g367c0f538d2e4cae67b897b55b106a55" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5046,5396,8079,7101</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is XMLHttpRequest?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5046">
+              <material>
+                <mattext texttype="text/plain">A JavaScript object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5396">
+              <material>
+                <mattext texttype="text/plain">An XML data file</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8079">
+              <material>
+                <mattext texttype="text/plain">A method of the DOM</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7101">
+              <material>
+                <mattext texttype="text/plain">A data transport protocol</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5046</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7422bc56f789894269037fa3419592f1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1992,1756,5614,3337</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is meant by the term "asynchronous" in relation to an AJAX transaction?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1992">
+              <material>
+                <mattext texttype="text/plain">AJAX reloads only a specified area of a page without suspending other user activity on the page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1756">
+              <material>
+                <mattext texttype="text/plain">AJAX reloads the entire Web page only when responding to an event.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5614">
+              <material>
+                <mattext texttype="text/plain">The server must send new content for only a specified portion of the page, but the page suspends other user activity while waiting for that content.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3337">
+              <material>
+                <mattext texttype="text/plain">The server must resend the entire page, but the client only reloads the specified area of the page.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1992</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd54e6404e4b203990079432086f84547" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7895,7265,6590,8107</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which organization invented the process for retrieving information to update only a portion of a Web page, which became known as AJAX?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7895">
+              <material>
+                <mattext texttype="text/plain">Microsoft</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7265">
+              <material>
+                <mattext texttype="text/plain">Netscape</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6590">
+              <material>
+                <mattext texttype="text/plain">Oracle</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8107">
+              <material>
+                <mattext texttype="text/plain">W3C</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7895</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc97bb6f5a7927270ac614ff804d25a52" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4680,845,5467,1809</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;An XML document generally consists of many elements. Which element must be unique in an XML document?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4680">
+              <material>
+                <mattext texttype="text/plain">The root element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="845">
+              <material>
+                <mattext texttype="text/plain">The child element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5467">
+              <material>
+                <mattext texttype="text/plain">The parent element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1809">
+              <material>
+                <mattext texttype="text/plain">The tree element</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4680</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g668ebc15c438fd8cb0353381a88e6bcc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8237,4652,8501,9349</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about Extensible Markup Language (XML)?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8237">
+              <material>
+                <mattext texttype="text/plain">XML enables developers to structure Web documents based on context rather than appearance.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4652">
+              <material>
+                <mattext texttype="text/plain">XML is a meta-language, which means it is derived from other languages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8501">
+              <material>
+                <mattext texttype="text/plain">XML was developed from HTML and SGML.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9349">
+              <material>
+                <mattext texttype="text/plain">XML extends HTML tags to structure and format the appearance of content in Web documents.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8237</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gffeaeb7aa05ee448bd094f59d23ba4fd" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5555,7768,6448,2760</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In what way does XML differ from HTML?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5555">
+              <material>
+                <mattext texttype="text/plain">XML structures Web documents based on context, whereas HTML specifies appearance.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7768">
+              <material>
+                <mattext texttype="text/plain">HTML is based on SGML, whereas XML is based on HTML.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6448">
+              <material>
+                <mattext texttype="text/plain">An HTML document does not use a root element, whereas an XML document does.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2760">
+              <material>
+                <mattext texttype="text/plain">You cannot retrieve HTML with an AJAX request, whereas you can retrieve XML.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5555</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g655d1310eeed6cad304d87eea9a26890" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2567,8142,9337,7645</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Extensible Markup Language (XML) is a structural language, which means that elements must be nested inside:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2567">
+              <material>
+                <mattext texttype="text/plain">a root element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8142">
+              <material>
+                <mattext texttype="text/plain">the XML &lt;xml&gt; &lt;/xml&gt; tags</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9337">
+              <material>
+                <mattext texttype="text/plain">the X/HTML &lt;html&gt; &lt;/html&gt; tags</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7645">
+              <material>
+                <mattext texttype="text/plain">a Document Type Definition (DTD) file.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2567</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g12bb6dee851517b99452446ac3db1608" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5023,4009,742,9395</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an example of a properly used XML tag?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5023">
+              <material>
+                <mattext texttype="text/plain">&lt;definition&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4009">
+              <material>
+                <mattext texttype="text/plain">&lt;color="navy"&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="742">
+              <material>
+                <mattext texttype="text/plain">&lt;strong&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9395">
+              <material>
+                <mattext texttype="text/plain">&lt;h2&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5023</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gaf3812b9b38efdbb1c20793baa5b9ac5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>557,7269,7858,9124</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following XML code:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;?xml version="1.0"?&amp;gt;&lt;br&gt;&amp;lt;zoo&amp;gt;&lt;br&gt;&amp;lt;mammals&amp;gt;&lt;br&gt;&amp;lt;species&amp;gt; Lion &amp;lt;/species&amp;gt;&lt;br&gt;&amp;lt;species&amp;gt; Zebra &amp;lt;/species&amp;gt;&lt;br&gt;&amp;lt;/mammals&amp;gt;&lt;br&gt;&amp;lt;reptiles&amp;gt;&lt;br&gt;&amp;lt;species&amp;gt; Alligator &amp;lt;/species&amp;gt;&lt;br&gt;&amp;lt;species&amp;gt; Snake &amp;lt;/species&amp;gt;&lt;br&gt;&amp;lt;/reptiles&amp;gt;&lt;br&gt;&amp;lt;birds&amp;gt;&lt;br&gt;&amp;lt;species&amp;gt; Eagle &amp;lt;/species&amp;gt;&lt;br&gt;&amp;lt;species&amp;gt; Duck &amp;lt;/species&amp;gt;&lt;br&gt;&amp;lt;/birds&amp;gt;&lt;br&gt;&amp;lt;/zoo&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;In this example, which is the root element?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="557">
+              <material>
+                <mattext texttype="text/plain">&lt;zoo&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7269">
+              <material>
+                <mattext texttype="text/plain">&lt;?xml&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7858">
+              <material>
+                <mattext texttype="text/plain">&lt;mammals&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9124">
+              <material>
+                <mattext texttype="text/plain">&lt;species&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">557</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="geeb96c7569a197017d0760b4df769818" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5252,9239,4939,1110</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is a Document Type Definition (DTD)?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5252">
+              <material>
+                <mattext texttype="text/plain">A file that provides the grammar for XML tags used in one or more XML documents</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9239">
+              <material>
+                <mattext texttype="text/plain">The &lt;!DOCTYPE&gt; tag entry that specifies the version of X/HTML used in an X/HTML file  C</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4939">
+              <material>
+                <mattext texttype="text/plain">The &lt;?xml?&gt; tag entry that specifies the version of XML used in an XML file</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1110">
+              <material>
+                <mattext texttype="text/plain">A file that provides the grammar for X/HTML tags used in one or more X/HTML documents</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5252</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6afc94c4bbe939402c1bef18fb8f06f1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>325,4514,6528,1762</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about an XML document?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="325">
+              <material>
+                <mattext texttype="text/plain">To be considered a valid XML document, it must be well-formed and contain a reference to a DTD.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4514">
+              <material>
+                <mattext texttype="text/plain">To be considered a well-formed XML document, it must use only the standard specified XML tags.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6528">
+              <material>
+                <mattext texttype="text/plain">To be considered a well-formed XML document, it must contain a reference to a DTD.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1762">
+              <material>
+                <mattext texttype="text/plain">To be considered a valid XML document, it must conform to the strict, specific syntax rules of XML.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">325</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbaab08f170576c4457e64c6fbf98f1f3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6116,8620,2722,6395</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following syntax rules is required for an XML document to be considered "well-formed"?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6116">
+              <material>
+                <mattext texttype="text/plain">Tag elements are case-sensitive, and tag names must match precisely in every implementation.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8620">
+              <material>
+                <mattext texttype="text/plain">The document must properly nest all root elements within each other.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2722">
+              <material>
+                <mattext texttype="text/plain">The document must use only the standard XML tags specified by the W3C.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6395">
+              <material>
+                <mattext texttype="text/plain">Tag attributes must be properly nested between element tags, and elements must always be enclosed in quotation marks.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6116</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g180c14eab0dd8e4428eec453469fedd1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3356,6600,957,2087</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following statements about XML is true?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3356">
+              <material>
+                <mattext texttype="text/plain">XML allows developers to write their own tags and set the structure of the XML file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6600">
+              <material>
+                <mattext texttype="text/plain">XML is a verbose language, meaning that it has a very large set of specified tags for developers to use.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="957">
+              <material>
+                <mattext texttype="text/plain">XML requires no interpreter client to read and deploy the data, it can be used with any browser.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2087">
+              <material>
+                <mattext texttype="text/plain">XML files are compact and thus even large XML files cause no bandwidth, speed or memory issues.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3356</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g31ec0f14682ece18501f793c395245a9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>43,3528,1894,5807</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Consider a basic AJAX application in which you want to display current weather information in one part of a page on your site. Which technology in the AJAX application provides the data format of the weather information?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="43">
+              <material>
+                <mattext texttype="text/plain">XML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3528">
+              <material>
+                <mattext texttype="text/plain">XHTML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1894">
+              <material>
+                <mattext texttype="text/plain">JavaScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5807">
+              <material>
+                <mattext texttype="text/plain">Client browser</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">43</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gef5badc0d18645776df78bcdb2f0f923" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>438,7116,1178,3583</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Consider a basic AJAX application in which you want to display current weather information in one part of a page on your site. Which technology in the AJAX application extracts the appropriate weather data from the response and places it in DOM elements?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="438">
+              <material>
+                <mattext texttype="text/plain">JavaScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7116">
+              <material>
+                <mattext texttype="text/plain">XML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1178">
+              <material>
+                <mattext texttype="text/plain">XHTML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3583">
+              <material>
+                <mattext texttype="text/plain">Server feed</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">438</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g804c5c6ea010e551470b1185bfb0a691" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4927,3342,3317,5185</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Consider a basic AJAX application in which you want to display current weather information in one part of a page on your site. Which task does JavaScript perform in the AJAX application?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4927">
+              <material>
+                <mattext texttype="text/plain">JavaScript extracts the appropriate weather data from the server and places it in DOM elements.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3342">
+              <material>
+                <mattext texttype="text/plain">JavaScript provides the &lt;div&gt; tag on the Web page to place the extracted weather data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3317">
+              <material>
+                <mattext texttype="text/plain">JavaScript provides the structure and format of the weather data extracted from your server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5185">
+              <material>
+                <mattext texttype="text/plain">JavaScript formats and displays the extracted weather data on your Web page.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4927</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g65e11e47225839e4e1d379f801575c7f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7210,3840,2592,7282</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Because AJAX requires different technologies to work together, there are some key structures to consider when developing your AJAX application and related pages. Which of the following must you ensure?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7210">
+              <material>
+                <mattext texttype="text/plain">That the DTD mirrors all syntax and naming conventions in your XML and JavaScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3840">
+              <material>
+                <mattext texttype="text/plain">That your JavaScript file includes a reference to a corresponding DTD</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2592">
+              <material>
+                <mattext texttype="text/plain">That the DTD mirrors all syntax and naming conventions in your XHTML and JavaScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7282">
+              <material>
+                <mattext texttype="text/plain">That your XHTML file includes a reference to a corresponding DTD</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7210</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7cc16fe642c2ff1823f1e57b73f29848" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>297,5665,7954,4737</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which key structure in an AJAX implementation provides the interaction with XML that is necessary for any communication to take place?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="297">
+              <material>
+                <mattext texttype="text/plain">The JavaScript XMLHttpRequest object</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5665">
+              <material>
+                <mattext texttype="text/plain">The XML DTD</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7954">
+              <material>
+                <mattext texttype="text/plain">The JavaScript DTD</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4737">
+              <material>
+                <mattext texttype="text/plain">The XML XMLHttpRequest object</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">297</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5a6e758d5688894917812e7fa7449300" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2527,659,5957,6429</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Because AJAX requires different technologies to work together, there are some restrictions to consider when developing your AJAX application and related pages. Which statement is true regarding restrictions in AJAX interactions?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2527">
+              <material>
+                <mattext texttype="text/plain">The Web page with JavaScript code and the XML page generally must be on the same server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="659">
+              <material>
+                <mattext texttype="text/plain">The JavaScript code must reside in the Web page file, and the XML code must reside in the DTD file.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5957">
+              <material>
+                <mattext texttype="text/plain">The XML page and its DTD generally must be in the same file folder.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6429">
+              <material>
+                <mattext texttype="text/plain">The Web page with JavaScript code and the XML page generally must be on different servers.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2527</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1ae29bdc635a2f39ea18eefad2022848" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3390,8100,2974,76</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement about the XMLHttpRequest object is true?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3390">
+              <material>
+                <mattext texttype="text/plain">The XMLHttpRequest object is called by the JavaScript code and sends a request from the client to the server.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8100">
+              <material>
+                <mattext texttype="text/plain">The XMLHttpRequest object requests the transfer of XML data between a client and server, and then performs the data transfer.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2974">
+              <material>
+                <mattext texttype="text/plain">The XMLHttpRequest object can support only the XML format for data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76">
+              <material>
+                <mattext texttype="text/plain">The XMLHttpRequest object is called by the XML code to return the requested data to the server.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3390</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gb3ebf6ffc78396ca91585539e31fce91" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>494,9921,2446,4370</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In an AJAX interaction where the XMLHttpRequest object requests the transfer of data:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="494">
+              <material>
+                <mattext texttype="text/plain">XML is a common format for the requested data but is not actually required.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9921">
+              <material>
+                <mattext texttype="text/plain">XML is the required format for the requested data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2446">
+              <material>
+                <mattext texttype="text/plain">the requested data can be provided in XML or HTTP(S) format.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4370">
+              <material>
+                <mattext texttype="text/plain">the requested data can be provided in XML or JavaScript format.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">494</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5aa098507b3f27405c0b0a4484a9ee87" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8055,3015,6505,4369</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is XSLT sometimes used for in an AJAX transaction?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8055">
+              <material>
+                <mattext texttype="text/plain">To manipulate a requested XML document, returning a new document that can be displayed</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3015">
+              <material>
+                <mattext texttype="text/plain">To modify the X/HTML document where the JavaScript is located</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6505">
+              <material>
+                <mattext texttype="text/plain">To change the content of an XML document before it is displayed in the X/HTML page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4369">
+              <material>
+                <mattext texttype="text/plain">To add new functions to your JavaScript code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8055</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gaebc7cf97a03abbeb611ad28cb7d5d0c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2310,858,1107,2323</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;When using an XMLHttpRequest call, how is an XML document returned to the browser?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2310">
+              <material>
+                <mattext texttype="text/plain">The responseXML property of the XMLHttpRequest object contains the XML document.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="858">
+              <material>
+                <mattext texttype="text/plain">The returned data is stored in a variable that is assigned to the XMLHttpRequest function.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1107">
+              <material>
+                <mattext texttype="text/plain">The returned data is available by querying the browser's XMLDocument property.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2323">
+              <material>
+                <mattext texttype="text/plain">The XML document is placed directly into the X/HTML page in a &lt;div&gt; specified in the XMLHttpRequest call.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2310</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga242ee3d9b966742118eaed878112fc7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1398,500,8286,3197</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;There are three basic JavaScript functions in a typical AJAX request. Which of the following functions is performed by a technology other than JavaScript?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1398">
+              <material>
+                <mattext texttype="text/plain">A function that transports the data from the server to the client</mattext>
+              </material>
+            </response_label>
+            <response_label ident="500">
+              <material>
+                <mattext texttype="text/plain">A function that creates an HTTP request</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8286">
+              <material>
+                <mattext texttype="text/plain">A function that calls and submits the HTTP request</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3197">
+              <material>
+                <mattext texttype="text/plain">A function that handles the data returned to the page</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1398</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7e198a4d446f9e9cb539f1d559412f1e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4861,6664,7809,5805</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In an AJAX transaction, the HTTP request must be initialized through:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4861">
+              <material>
+                <mattext texttype="text/plain">the open() method.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6664">
+              <material>
+                <mattext texttype="text/plain">the innerHTML property.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7809">
+              <material>
+                <mattext texttype="text/plain">the readyState value.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5805">
+              <material>
+                <mattext texttype="text/plain">the XMLHttpRequest object.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4861</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g69fb8c0ebef819620433461756b13294" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1929,1401,699,8913</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In an AJAX transaction, what is the purpose of the readyState value?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1929">
+              <material>
+                <mattext texttype="text/plain">It helps ensure that the data remains secure by determining the status of the XMLHttpRequest object.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1401">
+              <material>
+                <mattext texttype="text/plain">It calls and submits the HTTP request by determining when the request is ready.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="699">
+              <material>
+                <mattext texttype="text/plain">It retrieves the returned XML data and places it in the Web page in the specified X/HTML element.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8913">
+              <material>
+                <mattext texttype="text/plain">It initializes the HTTP request when ready by invoking the open() method before the request is sent.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1929</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbb0d5b9607b5773535cf6e1291803cdf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4814,5030,95,4645</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In an AJAX transaction, which readyState value indicates that code has called the XMLHttpRequest open() method and that the XMLHttpRequest object is ready to send a request to the server?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4814">
+              <material>
+                <mattext texttype="text/plain">readyState value 1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5030">
+              <material>
+                <mattext texttype="text/plain">readyState value 0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="95">
+              <material>
+                <mattext texttype="text/plain">readyState value 2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4645">
+              <material>
+                <mattext texttype="text/plain">readyState value 3</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4814</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7bee0eb463426549b8aef2d19fb0bd48" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4830,3879,6814,4606</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In an AJAX transaction, what does a readyState value of 4 mean?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4830">
+              <material>
+                <mattext texttype="text/plain">The response has been completely received by the client.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3879">
+              <material>
+                <mattext texttype="text/plain">An XMLHttpRequest object has been created, but not initialized.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6814">
+              <material>
+                <mattext texttype="text/plain">A request has been sent from the client to the server with the send() method, but a response has not yet been received.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4606">
+              <material>
+                <mattext texttype="text/plain">The HTTP response headers have been received from the server, but the message body has not yet been completely received from the client.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4830</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9d0cb905fe6b9ba330f3920c9a28e58f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2664,7764,5375,2764</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;AJAX can change a portion of a Web page "on the fly." Which of the following can it use to retrieve the returned XML (or text) data and place it in the Web page in whichever element you specify in the script (such as in a &amp;lt;div&amp;gt; tag) without disturbing the rest of the page?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2664">
+              <material>
+                <mattext texttype="text/plain">The innerHTML property</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7764">
+              <material>
+                <mattext texttype="text/plain">The HTTPS protocol</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5375">
+              <material>
+                <mattext texttype="text/plain">The readyState value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2764">
+              <material>
+                <mattext texttype="text/plain">The send() method</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2664</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8ae2e8255c6174a0f062fb6222c4ec89" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3459,9306,6478,6750</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;&lt;span class="_title"&gt;Consider the following code fragment:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;http.onreadystatechange=function() {&lt;br&gt;if(http.readyState == 4) {&lt;br&gt;...&lt;br&gt;}&lt;/pre&gt;
+&lt;p&gt;&lt;span class="_title"&gt;&lt;br&gt;What is the purpose of this code?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3459">
+              <material>
+                <mattext texttype="text/plain">It will perform an action when the AJAX call is completed.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9306">
+              <material>
+                <mattext texttype="text/plain">It will perform an action while the X/HTML page is loading.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6478">
+              <material>
+                <mattext texttype="text/plain">It will perform an action when the X/HTML page is closing.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6750">
+              <material>
+                <mattext texttype="text/plain">It will perform an action when the AJAX call is starting.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3459</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5fdafcde4417d8cbf36149629bcae296" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5510,5489,2441,6383</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;AJAX can handle a variety of server requests for your end users. Which type of typical AJAX request can be used to update content such as date and time?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5510">
+              <material>
+                <mattext texttype="text/plain">AJAX can be used for returning server variables from the server to the client.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5489">
+              <material>
+                <mattext texttype="text/plain">AJAX cannot be used to update content such as date and time.  C</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2441">
+              <material>
+                <mattext texttype="text/plain">AJAX can be used for sending entire pages of information in a native language to the server for interpretation and retrieval.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6383">
+              <material>
+                <mattext texttype="text/plain">AJAX can be used for parsing XML and data.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5510</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ge5566f624978aebf2caaa9d0184d8ff9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9061,4882,948,2326</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Why is AJAX useful for server-based tasks?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9061">
+              <material>
+                <mattext texttype="text/plain">Because it refreshes only the portion of the page that changed, making loading much faster</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4882">
+              <material>
+                <mattext texttype="text/plain">Because it moves all client-based tasks of the transaction to the server side</mattext>
+              </material>
+            </response_label>
+            <response_label ident="948">
+              <material>
+                <mattext texttype="text/plain">Because it moves all server-based tasks of the transaction to the client side</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2326">
+              <material>
+                <mattext texttype="text/plain">Because it eliminates the need to refresh any portion of the page, making loading much faster</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9061</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga2587c09bec2c27dff30207d933e3926" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5878,6189,5397,7779</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Sometimes you will experience issues with server response when using AJAX. What server response issue occurs when users input further data or actions during the time they are waiting for a response, not realizing that different content is on its way back?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5878">
+              <material>
+                <mattext texttype="text/plain">Unfinished response</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6189">
+              <material>
+                <mattext texttype="text/plain">Reloading of only the specified part of the page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5397">
+              <material>
+                <mattext texttype="text/plain">Short response time</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7779">
+              <material>
+                <mattext texttype="text/plain">Partial response</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5878</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g5715f6689896f571005c8a69f51b49cf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>904,7169,9427,71</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Sometimes you will experience issues with server response when using AJAX. What is generally the basic cause of server response issues with AJAX?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="904">
+              <material>
+                <mattext texttype="text/plain">Long reply time from the server</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7169">
+              <material>
+                <mattext texttype="text/plain">Improper access permission for server data</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9427">
+              <material>
+                <mattext texttype="text/plain">Lack of dynamic memory for server data</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71">
+              <material>
+                <mattext texttype="text/plain">Short reply time from the server</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">904</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6e52fac6fd3473849711dd066ee82393" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8274,2750,3400,5634</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Sometimes you will experience issues with server response when using AJAX. Which is the best example of a way you can modify your AJAX application design to resolve some server response issues?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8274">
+              <material>
+                <mattext texttype="text/plain">Divide larger amounts of data into smaller amounts.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2750">
+              <material>
+                <mattext texttype="text/plain">Add memory to your server so it can handle new requests while responses are forthcoming.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3400">
+              <material>
+                <mattext texttype="text/plain">Code the XML data into the X/HTML file to use fewer server resources.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5634">
+              <material>
+                <mattext texttype="text/plain">Combine multiple portions of related data into a single group to display together.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8274</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd5afbe2e7b79518982724bd78d60e8de" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9905,3529,8537,7219</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What is a common server issue that affects AJAX requests?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9905">
+              <material>
+                <mattext texttype="text/plain">A response that takes a long time can cause partial or unfinished data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3529">
+              <material>
+                <mattext texttype="text/plain">Returned data is limited to XML format only.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8537">
+              <material>
+                <mattext texttype="text/plain">A request can be initiated only by a user action.  D</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7219">
+              <material>
+                <mattext texttype="text/plain">The size of the response is limited to 1 MB (megabyte) or less.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9905</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbabcdab25f33fcf15a70ed7fd5b00533" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1530,4351,3833,2265</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Sometimes you will experience issues with server response when using AJAX. Which of the following describes a partial response issue with AJAX?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1530">
+              <material>
+                <mattext texttype="text/plain">A response is sent in unpredictable bursts as it becomes available, disrupting the effect intended for your page's dynamic content.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4351">
+              <material>
+                <mattext texttype="text/plain">The response to a user's first action may delete later user input that was not yet submitted.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3833">
+              <material>
+                <mattext texttype="text/plain">A user thinks that a response to her first action came from her second action.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2265">
+              <material>
+                <mattext texttype="text/plain">A user inputs further data during the time he is waiting for a response, not realizing that different content is on its way back</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1530</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc16fa3ba7666502405198b2b5c4998c1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3621,7952,779,529</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In relational databases, which type of relationship among tables is the most common?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3621">
+              <material>
+                <mattext texttype="text/plain">One-to-many</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7952">
+              <material>
+                <mattext texttype="text/plain">One-to-none</mattext>
+              </material>
+            </response_label>
+            <response_label ident="779">
+              <material>
+                <mattext texttype="text/plain">Many-to-many</mattext>
+              </material>
+            </response_label>
+            <response_label ident="529">
+              <material>
+                <mattext texttype="text/plain">One-to-one</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3621</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g790307d6764320ff5e05be1645e8bf3f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9699,5971,752,9019</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which type of relationship among database tables is used in data warehousing and uses junction tables (special tables to create relationships) when mining the data?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9699">
+              <material>
+                <mattext texttype="text/plain">Many-to-many</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5971">
+              <material>
+                <mattext texttype="text/plain">One-to-none</mattext>
+              </material>
+            </response_label>
+            <response_label ident="752">
+              <material>
+                <mattext texttype="text/plain">One-to-one</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9019">
+              <material>
+                <mattext texttype="text/plain">One-to-many</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9699</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="ga9313e1379f4b0309afaa68bc56f43e3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3387,2686,8109,5883</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Suppose your company uses a relational database to store information about employees and the projects on which they work. One employee at the company might be listed as working on several different projects for the company. Each project might be specified in a separate table. You can locate all the projects that you worked on for the company by using the Name field, without having to sort through the other fields of data about projects or contact information. This example demonstrates which type of relationship among database tables?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3387">
+              <material>
+                <mattext texttype="text/plain">One-to-many</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2686">
+              <material>
+                <mattext texttype="text/plain">One-to-none</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8109">
+              <material>
+                <mattext texttype="text/plain">Many-to-many</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5883">
+              <material>
+                <mattext texttype="text/plain">One-to-one</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3387</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0425d7221b604b957d690b4216e1fc08" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3291,1509,1781,5324</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;A relational database is:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3291">
+              <material>
+                <mattext texttype="text/plain">a database in which information from one table can be linked to information in another table, creating data relationships.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1509">
+              <material>
+                <mattext texttype="text/plain">required in order to run AJAX applications.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1781">
+              <material>
+                <mattext texttype="text/plain">a server that can process multiple AJAX requests and handle new requests while responses are forthcoming.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5324">
+              <material>
+                <mattext texttype="text/plain">a stored collection of data organized in a predictable manner.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3291</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4a37f194eb55a6a366d8d4ca5655ed27" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3785,93,2768,1701</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which element of a relational database is a complete set of information, such as name, e-mail address and phone number for one person?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3785">
+              <material>
+                <mattext texttype="text/plain">Record</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93">
+              <material>
+                <mattext texttype="text/plain">Schema</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2768">
+              <material>
+                <mattext texttype="text/plain">Table</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1701">
+              <material>
+                <mattext texttype="text/plain">Field</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3785</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g390f0def233fe6dfd2681b5844cf75a6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3533,426,5490,319</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which element of a relational database is a type of information that can be sorted and retrieved by name, such as when outputting a list of all phone numbers?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3533">
+              <material>
+                <mattext texttype="text/plain">Field</mattext>
+              </material>
+            </response_label>
+            <response_label ident="426">
+              <material>
+                <mattext texttype="text/plain">Schema</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5490">
+              <material>
+                <mattext texttype="text/plain">Table</mattext>
+              </material>
+            </response_label>
+            <response_label ident="319">
+              <material>
+                <mattext texttype="text/plain">Record</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3533</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbc3b967588df06c7ed8baa4746aa00aa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4291,9693,314,5565</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following describes a table in a relational database?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4291">
+              <material>
+                <mattext texttype="text/plain">A set of specific data in a database (for example, contact information for a group of employees), divided into columns and rows</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9693">
+              <material>
+                <mattext texttype="text/plain">The top-level definition of a database, its structure, which defines all its elements and the relationships between them</mattext>
+              </material>
+            </response_label>
+            <response_label ident="314">
+              <material>
+                <mattext texttype="text/plain">A complete set of information, such as name, e-mail address and phone number for one person</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5565">
+              <material>
+                <mattext texttype="text/plain">A type of information that can be sorted and retrieved by name, such as when outputting a list of all phone numbers</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4291</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdc5e6f9ea7b42870a5e9726aa3593665" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1602,2366,2787,8220</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In a relational database, a field:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1602">
+              <material>
+                <mattext texttype="text/plain">represents a column in the database table.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2366">
+              <material>
+                <mattext texttype="text/plain">represents a set of records in the database table.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2787">
+              <material>
+                <mattext texttype="text/plain">represents a set of tables in the database schema.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8220">
+              <material>
+                <mattext texttype="text/plain">represents a row in the database table.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1602</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g29841fe2ce0e1b8b3b16651448720438" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5961,4828,2932,6001</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;In a relational database, a record:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5961">
+              <material>
+                <mattext texttype="text/plain">represents a row in the database table.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4828">
+              <material>
+                <mattext texttype="text/plain">represents a set of fields in the database table.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2932">
+              <material>
+                <mattext texttype="text/plain">represents a set of tables in the database schema.  D</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6001">
+              <material>
+                <mattext texttype="text/plain">represents a column in the database table.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5961</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gaf6971f9ea6c07589744d802ce561c9e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1188,1134,2661,1716</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following describes a schema in a relational database?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1188">
+              <material>
+                <mattext texttype="text/plain">The top-level definition of a database, its structure, which defines all its elements and the relationships between them</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1134">
+              <material>
+                <mattext texttype="text/plain">A complete set of information, such as name, e-mail address and phone number for one person</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2661">
+              <material>
+                <mattext texttype="text/plain">A type of information that can be sorted and retrieved by name, such as when outputting a list of all phone numbers</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1716">
+              <material>
+                <mattext texttype="text/plain">A set of specific data in a database (for example, contact information for a group of employees), divided into columns and rows</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1188</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd313b139aa566391f31c37cce11a9f09" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3546,8048,6980,9950</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;When used with databases, what role does AJAX play in the data information cycle?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3546">
+              <material>
+                <mattext texttype="text/plain">It is used for display and presentation.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8048">
+              <material>
+                <mattext texttype="text/plain">It is used to query a database and return the applicable data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6980">
+              <material>
+                <mattext texttype="text/plain">It updates the entire page with requested data from the database.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9950">
+              <material>
+                <mattext texttype="text/plain">It performs back-end database operations such as changing database security permissions.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3546</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gad6efeaf1be582b3c29c576796e9b797" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4351,1989,6221,5098</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true regarding database security when using AJAX?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4351">
+              <material>
+                <mattext texttype="text/plain">AJAX opens databases to the threat of SQL injection.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1989">
+              <material>
+                <mattext texttype="text/plain">AJAX is a very safe technology and poses no threats to a database.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6221">
+              <material>
+                <mattext texttype="text/plain">AJAX opens databases to the threat of partial and unfinished server responses.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5098">
+              <material>
+                <mattext texttype="text/plain">AJAX requires internal security measures because it modifies database processing, but it does not open databases to external exploits.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4351</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc4ee407b48dc49653ff0ac4c5cfe080d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5621,9523,3437,7510</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;AJAX brings some site usability issues that you should consider when developing your pages with it. Which of the following usability issues is most likely to require you to avoid depending on an AJAX application for any essential functionality on your site?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5621">
+              <material>
+                <mattext texttype="text/plain">Script blocking issues</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9523">
+              <material>
+                <mattext texttype="text/plain">Back button issues</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3437">
+              <material>
+                <mattext texttype="text/plain">Bookmarking issues</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7510">
+              <material>
+                <mattext texttype="text/plain">Search engine issues</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5621</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g68270f4349231cf4dfbb9cadc59fef3d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7787,7372,2056,2936</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When implementing AJAX in your Web page, which of the following is an issue affecting usability?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7787">
+              <material>
+                <mattext texttype="text/plain">The Back button does not work correctly for AJAX-generated content.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7372">
+              <material>
+                <mattext texttype="text/plain">Database queries to retrieve data are more difficult.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2056">
+              <material>
+                <mattext texttype="text/plain">The initial page load will take noticeably longer for a page that implements AJAX.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2936">
+              <material>
+                <mattext texttype="text/plain">If AJAX is used, then no other technologies (such as Flash) can be used on the same page.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7787</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4a204d139dabbef889a0a819adac59d2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6287,9297,7481,5367</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;AJAX brings some site usability issues that you should consider when developing your pages with it, such as issues with bookmarking, the Back button and search engines. In general, why do these problems occur with AJAX applications?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6287">
+              <material>
+                <mattext texttype="text/plain">Because dynamic information on a portion of a page cannot be bookmarked, indexed or returned to</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9297">
+              <material>
+                <mattext texttype="text/plain">Because the same-origin policy prevents AJAX from returning users to previously viewed content</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7481">
+              <material>
+                <mattext texttype="text/plain">Because servers cannot respond to AJAX requests quickly enough for pages to be bookmarked, indexed or returned to</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5367">
+              <material>
+                <mattext texttype="text/plain">Because most users do not have the advanced skills needed to bookmark, index or return to AJAX pages</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6287</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g14b1e8d2f2243a9b1c9853f66ad4e66e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1382,3463,7319,7886</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which statement is true about using AJAX with libraries?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1382">
+              <material>
+                <mattext texttype="text/plain">With AJAX, libraries and plug-ins, a developer can create rich applications with minimal effort.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3463">
+              <material>
+                <mattext texttype="text/plain">AJAX cannot be used together with libraries in your X/HTML pages.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7319">
+              <material>
+                <mattext texttype="text/plain">Libraries allow developers to create AJAX applications with no knowledge of JavaScript or XML.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7886">
+              <material>
+                <mattext texttype="text/plain">Libraries and plug-ins allow developers to create AJAX Web page effects, but require a large amount of extra coding work.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1382</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g4fcd51796767a4caf6dfba736451f238" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2214,8124,3245,5455</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;To use AJAX with a library, you must:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2214">
+              <material>
+                <mattext texttype="text/plain">reference both the library file and the AJAX file with separate &lt;script&gt; tags.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8124">
+              <material>
+                <mattext texttype="text/plain">reference both the library file and the AJAX file with the same &lt;script&gt; tag.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3245">
+              <material>
+                <mattext texttype="text/plain">reference only the library file with a &lt;script&gt; tag.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5455">
+              <material>
+                <mattext texttype="text/plain">reference only the AJAX file with a &lt;script&gt; tag.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2214</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0128e95c00e6dcedaa9f8ee73de40f44" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3627,5325,3417,5607</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;What would be an advantage to using one of the alternatives to XML-based AJAX, such as Java applets or Flash?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3627">
+              <material>
+                <mattext texttype="text/plain">The alternatives do not change the DOM.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5325">
+              <material>
+                <mattext texttype="text/plain">The alternatives have less complex programming models.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3417">
+              <material>
+                <mattext texttype="text/plain">The alternatives do not require browser plug-ins in order to work.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5607">
+              <material>
+                <mattext texttype="text/plain">The alternatives are open-source technologies.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3627</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g03fd0c8d251b58635076c134b76f5311" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9586,386,5690,1823</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is an alternative to XML-based AJAX?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9586">
+              <material>
+                <mattext texttype="text/plain">Java applets</mattext>
+              </material>
+            </response_label>
+            <response_label ident="386">
+              <material>
+                <mattext texttype="text/plain">Dynamic HTML (DHTML)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5690">
+              <material>
+                <mattext texttype="text/plain">JavaScript applets</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1823">
+              <material>
+                <mattext texttype="text/plain">Document Object Model (DOM)</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9586</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g8fd86754d3cc05ac7d0e483765c848d3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1515,814,5808,4621</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a drawback to using Adobe Flash as an alternative to XML-based AJAX?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1515">
+              <material>
+                <mattext texttype="text/plain">Flash requires the user to have a browser plug-in to view it.  B</mattext>
+              </material>
+            </response_label>
+            <response_label ident="814">
+              <material>
+                <mattext texttype="text/plain">Flash is an open-source product so you must pay to use the code.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5808">
+              <material>
+                <mattext texttype="text/plain">Flash requires the developer to be skilled in using the Java programming language.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4621">
+              <material>
+                <mattext texttype="text/plain">Flash only renders on Apple products such as iPhone, iPad and iPod Touch.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1515</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2d88ed078a5bbd68e4afc3219ac86e50" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1927,6575,875,1761</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which alternative to XML-based AJAX is relatively new compared to the others and has thus far not become a strong contender in this market of technologies?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1927">
+              <material>
+                <mattext texttype="text/plain">Microsoft Silverlight</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6575">
+              <material>
+                <mattext texttype="text/plain">XHTML-based AJAX</mattext>
+              </material>
+            </response_label>
+            <response_label ident="875">
+              <material>
+                <mattext texttype="text/plain">Java applets</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1761">
+              <material>
+                <mattext texttype="text/plain">Adobe Flash</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1927</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6c82de1a597bbd45acede6f6922ccd19" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3812,5306,4313,3327</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;Which of the following is a companion that can be used together with AJAX, rather than an alternative that could be used instead of AJAX?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3812">
+              <material>
+                <mattext texttype="text/plain">Dynamic HTML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5306">
+              <material>
+                <mattext texttype="text/plain">Java applets</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4313">
+              <material>
+                <mattext texttype="text/plain">Microsoft Silverlight</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3327">
+              <material>
+                <mattext texttype="text/plain">Adobe Flash</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3812</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g79c7bd69cdde75057ab825be1c4e9e5e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1815,7648,4940,4709</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;How do AJAX and DHTML differ from one another?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1815">
+              <material>
+                <mattext texttype="text/plain">AJAX is a server-side solution whereas DHTML works on the client side.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7648">
+              <material>
+                <mattext texttype="text/plain">No answer text provided.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4940">
+              <material>
+                <mattext texttype="text/plain">No answer text provided.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4709">
+              <material>
+                <mattext texttype="text/plain">No answer text provided.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1815</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0e3efa44feac87302325907e2700b5f9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2583,8537,1593,6406</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span class="_title"&gt;AJAX can handle a variety of server requests for your end users. Which type of typical AJAX request can be used to create RSS feeds and check data to ensure that it did not change during transport?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2583">
+              <material>
+                <mattext texttype="text/plain">AJAX can be used for parsing XML and data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8537">
+              <material>
+                <mattext texttype="text/plain">AJAX cannot be used to create RSS feeds or check data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1593">
+              <material>
+                <mattext texttype="text/plain">AJAX can be used for sending entire pages of information in a native language to the server for interpretation and retrieval.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6406">
+              <material>
+                <mattext texttype="text/plain">AJAX can be used for returning server variables from the server to the client.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2583</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

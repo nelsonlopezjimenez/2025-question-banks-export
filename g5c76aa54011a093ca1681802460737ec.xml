@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imsdt_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imsdt_v1p1  http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imsdt_v1p1.xsd">
+  <title>Ask A Question</title>
+  <text texttype="text/html">&lt;p&gt;&lt;img src="$IMS-CC-FILEBASE$/Uploaded%20Media/QuestionMark.png" alt="QuestionMark.png" data-api-endpoint="https://edcc.instructure.com/api/v1$IMS-CC-FILEBASE$/QuestionMark.png" data-api-returntype="File"&gt;&lt;/p&gt;
+&lt;p&gt;This discussion is for you to ask questions of your instructor on the topics of this course. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;During the first two weeks of the course, I will check this discussion every other day for your questions; after the first two weeks, I'll be checking this discussion as you post to it. &amp;nbsp;If you see a question, and can answer the question, feel free to do so. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Do &lt;strong&gt;not&lt;/strong&gt; post any questions here about grades! &amp;nbsp;Remember that there are class members that might have not taken the quiz, or finished the assignment. &amp;nbsp;If you post about grades, your post will be removed.&lt;/p&gt;</text>
+</topic>

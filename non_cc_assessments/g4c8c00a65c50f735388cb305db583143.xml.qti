@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g4c8c00a65c50f735388cb305db583143">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS245-Quiz 1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g6e7511f27c3517fd84bb10d2c43f6f79" title="CSS">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>25690</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The ____________________ of CSS have reserved or keywords that refer to the properties.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">standards</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Instructor's narrative Weekly Materials -- Week 2 -- Instructor's Narratives -- Chapter 4</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Instructor's narrative Weekly Materials -- Week 2 -- Instructor's Narratives -- Chapter 4</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb4c6add9e2430e1c36135a44f4c8725a" title="CSS Advantages">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>5.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>73462,53182,64746,49424,35975,15854,5880</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;CSS has many advantages. (Select all that apply)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="73462">
+              <material>
+                <mattext texttype="text/plain">Accessible</mattext>
+              </material>
+            </response_label>
+            <response_label ident="53182">
+              <material>
+                <mattext texttype="text/html">Applicable to   more than one language.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64746">
+              <material>
+                <mattext texttype="text/plain">Applicable to more than one type of device</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49424">
+              <material>
+                <mattext texttype="text/html">Allowing a website to be planned, produced, and maintained in much less   time.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="35975">
+              <material>
+                <mattext texttype="text/plain">Less required bandwidth than formerly possible.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15854">
+              <material>
+                <mattext texttype="text/plain">Major browsers apply CSS with the same consistency</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5880">
+              <material>
+                <mattext texttype="text/plain">CSS renders the same across all known devices and operating systems.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">73462</varequal>
+              <varequal respident="response1">53182</varequal>
+              <varequal respident="response1">64746</varequal>
+              <varequal respident="response1">49424</varequal>
+              <varequal respident="response1">35975</varequal>
+              <not>
+                <varequal respident="response1">15854</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">5880</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">CSS has many advantages. These include being accessible, applicable to   more than one language; applicable to more than one type of device, and   allowing a website to be planned, produced, and maintained in much less   time. CSS also enables a website to take up significantly less hard disk   space and bandwidth than formerly possible.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 1 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">CSS has many advantages. These include being accessible, applicable to   more than one language; applicable to more than one type of device, and   allowing a website to be planned, produced, and maintained in much less   time. CSS also enables a website to take up significantly less hard disk   space and bandwidth than formerly possible.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 1 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="geaa677768829c83a008c8bcabb0cdf84" title="CSS Comments">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>13372,32467,72189,78785</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following is the correct syntax for CSS comments?&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="13372">
+              <material>
+                <mattext texttype="text/html">&lt;pre id="167-2" class="literallayout"&gt;    &lt;span&gt; /*  This rule applies to the design.html file */&lt;/span&gt; &lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="32467">
+              <material>
+                <mattext texttype="text/html">&lt;pre id="167-2" class="literallayout"&gt;    &lt;span&gt; //  This rule applies to the design.html file&lt;/span&gt;  &lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="72189">
+              <material>
+                <mattext texttype="text/html">&lt;pre id="167-2" class="literallayout"&gt;    &lt;span&gt; &amp;lt;!--  This rule applies to the design.html file --&amp;gt;&lt;/span&gt; &lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="78785">
+              <material>
+                <mattext texttype="text/html">&lt;pre id="167-2" class="literallayout"&gt;    &lt;span&gt; '  This rule applies to the design.html file&lt;/span&gt;  &lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">13372</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span&gt;/* This rule applies to the design.html file */&lt;/span&gt; &lt;br&gt;   table {&lt;br&gt;   padding: 50px;&lt;br&gt;   background-color: red;&lt;br&gt;   color: white; &lt;br&gt;   } &lt;br&gt;   &lt;br&gt;   (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;CSS Comments&lt;span id="b24-booktitle-11756"&gt;. Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span&gt;/* This rule applies to the design.html file */&lt;/span&gt; &lt;br&gt;   table {&lt;br&gt;   &amp;nbsp;padding: 50px;&lt;br&gt;   &amp;nbsp;background-color: red;&lt;br&gt;   &amp;nbsp;color: white; &lt;br&gt;   } &lt;br&gt;   &lt;br&gt;   (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;CSS Comments&lt;span id="b24-booktitle-11756"&gt;.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc78c94879bef4369b0f28cd2523dd5fa" title="CSS Hierarchy">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>3.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>53741,60264,60403</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Match the type of CSS with its hierarchy, from lowest to highest.&amp;nbsp; 1 being the lowest, 3 being the highest (most important).&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_53741">
+          <material>
+            <mattext texttype="text/plain">Inline</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="2196">
+              <material>
+                <mattext>1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7517">
+              <material>
+                <mattext>2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="374">
+              <material>
+                <mattext>3</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_60264">
+          <material>
+            <mattext texttype="text/plain">Embedded</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="2196">
+              <material>
+                <mattext>1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7517">
+              <material>
+                <mattext>2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="374">
+              <material>
+                <mattext>3</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_60403">
+          <material>
+            <mattext texttype="text/plain">External</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="2196">
+              <material>
+                <mattext>1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7517">
+              <material>
+                <mattext>2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="374">
+              <material>
+                <mattext>3</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_53741">374</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_60264">7517</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_60403">2196</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">33.33</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;Chapter 3&lt;span id="b24-booktitle-11756"&gt;.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;Chapter 3&lt;span id="b24-booktitle-11756"&gt;.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g6be4ec5986cffa72eae9c9237a137ac5" title="CSS Hierarchy">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>8.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Consider the following XHTML document:&lt;br&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;div style="font-family: monospace; padding: 10px; border: thin solid Red;"&gt;  &amp;lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&amp;gt;&lt;br&gt;  &amp;lt;html&amp;gt;&lt;br&gt;  &amp;lt;head&amp;gt;&lt;br&gt;  &amp;lt;title&amp;gt; The content property &amp;lt;/title&amp;gt;&lt;br&gt;  &lt;br&gt;  &amp;lt;style type="text/css"&amp;gt;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;body{&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color : #6699CC;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;p {&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;color: blue;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;font-size: inherit;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;border : thin solid Green;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color : Lime;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;p.emphasis {&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;font-size: xx-large;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;width: 80%;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;border : thin solid Green;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color: Gray;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;table{&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color : cyan;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;width:75%;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;td.changed {&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color : Maroon;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;color:#fff;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;padding : 25px 25px 25px 25px;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;  &amp;lt;/style&amp;gt;&lt;br&gt;  &amp;lt;/head&amp;gt;&lt;br&gt;  &amp;lt;body&amp;gt;&lt;br&gt;  &amp;lt;p&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Paragraph 1&lt;br&gt;  &amp;lt;/p&amp;gt;&lt;br&gt;  &amp;lt;p class="emphasis"&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Paragraph 2&lt;br&gt;  &amp;lt;/p&amp;gt;&lt;br&gt;  &amp;lt;table border="1"&amp;gt;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;tr&amp;gt;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;td class="changed"&amp;gt;Table Cell 1&amp;lt;/td&amp;gt;&lt;br&gt;    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;td&amp;gt;Table Cell 2&amp;lt;/td&amp;gt;&lt;br&gt;   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/tr&amp;gt;&lt;br&gt;  &amp;lt;/table&amp;gt;&lt;br&gt;  &amp;lt;/body&amp;gt;&lt;br&gt;  &amp;lt;/html&amp;gt;&lt;br&gt;  &lt;/div&gt;  &lt;p&gt;Start Questions&lt;/p&gt;
+&lt;p&gt;Answer the following questions.&amp;nbsp; Be sure your answers are well thought out.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What style will be applied to paragraph 1?&lt;/li&gt;
+&lt;li&gt;What style will be applied to paragraph 2?&lt;/li&gt;
+&lt;li&gt;What style will be applied to table cell 1?&lt;/li&gt;
+&lt;li&gt;What style will be applied to table cell 2?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g397b866eb690569e6518b8d18b4f51d9" title="CSS History">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>63760,74059</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Style sheets were a new invention created for the World Wide Web.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="63760">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="74059">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">74059</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">At the time, style sheets &lt;span&gt;were not&lt;/span&gt; a new invention. In fact, style   sheets were part of the plan from the beginning of HTML in 1990.   Unfortunately, however, no standardized method of implementing style   sheets was ever outlined, leaving this function up to the various   browsers. In 1994, Tim Berners-Lee founded the World Wide Web   Consortium, and a few days later, Håkon Wium Lie published his first   draft of Cascading HTML Style Sheets. This draft was a proposal for how   HTML documents could be styled using simple declarations.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, How CSS Came to Be.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">At the time, style sheets &lt;span&gt;were not&lt;/span&gt; a new invention. In fact, style   sheets were part of the plan from the beginning of HTML in 1990.   Unfortunately, however, no standardized method of implementing style   sheets was ever outlined, leaving this function up to the various   browsers. In 1994, Tim Berners-Lee founded the World Wide Web   Consortium, and a few days later, Håkon Wium Lie published his first   draft of Cascading HTML Style Sheets. This draft was a proposal for how   HTML documents could be styled using simple declarations.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, How CSS Came to Be.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0676b280a07333425d2b715e8a66aaa2" title="CSS Rules">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57670</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;A _____________ is the target element or elements to which each CSS rule is applied.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">selector</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;Introducing Selectors&lt;span id="b24-booktitle-11756"&gt;.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;Introducing Selectors&lt;span id="b24-booktitle-11756"&gt;.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gfd9649e757d4e111b696bb53a28e326a" title="CSS Rules">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>91941,36696</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Keywords are used in CSS to invoke special behavior or styles for an element.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="91941">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="36696">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">91941</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 4 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 4 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ga7315dcc2bb75e6e1c7cbefc8ac968cf" title="CSS Rules">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>90989,53807</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;According to the author of your text, Absolute lengths measurements are more suited for screen than for print.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="90989">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="53807">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">53807</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span&gt;Pixel length&lt;/span&gt; measurements are more suited for screen than for print.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 4 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span&gt;Pixel length&lt;/span&gt; measurements are more suited for screen than for print.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 4 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8b4f45fabc3eb4372141208fe06efbb1" title="CSS Standards">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>50864,33651</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The W3C XHTML Working Group reviews recommendations and approves standards for Cascading Style Sheets.&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="50864">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33651">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">33651</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">The World Wide Web Consortium plans and discusses how the Internet   should work and evolve. CSS is managed by a group of people within the &lt;span&gt;  W3C&lt;/span&gt; called the &lt;span&gt;CSS Working Group&lt;/span&gt;. This group of people makes   recommendations about how browsers should implement CSS itself.&amp;nbsp; (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 1 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">The World Wide Web Consortium plans and discusses how the Internet   should work and evolve. CSS is managed by a group of people within the   &lt;span&gt;W3C &lt;/span&gt;called the &lt;span&gt;CSS Working Group&lt;/span&gt;. This group of people makes   recommendations about how browsers should implement CSS itself. &lt;br&gt;(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 1 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb01472c9e7c4d4efcbb5bb80de4c2325" title="External CSS">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>2.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>98276,50375,93129,98022</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Select the correct way to include an external CSS in your X/HTML document.&amp;nbsp; (Select all that apply)&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="98276">
+              <material>
+                <mattext texttype="text/html">&amp;lt;link rel="stylesheet" href="path/to/cssdoc.css" type="text/css" /&amp;gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50375">
+              <material>
+                <mattext texttype="text/html">&amp;lt;style type=" text/css"&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; @import url.(path/to/cssdoc.css);&lt;br&gt;&amp;lt;/style&amp;gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93129">
+              <material>
+                <mattext texttype="text/html">&amp;lt;style src="x" type="text/css"&amp;gt;&amp;lt;/style&amp;gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98022">
+              <material>
+                <mattext texttype="text/html">&amp;lt;script src="x" type="text/css"&amp;gt;&amp;lt;/script&amp;gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">98276</varequal>
+              <varequal respident="response1">50375</varequal>
+              <not>
+                <varequal respident="response1">93129</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">98022</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;Including CSS in a Document&lt;span id="b24-booktitle-11756"&gt;.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design,&lt;/span&gt; &lt;span id="b24-booktitle-11756"&gt;&lt;/span&gt;Including CSS in a Document&lt;span id="b24-booktitle-11756"&gt;.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g78fa2ffef4fae9f18152287062a7375d" title="SGML">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>3.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5232,22801,20258,32976,41682</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;SGML is the parent of:&amp;nbsp; (select all that apply)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="5232">
+              <material>
+                <mattext texttype="text/plain">HTML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22801">
+              <material>
+                <mattext texttype="text/plain">XML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20258">
+              <material>
+                <mattext texttype="text/plain">XHTML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="32976">
+              <material>
+                <mattext texttype="text/plain">PHP</mattext>
+              </material>
+            </response_label>
+            <response_label ident="41682">
+              <material>
+                <mattext texttype="text/plain">SQL</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">5232</varequal>
+              <varequal respident="response1">22801</varequal>
+              <varequal respident="response1">20258</varequal>
+              <not>
+                <varequal respident="response1">32976</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">41682</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">SGML is the parent of tag-based languages like HTML, XHTML, and XML...  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Choosing Which Markup Language to Use.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">SGML is the parent of tag-based languages like HTML, XHTML, and XML...  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Choosing Which Markup Language to Use.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0fff741d38c158df3a196dd4e48c8de8" title="Web History">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>74810,54030</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The W3C invented the World Wide Web by creating the HyperText Transfer Protocol and the HyperText Markup Language.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="74810">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="54030">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">54030</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span&gt;Tim Berners-Lee&lt;/span&gt; invented the World Wide Web by creating the HyperText Transfer Protocol and the HyperText Markup Language (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 1 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span&gt;Tim Berners-Lee&lt;/span&gt; invented the World Wide Web by creating the HyperText Transfer Protocol and the HyperText Markup Language  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 1 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3fb5b0f95f324e4e2db62b3a809bf3b8" title="X/HTML">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57579,17961</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Markup languages are used to structure data.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="57579">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="17961">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">57579</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 2 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">(York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 2 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gecf40f8c7ce41678bbbe5448d19c1637" title="XHTML Structure">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>91429,95973</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The ________________ _________________ _____________ is a line of code that appears before the opening &lt;span class="fixed"&gt;&amp;lt;html&amp;gt;&lt;/span&gt; tag; it provides the browser with some basic information about the document's syntax.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">Document Type Declaration</varequal>
+            <varequal respident="response1">DTD</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Document Type Declaration  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 2 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Document Type Declaration  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 2 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3973d1f16d11d55abac827b28fdb5766" title="XML AND HTML">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>13014,31245</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;HTML is stricter than XHTML in terms of its basic syntactical rules.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="13014">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="31245">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">31245</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="correct_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">XHTML is stricter than HTML in terms of its basic syntactical rules.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 2 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="general_incorrect_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">XHTML is stricter than HTML in terms of its basic syntactical rules.  (York, Richard. &lt;span id="b24-booktitle-11756"&gt;Beginning CSS: Cascading Style Sheets for Web Design, Chapter 2 Summary.&amp;nbsp; Wrox Press 2005)&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

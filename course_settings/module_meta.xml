@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <module identifier="g8f75efbfbd73ed79ef62b2f833b9bae3">
+    <title>EXPORT 1.15.2025 FROM 254-4595 TO VOCED CARLY'S ROOM</title>
+    <workflow_state>active</workflow_state>
+    <position>1</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gba122e7c1aa8f971b388c140f27e2918">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Imported from 254-4595 sbctc.instructure.com on Jan 15, 2025</title>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb265f3cdc7ea4ca8dc407011ea16ecf4">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>this: 3924190x0x0497</title>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g7686d5fb5daa494caedeb77c8e77c1f6">
+    <title>2025-QUESTION_BANKS 2544595</title>
+    <workflow_state>active</workflow_state>
+    <position>2</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gd5d6178ee2e20f219fb647a0cff707d6">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>2025 questions_banks</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge25f96b321c4de0c5185472cd07463c5">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>LAST LOG: 11.4.2024 mdy</title>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gccfb3df757cdbaacfe195162444b36b1">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>GOAL: test export/import</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g06fb7df20d12aaa3b9d1b86afa3076f0">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>2025-question_banks_README</title>
+        <identifierref>g9c982dd2f727897665dec97bb69b136d</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gaca5d71c51a4ef6eee961a8f23e8164e">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>1.15.2024</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga34799d0e8d53a90ffcbd04727b4304e">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Review questions for CIS 241</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g34af9ad0dfdc919c7d7947d9645caf34">
+    <title>LAST EDITED MODULE LOG</title>
+    <workflow_state>active</workflow_state>
+    <position>3</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g6c341fb0105f75c1e51ad2e3c85ee437">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>11.3.2024 test cis241update overwrite?</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g847d3a942d2217673c032e75f533bcbd">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>10.31.2024 -001cis241w3sexercises22q</title>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="geae6c7859746852e53eef87fae7bc6ea">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>10.30.2024 : cis241 chapter 3-4-5 OK</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1fb7d44ab0dcdb7b12526a160149ed05">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>10.20.2024 CIS 241 questions</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gadd20a05387e5371509835c44b201f6e">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>DONE: cis241 chap1-2 and began chp3</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g7a10e13f4e7fc6519f7a3fb6941b6024">
+    <title>CIS 241</title>
+    <workflow_state>active</workflow_state>
+    <position>4</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g73b2b9ce7557deb27bbcc0db76f5b277">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>chapter 1-2 : Structure - 607584 - 8q2</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9094df285ff7cbcaa48bf2921b4e3463">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>chp 3 : CSS, hr, img, color coding - 40q - 6219072</title>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfc04790be8f7c899763f7b64fcdc392b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>chp 4 : anchor, URL, hyperlinks, 22q -6219069</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g24a41f790be5e30766514d4d7631f01e">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>chp 5 : table - 6219067</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g59aab9d98a92986aef107fb89409d424">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>chp 6 - forms - 6219068</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g986c0d899dcfe026f4d02ce62c6f1b9f">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>chp 7 : 6219075 - video, audio, vector graphics</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g997a24696b1334e7716f3bbac21fd857">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>chp 8 : server/client, programming concept - 6219073</title>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g76d9e57a643e898815f591709dbdb87f">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>chp9 : GUI editor - 6219071</title>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc503f4270f610b865d7c55bb3162f8c7">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>10.31 - 001-cis241-w3s-exercises  22 questions  -9086733</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g5c7487f1b39e8ef7e8281feb19502b7f">
+    <title>000</title>
+    <workflow_state>active</workflow_state>
+    <position>5</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ga44c3bb4a1af32c7aa74cefa64d33110">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>00-index</title>
+        <identifierref>ge618ae22cddc750c54329b5fcbb5e944</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g930a01544100bf984b784449c4d6615e">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>01-Template</title>
+        <identifierref>g5c4ed27d2ceda1f80b768e6a14042e3c</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gad5bfbfce6aa953e30474c69906ffda5">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>elpais.com</title>
+        <identifierref>gad5bfbfce6aa953e30474c69906ffda5</identifierref>
+        <url>https://elpais.com/us/</url>
+        <position>3</position>
+        <new_tab>true</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g2cdc7d3d59444629f03c35ac5028e28f">
+    <title>README</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>6</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g6f7ccc86e3aab8224c0fa8725b22cbac">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>edmonds courses 2092510</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6711f22d867357bfa5a8cecae54c2b24">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>last edit: 10.28.3034 1.2.2024 ; 4.25.2021</title>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7d5bd606090b8d3eee11d93b118c1493">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>10.28.2024: added react question-bank with react questions</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf764125c5a2ebd5b97da9bf23f446475">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>10.28 Fixed react questions, added 2 essay questions with 10 pts each</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gddd97339c2568b0b63a44b28b0dc16ab">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Cleaned quizzes</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5266f5d3cdd5d9d54747416e56f2d0f7">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>CIS242-635-Quizzes: done</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7c7b78a6cbb6e4e5adcae9f3a6fd8cae">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>CIS242-635-Quizzes-Lesson-2: done</title>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g323a3d2dc18bea5d735b25c5613b95ee">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>CIS242-635-Quizzes-Lesson-3: done</title>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3e412ee3d7032867017331d51f8a07b2">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>cis242-lesson1-done 7.13.2021</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g975af427bc59b690984c25b5908ac8af">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>cis242-lesson2-done 7.13.2021</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf2cde3d982965d7a054036608581d5e7">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>2.7.2024 CIS 242</title>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6f0843336d2e9e54cb1ad41145ac78c2">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>created 2024Q1week6.6 for MIDTERM in CIS 242</title>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>3</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g2348c70e71967391d663e64e43693371">
+    <title>2021-CIS-242-Projects</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>7</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g0e9c39542f62f2f7d9c2cb0960be9774">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>WSR Q2 Aug11-12 midterm circlesdraw gallery</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9d0ac361052c38143ff72ca0a3ed4dd2">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>circles-random-draw-diff-colors.html</title>
+        <identifierref>g62a47bdde6d5a757a9dd1f3afca2e06a</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gffb068d04fbc1ed9944c634aa50ea2ec">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>image_gallery-instructions.html</title>
+        <identifierref>g840a491ff9ca11392140e4bc45f9633d</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gae4bafc4348ba595d53ca01e47165daf">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>gallery-start-with-instructions.zip</title>
+        <identifierref>g7e73c17985254bfe33f46cc174842f70</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb7ddd6a72c6d8c66420125e5ee808eca">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>circles-random-draw.html</title>
+        <identifierref>g1385b27adff73a869cd78268c871561f</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf62d8ee250485213c7316414e0d8dc12">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>gallery-start-solution-my.zip</title>
+        <identifierref>gc49b1d738e5bd6ef746b75ec8cfa137f</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb125f82c6bf56b2321dbd4ba0e985791">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Diablo-js master in js but also C++</title>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g2d08bdbe6a89c85c0cb263d7402316b0">
+    <title>MDN examples</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>8</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g0220ddd87869ec5d901b0b884957b8b3">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>MDN gallery example</title>
+        <identifierref>gb7653dba511e7e31af37cfdc34595457</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g56d8b87d3f2c53251c9be013a5202e76">
+    <title>2021-week33 aug17</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>9</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ge22cadaae66a4bafcf590f40486753de">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>2021-if-for-while-do-loops.html</title>
+        <identifierref>g0ba644b8b807a0e9a35604a3cf76e193</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc48178fa9c1b9cdb4fa36957a544ee07">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>2021-mortgageCalc-lab33.2.html</title>
+        <identifierref>g801d387443a6c77a0607832f803c2656</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g7dd139aa8c768e64cadf400c32b5e2e9">
+    <title>Introduction: What you need to know...START HERE</title>
+    <workflow_state>active</workflow_state>
+    <position>10</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g2c519ad0877ac9a3881ab0416337959b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Course Syllabus </title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge35c9e776cf68a0dd5895381c9802b40">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Syllabus         </title>
+        <identifierref>g7dd74566ea6997ad1e5599cb9950674a</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gcff2f729d307b5c7b6b0abe13b1626c1">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Course Materials and Important Information</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g21ff02fbd9ab5a120f0636e791683c97">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Textbooks and Electronic Materials</title>
+        <identifierref>g3de5a877d57071b8b9f01f45f41e7f7c</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gdfff69f647ac9307b73d2abfea1e877c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guidelines for Discussions</title>
+        <identifierref>g70070815e32ad46a371718377b0959b3</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g782fc74312a537b7fe07bf2e0a6c4d50">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Web  Technology Fundamentals</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gfda8ffcb82922bdfa26621aaf888cd3b">
+    <title>Week 1 - Representing The Web, 1-5 Wednesday</title>
+    <workflow_state>active</workflow_state>
+    <position>11</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g00e77d45e09b4c60ec70c642dd44b71b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>READ:</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gff18174aa7bec70e1628aea6a81981fe">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Successful Demonstration of Competency</title>
+        <identifierref>g1dc8dc500ca25a1ebacb415d1f6707cc</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfc95bd338a39753de90233349a9c332f">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>COMPLETE:</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g04ca3a5b104b24dd55a020a1014e120f">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Activities</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g50375ee4903887bc172563849833e4c1">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Labs </title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g448c76abc6897c398a692c7af8f1f5be">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Discussions</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g47a299547bc875397e5034c868622f4e">
+        <content_type>DiscussionTopic</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Week 1 - Introduce Yourself</title>
+        <identifierref>ga9463839ff078e9c5e9873ae2a257f21</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gbee81f8c713ce94a22c2b7da80f313cb">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Quizzes</title>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8a2685f62593a8a188040bcab8bf73f9">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>2022-no-scripts-week01</title>
+        <identifierref>gf965ff3221bf16a2a97749a01a34ea62</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g37eed5445fc7f3135827819164d8ed87">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>2022-NelsonLopez-AD320-13-1.html</title>
+        <identifierref>gef8da7965d21e38fc17eba3f887c234c</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gc8912fdae08545eef25c60f2e095c3f5">
+    <title>Week 2 - Lesson 1 Markup Language and Site Development Essentials, 9/25/2017 Monday</title>
+    <workflow_state>active</workflow_state>
+    <position>12</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gebcc0344ef6793acaf3818cf069088c7">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>READ: </title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9c028da2bbf55db3f77aab784b1d941a">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lesson 1 Markup Langu</title>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g79bc3265f2663f5b8228db1bf843e714">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Additional Reading</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1ed11e06e2953e696a228f6dcfad74be">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Setting Up Your Development Environment</title>
+        <identifierref>g12c6ecd77b93a9be368fedc116b300ca</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3a3e38837c06f04e9a13450a87ff31d0">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>COMPLETE:</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8468b07906257e6dae62e7f0f5f43c12">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Activities</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd9d89ca217c96b8e69fedb73e9d93ac3">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Labs</title>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g28dab13b11ee046b2b1d7a113c204b02">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Discussions </title>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g06ebc6e5a330ebe3eff1907a292cabba">
+        <content_type>DiscussionTopic</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Discussion -- Lesson 1 Markup Language and Site Development Essentials</title>
+        <identifierref>g0526bb8dec257fa67e62766e58d07c85</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0e106b86763b62b9ffc6fd56a012ddfc">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Quizzes</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+</modules>

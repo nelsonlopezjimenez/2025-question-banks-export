@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_qtiasiv1p2p1_v1p0.xsd">
+  <assessment ident="ga914ce95169e763a0812cf2ef381cbf2" title="2025-cis241-chp5">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_profile</fieldlabel>
+        <fieldentry>cc.exam.v0p1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_assessmenttype</fieldlabel>
+        <fieldentry>Examination</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_scoretype</fieldlabel>
+        <fieldentry>Percentage</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g82ef1ecb7fe69ee17d79f387531030d2" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following table element tags are required when you use the &amp;lt;table&amp;gt; tag to create a table?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4988">
+                <material>
+                  <mattext texttype="text/plain">Table row &lt;tr&gt; and table data &lt;td&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2587">
+                <material>
+                  <mattext texttype="text/plain">Table caption &lt;caption&gt; and table header &lt;th&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6038">
+                <material>
+                  <mattext texttype="text/plain">Table caption &lt;caption&gt; and table data &lt;td&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9495">
+                <material>
+                  <mattext texttype="text/plain">Table header &lt;th&gt; and table data &lt;td&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4988</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g49fe3c17915c0fc322f197bc93f747e5" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="_title"&gt;Which table element appears apart from the table itself, by default?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4640">
+                <material>
+                  <mattext texttype="text/plain">The table caption</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3181">
+                <material>
+                  <mattext texttype="text/plain">The table data</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3834">
+                <material>
+                  <mattext texttype="text/plain">The table header</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7356">
+                <material>
+                  <mattext texttype="text/plain">The table rows</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4640</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gdb387fcf893697ab258e966cf9f1e763" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What table element attribute do you need to specify to add a border to a table?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6491">
+                <material>
+                  <mattext texttype="text/plain">&lt;table border="1"&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6391">
+                <material>
+                  <mattext texttype="text/plain">&lt;table border="0"&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7115">
+                <material>
+                  <mattext texttype="text/plain">&lt;table border="yes"&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6347">
+                <material>
+                  <mattext texttype="text/plain">&lt;table border="on"&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6491</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g261af828ece6ba5f6ab2514b6eda5060" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following defines a single table row?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9329">
+                <material>
+                  <mattext texttype="text/plain">The &lt;tr&gt; tag</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1765">
+                <material>
+                  <mattext texttype="text/plain">The &lt;th&gt; tag</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7362">
+                <material>
+                  <mattext texttype="text/plain">The &lt;td&gt; tag</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4335">
+                <material>
+                  <mattext texttype="text/plain">The &lt;tablerow&gt; tag</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9329</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g207a6bc32202a97c990b9143f01c4146" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following defines the content of table cells?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2690">
+                <material>
+                  <mattext texttype="text/plain">The &lt;td&gt; tag</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6001">
+                <material>
+                  <mattext texttype="text/plain">The &lt;tr&gt; tag</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5890">
+                <material>
+                  <mattext texttype="text/plain">The &lt;th&gt; tag</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2903">
+                <material>
+                  <mattext texttype="text/plain">The &lt;tablecell&gt; tag</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2690</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0386cb626906c860e40c2e6d0033eafe" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which choice correctly describes the relationship between tables and borders?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9567">
+                <material>
+                  <mattext texttype="text/plain">By default, borders do not appear around tables.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7102">
+                <material>
+                  <mattext texttype="text/plain">By default, borders appear around tables.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1840">
+                <material>
+                  <mattext texttype="text/plain">Tables will render only if they are surrounded by a visible border.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7958">
+                <material>
+                  <mattext texttype="text/plain">Tables will render only if they are surrounded by an invisible border.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9567</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g6f88cfe134040d9d6eef052f660cdc89" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The CSS padding property of the &amp;lt;table&amp;gt; element determines:&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9716">
+                <material>
+                  <mattext texttype="text/plain">the amount of space between cell data and the cell border.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="622">
+                <material>
+                  <mattext texttype="text/plain">how far the table will extend horizontally across the page.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4638">
+                <material>
+                  <mattext texttype="text/plain">the amount of space between the borders of adjacent cells.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6470">
+                <material>
+                  <mattext texttype="text/plain">the placement of the table relative to the left and right page margins.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9716</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2552548fc6c9c8de5bbf56163cc1188b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following CSS table properties determines the amount of space between the borders of adjacent cells?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9054">
+                <material>
+                  <mattext texttype="text/plain">The border-spacing property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9861">
+                <material>
+                  <mattext texttype="text/plain">The border property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="596">
+                <material>
+                  <mattext texttype="text/plain">The padding property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6834">
+                <material>
+                  <mattext texttype="text/plain">The text-align property</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9054</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5da73a2f3f430f2b0fc44b8503f6a9e2" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Values for the CSS border-spacing and padding properties used for the &amp;lt;table&amp;gt; element can be specified:&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4965">
+                <material>
+                  <mattext texttype="text/plain">in pixels.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4421">
+                <material>
+                  <mattext texttype="text/plain">as a percentage of the browser window.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9553">
+                <material>
+                  <mattext texttype="text/plain">in pixels or as a percentage of the browser window.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7538">
+                <material>
+                  <mattext texttype="text/plain">in inches or centimeters.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4965</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5815db75a851ab4f128497ab59d2c318" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The CSS text-align property used for table elements:&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3780">
+                <material>
+                  <mattext texttype="text/plain">aligns content horizontally in all table elements.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="698">
+                <material>
+                  <mattext texttype="text/plain">aligns content vertically in all table elements.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="254">
+                <material>
+                  <mattext texttype="text/plain">determines the placement of the table relative to the left and right page margins.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5960">
+                <material>
+                  <mattext texttype="text/plain">determines how far the table will extend horizontally across the page.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3780</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gbab8292360dc41256fb586cac4a639d4" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The CSS vertical-align property used for table elements:&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="9128">
+                <material>
+                  <mattext texttype="text/plain">aligns content vertically in all table elements.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2655">
+                <material>
+                  <mattext texttype="text/plain">aligns surrounding content vertically around the table.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8507">
+                <material>
+                  <mattext texttype="text/plain">determines the placement of the table relative to the top and bottom page margins.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8800">
+                <material>
+                  <mattext texttype="text/plain">determines how far the table will extend vertically down the page.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">9128</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcb83265340d86a5f6c02d62ace075f5b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which CSS table property should you use if you want to combine the borders of adjacent cells into a single border instead of separating them?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">The border-collapse property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7475">
+                <material>
+                  <mattext texttype="text/plain">The border-spacing property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6258">
+                <material>
+                  <mattext texttype="text/plain">The padding property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5582">
+                <material>
+                  <mattext texttype="text/plain">The border property</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3403</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g185f2935141c0727ec7adbb11863ea6c" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;With which CSS table property can you specify values of left, center, right and justify?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7441">
+                <material>
+                  <mattext texttype="text/plain">The text-align property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9510">
+                <material>
+                  <mattext texttype="text/plain">The vertical-align property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6865">
+                <material>
+                  <mattext texttype="text/plain">The border property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5723">
+                <material>
+                  <mattext texttype="text/plain">The width property</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7441</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g61c298259376e171f1afe7981ea84a82" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;With which CSS table property can you specify values of top, bottom and middle?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4192">
+                <material>
+                  <mattext texttype="text/plain">The vertical-align property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8781">
+                <material>
+                  <mattext texttype="text/plain">The text-align property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2009">
+                <material>
+                  <mattext texttype="text/plain">The border property</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7835">
+                <material>
+                  <mattext texttype="text/plain">The width property</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4192</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g31faf6ca8dd11078972679ac74d019c2" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;By default, content in a table header cell is aligned:&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8033">
+                <material>
+                  <mattext texttype="text/plain">both horizontally and vertically to the center of the cell.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="794">
+                <material>
+                  <mattext texttype="text/plain">horizontally to the left and vertically to the center of the cell.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7554">
+                <material>
+                  <mattext texttype="text/plain">horizontally to the left and vertically to the top of the cell.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6323">
+                <material>
+                  <mattext texttype="text/plain">horizontally to the right and vertically to the center of the cell.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8033</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gabc21a3b9adaada5b6c108ce75bd930d" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;By default, content in a table data cell is aligned:&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5318">
+                <material>
+                  <mattext texttype="text/plain">horizontally to the left and vertically to the center of the cell.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2327">
+                <material>
+                  <mattext texttype="text/plain">horizontally to the left and vertically to the top of the cell.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4241">
+                <material>
+                  <mattext texttype="text/plain">horizontally to the center and vertically to the center of the cell.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7956">
+                <material>
+                  <mattext texttype="text/plain">horizontally to the right and vertically to the top of the cell.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5318</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcf57aa5c3fcbb1298bab29e286636658" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When you specify the height and width of table elements, what occurs when you set multiple values in multiple cells?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3895">
+                <material>
+                  <mattext texttype="text/plain">The highest value takes precedence.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1201">
+                <material>
+                  <mattext texttype="text/plain">The first value takes precedence.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5191">
+                <material>
+                  <mattext texttype="text/plain">The last value takes precedence.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7658">
+                <material>
+                  <mattext texttype="text/plain">The lowest value takes precedence.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3895</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g17875e649d8a40ae1e13bcfcf1435d49" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The colspan and rowspan attributes of the &amp;lt;td&amp;gt; and &amp;lt;th&amp;gt; tags specify the number of columns and rows, respectively, that a certain element occupies. What is that element?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5641">
+                <material>
+                  <mattext texttype="text/plain">A table cell</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5272">
+                <material>
+                  <mattext texttype="text/plain">A table header</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9473">
+                <material>
+                  <mattext texttype="text/plain">A table caption</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2739">
+                <material>
+                  <mattext texttype="text/plain">A table border</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5641</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gda81406cee043da8e37e701bf4fe6efa" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;span&gt;Consider the following code snippet:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;tr&amp;gt;&lt;br&gt;&amp;lt;th colspan="3"&amp;gt;&lt;br&gt;Site Development Associate&lt;br&gt;&amp;lt;/th&amp;gt;&lt;br&gt;&amp;lt;/tr&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;Which choice most accurately describes the result of the code?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8279">
+                <material>
+                  <mattext texttype="text/plain">The heading is located in a cell that spans three columns of the table.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1438">
+                <material>
+                  <mattext texttype="text/plain">The heading is located in a cell in the third column of the table.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="26">
+                <material>
+                  <mattext texttype="text/plain">The heading is located in a cell that is three inches wide.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4993">
+                <material>
+                  <mattext texttype="text/plain">The heading is located in a cell whose width is 30 percent of the width of the page.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8279</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g70a5284321b97866f3f496af96e89999" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;span&gt;Consider the following code snippet:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;tr&amp;gt;&lt;br&gt;&amp;lt;th rowspan="5"&amp;gt;&lt;br&gt;Site Development Associate&lt;br&gt;&amp;lt;/th&amp;gt;&lt;br&gt;&amp;lt;/tr&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Which choice most accurately describes the result of the code?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5936">
+                <material>
+                  <mattext texttype="text/plain">The row heading is located in a cell that vertically spans five rows of the table.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9849">
+                <material>
+                  <mattext texttype="text/plain">The row heading is located in a cell in the fifth row of the table.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2371">
+                <material>
+                  <mattext texttype="text/plain">The row heading is located in a cell that is five inches tall.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2416">
+                <material>
+                  <mattext texttype="text/plain">The row heading is located in a cell whose height is 50 percent of the height of the page.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5936</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4852d7a79ad0fab73f7c9bec527cda89" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;According to HTML5 standards, which choice correctly describes the relationship between tables and Web page structure?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4722">
+                <material>
+                  <mattext texttype="text/plain">Tables should be used where appropriate to format content, but not to structure Web pages.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2528">
+                <material>
+                  <mattext texttype="text/plain">Tables should be used to structure Web pages in addition to style sheets.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="325">
+                <material>
+                  <mattext texttype="text/plain">Tables should be used to structure Web pages in lieu of style sheets.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3117">
+                <material>
+                  <mattext texttype="text/plain">The &lt;table&gt; tag should be used with the &lt;div&gt; tag to structure Web pages.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4722</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

@@ -1,0 +1,290 @@
+<!-- 2021-Lab33.2 week33 -->
+<!-- YOUR NAME HERE -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 33.2: Mortgage Calculator</title>
+</head>
+
+<body>
+    <script language="JavaScript" type="text/javascript">
+        // Calculates the payments and updates for fields to
+        // display the result
+        function calcpayment() {
+            let amt = document.frm.amt.value;
+            let ir = document.frm.ir.value / 1200;
+            let term = document.frm.term.value * 12;
+            let total = 1;
+
+            for (let i = 0; i < term; i++) {
+                total = total * (1 + ir);
+            }
+            mp = amt * ir / (1 - (1 / total));
+
+            // Use Math object to chop all numbers after 2 digits
+            document.frm.payment.value = Math.round(mp * 100) / 100;
+            document.frm.total.value = Math.round(mp * term * 100) / 100;
+        }
+    </script>
+    <h1 style="text-align: center; color: blue">CIW JavaScript Specialist</h1>
+    <h2 style="text-align: center; color: green">JavaScript Mortgage Calculator</h2>
+    <hr />
+    <center>
+        <form name="frm">
+            <table bgcolor="black" cellpadding="2">
+                <tr>
+                    <td>
+                        <table bgcolor="wheat" cellspacing="10">
+                            <tr>
+                                <td>Mortgage amount:</td>
+                                <td><input type="text" name="amt" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>Yearly interest rate:</td>
+                                <td><input type="text" name="ir" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>Term (in years):</td>
+                                <td><input type="text" name="term" /></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" width="100%">
+                                    <input type="button" value="Click to Calculate Monthly Payment"
+                                        onclick="calcpayment();" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <hr />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Monthly payment:</td>
+                                <td><input type="text" name="payment" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>Total payments:</td>
+                                <td><input type="text" name="total" /></td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
+
+
+<!-- 
+========================= screenshot1
+Enter the Mortgage amount, Yearly interest rate and Term
+(in years). Click to Calculate Monthly Payment
+
+=========================
+
+
+Challenge1: Modify lab6.html to calculate the monthly
+payment with Term (in months). Remember to show your name.
+
+
+======================== screenshot 2
+Enter the Mortgage amount, Yearly interest rate, Term
+(in months) to calculate the monthy payment.
+=====================================
+
+Hint: Modify function calcpayment():
+function calcpayment() {
+    let amt = document.frm.amt.value;
+    let ir = document.frm.ir.value / 1200;
+
+    let term;
+    if (document.frm.term.value !== "" && document.frm.termMonth.value !== "")
+    {
+        alert("Enter term in either years or months");
+        return false;
+    }
+    if (document.frm.term.value !== "")
+        term = document.frm.term.value * 12;
+    }else {
+...........
+    }
+}
+...............
+<tr>
+    <td>Term (in years):</td>
+    <td><input type="text" name="term" /></td>
+</tr>
+<tr>
+    <td>OR</td>
+</tr>
+<tr>
+    <td>Term (in months):</td ................ </tr>
+
+
+    ==============================================
+    
+    =================================================== -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Lab 33.2: JavaScript Functions</title>
+</head>
+<script type="text/javascript">
+
+    // return the value of the radio button that is checked 
+    // return an empty string if none are checked, or 
+    // there are no radio buttons 
+    function getCheckedValue(radioObj) {
+        if (!radioObj)
+            return "";
+        let radioLength = radioObj.length;
+        if (radioLength == undefined)
+            if (radioObj.checked)
+                return radioObj.value;
+            else
+                return "";
+        for (let i = 0; i < radioLength; i++) {
+            if (radioObj[i].checked) {
+                return radioObj[i].value;
+            }
+        }
+        return "";
+    }
+
+    // set the radio button with the given value as being checked 
+    // do nothing if there are no radio buttons 
+    // if the given value does not exist, all the radio buttons 
+    // are reset to unchecked 
+    function setCheckedValue(radioObj, newValue) {
+        if (!radioObj)
+            return;
+        let radioLength = radioObj.length;
+        if (radioLength == undefined) {
+            radioObj.checked = (radioObj.value == newValue.toString());
+            return;
+        }
+        for (let i = 0; i < radioLength; i++) {
+            radioObj[i].checked = false;
+            if (radioObj[i].value == newValue.toString()) {
+                radioObj[i].checked = true;
+            }
+        }
+    }
+ //
+</script>
+<style type="text/css">
+    label {
+        background-color: #FDFDF0;
+        color: black;
+        border: 2px outset #8B8378;
+        padding: 0.1em 2ex 0.1em 0.5ex;
+        line-height: 1.6em;
+    }
+
+    
+</style>
+</head>
+
+<body>
+
+    <h2>CIW JavaScript Specialist</h2>
+    <h3>JavaScript Get or Set Checked Radio Value</h3>
+
+
+    <form name="radioExampleForm" method="get" action="" onsubmit="return false;">
+        <p>
+            <label for="number0">
+                <input type="radio" value="0" name="number" id="number0" /> Zero</label>
+            <label for="number1">
+                <input type="radio" value="1" name="number" id="number1" /> One</label>
+            <label for="number2">
+                <input type="radio" value="2" name="number" id="number2" /> Two</label>
+            <label for="number3">
+                <input type="radio" value="3" name="number" id="number3" /> Three</label>
+            <label for="number4">
+                <input type="radio" value="4" name="number" id="number4" /> Four</label>
+        </p>
+        <p>
+            <input type="button"
+                onclick="alert('Checked value is: '+getCheckedValue(document.forms['radioExampleForm'].elements['number']));"
+                value="Show Checked Value" />
+            <input type="button" onclick="setCheckedValue(document.forms['radioExampleForm'].elements['number'], '2');"
+                value="Set Checked to Two" />
+            <input type="button" onclick="setCheckedValue(document.forms['radioExampleForm'].elements['number'], '4');"
+                value="Set Checked to Four" />
+            &nbsp;<input type="button"
+                onclick="setCheckedValue(document.forms['radioExampleForm'].elements['number'], '');"
+                value="Uncheck All" />
+        </p>
+    </form>
+</body>
+
+</html> --> 
+
+
+<!-- ================================== screenshot 3
+    Click Set Checked to Two button.
+    Radiobutton Two is checked
+    =================================================
+
+
+
+    ================================== screenshot 4
+    Click Uncheck All.
+    All buttons are unchecked
+    =================================================
+
+
+
+    Challenge: Add another radio button Five and another button
+    Set Checked to Five
+
+
+
+    ================================== screenshot 5
+    Click the button Set Checked to Five.
+    The Five button is checked.
+    =================================================
+
+
+
+    ================================== screenshot 6
+    Click Uncheck All.
+    All the radiobuttons including radiobutton Five is cleared
+    ==========================================================
+
+    Hint :
+    <input type="radio" value="4" name="number" id="number4" />Four</label>
+    <label for="number5">
+        <input type="radio" value="5" ......... </p>
+
+
+
+        .........
+
+
+    <p>
+    onclick="setCheckedValue(document.forms['radioExampleForm'].elements['number'],'4');" value="Set Checked to
+        Four" />
+    <input type="button" onclick="setCheckedValue(document.forms['radioExampleForm'].elements['number'], '5');"
+                ...... ......... -->

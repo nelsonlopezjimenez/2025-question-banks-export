@@ -1,0 +1,3269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_qtiasiv1p2p1_v1p0.xsd">
+  <assessment ident="gab48901bb7bc6de8543af586b835ae11" title="MIDTERM">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_profile</fieldlabel>
+        <fieldentry>cc.exam.v0p1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_assessmenttype</fieldlabel>
+        <fieldentry>Examination</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_scoretype</fieldlabel>
+        <fieldentry>Percentage</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>120</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g39359dee980b94f6467252780cece07d" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Consider the following code snippet:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;function myFunc(param2,  param1){&lt;br&gt;   return param1  - param2;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;myFunc(10,4)&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;WHAT IS THE RETURNING OUTPUT?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="52473">
+                <material>
+                  <mattext texttype="text/plain">-6</mattext>
+                </material>
+              </response_label>
+              <response_label ident="74528">
+                <material>
+                  <mattext texttype="text/plain">6</mattext>
+                </material>
+              </response_label>
+              <response_label ident="39255">
+                <material>
+                  <mattext texttype="text/plain">14</mattext>
+                </material>
+              </response_label>
+              <response_label ident="23194">
+                <material>
+                  <mattext texttype="text/plain">The program does not compile</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">52473</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5143eed12a72abc079f2fdf474c3e19c" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which method is used to retrieve an existing database entry?"&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="22896">
+                <material>
+                  <mattext texttype="text/plain">GET</mattext>
+                </material>
+              </response_label>
+              <response_label ident="19231">
+                <material>
+                  <mattext texttype="text/plain">PUT</mattext>
+                </material>
+              </response_label>
+              <response_label ident="35462">
+                <material>
+                  <mattext texttype="text/plain">FETCH</mattext>
+                </material>
+              </response_label>
+              <response_label ident="52102">
+                <material>
+                  <mattext texttype="text/plain">PATCH</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">22896</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gd3e92a4e71488e7aab639e1a65921c70" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which command will install express in Node.js?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="49276">
+                <material>
+                  <mattext texttype="text/plain">npm install express --save</mattext>
+                </material>
+              </response_label>
+              <response_label ident="69872">
+                <material>
+                  <mattext texttype="text/plain">npm install --save</mattext>
+                </material>
+              </response_label>
+              <response_label ident="13114">
+                <material>
+                  <mattext texttype="text/plain">install --save</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8718">
+                <material>
+                  <mattext texttype="text/plain">express install</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">49276</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf84007f94bd549dcc65c042b99940311" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Node and terminal programs running in the background are called what?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="23414">
+                <material>
+                  <mattext texttype="text/plain">Daemons</mattext>
+                </material>
+              </response_label>
+              <response_label ident="28861">
+                <material>
+                  <mattext texttype="text/plain">Nodes</mattext>
+                </material>
+              </response_label>
+              <response_label ident="74981">
+                <material>
+                  <mattext texttype="text/plain">Terminals</mattext>
+                </material>
+              </response_label>
+              <response_label ident="41048">
+                <material>
+                  <mattext texttype="text/plain">Node Terminals</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">23414</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g80cd3b8484db96a41244bfe22f40132a" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following is &lt;span style="color: #ff0000;"&gt;NOT&lt;/span&gt; associated with the front-end?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="95190">
+                <material>
+                  <mattext texttype="text/plain">MongoDb</mattext>
+                </material>
+              </response_label>
+              <response_label ident="47139">
+                <material>
+                  <mattext texttype="text/plain">HTML</mattext>
+                </material>
+              </response_label>
+              <response_label ident="80286">
+                <material>
+                  <mattext texttype="text/plain">CSS</mattext>
+                </material>
+              </response_label>
+              <response_label ident="48443">
+                <material>
+                  <mattext texttype="text/plain">React</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">95190</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1d9c6982be8d6d2eb8ad071701f42756" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;`Which of the following URLs will access the route shown?&lt;/pre&gt;
+&lt;pre&gt;let express = require('express');
+let app = express();
+let http = require('http');
+let port = 5000;
+app.get('/', (req, res) =&amp;gt; {
+    res.send('Hi!');
+});
+app.listen(port);&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="16374">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:5000</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5526">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:5005</mattext>
+                </material>
+              </response_label>
+              <response_label ident="87081">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:5000/:Hi</mattext>
+                </material>
+              </response_label>
+              <response_label ident="22321">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:5000/Hi</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">16374</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g994c58e3a9a88bd4073bee91bc215028" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;Which of the following URLs will access the route shown?&lt;br&gt;&lt;br&gt;&lt;/pre&gt;
+&lt;pre&gt;let express = require('express');
+let app = express();
+let http = require('http');
+let port = 5000;
+app.get('/:animal', (req, res) =&amp;gt; {
+    let animal = req.params.animal;
+    res.send(\`The \${animal} ran away!\`);
+});
+app.listen(port);&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="3146">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:5000/horse</mattext>
+                </material>
+              </response_label>
+              <response_label ident="63804">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:horse</mattext>
+                </material>
+              </response_label>
+              <response_label ident="65135">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:5000/ran/horse</mattext>
+                </material>
+              </response_label>
+              <response_label ident="18545">
+                <material>
+                  <mattext texttype="text/plain">http://localhost:5000/horse/ran</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3146</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gbceeed7e234a0f78bdcc67f1aacd45d4" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;What will the following route do?&lt;br&gt;&lt;br&gt;&lt;/pre&gt;
+&lt;pre&gt;app.get('*', (req, res) =&amp;gt; {
+    res.send("Sorry, this is not a valid path!")
+});&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5172">
+                <material>
+                  <mattext texttype="text/plain">Send the message if any unrecognized URL/route is entered</mattext>
+                </material>
+              </response_label>
+              <response_label ident="26693">
+                <material>
+                  <mattext texttype="text/plain">Send the message if any known URL/route is entered</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2924">
+                <material>
+                  <mattext texttype="text/plain">Send the message if any unrecognized required parameters are entered</mattext>
+                </material>
+              </response_label>
+              <response_label ident="24371">
+                <material>
+                  <mattext texttype="text/plain">Send the message if any unrecognized port number is entered</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5172</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g9efaea11d82fcf3226d86ea3a8aafa8f" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which node module makes JavaScript backwards-compatible by translating newer syntax into older syntax?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="58856">
+                <material>
+                  <mattext texttype="text/plain">babel</mattext>
+                </material>
+              </response_label>
+              <response_label ident="79358">
+                <material>
+                  <mattext texttype="text/plain">html</mattext>
+                </material>
+              </response_label>
+              <response_label ident="26583">
+                <material>
+                  <mattext texttype="text/plain">express</mattext>
+                </material>
+              </response_label>
+              <response_label ident="42215">
+                <material>
+                  <mattext texttype="text/plain">mongoose</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">58856</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcbc4b8d0e1364c8ad8233960c08942a1" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;Consider the following:
+
+server.listen(port, ()=&amp;gt;{
+    console.log('server listening on port %s,' port);
+});&lt;/pre&gt;
+&lt;pre&gt; Where will the message display when the server is started?  &lt;/pre&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="55948">
+                <material>
+                  <mattext texttype="text/plain">In the terminal</mattext>
+                </material>
+              </response_label>
+              <response_label ident="16741">
+                <material>
+                  <mattext texttype="text/plain">In the browser console"</mattext>
+                </material>
+              </response_label>
+              <response_label ident="34307">
+                <material>
+                  <mattext texttype="text/plain">On the webpage</mattext>
+                </material>
+              </response_label>
+              <response_label ident="78845">
+                <material>
+                  <mattext texttype="text/plain">None of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">55948</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb7f90c02c5c49560dd96c4d65fdafcfd" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following contains a list of dependencies and the command that runs the application?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="76731">
+                <material>
+                  <mattext texttype="text/plain">package.json</mattext>
+                </material>
+              </response_label>
+              <response_label ident="71030">
+                <material>
+                  <mattext texttype="text/plain">app.js/index.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="97365">
+                <material>
+                  <mattext texttype="text/plain">public</mattext>
+                </material>
+              </response_label>
+              <response_label ident="99086">
+                <material>
+                  <mattext texttype="text/plain">views</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">76731</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g8e125c4244ebde04181d0716737a312d" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following contains the code used to set up the application?`&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="99449">
+                <material>
+                  <mattext texttype="text/plain">app.js/index.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="22441">
+                <material>
+                  <mattext texttype="text/plain">package.json`</mattext>
+                </material>
+              </response_label>
+              <response_label ident="77174">
+                <material>
+                  <mattext texttype="text/plain">public</mattext>
+                </material>
+              </response_label>
+              <response_label ident="11089">
+                <material>
+                  <mattext texttype="text/plain">views</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">99449</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gbe6bc294c3ca3c5fe5e2839faf01f485" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Where do the project dependencies get installed?`&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="45339">
+                <material>
+                  <mattext texttype="text/plain">node_modules/</mattext>
+                </material>
+              </response_label>
+              <response_label ident="79419">
+                <material>
+                  <mattext texttype="text/plain">app.js/index.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="39986">
+                <material>
+                  <mattext texttype="text/plain">package.json`</mattext>
+                </material>
+              </response_label>
+              <response_label ident="99936">
+                <material>
+                  <mattext texttype="text/plain">public/</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">45339</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gde26109b35c7a5ccbbb732b2bec87058" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;consider the following route on PORT 5000 :
+
+         app.get('/:animal', (req, res) =&amp;gt; {
+                let animal = req.params.animal;
+                res.send(\`The \${animal} ran away!\`);
+         });&lt;/pre&gt;
+&lt;pre&gt;What will display in the browser at the following URL?&lt;/pre&gt;
+&lt;pre&gt; http://localhost:5000/dog&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="31770">
+                <material>
+                  <mattext texttype="text/plain">The dog ran away!</mattext>
+                </material>
+              </response_label>
+              <response_label ident="88018">
+                <material>
+                  <mattext texttype="text/plain">cannot get /</mattext>
+                </material>
+              </response_label>
+              <response_label ident="31097">
+                <material>
+                  <mattext texttype="text/plain">The \${animal} ran away!</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2918">
+                <material>
+                  <mattext texttype="text/plain">The ran away`</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">31770</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gafe2fdb78248110218af0920bec08510" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which of the following is &lt;span style="color: #ff0000;"&gt;NOT&lt;/span&gt; built-in module of NodeJS&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="36358">
+                <material>
+                  <mattext texttype="text/plain">express</mattext>
+                </material>
+              </response_label>
+              <response_label ident="89348">
+                <material>
+                  <mattext texttype="text/plain">http</mattext>
+                </material>
+              </response_label>
+              <response_label ident="34880">
+                <material>
+                  <mattext texttype="text/plain">net</mattext>
+                </material>
+              </response_label>
+              <response_label ident="83738">
+                <material>
+                  <mattext texttype="text/plain">path</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">36358</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g8947d6c48daf4bec7014ab7c53023710" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;Which of the following statements are true?&lt;/strong&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="57654">
+                <material>
+                  <mattext texttype="text/plain">Node.js is both a server and client-side language</mattext>
+                </material>
+              </response_label>
+              <response_label ident="24148">
+                <material>
+                  <mattext texttype="text/plain">Node.js is a server-side language</mattext>
+                </material>
+              </response_label>
+              <response_label ident="89506">
+                <material>
+                  <mattext texttype="text/plain">Node.js is a client-side language</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62655">
+                <material>
+                  <mattext texttype="text/plain">None of the above</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">57654</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcba49d567b4a7585a84e577888f6aac3" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;NodeJS is supported on which of the following platforms?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="38967">
+                <material>
+                  <mattext texttype="text/plain">All mentioned</mattext>
+                </material>
+              </response_label>
+              <response_label ident="45980">
+                <material>
+                  <mattext texttype="text/plain">Windows</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62998">
+                <material>
+                  <mattext texttype="text/plain">MacOS</mattext>
+                </material>
+              </response_label>
+              <response_label ident="82746">
+                <material>
+                  <mattext texttype="text/plain">Unix/Linux</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">38967</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g819c3e97cd5a31b31f89c26de9d2e7b6" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;NodeJs uses an event-driven, non-blocking IO model&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="85161">
+                <material>
+                  <mattext texttype="text/plain">true</mattext>
+                </material>
+              </response_label>
+              <response_label ident="78565">
+                <material>
+                  <mattext texttype="text/plain">false</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4662">
+                <material>
+                  <mattext texttype="text/plain">cannot be determined</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1221">
+                <material>
+                  <mattext texttype="text/plain">none of these</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">85161</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge1366c8113d790675302965d821a0fbc" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The command to install nodemon in NodeJS is:&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2269">
+                <material>
+                  <mattext texttype="text/plain">npm install nodemon --save</mattext>
+                </material>
+              </response_label>
+              <response_label ident="55687">
+                <material>
+                  <mattext texttype="text/plain">npm nodemon</mattext>
+                </material>
+              </response_label>
+              <response_label ident="55916">
+                <material>
+                  <mattext texttype="text/plain">node install nodemon --save</mattext>
+                </material>
+              </response_label>
+              <response_label ident="81676">
+                <material>
+                  <mattext texttype="text/plain">node nodemon</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2269</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge4ad9ad55963c0977ecd51c9fe6afcd3" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;We can kill a process in NodeJS using the keyboard shortcut?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="67915">
+                <material>
+                  <mattext texttype="text/plain">Ctrl + c</mattext>
+                </material>
+              </response_label>
+              <response_label ident="27984">
+                <material>
+                  <mattext texttype="text/plain">Ctrl + b</mattext>
+                </material>
+              </response_label>
+              <response_label ident="34489">
+                <material>
+                  <mattext texttype="text/plain">Ctrl + k</mattext>
+                </material>
+              </response_label>
+              <response_label ident="88837">
+                <material>
+                  <mattext texttype="text/plain">None of these</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">67915</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga05911658f7b550c9d06fb1cc3b3a7bf" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What does the fs module stand for?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7128">
+                <material>
+                  <mattext texttype="text/plain">File System</mattext>
+                </material>
+              </response_label>
+              <response_label ident="17061">
+                <material>
+                  <mattext texttype="text/plain">File Store</mattext>
+                </material>
+              </response_label>
+              <response_label ident="11939">
+                <material>
+                  <mattext texttype="text/plain">File Service</mattext>
+                </material>
+              </response_label>
+              <response_label ident="79603">
+                <material>
+                  <mattext texttype="text/plain">None of these</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7128</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g859c340b97d8ca031bca486dde4fb52e" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is the full form of npm?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="40067">
+                <material>
+                  <mattext texttype="text/plain">Node Package Manager</mattext>
+                </material>
+              </response_label>
+              <response_label ident="27727">
+                <material>
+                  <mattext texttype="text/plain">Node Project Manager</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62781">
+                <material>
+                  <mattext texttype="text/plain">New Project Manager</mattext>
+                </material>
+              </response_label>
+              <response_label ident="29326">
+                <material>
+                  <mattext texttype="text/plain">New Package Manager</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">40067</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g35f9ad5e3116fcbc1c10a5c885d7849b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is a Callback?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8663">
+                <material>
+                  <mattext texttype="text/plain">The callback is an asynchronous equivalent for a function</mattext>
+                </material>
+              </response_label>
+              <response_label ident="33319">
+                <material>
+                  <mattext texttype="text/plain">The callback is a technique in which a method calls back the caller method</mattext>
+                </material>
+              </response_label>
+              <response_label ident="40920">
+                <material>
+                  <mattext texttype="text/plain">Both</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9976">
+                <material>
+                  <mattext texttype="text/plain">None</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8663</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gff443e952de5c13b382623bf5e105241" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following statement defines Express?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="94136">
+                <material>
+                  <mattext texttype="text/plain">Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="19067">
+                <material>
+                  <mattext texttype="text/plain">Express is an application framework that provides a robust set of features to develop desktop-based applications.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8570">
+                <material>
+                  <mattext texttype="text/plain">Both</mattext>
+                </material>
+              </response_label>
+              <response_label ident="32610">
+                <material>
+                  <mattext texttype="text/plain">None</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">94136</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4becbb45c9b1faedfdb2de11cf1e98d2" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following statement is used to execute the code of the sample.js file?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="92738">
+                <material>
+                  <mattext texttype="text/plain">node sample.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="31979">
+                <material>
+                  <mattext texttype="text/plain">sample.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="30801">
+                <material>
+                  <mattext texttype="text/plain">nodejs sample.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="16627">
+                <material>
+                  <mattext texttype="text/plain">None of these</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">92738</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g05a51ff8c0788c64dc16b7e7c7740adf" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following types of applications can be built using Node.js? &lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="84367">
+                <material>
+                  <mattext texttype="text/plain">All mentioned</mattext>
+                </material>
+              </response_label>
+              <response_label ident="13235">
+                <material>
+                  <mattext texttype="text/plain">Web Application</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7576">
+                <material>
+                  <mattext texttype="text/plain">Chat Application</mattext>
+                </material>
+              </response_label>
+              <response_label ident="31075">
+                <material>
+                  <mattext texttype="text/plain">RESTful Service</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">84367</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf87ffdb483a61ced0cbcb1f05ecce0c3" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following areas, Node.js, is not advised to be used?&lt;/span&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="83035">
+                <material>
+                  <mattext texttype="text/plain">CPU intensive applications</mattext>
+                </material>
+              </response_label>
+              <response_label ident="36474">
+                <material>
+                  <mattext texttype="text/plain">Single Page Applications</mattext>
+                </material>
+              </response_label>
+              <response_label ident="97154">
+                <material>
+                  <mattext texttype="text/plain">JSON APIs based applications</mattext>
+                </material>
+              </response_label>
+              <response_label ident="72015">
+                <material>
+                  <mattext texttype="text/plain">Data-Intensive Real-time Applications</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">83035</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g060fb55e923b53f059764ee78365654e" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following route parameter formats are valid?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="26750">
+                <material>
+                  <mattext texttype="text/plain">users/:userId/books/:bookId</mattext>
+                </material>
+              </response_label>
+              <response_label ident="74102">
+                <material>
+                  <mattext texttype="text/plain">/books/!:from-:to</mattext>
+                </material>
+              </response_label>
+              <response_label ident="91580">
+                <material>
+                  <mattext texttype="text/plain">/flights/:from-:to</mattext>
+                </material>
+              </response_label>
+              <response_label ident="61528">
+                <material>
+                  <mattext texttype="text/plain">None of these</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">26750</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gbd834d883a1e7701b35831373e14d26e" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What is Node.JS?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="91785">
+                <material>
+                  <mattext texttype="text/plain">Node.js is a JavaScript based framework/platform built on Google Chrome's JavaScript V8 Engine.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="12366">
+                <material>
+                  <mattext texttype="text/plain">Node.js is a web  server.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="51028">
+                <material>
+                  <mattext texttype="text/plain">Node.js is a java based framework</mattext>
+                </material>
+              </response_label>
+              <response_label ident="81287">
+                <material>
+                  <mattext texttype="text/plain">None of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">91785</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4d293954bcc834379e2c0b7e1aa305e5" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;How are Node based web servers are different from traditional web servers?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7406">
+                <material>
+                  <mattext texttype="text/plain">Node based server uses a single threaded model and can services much larger number of requests than traditional server like Apache HTTP Server.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73128">
+                <material>
+                  <mattext texttype="text/plain">Node based server process request much faster than traditional server.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="78256">
+                <material>
+                  <mattext texttype="text/plain">There is no much difference between the two.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2257">
+                <material>
+                  <mattext texttype="text/plain">None of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7406</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g3e8af4cad43dee4922ef45efaf4eb4f1" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;What does npm stand for?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="42492">
+                <material>
+                  <mattext texttype="text/plain">Node Package Manager</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4846">
+                <material>
+                  <mattext texttype="text/plain">Node Project Manager</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3336">
+                <material>
+                  <mattext texttype="text/plain">New Project Manager</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73222">
+                <material>
+                  <mattext texttype="text/plain">New Package Manager</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">42492</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga9defffa522d8dfa70a8bcf3fc86d320" title="Question 201">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following command will show version of node?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="67886">
+                <material>
+                  <mattext texttype="text/plain">node --version</mattext>
+                </material>
+              </response_label>
+              <response_label ident="29242">
+                <material>
+                  <mattext texttype="text/plain">npm --version</mattext>
+                </material>
+              </response_label>
+              <response_label ident="15793">
+                <material>
+                  <mattext texttype="text/plain">npm getVersion</mattext>
+                </material>
+              </response_label>
+              <response_label ident="79576">
+                <material>
+                  <mattext texttype="text/plain">node getVersion</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">67886</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g989131883d21a1dc6ef13cf5b7cdae1d" title="Question 202">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is true about package.json?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="25057">
+                <material>
+                  <mattext texttype="text/plain">All of them</mattext>
+                </material>
+              </response_label>
+              <response_label ident="18006">
+                <material>
+                  <mattext texttype="text/plain">package.json is present in the root directory of any Node application/module.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="36334">
+                <material>
+                  <mattext texttype="text/plain">package.json is used to define the properties of a package.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="15777">
+                <material>
+                  <mattext texttype="text/plain">package.json can be used to update dependencies of a Node application.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">25057</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2ede848e4cb2672c47c064c048356912" title="Question 204">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following statements is the valid way&amp;nbsp; to use the Node module 'fs' in a Node based application?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="33995">
+                <material>
+                  <mattext texttype="text/plain">const fs = require("fs");</mattext>
+                </material>
+              </response_label>
+              <response_label ident="46165">
+                <material>
+                  <mattext texttype="text/plain">const fs = import("fs");</mattext>
+                </material>
+              </response_label>
+              <response_label ident="12797">
+                <material>
+                  <mattext texttype="text/plain">package fs;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="21746">
+                <material>
+                  <mattext texttype="text/plain">import fs;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">33995</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gab1e1a1b73e0c2dbece1bf885831622b" title="Question 205">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following modules is required to create a web server?&lt;br&gt;&lt;br&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="43666">
+                <material>
+                  <mattext texttype="text/plain">http module</mattext>
+                </material>
+              </response_label>
+              <response_label ident="75566">
+                <material>
+                  <mattext texttype="text/plain">net module</mattext>
+                </material>
+              </response_label>
+              <response_label ident="32200">
+                <material>
+                  <mattext texttype="text/plain">url module</mattext>
+                </material>
+              </response_label>
+              <response_label ident="57675">
+                <material>
+                  <mattext texttype="text/plain">web module</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">43666</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g85c26949a4481e1e257ce6c6f90e61ae" title="Question 206">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Port 80 is the listening port of:&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="46772">
+                <material>
+                  <mattext texttype="text/plain">HTTP</mattext>
+                </material>
+              </response_label>
+              <response_label ident="10811">
+                <material>
+                  <mattext texttype="text/plain">HTTPS</mattext>
+                </material>
+              </response_label>
+              <response_label ident="85414">
+                <material>
+                  <mattext texttype="text/plain">localhost</mattext>
+                </material>
+              </response_label>
+              <response_label ident="27944">
+                <material>
+                  <mattext texttype="text/plain">None of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">46772</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb12063895b768c5b1a7d70bd0d1dd245" title="Question 207">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The command to create a directory is:&amp;nbsp;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="22175">
+                <material>
+                  <mattext texttype="text/plain">mkdir</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9131">
+                <material>
+                  <mattext texttype="text/plain">createdir</mattext>
+                </material>
+              </response_label>
+              <response_label ident="97829">
+                <material>
+                  <mattext texttype="text/plain">make directory</mattext>
+                </material>
+              </response_label>
+              <response_label ident="42960">
+                <material>
+                  <mattext texttype="text/plain">makedir</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">22175</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0aa83eee20b2f27ba14f9efcac22eb7c" title="Question 208">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The command to delete a file is:&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="35242">
+                <material>
+                  <mattext texttype="text/plain">rm</mattext>
+                </material>
+              </response_label>
+              <response_label ident="32580">
+                <material>
+                  <mattext texttype="text/plain">removeFile</mattext>
+                </material>
+              </response_label>
+              <response_label ident="41392">
+                <material>
+                  <mattext texttype="text/plain">deleteFile</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6947">
+                <material>
+                  <mattext texttype="text/plain">del</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">35242</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gd11a815e0829ab4088d883d18869933f" title="Question 208">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;"Package.json" file contains:&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="42529">
+                <material>
+                  <mattext texttype="text/plain">list of dependencies, and commands that run the application</mattext>
+                </material>
+              </response_label>
+              <response_label ident="70447">
+                <material>
+                  <mattext texttype="text/plain">list of static assests, such CSS and client-side JavaScript</mattext>
+                </material>
+              </response_label>
+              <response_label ident="35777">
+                <material>
+                  <mattext texttype="text/plain">Templates that are used to render the pages of the application</mattext>
+                </material>
+              </response_label>
+              <response_label ident="59494">
+                <material>
+                  <mattext texttype="text/plain">Code that sets up the application</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">42529</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0b4b468654734b1537aa76e8d91b702a" title="Question 210">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;How do you run a node application?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="38504">
+                <material>
+                  <mattext texttype="text/plain">node app.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="42853">
+                <material>
+                  <mattext texttype="text/plain">run node app</mattext>
+                </material>
+              </response_label>
+              <response_label ident="53511">
+                <material>
+                  <mattext texttype="text/plain">run app.js</mattext>
+                </material>
+              </response_label>
+              <response_label ident="67010">
+                <material>
+                  <mattext texttype="text/plain">exec node.js</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">38504</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf22238b20f29c87b9aabde7260cf8e28" title="Question 212">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;How do you cancel or stop a node app from running?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="45502">
+                <material>
+                  <mattext texttype="text/plain">^C (control C)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="81205">
+                <material>
+                  <mattext texttype="text/plain">^D (controlD)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="12435">
+                <material>
+                  <mattext texttype="text/plain">AltC</mattext>
+                </material>
+              </response_label>
+              <response_label ident="30271">
+                <material>
+                  <mattext texttype="text/plain">None of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">45502</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g79cef86fd73f949d173e29d61240e181" title="Question 301">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;pre&gt;const person = {
+  name: ['Bob', 'Smith'],
+  age: 32,
+  gender: 'male',
+  interests: ['music', 'skiing'],
+  bio: function() {
+    alert(this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
+  },
+  greeting: function() {
+    alert('Hi! I\'m ' + this.name[0] + '.');
+  }
+};&lt;/pre&gt;
+&lt;p&gt;what is the output of "person.bio"&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="49753">
+                <material>
+                  <mattext texttype="text/plain">{     this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.';   }</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73718">
+                <material>
+                  <mattext texttype="text/plain">pop up window with the following content: Bob Smith is 32 years old. He likes music and skiing</mattext>
+                </material>
+              </response_label>
+              <response_label ident="99181">
+                <material>
+                  <mattext texttype="text/plain">Bob Smith is 32 years old. He likes music and skiing.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="36110">
+                <material>
+                  <mattext texttype="text/plain">None of them</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">49753</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcffa59411a0738cc0b2caa392a687c7b" title="q3-301">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which is considered a client?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="30258">
+                <material>
+                  <mattext texttype="text/plain">A browser requesting a webpage.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="67348">
+                <material>
+                  <mattext texttype="text/plain">A server sending a webpage</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1798">
+                <material>
+                  <mattext texttype="text/plain">A server sending a database request."</mattext>
+                </material>
+              </response_label>
+              <response_label ident="41321">
+                <material>
+                  <mattext texttype="text/plain">A database responding to a server.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">30258</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcbd98f23d1e1508cec6f4bdc750f73c2" title="q3-304">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which method is used to create a new database entry?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="89095">
+                <material>
+                  <mattext texttype="text/plain">POST</mattext>
+                </material>
+              </response_label>
+              <response_label ident="94406">
+                <material>
+                  <mattext texttype="text/plain">GET</mattext>
+                </material>
+              </response_label>
+              <response_label ident="33211">
+                <material>
+                  <mattext texttype="text/plain">DELETE</mattext>
+                </material>
+              </response_label>
+              <response_label ident="39532">
+                <material>
+                  <mattext texttype="text/plain">PUT</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">89095</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2eab5b71382e9e62f68f241a97859f97" title="q3-308">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;pre&gt;Which status code means 'OK'?&lt;/pre&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5227">
+                <material>
+                  <mattext texttype="text/plain">200</mattext>
+                </material>
+              </response_label>
+              <response_label ident="50136">
+                <material>
+                  <mattext texttype="text/plain">300</mattext>
+                </material>
+              </response_label>
+              <response_label ident="32596">
+                <material>
+                  <mattext texttype="text/plain">400</mattext>
+                </material>
+              </response_label>
+              <response_label ident="13442">
+                <material>
+                  <mattext texttype="text/plain">500</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5227</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g01fe04538cbfd9dc7e815bd132084e23" title="s19f-01">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is true about Node.JS?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="83553">
+                <material>
+                  <mattext texttype="text/plain">All of them</mattext>
+                </material>
+              </response_label>
+              <response_label ident="63335">
+                <material>
+                  <mattext texttype="text/plain">Node.JS is used to delevop I/O intensive web applications like video streaming sites, single page applications and other web application.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="94864">
+                <material>
+                  <mattext texttype="text/plain">Node.js is a JavaScript based framework/platform built on Google Chrome's JavaScript V8 Engine.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="51164">
+                <material>
+                  <mattext texttype="text/plain">Node.js is open source and is completely free to use.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">83553</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc3a8ef2728c1b3d6e53adc51652e24bb" title="q3open1">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.essay.v0p1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>No</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Please in your answer write the open question handed to you.&amp;nbsp;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib>
+              <response_label ident="answer1" rshuffle="No"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="geeb401b1a74cac6faca84229f4bdab3e" title="q3open2">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.essay.v0p1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>No</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Please in your answer write the open question handed to you.&amp;nbsp;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib>
+              <response_label ident="answer1" rshuffle="No"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4d16499204b5c652156a45764d2c4b36" title="Built in Modules">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is &lt;span style="text-decoration: underline;"&gt;NOT&lt;/span&gt;&amp;nbsp; built-in module of NodeJS&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="73818">
+                <material>
+                  <mattext texttype="text/plain">fa</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73187">
+                <material>
+                  <mattext texttype="text/plain">path</mattext>
+                </material>
+              </response_label>
+              <response_label ident="29123">
+                <material>
+                  <mattext texttype="text/plain">net</mattext>
+                </material>
+              </response_label>
+              <response_label ident="86259">
+                <material>
+                  <mattext texttype="text/plain">http</mattext>
+                </material>
+              </response_label>
+              <response_label ident="33295">
+                <material>
+                  <mattext texttype="text/plain">dns</mattext>
+                </material>
+              </response_label>
+              <response_label ident="21559">
+                <material>
+                  <mattext texttype="text/plain">assert</mattext>
+                </material>
+              </response_label>
+              <response_label ident="61932">
+                <material>
+                  <mattext texttype="text/plain">express</mattext>
+                </material>
+              </response_label>
+              <response_label ident="63214">
+                <material>
+                  <mattext texttype="text/plain">os</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">61932</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g616bd2ffaa173f45b367cdcc7ce2f5b8" title="EventLoop">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_response.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Select the elements of the NodeJS event loop&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="25232">
+                <material>
+                  <mattext texttype="text/plain">Run Timers</mattext>
+                </material>
+              </response_label>
+              <response_label ident="63718">
+                <material>
+                  <mattext texttype="text/plain">Call pending callbacks</mattext>
+                </material>
+              </response_label>
+              <response_label ident="24698">
+                <material>
+                  <mattext texttype="text/plain">Poll for I/O</mattext>
+                </material>
+              </response_label>
+              <response_label ident="94415">
+                <material>
+                  <mattext texttype="text/plain">Request Call</mattext>
+                </material>
+              </response_label>
+              <response_label ident="91973">
+                <material>
+                  <mattext texttype="text/plain">Database Call</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6525">
+                <material>
+                  <mattext texttype="text/plain">Response Call</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">25232</varequal>
+                <varequal respident="response1">63718</varequal>
+                <varequal respident="response1">24698</varequal>
+                <not>
+                  <varequal respident="response1">94415</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">91973</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">6525</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;blockquote cite="Node.js in Action, p.6"&gt;The event loop runs one way (it's a first-in, first-out queue) and goes through several phases. First, the timers execute, which are the timers scheduled with the JavaScript functions &lt;code&gt;setTimeout&lt;/code&gt; and &lt;code&gt;setInterval&lt;/code&gt;. Next, I/O callbacks run, so if any I/O has returned from one of the nonblocking network calls, this is where your callback is triggered. The poll phase is where new I/O events are retrieved, and then callbacks scheduled with &lt;code&gt;setImmediate&lt;/code&gt; run at the end. This is a special case because it allows you to schedule a callback to run immediately after the current I/O callbacks already in the queue. This might shound abstract at this stage, but what you should take aaway is the idea that although Node is single-threaded, it does give you tools to write efficient and scalable code.&lt;/blockquote&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="g7ed1f162f048654c73b9e70541e95e97" title="Express middleware order">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;How should middleware in express be ordered?&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8761">
+                <material>
+                  <mattext texttype="text/plain">Middleware should be ordered the same way it should be run.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2371">
+                <material>
+                  <mattext texttype="text/plain">The order of middleware doesn't matter.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="68952">
+                <material>
+                  <mattext texttype="text/plain">It only matters that all middleware is placed after imports and before the listen call</mattext>
+                </material>
+              </response_label>
+              <response_label ident="95817">
+                <material>
+                  <mattext texttype="text/plain">middleware should be grouped after routes, and  in the order it should run</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8761</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;blockquote cite="Node.js in Action (p111)"&gt;The ordering of middleware in our application can dramatically affect the way it behaves. Execution can be stopped by omitting &lt;code&gt;next()&lt;/code&gt;, and middleware can be combined to implement features such as authentication.&lt;/blockquote&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="g911b2d58df7a225b5396ee3798309e79" title="Express, Combining Middleware">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Express middleware may be combined with the &lt;code&gt;.use()&lt;/code&gt; method of the express framework&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="72039">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="92455">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">72039</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;blockquote cite="Node.js in Action, p.110-1"&gt;Connect [software provided in express] provides a method called &lt;code&gt;use&lt;/code&gt; for combining middleware components.&lt;/blockquote&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="g4c1525c31b6fdfc3e12f34b0a85a703a" title="GET vs. POST">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Which line of code would send a GET request and print the response to the node console.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="41804">
+                <material>
+                  <mattext texttype="text/html">&lt;pre&gt;http.get('http://example.com',(res)=&amp;gt; res.pipe(process.stdout));&lt;/pre&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9843">
+                <material>
+                  <mattext texttype="text/html">&lt;pre&gt;app.get('http://example.com', (req, res) =&amp;gt; {res.send()});&lt;/pre&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="53561">
+                <material>
+                  <mattext texttype="text/html">&lt;pre&gt;express.get('http://example.com',(res)=&amp;gt; res.pipe(process.stdout));&lt;/pre&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="67323">
+                <material>
+                  <mattext texttype="text/html">&lt;pre&gt;express.post('http://example.com',(req,res) =&amp;gt; console.log(req);&lt;/pre&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">41804</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">This is from the project demonstrating HTTP POST and GET requests on page 83 of&amp;nbsp; &lt;em&gt;Node Cookbook: Forth Edition.&lt;/em&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="gcb1c3a2062a029651efa86e62d44a65a" title="HTTP module">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The HTTP module is built into Node JS and usually doesn't need to be installed seperately.&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="80335">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="62515">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">80335</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gec927dfb4df6a8ebb86c3d2a27849613" title="HTTP module: GET/POST">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;The node &lt;code&gt;http&lt;/code&gt; module is the way that that node sends GET and POST requests&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4840">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="48953">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4840</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge3fd30201b107400bb1334c5f47b41f7" title="Is Node Installed">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;According the &lt;em&gt;Node.js in Action,&amp;nbsp;&lt;/em&gt; one way to verify that Node is properly installed is to run the following command in the terminal.&lt;/p&gt;
+&lt;pre&gt;$ npm -v&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="89045">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="21481">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">89045</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+          </respcondition>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="correct_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;$ node -v&lt;/p&gt;
+&lt;p&gt;will return the version of node installed and&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;$ npm -v&lt;/pre&gt;
+&lt;p&gt;will return the version of npm installed.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+        <itemfeedback ident="general_incorrect_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;$ node -v&lt;/p&gt;
+&lt;p&gt;will return the version of node installed and&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;$ npm -v&lt;/pre&gt;
+&lt;p&gt;will return the version of npm installed.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="gff8d60bc164860a2dded396088558ff0" title="Node Threads">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;One of the strengths of Node and JavaScript in general is their _____________ programming model.&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="20533">
+                <material>
+                  <mattext texttype="text/plain">multi-threaded</mattext>
+                </material>
+              </response_label>
+              <response_label ident="90889">
+                <material>
+                  <mattext texttype="text/plain">ultra-fast</mattext>
+                </material>
+              </response_label>
+              <response_label ident="32316">
+                <material>
+                  <mattext texttype="text/plain">single-processor</mattext>
+                </material>
+              </response_label>
+              <response_label ident="55092">
+                <material>
+                  <mattext texttype="text/plain">multi-core</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4626">
+                <material>
+                  <mattext texttype="text/plain">single-threaded</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4626</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga53d5357a44d007a2f5f5d2350042349" title="NodeJS Advantages">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Which of the following is NOT considered an advantage of Node JS&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="64056">
+                <material>
+                  <mattext texttype="text/plain">Developers can write web applications in one language, which helps by reducing the context switch between client and server development, and allowing for code sharing between client and server, such as reuing the same code for form validation or game logic.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73930">
+                <material>
+                  <mattext texttype="text/plain">JavaScript is a compilation target, and there are a number of languages that compile to it already</mattext>
+                </material>
+              </response_label>
+              <response_label ident="28048">
+                <material>
+                  <mattext texttype="text/plain">Node uses one virtual machine (V8) that keeps up with the ECMAScript standard.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="49453">
+                <material>
+                  <mattext texttype="text/html">JavaScript is the language used in various &lt;strong&gt;SQL&lt;/strong&gt; databases (such as CouchDB and MongoDB)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="66698">
+                <material>
+                  <mattext texttype="text/plain">None of these</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">49453</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;JavaScript is the language used in various No-SQL databases(such as CouchDB and MongoDB)&lt;/p&gt;
+&lt;p&gt;CouchDB and MongoDB are No-SQL non-relational databases that store data using a document model similer to JavaScript objects.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Because they use JavaScript objects as their default method of organizing data, there is no need to use other languages to interact with the database. This makes JavaScript, and by extension NodeJS ideal for working with these databases.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="g2a2ffe8e69e6f68662ea56510699d26e" title="Non-Blocking I/O definition">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;em&gt;Non-blocking&lt;/em&gt;&lt;em&gt; I/O&lt;/em&gt; means your program can make a request for a network resource whil doing something else, and then, when the network operation has finished, a callback will run that handles the result.&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="10839">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="21059">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">10839</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g6388d243c59591369c862aed1e8196ad" title="Package Managers">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;When you install NodeJS you also install a built in package manager named Yarn&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="95474">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="27078">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">27078</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+          </respcondition>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="correct_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">When NodeJS installs, It installs a package manager named&amp;nbsp;&lt;em&gt;NPM&lt;/em&gt;, not Yarn</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+        <itemfeedback ident="general_incorrect_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">When NodeJS installs, It installs a package manager named&amp;nbsp;&lt;em&gt;NPM&lt;/em&gt;, not Yarn</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="gdf025992669229be84585645eb6b270a" title="What is NodeJS">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.true_false.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;Node JS is a web browser based on Google Chrome&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="84656">
+                <material>
+                  <mattext texttype="text/plain">True</mattext>
+                </material>
+              </response_label>
+              <response_label ident="26705">
+                <material>
+                  <mattext texttype="text/plain">False</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <varequal respident="response1">84656</varequal>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="84656_fb"/>
+          </respcondition>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <varequal respident="response1">26705</varequal>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="26705_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">26705</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="correct_fb"/>
+          </respcondition>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_incorrect_fb"/>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="correct_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Correct:&lt;/p&gt;
+&lt;p&gt;While Node JS is based on the same underlying engine as Google Chrome (the V8 chromium engine), it is not a browser. Node JS is a Runtime Environment (RTE) that allows us to run JavaScript without a browser.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+        <itemfeedback ident="general_incorrect_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Incorrect:&lt;/p&gt;
+&lt;p&gt;NodeJS is not a browser.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Node JS is a Runtime Environment (RTE) based on the V8 Chromium engine developed by google. This same engine can be found under most browsers, chrome, and the chromebook operating system.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+        <itemfeedback ident="84656_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/plain">Node JS IS a web browser based on Google Chrome</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+        <itemfeedback ident="26705_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/plain">Node JS is not a web browser based on Google Chrome</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

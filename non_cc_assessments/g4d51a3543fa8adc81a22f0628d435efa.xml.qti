@@ -1,0 +1,3572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g4d51a3543fa8adc81a22f0628d435efa">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>CIS246-Unfiled Questions</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Mb3MVkMzN9FQzZE1BzaDgrzshTZu5LgQhxqa6xex</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gd1e002416113a9b812b3379c95072324" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>3.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>35610,77673,99355,54147,39197,26696,7241,58811,89903</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Match the&amp;nbsp;&amp;nbsp;jQuery effects and their functions.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_35610">
+          <material>
+            <mattext texttype="text/plain">show()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_77673">
+          <material>
+            <mattext texttype="text/plain">hide()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_99355">
+          <material>
+            <mattext texttype="text/plain">toggle()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_54147">
+          <material>
+            <mattext texttype="text/plain">slideDown()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_39197">
+          <material>
+            <mattext texttype="text/plain">slideUp()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_26696">
+          <material>
+            <mattext texttype="text/plain">slideToggle()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_7241">
+          <material>
+            <mattext texttype="text/plain">fadeIn()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_58811">
+          <material>
+            <mattext texttype="text/plain">fadeOut()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_89903">
+          <material>
+            <mattext texttype="text/plain">fadeTo()</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5159">
+              <material>
+                <mattext>Shows an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4883">
+              <material>
+                <mattext>Hides an element</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5743">
+              <material>
+                <mattext>Toggles between show and hide using click event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5727">
+              <material>
+                <mattext>Slides element down</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6263">
+              <material>
+                <mattext>Slides element up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2248">
+              <material>
+                <mattext>Toggles between sliding down and sliding up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1778">
+              <material>
+                <mattext>Fades element in to opaque</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8233">
+              <material>
+                <mattext>Fades element out to transparent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4587">
+              <material>
+                <mattext>Fades element to specified opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_35610">5159</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_77673">4883</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_99355">5743</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_54147">5727</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_39197">6263</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_26696">2248</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_7241">1778</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_58811">8233</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_89903">4587</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">11.11</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g7bf0ddbf252050722c87637232d295f6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>11087,45409,76285,23228</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Select the possible parameters to the fadeIn(), fadeOut(), and fadeToggle() effects.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="11087">
+              <material>
+                <mattext texttype="text/plain">speed</mattext>
+              </material>
+            </response_label>
+            <response_label ident="45409">
+              <material>
+                <mattext texttype="text/plain">easing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76285">
+              <material>
+                <mattext texttype="text/plain">callback</mattext>
+              </material>
+            </response_label>
+            <response_label ident="23228">
+              <material>
+                <mattext texttype="text/plain">opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">11087</varequal>
+              <varequal respident="response1">45409</varequal>
+              <varequal respident="response1">76285</varequal>
+              <not>
+                <varequal respident="response1">23228</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6cb7676f3c6d8500a67a67f01ef890d9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>91710,83744</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The show() and hide() effects require two parameters, speed and opacity.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="91710">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83744">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">83744</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9c0f240398b3ec0c72fa178a8042e2b8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30834,40560</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The slideUp() and slideDown() effects have two optional parameters: duration and callback.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30834">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40560">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">40560</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="40560_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30834</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="40560_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">The parameters are optional for slideUp() and slideDown()</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g47a6120b31f95f1d0397d4041e35733b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6461,18026,46591</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Examine the code below.&amp;nbsp; What type of event is represented?&lt;/p&gt;
+&lt;pre id="251-2" class="programlisting" style="font-family: monospace;"&gt;$('.first-name').bind('focus', function(){
+    $(this). css('border', '1px solid red');
+})};&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre id="250-4" class="programlisting" style="font-family: monospace;"&gt;&amp;lt;input type="text" name="firstname" id="first-name"/&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6461">
+              <material>
+                <mattext texttype="text/plain">mouse event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18026">
+              <material>
+                <mattext texttype="text/plain">form event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="46591">
+              <material>
+                <mattext texttype="text/plain">keyboard event</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6461</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6461_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">46591</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="46591_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">18026</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6461_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4, mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="46591_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4, mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g751b4378d0647f75ee567d4743b274d6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>18021,56022</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;A disadvantage of jQuery is that there is very little cross-browser Compatibility.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="18021">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56022">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">56022</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="geb7a3e3ea04422534157bfedc17c9f3f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>64988,89357</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;jQuery includes multiple effects.&amp;nbsp; To display previously hidden text you would use the _________ effect in jQuery.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">show()</varequal>
+            <varequal respident="response1">toggle()</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc5135da8adf20794ac6d3466b573a320" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>66552,85866</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;A simple way to have all check boxes checked would be to use the following code:&lt;/p&gt;
+&lt;p style="font-family: monospace; padding: 10px; border: thin solid black;"&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $('#checkall').bind('click', function(){&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; var checkboxes = $('#software tr td').find('.check');&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; if (this.checked) {&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; checkboxes.attr('checked', 'true');&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; else {&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; checkboxes.removeAttr('checked');&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; };&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; });&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="66552">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85866">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">66552</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g9237daccfdb598a8b923effd5652773b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>83331,72921</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The ________ method of jQuery allows you to place an active cursor within a text field.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">focus()</varequal>
+            <varequal respident="response1">focus</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g906c85a6cd7c41ab893588d3a3633024" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>65578,34648</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The accordion effect can only be used for menus.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="65578">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34648">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">34648</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g902c61e8893a50aaee61038572e021d2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>82058,54972</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Tabbed content is an effective way to create navigation within a simple web site.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="82058">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="54972">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">82058</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdefe8a097334ee6876958ebe27fdb0b8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30691,40196,26137,78343</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Select the correct jQuery syntax to change the background color of a table heading row.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30691">
+              <material>
+                <mattext texttype="text/plain">$('thead tr').css('background', '#bff7df');</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40196">
+              <material>
+                <mattext texttype="text/plain">$('tbody tr').css('background', '#bff7df');</mattext>
+              </material>
+            </response_label>
+            <response_label ident="26137">
+              <material>
+                <mattext texttype="text/plain">$('tr thead').css('background', '#bff7df');</mattext>
+              </material>
+            </response_label>
+            <response_label ident="78343">
+              <material>
+                <mattext texttype="text/plain">$('tr tbody ').css('background', '#bff7df');</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30691</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g11282fb9a4d6311eb280242e638bcf33" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>14032,82161,4508,34461</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Select the possible parameters to the fadeIn(), fadeOut(), and fadeToggle() effects.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="14032">
+              <material>
+                <mattext texttype="text/plain">speed</mattext>
+              </material>
+            </response_label>
+            <response_label ident="82161">
+              <material>
+                <mattext texttype="text/plain">easing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4508">
+              <material>
+                <mattext texttype="text/plain">callback</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34461">
+              <material>
+                <mattext texttype="text/plain">opacity</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">14032</varequal>
+              <varequal respident="response1">82161</varequal>
+              <varequal respident="response1">4508</varequal>
+              <not>
+                <varequal respident="response1">34461</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g189086d183f1a0e168f19aa483cfaa63" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>90672,94068</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The show() and hide() effects require two parameters, speed and callback.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="90672">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94068">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">90672</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="90672_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">94068</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="90672_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">These are optional parameters that are not required.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gd9874c8241c0332a98d28e1b3a922bd7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>75389,13854,34498</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Exam the code below and select the method by which the XML document is being loaded&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: monospace;"&gt;$.ajax({&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;type: "GET",&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;dataType: "XML",&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;url: "favoritebooks.xml",&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;success: parseXML&lt;br&gt; });&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="75389">
+              <material>
+                <mattext texttype="text/plain">"GET"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13854">
+              <material>
+                <mattext texttype="text/plain">"XML"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34498">
+              <material>
+                <mattext texttype="text/plain">"FAVO</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">75389</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g99b9952cd11c9730a41aad5ab250a0f2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;In your own words, explain what PAGINATION is and how you would use it.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1aeab1a992d492e279cfa7fcdf498746" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1179,37672,9753,55087,59952,16535</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;jQuery is not the only JavaScript framework.&amp;nbsp; Select all that are mentioned within your text.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="1179">
+              <material>
+                <mattext texttype="text/plain">YUI</mattext>
+              </material>
+            </response_label>
+            <response_label ident="37672">
+              <material>
+                <mattext texttype="text/plain">Prototype</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9753">
+              <material>
+                <mattext texttype="text/plain">MooTools</mattext>
+              </material>
+            </response_label>
+            <response_label ident="55087">
+              <material>
+                <mattext texttype="text/plain">Dojo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59952">
+              <material>
+                <mattext texttype="text/plain">Amazon AWS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="16535">
+              <material>
+                <mattext texttype="text/plain">No answer text provided.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">1179</varequal>
+              <varequal respident="response1">37672</varequal>
+              <varequal respident="response1">9753</varequal>
+              <varequal respident="response1">55087</varequal>
+              <not>
+                <varequal respident="response1">59952</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">16535</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g54c47817045a0a3166076367062109b1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>36548,43106</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Code that affects the contents of your page, such as an accordion menu should be placed within &lt;span style="font-family: monospace;"&gt;$("document").ready()&lt;/span&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="36548">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="43106">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">36548</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g2d9652d96af6a9978771b3c51342fff2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30520,90412</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Developing web pages using jQuery is a disadvantage because jQuery is difficult to learn and nearly impossible to implement.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30520">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90412">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">90412</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g85daf59c5dcd6545b4d7c08bb5f83c60" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;In your own words, why would you want to use jQuery within your web sites?&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc5741d0ce26c50fcbf1d6d695310f348" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8284,24706</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;I have read the netiquette rules of this course and agree to abide by those rules.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8284">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24706">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8284</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd8ed5c878e1253ab54978781ad5f45e5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>93998,28382</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The slideUp() and slideDown() effects have two optional parameters: speed and callback.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="93998">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28382">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">28382</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="28382_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">28382</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="28382_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">The parameters are optional for slideUp() and slideDown()</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8f9efa9f959859fd5a945443e9e9fa69" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5091,53930</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Creating horizontal drop down menus in jQuery is accomplished with a combination of CSS and jQuery.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5091">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="53930">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5091</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gfd9f6b4b0b759097a3271d8009108714" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>48574,79905</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;WAMP is Mac, Appache, mySQL, PHP web server.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="48574">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79905">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">48574</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="48574_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">79905</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="79905_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">79905</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="48574_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">WAMP is Windows, Appache, mySQL, PHP web server.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="79905_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">WAMP is Windows, Appache, mySQL, PHP web server.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gfb4cf550c39cfce70a3c6f2e29b32b01" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>58417,88074,51174,36814</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;You have downloaded the jQuery library into your web server's root folder in a new folder called "jquery".&amp;nbsp; You want to embed the jQuery library in a web page which will reside within your web server's root folder.&amp;nbsp; Select the correct script element which will embed your file "jQuery1.9.1.js" in your web page.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="58417">
+              <material>
+                <mattext texttype="text/plain">&lt;script type="text/javascript" src="jquery/jQuery1.9.1.js"&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88074">
+              <material>
+                <mattext texttype="text/plain">&lt;script type="text/javascript" src="../jquery/jQuery1.9.1.js"&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51174">
+              <material>
+                <mattext texttype="text/plain">&lt;script src="../jquery/jQuery1.9.1.js"&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="36814">
+              <material>
+                <mattext texttype="text/plain">&lt;script type="text/javascript" src="jquery/jQuery1.9.1"&gt;&lt;/script&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">58417</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g192b91205df4dfd2a41d651d50fbdecb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Describe what the purpose of using the &lt;span style="font-family: monospace;"&gt;&lt;strong&gt;$(document).ready()&lt;/strong&gt;.&lt;/span&gt;&amp;nbsp; What is it and when would you use it?&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;$(document).ready(function() {&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//all of your jQuery script goes here&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt; );&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf21d300f686c2e169e3795dd64f1c23d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>14408,69500</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Now that you can use jQuery effects, you should make use of all of them every time you create a web site.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="14408">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="69500">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">14408</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="14408_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">69500</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="14408_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">While jQuery effects are wonderful, the over use of effects can be a distraction to the message of your page.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gfc7c6f6d01d6db409b69edc445cc3b7d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>37217,77578,70213</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Exam the code below and select the correct name for the XML file being used within jQuery AJAX method:&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span style="font-family: monospace;"&gt;$.ajax({&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;type: "GET",&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;dataType: "XML",&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;url: "favoritebooks.xml",&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;success: parseXML&lt;br&gt; });&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="37217">
+              <material>
+                <mattext texttype="text/plain">"GET"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77578">
+              <material>
+                <mattext texttype="text/plain">"favoritebooks.xml"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="70213">
+              <material>
+                <mattext texttype="text/plain">parseXML</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">37217</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="37217_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">77578</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="37217_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">"XML"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf60d37e93cbefaec69aa4a46609c44de" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>44343,33125,42814,84378,86830,31997</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Review the examples of selectors below.&amp;nbsp; Select all that are correctly formatted in jQuery.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="44343">
+              <material>
+                <mattext texttype="text/plain">$(‘*’)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33125">
+              <material>
+                <mattext texttype="text/plain">$(‘p’)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42814">
+              <material>
+                <mattext texttype="text/plain">jQuery("h1")</mattext>
+              </material>
+            </response_label>
+            <response_label ident="84378">
+              <material>
+                <mattext texttype="text/plain">$(valid)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86830">
+              <material>
+                <mattext texttype="text/plain">jQuery("#content")</mattext>
+              </material>
+            </response_label>
+            <response_label ident="31997">
+              <material>
+                <mattext texttype="text/plain">$(".highlight")</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">44343</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="44343_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">33125</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="33125_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">42814</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="42814_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">84378</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="84378_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">86830</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="86830_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">31997</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="31997_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">44343</varequal>
+              <varequal respident="response1">33125</varequal>
+              <varequal respident="response1">42814</varequal>
+              <not>
+                <varequal respident="response1">84378</varequal>
+              </not>
+              <varequal respident="response1">86830</varequal>
+              <varequal respident="response1">31997</varequal>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Review chapter 3, WORKING WITH DOM ELEMENTS USING JQUERY SELECTORS</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="44343_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">selects all the elements in of the DOM or within other elements</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="33125_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">selects all the paragraph elements within a document</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="42814_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">uses the alias, jQuery to avoid collisions with other scripting libraries; selects all heading one elements of the document</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="84378_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Answer is incorrect, all selectors should be contained within quotation marks</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="86830_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">select the element that has an id set to content</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="31997_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">selects all elements with a css class of highlight</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf8844b323cb2ae51b1a04c38be7ee6d7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>matching_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>71399,26195,84173,80153</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Correctly identify the specific jQuery filter with the functionality of the filter.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response_71399">
+          <material>
+            <mattext texttype="text/plain">:even</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5335">
+              <material>
+                <mattext>Find even items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3345">
+              <material>
+                <mattext>Find odd items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7906">
+              <material>
+                <mattext>Finds element(s) that are h1, h2, h3, h4, h5, h6 tags</mattext>
+              </material>
+            </response_label>
+            <response_label ident="455">
+              <material>
+                <mattext>Finds an element(s) that is empty</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_26195">
+          <material>
+            <mattext texttype="text/plain">:odd</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5335">
+              <material>
+                <mattext>Find even items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3345">
+              <material>
+                <mattext>Find odd items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7906">
+              <material>
+                <mattext>Finds element(s) that are h1, h2, h3, h4, h5, h6 tags</mattext>
+              </material>
+            </response_label>
+            <response_label ident="455">
+              <material>
+                <mattext>Finds an element(s) that is empty</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_84173">
+          <material>
+            <mattext texttype="text/plain">:header</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5335">
+              <material>
+                <mattext>Find even items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3345">
+              <material>
+                <mattext>Find odd items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7906">
+              <material>
+                <mattext>Finds element(s) that are h1, h2, h3, h4, h5, h6 tags</mattext>
+              </material>
+            </response_label>
+            <response_label ident="455">
+              <material>
+                <mattext>Finds an element(s) that is empty</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+        <response_lid ident="response_80153">
+          <material>
+            <mattext texttype="text/plain">:empty</mattext>
+          </material>
+          <render_choice>
+            <response_label ident="5335">
+              <material>
+                <mattext>Find even items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3345">
+              <material>
+                <mattext>Find odd items based on index</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7906">
+              <material>
+                <mattext>Finds element(s) that are h1, h2, h3, h4, h5, h6 tags</mattext>
+              </material>
+            </response_label>
+            <response_label ident="455">
+              <material>
+                <mattext>Finds an element(s) that is empty</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_71399">5335</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_26195">3345</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_84173">7906</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+        <respcondition>
+          <conditionvar>
+            <varequal respident="response_80153">455</varequal>
+          </conditionvar>
+          <setvar varname="SCORE" action="Add">25.00</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g762c676a0457fe029352af6a98cd338b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>52112,58013,93452</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Examine the code below.&amp;nbsp; What type of event is represented?&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;$('#status').bind({&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; keypress: function() {&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var inputText = $(this).val();&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var numChar = inputText.length;&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var charRemain = numChar - maxNum;&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; });&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;});&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="52112">
+              <material>
+                <mattext texttype="text/plain">mouse event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58013">
+              <material>
+                <mattext texttype="text/plain">form event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93452">
+              <material>
+                <mattext texttype="text/plain">keyboard event</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">52112</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="52112_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">58013</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="58013_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">93452</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="93452_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">93452</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="52112_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4 mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="58013_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4 mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="93452_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb9d4620fa3a15d2406cac6cae8e0c551" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>short_answer_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>56740,44234,99699,60641,92748</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;The use of the _________ effect is particularly useful with graphics in web pages.&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">fadeIn()</varequal>
+            <varequal respident="response1">fadeOut()</varequal>
+            <varequal respident="response1">fadeTo()</varequal>
+            <varequal respident="response1">fadeToggle()</varequal>
+            <varequal respident="response1">fade</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc132b325b61c1e57cae1a4b88be55d85" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>22089,31715,93078,47611,57029,32058,98220,16558,49501,67575,74957,75344,24992,71971,4106,87598,41850,77650,46667</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Select all jQuery mouse events.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="22089">
+              <material>
+                <mattext texttype="text/plain">click</mattext>
+              </material>
+            </response_label>
+            <response_label ident="31715">
+              <material>
+                <mattext texttype="text/plain">dblclick</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93078">
+              <material>
+                <mattext texttype="text/plain">mousedown</mattext>
+              </material>
+            </response_label>
+            <response_label ident="47611">
+              <material>
+                <mattext texttype="text/plain">mouseup</mattext>
+              </material>
+            </response_label>
+            <response_label ident="57029">
+              <material>
+                <mattext texttype="text/plain">mouseenter</mattext>
+              </material>
+            </response_label>
+            <response_label ident="32058">
+              <material>
+                <mattext texttype="text/plain">mouseleave</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98220">
+              <material>
+                <mattext texttype="text/plain">mousemove</mattext>
+              </material>
+            </response_label>
+            <response_label ident="16558">
+              <material>
+                <mattext texttype="text/plain">mouseout</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49501">
+              <material>
+                <mattext texttype="text/plain">mouseover</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67575">
+              <material>
+                <mattext texttype="text/plain">change</mattext>
+              </material>
+            </response_label>
+            <response_label ident="74957">
+              <material>
+                <mattext texttype="text/plain">focus</mattext>
+              </material>
+            </response_label>
+            <response_label ident="75344">
+              <material>
+                <mattext texttype="text/plain">focusin</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24992">
+              <material>
+                <mattext texttype="text/plain">blur</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71971">
+              <material>
+                <mattext texttype="text/plain">select</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4106">
+              <material>
+                <mattext texttype="text/plain">submit</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87598">
+              <material>
+                <mattext texttype="text/plain">reset</mattext>
+              </material>
+            </response_label>
+            <response_label ident="41850">
+              <material>
+                <mattext texttype="text/plain">keydown</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77650">
+              <material>
+                <mattext texttype="text/plain">keypress</mattext>
+              </material>
+            </response_label>
+            <response_label ident="46667">
+              <material>
+                <mattext texttype="text/plain">keyup</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">67575</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="67575_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">74957</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="74957_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">75344</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="75344_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">24992</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="24992_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">71971</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="71971_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4106</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4106_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">87598</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="87598_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">41850</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="41850_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">77650</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="77650_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">46667</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="46667_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">22089</varequal>
+              <varequal respident="response1">31715</varequal>
+              <varequal respident="response1">93078</varequal>
+              <varequal respident="response1">47611</varequal>
+              <varequal respident="response1">57029</varequal>
+              <varequal respident="response1">32058</varequal>
+              <varequal respident="response1">98220</varequal>
+              <varequal respident="response1">16558</varequal>
+              <varequal respident="response1">49501</varequal>
+              <not>
+                <varequal respident="response1">67575</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">74957</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">75344</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">24992</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">71971</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">4106</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">87598</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">41850</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">77650</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">46667</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="67575_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a form event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="74957_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a form event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="75344_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a form event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="24992_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a form event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="71971_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a form event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4106_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a form event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="87598_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a form event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="41850_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a keyboard event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="77650_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a keyboard event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="46667_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, this is a keyboard event. Review Chapter 4, mouse, form, and keyboard events.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g7d61884e88492428f00d44beb396272d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6529,29738,25915</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Examine the code below.&amp;nbsp; What type of event is represented?&lt;/p&gt;
+&lt;pre id="226-11" class="programlisting" style="font-family: monospace;"&gt;$(document).ready(function () {
+     $('.content-link').click(function () {
+          $('#content').toggle();
+     });
+});&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6529">
+              <material>
+                <mattext texttype="text/plain">mouse event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="29738">
+              <material>
+                <mattext texttype="text/plain">form event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="25915">
+              <material>
+                <mattext texttype="text/plain">keyboard event</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">29738</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="29738_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">25915</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="25915_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6529</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="29738_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4 mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="25915_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4 mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf772bad81a630464e1f1f90b8ee4e51c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>96688,92134</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;jQuery does not have the capability to add a content row to a table.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="96688">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92134">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">96688</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="96688_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">92134</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="96688_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Review Chapter 7 ADDING A ROW</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g83a229a6d8d7fa206a13c1a7a2666c87" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>23864,3813,96270,79349</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;To validate a form field for content that must be present using the jQuery Validation plug-in, you would assign a class of:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="23864">
+              <material>
+                <mattext texttype="text/plain">required</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3813">
+              <material>
+                <mattext texttype="text/plain">restricted</mattext>
+              </material>
+            </response_label>
+            <response_label ident="96270">
+              <material>
+                <mattext texttype="text/plain">optional</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79349">
+              <material>
+                <mattext texttype="text/plain">content</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">23864</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd2e54b926e04fa0cc0c789c749126026" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>33533,34099,49023,2495</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Examine the code below.&amp;nbsp; What type of event is represented?&lt;/p&gt;
+&lt;pre id="251-2" class="programlisting" style="font-family: monospace;"&gt;$('.first-name').bind('focus', function(){
+    $(this). css('border', '1px solid red');
+})};&lt;/pre&gt;
+&lt;br&gt;&lt;pre id="250-4" class="programlisting" style="font-family: monospace;"&gt;&amp;lt;input type="text" name="firstname" id="first-name"/&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="33533">
+              <material>
+                <mattext texttype="text/plain">mouse event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34099">
+              <material>
+                <mattext texttype="text/plain">form event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49023">
+              <material>
+                <mattext texttype="text/plain">keyboard event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2495">
+              <material>
+                <mattext texttype="text/plain">No answer text provided.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">33533</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="33533_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">49023</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="49023_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">34099</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="33533_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4, mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="49023_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4, mouse, form, and keyboard events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g24c8341edeccbed654ab22f541bd9a1f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>52498,98705,65479,13610</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Identify the type of event in the code below:&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;$(document).ready() {&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; alert("The DOM is ready");&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;});&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="52498">
+              <material>
+                <mattext texttype="text/plain">mouse event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98705">
+              <material>
+                <mattext texttype="text/plain">jQuery Document and Window Events</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65479">
+              <material>
+                <mattext texttype="text/plain">form event</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13610">
+              <material>
+                <mattext texttype="text/plain">keyboard event</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">52498</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="52498_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">65479</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="65479_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">13610</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="13610_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">98705</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="52498_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4; jQuery Document and Window Events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="65479_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4; jQuery Document and Window Events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="13610_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect, review Chapter 4; jQuery Document and Window Events</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc1044aee34dfe2654e621f4a65d9051f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>27288,94374</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;There is no difference between a mobile web site and a mobile application&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="27288">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94374">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">94374</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gd840096124dc4cefd087de6a32bba8a1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>88649,87537,33454,6040,2529</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following are recommended mobile jQuery development environments.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="88649">
+              <material>
+                <mattext texttype="text/plain">Codiqa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87537">
+              <material>
+                <mattext texttype="text/plain">Sencha Touch</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33454">
+              <material>
+                <mattext texttype="text/plain">FireBug</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6040">
+              <material>
+                <mattext texttype="text/plain">DreamWeaver</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2529">
+              <material>
+                <mattext texttype="text/plain">Microsoft Expression Web</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">88649</varequal>
+              <varequal respident="response1">87537</varequal>
+              <not>
+                <varequal respident="response1">33454</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">6040</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">2529</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc3f8b34fa9ef9b11406c624910e714c8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>21167,36497</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;jQuery does not have a library to address mobile development.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="21167">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="36497">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">36497</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1486cef6b73c24efe5c9634607569f65" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>97478,21974</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Exam the code below.&amp;nbsp; True or false, this is an example of a XML document.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre id="548-3" class="programlisting" style="font-family: monospace;"&gt;{
+      "title": "I'm a Stranger Here Myself: Notes on Returning to America After 20
+Years Away",
+      "author": "Bill Bryson",
+      "category": "Travel",
+      "pubdate": "06/2000",
+      "isbn": "0767903820"&lt;br&gt;}&lt;/pre&gt;
+&lt;p&gt;&lt;span style="font-family: monospace;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="97478">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="21974">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">97478</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="97478_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">21974</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="97478_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">This is an example of a JSON script.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf426f92ab221e0cb67ac7cc3bca26236" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Exam the code below and describe what the code accomplishes.&lt;/p&gt;
+&lt;p style="font-family: monospace;"&gt;if (XMLHttpRequest.status == 404 || XMLHttpRequest.status == 500) {&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$('#content').html('There has been an error, please try again later.');&lt;br&gt;}&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">This code is successfully checking the XMLHttpRequest.status to see if the document was found or there was a server error.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gfbf7b9ec4710483d5ddc28a243aa8580" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>true_false_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>58232,62855</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;All mobile browsers are created equally.&amp;nbsp; All mobile browsers support all capabilities of HTML5 and CSS3.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="58232">
+              <material>
+                <mattext texttype="text/plain">True</mattext>
+              </material>
+            </response_label>
+            <response_label ident="62855">
+              <material>
+                <mattext texttype="text/plain">False</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">62855</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>
