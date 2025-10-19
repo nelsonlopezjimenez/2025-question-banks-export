@@ -8,7 +8,15 @@
     1. [https://sbctc.instructure.com/2544595](https://sbctc.instructure.com/2544595) - publicly available
     1. [https://edmonds.instructure.com](https://edmonds.instructure.com) - online from Edmonds College
 1. Test reliability 
-1. Create a question bank editor
+1. Create a question bank editor: quiz_editor.html
+    1. Generated several versions because of the coding
+    1. the export is slightly different from the imported file even with no changes
+    1. I asked to allow imported, as well as exported to be the same unless edite.
+    1. I complied, but it did not save when edited the file
+    1. It fixed after I requested to export the edited file
+    1. it changed the mattex again.
+    1. pending to import the imscc or qti to check the final result
+1. TODO: start adding important files and material to the repo.
 
 ## 11.4.2024 mdy
 
