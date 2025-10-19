@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Quiz Editor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: #0066cc;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #0052a3;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #c82333;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .question-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fafafa;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .question-title {
+            font-weight: 600;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .question-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #555;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            font-family: inherit;
+        }
+
+        textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        .answers-section {
+            margin-top: 20px;
+        }
+
+        .answer-item {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        .answer-item input[type="radio"] {
+            flex-shrink: 0;
+        }
+
+        .answer-item input[type="text"] {
+            flex: 1;
+            margin: 0;
+        }
+
+        .answer-item button {
+            flex-shrink: 0;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        .add-answer-btn {
+            margin-top: 10px;
+        }
+
+        #fileInput {
+            display: none;
+        }
+
+        .file-label {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0066cc;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .file-label:hover {
+            background: #0052a3;
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .message.show {
+            display: block;
+        }
+
+        .quiz-meta {
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-meta input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Canvas Quiz Editor</h1>
+        <p class="subtitle">Import, edit, and export Canvas QTI XML quiz files</p>
+
+        <div id="message" class="message"></div>
+
+        <div class="controls">
+            <label for="fileInput" class="file-label">Import XML File</label>
+            <input type="file" id="fileInput" accept=".xml">
+            <button class="btn-success" onclick="addNewQuestion()">Add New Question</button>
+            <button class="btn-primary" onclick="exportXML()">Export XML</button>
+        </div>
+
+        <div id="quizMeta" style="display:none;" class="quiz-meta">
+            <label>Quiz Title:</label>
+            <input type="text" id="quizTitle">
+            <label>Max Attempts:</label>
+            <input type="text" id="maxAttempts">
+        </div>
+
+        <div id="questionsContainer"></div>
+    </div>
+
+    <script>
+        let quizData = {
+            ident: '',
+            title: '',
+            maxAttempts: '1',
+            questions: []
+        };
+
+        function showMessage(text, type) {
+            const msg = document.getElementById('message');
+            msg.textContent = text;
+            msg.className = `message ${type} show`;
+            setTimeout(() => msg.classList.remove('show'), 5000);
+        }
+
+        function generateId() {
+            return 'g' + Math.random().toString(36).substr(2, 32);
+        }
+
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                try {
+                    parseXML(event.target.result);
+                    showMessage('XML file loaded successfully!', 'success');
+                } catch (error) {
+                    showMessage('Error parsing XML: ' + error.message, 'error');
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        function parseXML(xmlString) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlString, 'text/xml');
+
+            const assessment = xmlDoc.querySelector('assessment');
+            quizData.ident = assessment.getAttribute('ident');
+            quizData.title = assessment.getAttribute('title');
+
+            // Find max attempts by iterating through metadata fields
+            const metadataFields = xmlDoc.querySelectorAll('qtimetadatafield');
+            quizData.maxAttempts = '1'; // default
+            metadataFields.forEach(field => {
+                const label = field.querySelector('fieldlabel');
+                if (label && label.textContent === 'cc_maxattempts') {
+                    const entry = field.querySelector('fieldentry');
+                    if (entry) {
+                        quizData.maxAttempts = entry.textContent;
+                    }
+                }
+            });
+
+            quizData.questions = [];
+            const items = xmlDoc.querySelectorAll('item');
+
+            items.forEach(item => {
+                const question = {
+                    ident: item.getAttribute('ident'),
+                    title: item.getAttribute('title'),
+                    text: '',
+                    answers: [],
+                    correctAnswer: ''
+                };
+
+                const mattext = item.querySelector('presentation > material > mattext');
+                if (mattext) {
+                    question.text = mattext.textContent;
+                }
+
+                const labels = item.querySelectorAll('response_label');
+                labels.forEach(label => {
+                    const id = label.getAttribute('ident');
+                    const text = label.querySelector('mattext')?.textContent || '';
+                    question.answers.push({ id, text });
+                });
+
+                const correctId = item.querySelector('varequal')?.textContent;
+                question.correctAnswer = correctId || '';
+
+                quizData.questions.push(question);
+            });
+
+            document.getElementById('quizMeta').style.display = 'block';
+            document.getElementById('quizTitle').value = quizData.title;
+            document.getElementById('maxAttempts').value = quizData.maxAttempts;
+
+            renderQuestions();
+        }
+
+        function renderQuestions() {
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+
+            quizData.questions.forEach((q, index) => {
+                const card = document.createElement('div');
+                card.className = 'question-card';
+                card.innerHTML = `
+                    <div class="question-header">
+                        <span class="question-title">Question ${index + 1}: ${q.title}</span>
+                        <div class="question-actions">
+                            <button class="btn-danger" onclick="deleteQuestion(${index})">Delete</button>
+                        </div>
+                    </div>
+                    <label>Question Title (ID):</label>
+                    <input type="text" value="${q.title}" onchange="updateQuestionTitle(${index}, this.value)">
+                    <label>Question Text:</label>
+                    <textarea onchange="updateQuestionText(${index}, this.value)">${decodeHTML(q.text)}</textarea>
+                    <div class="answers-section">
+                        <label>Answers (select correct one):</label>
+                        <div id="answers-${index}">
+                            ${q.answers.map((a, ai) => `
+                                <div class="answer-item">
+                                    <input type="radio" name="correct-${index}" value="${a.id}" 
+                                        ${a.id === q.correctAnswer ? 'checked' : ''}
+                                        onchange="updateCorrectAnswer(${index}, '${a.id}')">
+                                    <input type="text" value="${a.text}" 
+                                        onchange="updateAnswer(${index}, ${ai}, this.value)">
+                                    <button class="btn-danger" onclick="deleteAnswer(${index}, ${ai})">Remove</button>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <button class="btn-secondary add-answer-btn" onclick="addAnswer(${index})">Add Answer</button>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function decodeHTML(html) {
+            const txt = document.createElement('textarea');
+            txt.innerHTML = html;
+            return txt.value;
+        }
+
+        function encodeHTML(text) {
+            // First decode any existing entities to avoid double-encoding
+            const txt = document.createElement('textarea');
+            txt.innerHTML = text;
+            const decoded = txt.value;
+            
+            // Then encode for XML
+            return decoded
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function updateQuestionTitle(index, value) {
+            quizData.questions[index].title = value;
+        }
+
+        function updateQuestionText(index, value) {
+            quizData.questions[index].text = value;
+        }
+
+        function updateAnswer(index, answerIndex, value) {
+            quizData.questions[index].answers[answerIndex].text = value;
+        }
+
+        function updateCorrectAnswer(index, answerId) {
+            quizData.questions[index].correctAnswer = answerId;
+        }
+
+        function addAnswer(questionIndex) {
+            const newAnswer = {
+                id: Math.floor(Math.random() * 9000) + 1000,
+                text: 'New answer'
+            };
+            quizData.questions[questionIndex].answers.push(newAnswer);
+            renderQuestions();
+        }
+
+        function deleteAnswer(questionIndex, answerIndex) {
+            if (quizData.questions[questionIndex].answers.length <= 2) {
+                showMessage('Question must have at least 2 answers', 'error');
+                return;
+            }
+            quizData.questions[questionIndex].answers.splice(answerIndex, 1);
+            renderQuestions();
+        }
+
+        function deleteQuestion(index) {
+            if (!confirm('Are you sure you want to delete this question?')) return;
+            quizData.questions.splice(index, 1);
+            renderQuestions();
+            showMessage('Question deleted', 'success');
+        }
+
+        function addNewQuestion() {
+            if (!quizData.ident) {
+                showMessage('Please import an XML file first', 'error');
+                return;
+            }
+
+            const newQuestion = {
+                ident: generateId(),
+                title: 'newquestion' + (quizData.questions.length + 1),
+                text: 'New question text',
+                answers: [
+                    { id: Math.floor(Math.random() * 9000) + 1000, text: 'Answer 1' },
+                    { id: Math.floor(Math.random() * 9000) + 1000, text: 'Answer 2' },
+                    { id: Math.floor(Math.random() * 9000) + 1000, text: 'Answer 3' }
+                ],
+                correctAnswer: ''
+            };
+            newQuestion.correctAnswer = newQuestion.answers[0].id;
+            quizData.questions.push(newQuestion);
+            renderQuestions();
+            showMessage('New question added', 'success');
+        }
+
+        function exportXML() {
+            if (!quizData.ident) {
+                showMessage('No quiz data to export. Please import a file first.', 'error');
+                return;
+            }
+
+            quizData.title = document.getElementById('quizTitle').value;
+            quizData.maxAttempts = document.getElementById('maxAttempts').value;
+
+            let xml = `<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_qtiasiv1p2p1_v1p0.xsd">
+  <assessment ident="${quizData.ident}" title="${quizData.title}">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_profile</fieldlabel>
+        <fieldentry>cc.exam.v0p1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_assessmenttype</fieldlabel>
+        <fieldentry>Examination</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_scoretype</fieldlabel>
+        <fieldentry>Percentage</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>${quizData.maxAttempts}</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">`;
+
+            quizData.questions.forEach(q => {
+                xml += `
+      <item ident="${q.ident}" title="${q.title}">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_choice.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;${encodeHTML(q.text)}&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>`;
+
+                q.answers.forEach(a => {
+                    xml += `
+              <response_label ident="${a.id}">
+                <material>
+                  <mattext texttype="text/plain">${encodeHTML(a.text)}</mattext>
+                </material>
+              </response_label>`;
+                });
+
+                xml += `
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">${q.correctAnswer}</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>`;
+            });
+
+            xml += `
+    </section>
+  </assessment>
+</questestinterop>`;
+
+            const blob = new Blob([xml], { type: 'application/xml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = quizData.title + '.xml';
+            a.click();
+            URL.revokeObjectURL(url);
+
+            showMessage('XML file exported successfully!', 'success');
+        }
+    </script>
+</body>
+</html>
