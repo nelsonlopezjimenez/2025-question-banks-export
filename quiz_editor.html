@@ -320,7 +320,8 @@
 
                 const mattext = item.querySelector('presentation > material > mattext');
                 if (mattext) {
-                    question.text = mattext.textContent;
+                    // Store the original HTML content as-is to preserve encoding
+                    question.text = mattext.innerHTML.trim();
                 }
 
                 const labels = item.querySelectorAll('response_label');
@@ -350,6 +351,10 @@
             quizData.questions.forEach((q, index) => {
                 const card = document.createElement('div');
                 card.className = 'question-card';
+                
+                // Decode the HTML for display in textarea
+                const displayText = decodeHTML(q.text);
+                
                 card.innerHTML = `
                     <div class="question-header">
                         <span class="question-title">Question ${index + 1}: ${q.title}</span>
@@ -359,8 +364,8 @@
                     </div>
                     <label>Question Title (ID):</label>
                     <input type="text" value="${q.title}" onchange="updateQuestionTitle(${index}, this.value)">
-                    <label>Question Text:</label>
-                    <textarea onchange="updateQuestionText(${index}, this.value)">${decodeHTML(q.text)}</textarea>
+                    <label>Question Text (HTML):</label>
+                    <textarea onchange="updateQuestionText(${index}, this.value)">${escapeForHTML(displayText)}</textarea>
                     <div class="answers-section">
                         <label>Answers (select correct one):</label>
                         <div id="answers-${index}">
@@ -369,7 +374,7 @@
                                     <input type="radio" name="correct-${index}" value="${a.id}" 
                                         ${a.id === q.correctAnswer ? 'checked' : ''}
                                         onchange="updateCorrectAnswer(${index}, '${a.id}')">
-                                    <input type="text" value="${a.text}" 
+                                    <input type="text" value="${escapeForHTML(a.text)}" 
                                         onchange="updateAnswer(${index}, ${ai}, this.value)">
                                     <button class="btn-danger" onclick="deleteAnswer(${index}, ${ai})">Remove</button>
                                 </div>
@@ -380,6 +385,14 @@
                 `;
                 container.appendChild(card);
             });
+        }
+        
+        function escapeForHTML(text) {
+            return text.replace(/&/g, '&amp;')
+                      .replace(/</g, '&lt;')
+                      .replace(/>/g, '&gt;')
+                      .replace(/"/g, '&quot;')
+                      .replace(/'/g, '&#39;');
         }
 
         function decodeHTML(html) {
@@ -408,7 +421,8 @@
         }
 
         function updateQuestionText(index, value) {
-            quizData.questions[index].text = value;
+            // Re-encode the edited text back to the XML format
+            quizData.questions[index].text = encodeHTML(value);
         }
 
         function updateAnswer(index, answerIndex, value) {
